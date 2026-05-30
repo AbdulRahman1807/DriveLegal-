@@ -1,0 +1,47 @@
+name: Legal Data Sync
+
+on:
+  schedule:
+    # Run at 00:00 every Sunday
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  sync_data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+          
+      - name: Install Dependencies
+        run: |
+          pip install httpx sentence-transformers sqlalchemy psycopg2-binary asyncpg pgvector
+          
+      - name: Run India Code Scraper
+        run: python backend/scripts/india_code_scraper.py
+        
+      - name: Check for Changes
+        id: git-check
+        run: |
+          git diff --exit-code backend/scripts/data/motor_vehicles_act_1988.json || echo "changed=true" >> $GITHUB_OUTPUT
+          
+      - name: Run Database Seeder
+        if: steps.git-check.outputs.changed == 'true'
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: python backend/scripts/seed_db.py
+        
+      - name: Commit New Data
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add backend/scripts/data/motor_vehicles_act_1988.json
+          git commit -m "Auto-update legal data from India Code API"
+          git push
