@@ -6,6 +6,8 @@ from backend.models.violation import Violation
 from backend.models.fine_schedule import FineSchedule
 from backend.schemas.retrieval import FineResult
 from backend.jurisdiction.resolver import JurisdictionResolver
+from backend.core.cache import cache_service
+from backend.config import settings
 
 
 class SQLRetriever:
@@ -17,6 +19,11 @@ class SQLRetriever:
         # No violation code → nothing we can look up deterministically.
         if not violation_code:
             return []
+            
+        cache_key = f"drivelegal:fines:{violation_code}:{jurisdiction_id or 'all'}"
+        cached_fines = await cache_service.get(cache_key)
+        if cached_fines is not None:
+            return [FineResult(**f) for f in cached_fines]
 
         result = await self.session.execute(
             select(Violation).where(Violation.violation_code == violation_code)
@@ -67,4 +74,9 @@ class SQLRetriever:
                 jurisdiction_name=f.jurisdiction.name if f.jurisdiction else "Unknown",
                 legal_section_id=f.legal_section_id
             ))
+            
+        # Store in cache
+        payload = [r.model_dump(mode='json') for r in out]
+        await cache_service.set(cache_key, payload, ttl=settings.CACHE_TTL_MEDIUM)
+        
         return out
