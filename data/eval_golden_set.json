@@ -1,0 +1,32 @@
+[
+  {
+    "query": "What is the fine for driving without a helmet in Tamil Nadu?",
+    "expected_violation_code": "NO_HELMET",
+    "expected_jurisdiction": "Tamil Nadu",
+    "expected_sections": ["129", "194D"]
+  },
+  {
+    "query": "Is drunk driving compoundable in India?",
+    "expected_violation_code": "DRUNK_DRIVING",
+    "expected_jurisdiction": "India",
+    "expected_sections": ["185"]
+  },
+  {
+    "query": "I got caught overspeeding by 20kmph, what is the penalty?",
+    "expected_violation_code": "OVERSPEEDING",
+    "expected_jurisdiction": null,
+    "expected_sections": ["183"]
+  },
+  {
+    "query": "Is there a fine for not wearing a seatbelt?",
+    "expected_violation_code": "NO_SEATBELT",
+    "expected_jurisdiction": null,
+    "expected_sections": ["194B"]
+  },
+  {
+    "query": "Tell me a recipe for chocolate cake.",
+    "expected_violation_code": null,
+    "expected_jurisdiction": null,
+    "expected_sections": []
+  }
+]
