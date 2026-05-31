@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, Request
 from pydantic import BaseModel
 from backend.vision.scanner import TicketScanner, TicketAnalysisResult
-from backend.core.security import verify_api_key, limiter
+from backend.core.security import get_current_user, limiter
 from backend.core.telemetry import telemetry
 import logging
 import base64
@@ -15,7 +15,7 @@ class TicketUploadRequest(BaseModel):
     image_base64: str
     mime_type: str = "image/jpeg"
 
-@router.post("/analyze_ticket", response_model=TicketAnalysisResult, dependencies=[Depends(verify_api_key)])
+@router.post("/analyze_ticket", response_model=TicketAnalysisResult, dependencies=[Depends(get_current_user)])
 @limiter.limit("2/minute")
 async def analyze_ticket_endpoint(
     request: Request,

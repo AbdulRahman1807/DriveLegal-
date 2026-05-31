@@ -1,0 +1,175 @@
+.simCard {
+  background: var(--card-bg, #ffffff);
+  border: 0.5px solid var(--card-border, rgba(0,0,0,0.1));
+  border-radius: 16px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 820px;
+}
+
+.simCard.footer {
+  max-width: 720px;
+}
+
+.simCard.hero {
+  max-width: 100%;
+}
+
+.simHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px 12px;
+  border-bottom: 0.5px solid var(--card-border, rgba(0,0,0,0.1));
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.simBrand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.simDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--signal-green, #639922);
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(0.85);
+  }
+}
+
+.simTitle {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary, #1a1a1a);
+}
+
+.simSubtitle {
+  font-size: 12px;
+  color: var(--text-secondary, #6b6b6b);
+}
+
+.simBadges {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 9px;
+  border-radius: 20px;
+  border: 0.5px solid var(--card-border, rgba(0,0,0,0.1));
+  background: var(--badge-bg, #f4f2ee);
+  color: var(--text-secondary, #6b6b6b);
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.badge.active {
+  background: #eaf3de;
+  border-color: #97c459;
+  color: #3B6D11;
+}
+
+.simStage {
+  position: relative;
+  background: #b8d4a8;
+  overflow: hidden;
+  height: 220px;
+}
+
+.simCard.hero .simStage {
+  height: 280px;
+}
+
+.canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.simFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-top: 0.5px solid var(--card-border, rgba(0,0,0,0.1));
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.eventLog {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--text-secondary, #6b6b6b);
+  min-width: 0;
+}
+
+.eventDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--signal-green, #639922);
+  flex-shrink: 0;
+  transition: background 0.3s ease;
+}
+
+.eventText {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.simControls {
+  display: flex;
+  gap: 6px;
+}
+
+.ctrlBtn {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 8px;
+  border: 0.5px solid var(--card-border, rgba(0,0,0,0.1));
+  background: var(--badge-bg, #f4f2ee);
+  color: var(--text-primary, #1a1a1a);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: background 0.15s;
+}
+
+.ctrlBtn:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 540px) {
+  .simHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .simStage {
+    height: 220px;
+  }
+  .simFooter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

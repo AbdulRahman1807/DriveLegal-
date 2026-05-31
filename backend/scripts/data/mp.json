@@ -1,0 +1,250 @@
+{
+    "title": "Madhya Pradesh State Road Safety Policy 2015",
+    "gazette": {
+        "number": 100,
+        "date": "March 3, 2016",
+        "department": "Home (Police) Department, Mantralaya, Vallabh Bhavan, Bhopal"
+    },
+    "slogan": "Road Safety for No Accidents",
+    "framework": "4E Formula",
+    "four_es": [
+        "Education",
+        "Engineering (Roads)",
+        "Enforcement",
+        "Emergency Care"
+    ],
+    "vision": [
+        "Provide a safe road network for all road users with priority to pedestrians and cyclists",
+        "Achieve zero road accident fatalities",
+        "Recognise road safety as a core transport service attribute"
+    ],
+    "mission": [
+        "Reduce road accidents by 50% and fatalities by 50% by end of year 2020",
+        "Make the state a front achiever for UN Decade of Action for Road Safety 2011-20"
+    ],
+    "pillars": [
+        {
+            "pillar": 1,
+            "title": "Raising Awareness About Road Safety",
+            "policy_statement": "State government will raise awareness among road users and road makers about road safety. RSA and RSE to shed urban-centric bias and address rural/remote areas equally.",
+            "strategies_by_department": {
+                "Education": [
+                    "Road Safety Education (RSE) to begin from childhood",
+                    "Road safety education made mandatory in school and college curriculum",
+                    "Road safety awareness training programs for teachers",
+                    "Periodic training for school bus and van drivers"
+                ],
+                "Public_Relations": [
+                    "Expand RSE to cover all age groups in urban and rural areas",
+                    "Use TV/Radio/Print/Film/Outdoor media for safety messages (seat belts, helmets, no mobile while driving)",
+                    "Play slides and films in cinema halls, malls, and public gatherings"
+                ],
+                "Transport": [
+                    "80% accidents caused by driver fault - target awareness especially for illiterate heavy vehicle drivers",
+                    "Target youth for road safety education due to reckless driving and road rage",
+                    "Refresher training required for licence renewal and heavy vehicle upgradation",
+                    "First aid training as compulsory component for licensing"
+                ],
+                "Police": [
+                    "Include road safety education and first aid in training modules for all police/traffic personnel",
+                    "Educate Traffic Wardens, NSS and NCC cadets",
+                    "Celebrity endorsement for traffic rules compliance",
+                    "Organise traffic weeks twice yearly in all districts",
+                    "Two state-level annual conferences on traffic safety"
+                ],
+                "Road_Construction_Agencies": [
+                    "Plan and enforce installation of cautionary and warning signages"
+                ],
+                "Urban_Administration": [
+                    "Display road safety slogans on hoardings at strategic urban locations",
+                    "Develop plans for installation, operation and maintenance of signalling and signage for town roads"
+                ],
+                "Health": [
+                    "Train doctors, paramedics, nurses and accident evacuation personnel",
+                    "Spread awareness about the importance of Golden Hour for accident victims"
+                ]
+            }
+        },
+        {
+            "pillar": 2,
+            "title": "Providing Enabling Legal, Institutional & Financial Environment for Road Safety",
+            "policy_statement": "Establish legal, institutional and financial framework for road safety.",
+            "key_institutions": [
+                {
+                    "name": "State Level Traffic Management Centre",
+                    "description": "Integrated with city, district and highway traffic management centres; uses CCTV footage analysis"
+                },
+                {
+                    "name": "State Road Safety Training Cum Research & Development Centre (SRSTRDC)",
+                    "description": "Interdisciplinary institute with specialists from multiple departments"
+                },
+                {
+                    "name": "State Road Safety Fund (SRSF)",
+                    "description": "For road safety awareness, equipping traffic police and transport department"
+                },
+                {
+                    "name": "State Road Safety Council",
+                    "description": "Constituted on 23-05-2015 under Motor Vehicles Act 1988, Section 215. Chief Minister is Chairperson"
+                },
+                {
+                    "name": "State Road Safety Executive Committee",
+                    "description": "Constituted on 23-05-2015. ACS Home is Chairperson. Quarterly meetings."
+                },
+                {
+                    "name": "District Road Safety Committees",
+                    "description": "Formed on 05-05-1988. Quarterly meetings. Monitored by District Magistrate/Collector"
+                },
+                {
+                    "name": "Divisional Level Committee",
+                    "members": [
+                        "Divisional Commissioner - Chairman",
+                        "Inspector General of Police - Co-Chairman",
+                        "Divisional Level Officers of Road Construction Depts - Members",
+                        "Regional Jt Director (Health) - Member",
+                        "Divisional Transport Officer - Member Secretary"
+                    ]
+                }
+            ],
+            "SRSTRDC_tasks": [
+                "Form State Accident Prevention Committee to identify hot spots on highways",
+                "Formulate State Road Safety Norms within 3 months of policy adoption",
+                "Carry out Road Safety Audits of all major roads in phased manner (first phase: Bhopal-Indore and Ujjain connecting roads)",
+                "Coordinate with national/international research institutes (CRRI, CSIR, World Bank)"
+            ],
+            "State_Road_Safety_Fund_sources": [
+                "100% of traffic violation compounding fees collected by traffic police",
+                "Corporate Social Responsibility contributions from road transport companies",
+                "International funding and central government contributions"
+            ]
+        },
+        {
+            "pillar": 3,
+            "title": "Road Safety Information Database",
+            "policy_statement": "State will improve data collection by stakeholders, establish central data collection centre, and share data in real time.",
+            "strategies": {
+                "Home_Department": [
+                    "SRSTRDC to develop Road Accident Data Management System (RADMS)",
+                    "Improve data reporting to capture accident causes (driver fault, bad roads, etc.)",
+                    "Multidisciplinary team to visit accident sites for detailed analysis"
+                ],
+                "Science_and_Technology": [
+                    "Host central integrated database in SRDH (State Resident Data Hub)",
+                    "Data covers Road Safety, Road Construction, Enforcement and Emergency Care",
+                    "Provide access to Police, Transport, Education, Public Relations, Road Construction departments"
+                ]
+            }
+        },
+        {
+            "pillar": 4,
+            "title": "Safer Road Infrastructure",
+            "policy_statement": "Promote road safety planning at state, city/town and district levels. Encourage safety-conscious design for new and upgraded roads.",
+            "new_measures": [
+                "Advanced Traffic Management System (ATMS)",
+                "Emergency call boxes",
+                "Variable message signs, CCTVs, Speed recording cameras",
+                "Traffic counters cum classifiers, stopping sight distance, signage",
+                "Pedestrian railing, crash barrier, cats-eye, edge/lane marking",
+                "Rest areas, proper lighting, service roads, under passes, fly overs",
+                "50 Kms road grid patrolling, emergency care, breakdown services"
+            ],
+            "pilot_phase": "Bhopal-Indore road and all roads connecting Ujjain",
+            "road_side_regulation": "PWD to identify and regulate road-side activities, formulate guidelines for excavation and material storage on roads",
+            "commercial_tax": "Liquor shops to be relocated beyond 100 meters from roads (first phase: Bhopal-Indore and Ujjain connecting roads)",
+            "enforcement": {
+                "e_challaning": "New technology-based contactless fine collection system",
+                "RLVD_ANPR": "Red Light Violation Detection and Automatic Number Plate Reader systems",
+                "new_driving_schools": "PPP model for new driving schools to address driver's fault",
+                "GPS_in_commercial_vehicles": "Compulsory GPS installation in all commercial vehicles",
+                "TIMCC": "Traffic Information Management Control Centre as pilot in two big cities"
+            }
+        },
+        {
+            "pillar": 5,
+            "title": "Safer Vehicles",
+            "policy_statement": "Only safe vehicles to ply on roads; unfit vehicles removed through effective enforcement using modern technology and intelligent traffic systems.",
+            "strategies": {
+                "Transport": [
+                    "Raise awareness for voluntary periodic vehicle inspection",
+                    "Stricter issuance of fitness certificates for commercial vehicles"
+                ],
+                "Police_and_Transport": [
+                    "Deploy CCTVs, alcometers, speed guns/cameras, weigh-in-motion, interceptors",
+                    "Sufficient cranes for removing unfit/overloaded vehicles",
+                    "Encourage private vehicle breakdown and repair services"
+                ]
+            }
+        },
+        {
+            "pillar": 6,
+            "title": "Safer Drivers",
+            "policy_statement": "Strengthen, modernise and improve driver licensing. National data shows driver fault responsible for 78.8% of accidents, 73.7% of deaths, and 81.1% of injuries (2014).",
+            "strategies": {
+                "New_Driving_Schools": "Modern schools with automobile manufacturers, private sector and NGOs; compulsory training for commercial vehicle drivers",
+                "Testing_Tracks": "Sensor-based computerised tracks; track testing compulsory before issuing licence",
+                "Digitization_of_Licences": "All transport authorities linked in real-time to prevent multiple licences",
+                "Database_of_Violations": "Database for every vehicle, driver, and offence using CCTNS",
+                "Revocation_and_Suspension": "Temporary and permanent cancellation for multiple traffic violators; use Motor Vehicles Act Sections 15-21"
+            }
+        },
+        {
+            "pillar": 7,
+            "title": "Safety for Vulnerable Road Users (VRUs)",
+            "policy_statement": "Design and construction of all road facilities to account for needs of elderly, children and physically disadvantaged persons.",
+            "VRUs_defined": [
+                "Pedestrians",
+                "Cyclists",
+                "Differently abled persons",
+                "Elderly",
+                "Children",
+                "Non-motorised road users"
+            ],
+            "measures": [
+                "Cycling tracks to be promoted",
+                "Pedestrian tracks and foot over bridges",
+                "Schools and NGOs to educate children about road safety"
+            ]
+        },
+        {
+            "pillar": 8,
+            "title": "Traffic Enforcement",
+            "policy_statement": "Madhya Pradesh has one of the highest accident and fatality rates in India. Needs comprehensive improvement in traffic management.",
+            "key_measures": [
+                "Pan city integrated real-time traffic plan in Bhopal, Indore, Ujjain (Phase 1)",
+                "Increase transport and traffic personnel in towns with 50,000+ population",
+                "Review and revise penalty provisions in Motor Vehicles Act 1988",
+                "Criminal case under Damage to Public Property Act for overloading",
+                "No exemption in wearing helmets; seat belts compulsory for driver and front passenger",
+                "Push courts for imprisonment in grave drunken driving cases",
+                "Robust database of all traffic violations and prosecution",
+                "Compulsory GPS in all commercial vehicles",
+                "Strict checking of overcrowded passenger vehicles",
+                "SMS alert service, 24x7 helpline and information billboards for road users",
+                "Home Dept: Rs 1 crore award annually to district with no/least accidents - CM's Award for Best Road Safety District"
+            ]
+        },
+        {
+            "pillar": 9,
+            "title": "Emergency Medical Services for Road Accidents",
+            "policy_statement": "State committed to ensure all road accident victims benefit from speedy and effective trauma care.",
+            "key_provisions": [
+                "Legal protection for Good Samaritans who help Road Transport Accident (RTA) victims",
+                "Emergency healthcare facilities at every 50 kms along national and state highways (NHRC recommendation)",
+                "State Ambulance Code to specify minimum specifications for ambulances",
+                "Deploy one ambulance for every 50 kms of high traffic road stretch",
+                "Hospital-based emergency care networked with pre-hospital ambulances for Golden Hour care"
+            ],
+            "State_Trauma_System_Plan": [
+                "Improve crash response time",
+                "Deploy existing govt and private hospital ambulances via reimbursement model",
+                "Heli-ambulance service for transfer to referral centres where required"
+            ],
+            "Police_measures": [
+                "Synergy between DIAL-100, DIAL-108, highway patrolling and ambulances",
+                "Road Accident Relief Services Scheme (RARSS): Crash Rescue Vehicles (CRVs) with hydraulic rescue tools",
+                "Reduce ambulance response time from 30 minutes to 10 minutes over 10 years"
+            ]
+        }
+    ],
+    "authorisation": "Home Department is authorised to make changes in the policy.",
+    "signed_by": "Dev Prakash Gupta, Secretary, on behalf of the Governor of Madhya Pradesh"
+}

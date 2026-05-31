@@ -3,6 +3,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/chat_provider.dart';
 import '../widgets/message_bubble.dart';
 import '../theme/app_theme.dart';
+import '../services/api_service.dart';
+import 'auth_screen.dart';
 
 class ChatScreen extends ConsumerStatefulWidget {
   const ChatScreen({Key? key}) : super(key: key);
@@ -14,6 +16,19 @@ class ChatScreen extends ConsumerStatefulWidget {
 class _ChatScreenState extends ConsumerState<ChatScreen> {
   final TextEditingController _textController = TextEditingController();
   final ScrollController _scrollController = ScrollController();
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!ApiService.isAuthenticated) {
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) => const AuthScreen()),
+        );
+      }
+    });
+  }
 
   @override
   void dispose() {
@@ -67,6 +82,19 @@ class _ChatScreenState extends ConsumerState<ChatScreen> {
             const Text('DriveLegal Aide', style: TextStyle(fontWeight: FontWeight.bold)),
           ],
         ),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.logout),
+            tooltip: 'Sign Out',
+            onPressed: () {
+              ApiService().logout();
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(builder: (context) => const AuthScreen()),
+              );
+            },
+          ),
+        ],
       ),
       body: Column(
         children: [

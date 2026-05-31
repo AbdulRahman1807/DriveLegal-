@@ -1,0 +1,322 @@
+{
+    "rules": {
+        "title": "Telangana Motor Vehicles Taxation Rules",
+        "year": 1963,
+        "commencement_date": "1963-04-01",
+        "jurisdiction": "State of Telangana",
+        "rules_list": [
+            {
+                "rule": 1,
+                "title": "Title, extent and commencement",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "These rules may be called the Telangana Motor Vehicles Taxation Rules, 1963."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "They extend to the whole of the State of Telangana."
+                    },
+                    {
+                        "clause": "3",
+                        "text": "They shall come into force on the 1st April 1963."
+                    }
+                ]
+            },
+            {
+                "rule": 2,
+                "title": "Definitions",
+                "definitions": [
+                    {
+                        "term": "Act",
+                        "meaning": "The Telangana Motor Vehicles Taxation Rules, 1963."
+                    },
+                    {
+                        "term": "Form",
+                        "meaning": "A form appended to these rules."
+                    },
+                    {
+                        "term": "Registered",
+                        "meaning": "Registered under the Motor Vehicle Act, 1939."
+                    }
+                ]
+            },
+            {
+                "rule": 3,
+                "title": "Endorsement in certificate of registration of tax payable",
+                "text": "Where a motor vehicle is registered in a State, or the ownership of any motor vehicle registered in another State is transferred to a person in the State, the Licensing Officer shall make an entry regarding the amount of quarterly, half-yearly or annual tax payable in respect of that motor vehicle in the certificate of registration."
+            },
+            {
+                "rule": 4,
+                "title": "Filing of declaration for regular payment",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "Every registered owner or person having possession or control of a motor vehicle used or kept for use in the State shall file a declaration with the licensing officer concerned in Form No.1 or Form No.2, as the case may be, intimating intention to pay the tax regularly and to obtain the Licence from such licensing officer. An intimation in Form No.3 shall also be sent if intending to obtain the Licence from any other licensing officer."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "A Licensing Officer other than the licensing officer concerned, receiving the intimation in Form No.2, shall communicate the alteration of the place of obtaining the Licence to the licensing officer concerned."
+                    }
+                ]
+            },
+            {
+                "rule": 5,
+                "title": "Filing of declaration when motor vehicle is altered",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "When additional tax becomes payable due to alterations to a motor vehicle, an increase in permitted daily distance (stage carriage), laden weight (goods vehicle), or a change in the category of use, the registered owner or person in possession/control shall file a declaration in Form No.4 with the Licensing Officer, together with the certificate of registration and evidence of payment of the additional tax. The additional tax for the remaining period shall be proportionate to the unexpired portion of the quarter, half-year or year.",
+                        "explanations": [
+                            "For calculating the unexpired portion, a part of a month shall be treated as a full month.",
+                            "This rule does not apply where the vehicle for which a higher rate is payable has been used without filing the declaration and paying the additional amount first.",
+                            "This rule does not apply where a vehicle on which lumpsum tax has been paid is misused as a goods vehicle, motor cab, or stage carriage."
+                        ]
+                    },
+                    {
+                        "clause": "2",
+                        "text": "For a motor vehicle on which lumpsum tax was paid under Section 3 of the Act and which is changed into another category attracting a higher rate or quarterly tax, the tax payable shall be the rate applicable to the new category with a proportionate deduction at 2% per quarter or part thereof of the lumpsum tax applicable to a new motor vehicle in the earlier category. This deduction applies only for up to 12 years from the month of registration."
+                    }
+                ]
+            },
+            {
+                "rule": 6,
+                "title": "Payment of tax for motor vehicle purchased within the quarter and grant of Licence",
+                "text": "Subject to Section 4, tax for a motor vehicle purchased at any time within the quarter shall be paid in advance by the registered owner or person in possession/control, at their choice, quarterly, half-yearly or annually, at the time of registration of the vehicle under Section 23 or Section 25 of the Motor Vehicles Act, 1939, whichever is earlier."
+            },
+            {
+                "rule": 7,
+                "title": "Procedure for obtaining Licence in respect of motor vehicles exempted under Section 9",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "Where an exemption is granted under Section 9 of the Act, the registered owner or person in possession/control shall communicate the registered number of the vehicle, a copy of the exemption notification, and such other particulars as required, to the licensing officer concerned, and apply for a Licence."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "If the Licensing Officer is satisfied that no tax is payable, he shall grant a Licence with the word 'Exempted' written on it for the specified period and record in the certificate of registration that no tax is payable for the said period."
+                    },
+                    {
+                        "clause": "3",
+                        "text": "The application under sub-rule (1) shall be made within three days from the date of the exemption notification."
+                    }
+                ]
+            },
+            {
+                "rule": 8,
+                "title": "Certificate to be kept in respect of motor vehicle used solely for agricultural or mining operations",
+                "text": "Every owner or occupier of agricultural land or a mine claiming tax exemption for a motor vehicle used solely for agricultural or mining operations shall keep in the vehicle a certificate (issued by the Licensing Officer on production of registration documents and an affidavit) showing the limits of such land or mine, places for agricultural/mining operations within 15 miles, and the nearest market place. The certificate shall be produced whenever required by officers specified under Section 5(2)(a) of the Act."
+            },
+            {
+                "rule": 9,
+                "title": "Checking of motor vehicle by Officers of the Commercial Tax Department",
+                "text": "Any Officer of the Commercial Tax Department not below the rank of an Assistant Commercial Tax Officer in charge of a check post may require the driver of any motor vehicle to stop at the check post and remain stationary as long as reasonably necessary to verify that a Licence has been duly obtained."
+            },
+            {
+                "rule": 10,
+                "title": "Seizure and detention of motor vehicles by certain officers",
+                "text": "Any Officer of the Transport Department not below the rank of an Assistant Inspector of Motor Vehicles, any Officer of the Commercial Tax Department not below the rank of an Assistant Commercial Tax Officer in charge of a check post, and officers of the Vigilance and Enforcement Department not below the rank of Inspector may exercise the powers under Section 8 of the Act."
+            },
+            {
+                "rule": 11,
+                "title": "Prohibition of alteration of Licence and issue of duplicate Licence",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "No person shall alter, deface, mutilate, or otherwise tamper with the Licence issued for a motor vehicle, or exhibit it on a vehicle other than the one for which it was issued."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "If the Licence is lost, destroyed, or mutilated, the licensing officer concerned may, on application accompanied by a treasury challan for ₹2 towards fee, grant a duplicate Licence for the period of the original. The officer shall first verify that the tax for the relevant period has not been refunded wholly or in part, and shall record the issue of the duplicate Licence in the certificate of registration."
+                    },
+                    {
+                        "clause": "3",
+                        "text": "If a Licence reported as lost is subsequently found, it shall be forthwith surrendered to the licensing officer concerned."
+                    }
+                ]
+            },
+            {
+                "rule": 12,
+                "title": "Payment of tax and penalty",
+                "text": "If the tax due has not been paid as specified in Section 4 of the Act, the registered owner or person in possession/control shall be liable to pay arrears of tax from the date of expiry of the period for which tax was already paid, together with any penalty imposed by the Licensing Officer."
+            },
+            {
+                "rule": "12-A",
+                "title": "Liability for payment of tax in respect of motor vehicles kept for use",
+                "text": "A motor vehicle shall be deemed to be kept for use and liable to tax unless the registered owner or person in possession/control intimates the licensing officer in writing before the commencement of the quarter that the motor vehicle shall not be used after the expiry of the period for which tax has already been paid. The Licensing Officer shall acknowledge receipt of such intimation.",
+                "provisos": [
+                    "This rule does not apply to vehicles for which lifetime or lumpsum tax is prescribed.",
+                    "For public carrier vehicles registered and normally kept in Madras, Mysore, Kerala, or Maharashtra and covered by permits to ply in this State under the special reciprocal agreement, the vehicle shall be deemed kept for use till the expiry of their permits unless kept under non-use after prior intimation for a whole year in any State."
+                ]
+            },
+            {
+                "rule": "12-B",
+                "title": "Adjustment of tax when rates are increased mid-year",
+                "text": "Where tax rates are increased by notification after 1st April of a year:",
+                "sub_rules": [
+                    {
+                        "clause": "i",
+                        "text": "Tax paid on a yearly Licence prior to the rate increase shall be adjusted towards the tax due for quarters where the paid amount is insufficient. If it remains insufficient for any quarter, that quarter's tax shall be deemed unpaid."
+                    },
+                    {
+                        "clause": "ii",
+                        "text": "Tax paid on a half-yearly Licence prior to the rate increase shall be adjusted towards the first quarter's tax. The second quarter's tax shall be deemed unpaid."
+                    }
+                ]
+            },
+            {
+                "rule": 13,
+                "title": "Rates of penalty",
+                "text": "If tax has not been paid as specified in Section 4, the Licensing Officer shall impose penalty under Section 6 of the Act as follows:",
+                "penalty_table": [
+                    {
+                        "period": "Within one month from the beginning of the quarter, half-year, or year",
+                        "penalty": "Not exceeding one-half of the quarterly tax"
+                    },
+                    {
+                        "period": "Within two months from the beginning of the quarter, half-year, or year",
+                        "penalty": "Not exceeding the amount of the quarterly tax"
+                    },
+                    {
+                        "period": "Over two months from the beginning of the quarter, half-year, or year",
+                        "penalty": "Not exceeding twice the quarterly tax"
+                    },
+                    {
+                        "period": "For each calendar month or part thereof (lifetime or lumpsum tax vehicles)",
+                        "penalty": "Not exceeding 2% of the lifetime or lumpsum tax per calendar month or part thereof, subject to a maximum of twice the lifetime or lumpsum tax due"
+                    }
+                ]
+            },
+            {
+                "rule": "13-A",
+                "title": "Manner of payment of tax",
+                "text": "Payment of every amount due under the Act shall be made by cash up to ₹300, or a demand draft or pay order from any scheduled bank (as per the Second Schedule to the Reserve Bank of India Act, 1934). The demand draft or pay order shall be produced together with the Certificate of Registration, valid Certificate of Insurance, and (for vehicle transfers) the valid registration certificate under the Motor Transport Workers Act, before the Licensing Officer, who shall record the payment in the certificate of registration and return all documents along with the taxation Licence.",
+                "provisos": [
+                    "If the owner cannot produce the Certificate of Registration and valid Certificate of Insurance for sufficient reason, the Licensing Officer may permit production within 15 days from the date of producing the demand draft/pay order (or from the date of expiry of the grace period), and on compliance, they shall be deemed to have been produced together with the draft/order.",
+                    "For non-transport vehicles registered or kept for use in the State, payment may be made by cash remittance to the concerned Head Post Master, who functions as a Licensing Officer."
+                ]
+            },
+            {
+                "rule": "13-B",
+                "title": "Acceptance of tax and penalty by the checking officer",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "For a non-transport vehicle seized and detained under Section 8 for plying without tax payment, the registered owner or person in charge may voluntarily remit the tax and penalty by crossed postal order in favour of the Regional Transport Officer of the District to the checking officer, who, on verifying the correctness of the amount, shall release the vehicle pending final orders from the licensing officer."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "The checking officer shall issue a receipt for amounts received through demand draft and postal orders."
+                    }
+                ]
+            },
+            {
+                "rule": 14,
+                "title": "Manner of payment of tax in respect of vehicles registered in other States",
+                "text": "For a motor vehicle of another State used or kept for use in a public place in this State, payment shall be made by money order or bank draft payable to the Licensing Officer within whose jurisdiction the vehicle first enters this State.",
+                "proviso": "For a vehicle registered in Madras and plying in this State on a Licence granted under Section 4(4) of the Act, payment may be made by bank draft."
+            },
+            {
+                "rule": "14-A",
+                "title": "Manner of payment of tax by registered owners controlling more than 2,000 motor vehicles (based on gross traffic earnings)",
+                "sub_rules": [
+                    {
+                        "clause": "1",
+                        "text": "A preliminary declaration under Section 6-A(2) shall be made in Form No.5 before 15th April of the current year."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "The Licensing Authority shall determine the provisional tax payable based on the declaration and communicate it by issuing a provisional assessment order in Form No.6 before 30th April. The Licensing Authority may review and revise the provisional assessment.",
+                        "proviso": "The Licensing Authority may review any provisional assessment order and pass a fresh order where necessary."
+                    },
+                    {
+                        "clause": "3",
+                        "text": "The registered owner shall submit a final declaration under Section 6-A in Form No.7 before 30th June of the succeeding year."
+                    },
+                    {
+                        "clause": "4",
+                        "text": "The Licensing Authority shall finally determine the tax under Section 6-A(6) and issue a final assessment order in Form No.6."
+                    },
+                    {
+                        "clause": "5",
+                        "text": "Any difference between the final and provisional assessments shall be paid by or refunded to the registered owner within 3 months from the date of the final assessment."
+                    },
+                    {
+                        "clause": "6",
+                        "text": "The Licensing Authority may require the registered owner to produce accounts, registers, records, documents, or any person for examination."
+                    },
+                    {
+                        "clause": "7",
+                        "text": "Default in payment under sub-rule (2) or (4) attracts a penalty as levied by the licensing authority, subject to a maximum of one-fourth of the annual tax payable."
+                    },
+                    {
+                        "clause": "8",
+                        "text": "The licensing authority under this rule shall be the Secretary, State Transport Authority, Telangana, Hyderabad."
+                    }
+                ]
+            },
+            {
+                "rule": 15,
+                "title": "Procedure for appeal",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "An appeal under Section 12 against an order of levy under Section 6 or a seizure under Section 8 shall lie to the Deputy Transport Commissioner concerned within 30 days from the date of communication of the order or seizure.",
+                        "provisos": [
+                            "An appeal against an order by the Deputy Transport Commissioner or Joint Transport Commissioner functioning as Secretary, Regional Transport Authority, Hyderabad shall lie to the Transport Commissioner.",
+                            "An appeal against an order by the Assistant Secretary, State Transport Authority, Hyderabad shall lie to the Secretary, State Transport Authority, Hyderabad.",
+                            "Where an appeal is returned for re-presentation within a specified period and is so re-presented, it shall be deemed to have been presented in time."
+                        ]
+                    },
+                    {
+                        "clause": "2",
+                        "text": "Every appeal shall be in the form of a memorandum specifying the appellant's name and address, the vehicle's registration number, the date of receipt of the order appealed against, a clear statement of facts, and the nature of relief sought. It shall be verified and signed by the appellant or their authorized agent, presented in duplicate, accompanied by a treasury challan for ₹20 towards fee, and accompanied by the original or certified copy of the order appealed against."
+                    },
+                    {
+                        "clause": "3",
+                        "text": "The Deputy Transport Commissioner, Joint Transport Commissioner, or Transport Commissioner, as applicable, shall, after making such inquiry and perusing such records as deemed necessary, pass such order on the appeal as they think fit."
+                    }
+                ]
+            },
+            {
+                "rule": "15-A",
+                "title": "Transfer of pending Appeals",
+                "text": "All appeals under Section 12 pending with the Transport Commissioner (other than those against orders by the Secretary, Regional Transport Authority, Hyderabad) shall stand transferred to and be disposed of by the Deputy Transport Commissioner concerned."
+            },
+            {
+                "rule": "15-B",
+                "title": "Refund of appeal fee",
+                "text": "The Deputy Transport Commissioner, Joint Transport Commissioner, or Transport Commissioner, as applicable, may on application sanction the refund of the appeal fee paid under Rule 15 where the fee remittance was not followed by an appeal.",
+                "proviso": "No refund shall be made if the application for refund is not made within one year from the date of credit of the fee."
+            },
+            {
+                "rule": 16,
+                "title": "Levy of tax on an articulated vehicle",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "If a motor vehicle is so constructed that a trailer may be attached by partial super-imposition such that a substantial part of the trailer's weight is borne by the vehicle, and the vehicle is not used except in conjunction with the trailer, the combination shall be deemed a goods vehicle and known as an articulated vehicle."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "If such a goods vehicle is provided with more than one trailer but is constructed so that only one trailer can be used at a time, it shall be deemed a goods vehicle with alternative bodies. Tax shall be chargeable for the vehicle in combination with the trailer having the greatest laden weight; no additional tax shall be chargeable for other trailers."
+                    }
+                ]
+            },
+            {
+                "rule": 17,
+                "title": "Fine for breach of rules",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "Whoever commits a breach of any provision of these rules shall be punishable with a fine which may extend to ₹50."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "No court inferior to that of a Second Class Magistrate shall try any offence punishable under these rules."
+                    }
+                ]
+            }
+        ]
+    }
+}

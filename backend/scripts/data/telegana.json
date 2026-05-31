@@ -1,0 +1,348 @@
+{
+    "act": {
+        "title": "Telangana Motor Vehicles Taxation Act",
+        "year": 1963,
+        "purpose": "An Act to consolidate and amend the law relating to levy of a tax on motor vehicles in the State of Telangana.",
+        "jurisdiction": "State of Telangana",
+        "sections": [
+            {
+                "section": 1,
+                "title": "Short title, extent and commencement",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "This Act may be called the Telangana Motor Vehicles Taxation Act, 1963."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "It extends to the whole of the State of Telangana."
+                    },
+                    {
+                        "clause": "3",
+                        "text": "It shall come into force on such date as the Government may, by notification in the Telangana Gazette, appoint."
+                    }
+                ]
+            },
+            {
+                "section": 2,
+                "title": "Definitions",
+                "definitions": [
+                    {
+                        "term": "Government",
+                        "meaning": "The State Government."
+                    },
+                    {
+                        "term": "Laden weight",
+                        "meaning": "In relation to a motor vehicle or trailer: if a permit is issued, the maximum laden weight specified in such permit; if no permit is issued, the maximum laden weight specified in the certificate of registration; if not specified in the certificate, the maximum laden weight determined in the prescribed manner."
+                    },
+                    {
+                        "term": "Licensing officer",
+                        "meaning": "An officer appointed by the Government as such for the purposes of this Act."
+                    },
+                    {
+                        "term": "Notification",
+                        "meaning": "A notification published in the Telangana Gazette; the expression 'notified' shall be construed accordingly."
+                    },
+                    {
+                        "term": "Prescribed",
+                        "meaning": "Prescribed by the rules made under this Act."
+                    },
+                    {
+                        "term": "Registered owner",
+                        "meaning": "The person in whose name a motor vehicle is registered under the Motor Vehicles Act."
+                    },
+                    {
+                        "term": "State",
+                        "meaning": "The State of Telangana."
+                    },
+                    {
+                        "term": "Tax",
+                        "meaning": "The tax leviable under the Act."
+                    },
+                    {
+                        "term": "Year",
+                        "meaning": "The financial year. 'Half-year' means the first or second six months of such year. 'Quarter' means the first or second three months of such half-year."
+                    },
+                    {
+                        "term": "Other words and expressions",
+                        "meaning": "Words and expressions used but not defined in this Act shall have the meanings assigned to them in the Motor Vehicles Act."
+                    }
+                ]
+            },
+            {
+                "section": 3,
+                "title": "Levy of tax on motor vehicles",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "The Government may, by notification, from time to time, direct that a tax shall be levied on every motor vehicle used or kept for use in a public place in the State."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "The notification shall specify the class of motor vehicles, the rates, the periods, and the date from which the tax shall be levied.",
+                        "provisos": [
+                            "Rates shall not exceed the maximum in column (2) of the First Schedule for pneumatic-tyre vehicles; one and a half times that maximum for non-pneumatic-tyre vehicles.",
+                            "Motor cycles (including scooters), invalid carriages, motor cars, jeeps and non-transport vehicles not exceeding 2286 kg unladen weight, and omnibuses with seating capacity of 8–10 persons and their chassis shall be taxed at rates in the Third Schedule.",
+                            "Chassis passing through the State from manufacturer to dealer under a temporary certificate for up to 7 days shall be taxed at one-twentieth of the quarterly rate.",
+                            "Motor vehicles operated with battery, compressed natural gas, or solar energy shall not be taxed for a period of five years from the date to be notified."
+                        ]
+                    }
+                ]
+            },
+            {
+                "section": 4,
+                "title": "Payment of tax and grant of Licence",
+                "clauses": [
+                    {
+                        "clause": "1a",
+                        "text": "Tax shall be paid in advance by the registered owner or person in possession/control, at their choice, quarterly, half-yearly, or annually within 15 days from the commencement of the relevant period. Half-yearly tax shall not exceed twice, and annual tax shall not exceed four times, the quarterly tax. Government may grant prescribed rebates for half-yearly and annual licences."
+                    },
+                    {
+                        "clause": "1aa",
+                        "text": "Tax for motor vehicles covered under the second proviso to Section 3(2) shall be for the lifetime of the vehicle and paid in lumpsum in advance.",
+                        "proviso": "If such tax was already paid prior to 1st April 1987, the lumpsum tax shall be levied after the expiry of the paid period and shall be paid within one month from expiry."
+                    },
+                    {
+                        "clause": "1b",
+                        "text": "If the vehicle has not been used during the whole or a continuous part (not less than one month) of a paid quarter/half-year/year, a refund shall be payable at rates notified by the Government subject to specified conditions."
+                    },
+                    {
+                        "clause": "1bb",
+                        "text": "Where lumpsum tax has been paid, a refund at notified rates shall be payable on removal of the vehicle to another State, transfer of ownership, or change of address."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "No person shall be liable to pay tax for a period if it has already been paid by another person."
+                    },
+                    {
+                        "clause": "3a",
+                        "text": "Upon payment (or where no tax is payable), the licensing officer shall: (i) grant a Licence to use the vehicle in public places during the period; (ii) record the payment in the certificate of registration. Where lumpsum tax is payable, payment is recorded in the registration certificate and no Licence is granted.",
+                        "sub_clause": "Every Licence granted shall be valid throughout the State."
+                    },
+                    {
+                        "clause": "4",
+                        "text": "Government may, by notification, direct that temporary licences for up to 30 days may be issued on payment of prescribed tax, subject to specified conditions. Rates shall not exceed the maxima in columns (2) and (3) of the Second Schedule (or 1.5x for non-pneumatic tyres)."
+                    },
+                    {
+                        "clause": "5",
+                        "text": "No motor vehicle shall be used in a public place without a valid Licence."
+                    }
+                ]
+            },
+            {
+                "section": 5,
+                "title": "Display of Licence and duty to stop on demand",
+                "clauses": [
+                    {
+                        "clause": "1a",
+                        "text": "No motor vehicle shall be used in a public place unless the Licence is displayed on it in the notified manner."
+                    },
+                    {
+                        "clause": "1b",
+                        "text": "Failure to display the Licence is punishable with a fine up to ₹50."
+                    },
+                    {
+                        "clause": "2a",
+                        "text": "A Transport Department officer of notified rank, or a police officer in uniform of at least Sub-Inspector rank, or other prescribed officer may require the driver to stop and remain stationary to verify the Licence."
+                    },
+                    {
+                        "clause": "2b",
+                        "text": "Wilful failure to stop when required, or resistance to such an officer, is punishable with a fine up to ₹50."
+                    }
+                ]
+            },
+            {
+                "section": 6,
+                "title": "Penalty for failure to pay Tax",
+                "text": "If tax has not been paid as required, the registered owner or person in possession/control shall, in addition to the tax due, be liable to a penalty up to twice the quarterly tax, levied by order in writing in the prescribed manner.",
+                "proviso": "If lumpsum tax has not been paid, the penalty may extend to twice the lumpsum tax payable under Section 4(1)(aa)."
+            },
+            {
+                "section": "6A",
+                "title": "Levy of tax on certain motor vehicles based on gross traffic earnings",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "Registered owners controlling more than 2,000 motor vehicles for hire or reward shall pay tax at a rate not exceeding 15% of gross traffic earnings, as notified by the Government.",
+                        "explanations": [
+                            "Gross traffic earning means the total amount collected towards fares, freights, luggage charges, and hire/reward, directly or indirectly, in respect of all motor vehicles.",
+                            "While computing the percentage, the Government shall consider the preceding year's tax collected, changes in rates, and approximate traffic growth."
+                        ]
+                    },
+                    {
+                        "clause": "2",
+                        "text": "The registered owner shall deliver a declaration in the prescribed form stating the gross traffic earning for the preceding year along with 10% thereof."
+                    },
+                    {
+                        "clause": "3",
+                        "text": "The prescribed authority shall provisionally assess and communicate the tax payable. It may review and revise the provisional assessment."
+                    },
+                    {
+                        "clause": "4",
+                        "text": "Provisionally determined tax shall be paid in 12 equal monthly installments: on or before 15th April and 10th of remaining months."
+                    },
+                    {
+                        "clause": "5",
+                        "text": "The registered owner shall thereafter deliver a final declaration of gross traffic earnings with supporting documents."
+                    },
+                    {
+                        "clause": "6",
+                        "text": "The prescribed authority shall finally assess the tax and issue a final assessment order."
+                    },
+                    {
+                        "clause": "7",
+                        "text": "Any difference between the finally determined tax and provisional payments shall be paid by or refunded to the registered owner."
+                    },
+                    {
+                        "clause": "8",
+                        "text": "The prescribed authority may require the registered owner to produce accounts, registers, records, or any other documents for verification."
+                    },
+                    {
+                        "clause": "9",
+                        "text": "Default in payment under this section attracts a penalty not exceeding one-fourth of the tax payable."
+                    }
+                ]
+            },
+            {
+                "section": 7,
+                "title": "Recovery of tax, penalty or fine as an arrear of land revenue",
+                "text": "Any tax, penalty, or fine due may be recovered as an arrear of land revenue. The motor vehicle or its accessories may be distrained and sold, regardless of whether they are in the possession of the person liable."
+            },
+            {
+                "section": 8,
+                "title": "Power to seize and detain motor vehicles in case of non-payment of tax",
+                "text": "Without prejudice to Sections 6 and 7, where tax has not been paid, the prescribed officer may seize and detain the motor vehicle and take steps for its temporary safe custody until the tax is paid."
+            },
+            {
+                "section": 9,
+                "title": "Exemption, reduction or other modification of tax",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "The Government may, by notification, grant an exemption, reduce the rate, or order other modification (not involving enhancement) of tax payable by any person or class of persons, or in respect of any motor vehicle or class of motor vehicles or vehicles running in a particular area. Such exemptions may also be cancelled or varied."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "Any such notification shall be laid on the table of the Legislative Assembly for a total period of 14 days (in one or two successive sessions)."
+                    }
+                ]
+            },
+            {
+                "section": 10,
+                "title": "Provisions not applicable to vehicles used solely for agricultural and mining purposes",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "This Act does not apply to a motor vehicle registered in the name of an owner/occupier of agricultural land or mine under personal cultivation/working, if the vehicle is designed and used solely for agricultural or mining operations on such land/mine or within 15 miles thereof."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "If such a vehicle is also used by the registered owner for any other personal purpose, a tax of ₹25 per quarter shall be levied."
+                    }
+                ],
+                "explanations": [
+                    {
+                        "explanation": "I",
+                        "term": "Agricultural operation",
+                        "meaning": "Tilling, sowing, harvesting, crushing of agricultural produce or similar operations for agriculture. Does not include transporting persons, manure, or agricultural produce except by the owner within 15 miles of the land or to/from the nearest market."
+                    },
+                    {
+                        "explanation": "II",
+                        "term": "Personal cultivation",
+                        "meaning": "Cultivation by a person of their own land on their own account by: (1) their own labour; (2) labour of a family member; or (3) servants or hired labour under their personal supervision or that of a relative."
+                    },
+                    {
+                        "explanation": "III",
+                        "term": "Mining operation",
+                        "meaning": "Any operation undertaken for the purpose of winning any mineral."
+                    }
+                ]
+            },
+            {
+                "section": 11,
+                "title": "Manner of payment of dues under this Act",
+                "text": "Payment shall be made by producing before the licensing officer a demand draft from any scheduled Bank as defined in the Reserve Bank of India Act, 1934, or in such other prescribed manner."
+            },
+            {
+                "section": 12,
+                "title": "Appeal",
+                "text": "Any person aggrieved by an order of levy under Section 6, or a seizure under Section 8, may appeal within 30 days from the date of communication of the order or seizure, to the prescribed authority in the prescribed manner and on payment of prescribed fees."
+            },
+            {
+                "section": 13,
+                "title": "Protection of acts done in good faith",
+                "text": "No suit, prosecution, or other legal proceeding shall be instituted against any person for anything done in good faith under this Act or the rules made thereunder."
+            },
+            {
+                "section": 14,
+                "title": "Trial of offences",
+                "text": "No court inferior to that of a Second Class Magistrate shall try any offence punishable under this Act."
+            },
+            {
+                "section": 15,
+                "title": "Procedure in certain cases",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "A court taking cognizance of an offence under Section 5(1) or 5(2) (wilful failure to stop) may state in the summons that the accused: (a) may appear by pleader and not in person; or (b) may, by a specified date, plead guilty by registered letter and remit a sum not exceeding ₹50 as specified by the court."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "Where the accused pleads guilty and remits the specified sum, no further proceedings shall be taken against them."
+                    }
+                ]
+            },
+            {
+                "section": 16,
+                "title": "Power to make rules",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "The Government may, by notification, make rules for carrying out all or any of the purposes of this Act."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "Any rule may provide that a breach thereof shall be punishable with a fine up to ₹50."
+                    },
+                    {
+                        "clause": "3",
+                        "text": "Every rule shall be laid before each House of the State Legislature for a total period of 14 days. Modifications or annulments agreed by both Houses shall take effect accordingly, without prejudice to anything previously done under the rule."
+                    }
+                ]
+            },
+            {
+                "section": 17,
+                "title": "Power to amend Schedules",
+                "clauses": [
+                    {
+                        "clause": "1",
+                        "text": "The Government may, by order, amend the Schedules."
+                    },
+                    {
+                        "clause": "2",
+                        "text": "A draft of any proposed order shall be laid on the table of the Legislative Assembly and shall not be made unless the Assembly approves it. The approved order shall be published in the Telangana Gazette."
+                    },
+                    {
+                        "clause": "3",
+                        "text": "Any reference to a Schedule in this Act shall be construed as a reference to the Schedule as amended."
+                    }
+                ]
+            },
+            {
+                "section": 18,
+                "title": "Repeals and savings",
+                "repealed_acts": [
+                    "The Telangana (Andhra Area) Motor Vehicles Taxation Act, 1931",
+                    "The Telangana (Telangana Area) Motor Vehicles Taxation Act, 1955",
+                    "The Telangana Motor Vehicles (Taxation of Passengers and Goods) Act, 1952"
+                ],
+                "savings": "Repeal shall not affect prior operation of said Acts or any rights, privileges, obligations, or liabilities already acquired or incurred. Anything done or any action taken under the repealed Acts shall be deemed to have been done or taken under this Act. Arrears of tax and other amounts due at commencement may be recovered as if they had accrued under this Act."
+            },
+            {
+                "section": 19,
+                "title": "Powers to remove difficulty",
+                "text": "If any difficulty arises in giving effect to the provisions of this Act during the transition from the earlier Acts, the Government may, after previous publication, make such provisions not inconsistent with the purposes of this Act as appear necessary or expedient for removing the difficulty."
+            }
+        ]
+    }
+}

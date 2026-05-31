@@ -1,6 +1,6 @@
 import uuid
 from sqlalchemy.orm import Mapped, mapped_column
-from sqlalchemy import String
+from sqlalchemy import Boolean, String
 from sqlalchemy.dialects.postgresql import UUID
 from backend.models.base import Base, TimestampMixin
 
@@ -12,5 +12,4 @@ class User(Base, TimestampMixin):
     hashed_password: Mapped[str] = mapped_column(String(255), nullable=False)
     role: Mapped[str] = mapped_column(String(50), default="user") # 'user' or 'admin'
     language_preference: Mapped[str] = mapped_column(String(10), default="en")
-    
-    # Can add fields like 'is_active', 'is_verified' later if needed
+    is_active: Mapped[bool] = mapped_column(Boolean, default=True, index=True)

@@ -1,0 +1,557 @@
+[
+    {
+        "notification_id": "UK-NOTIF-001",
+        "notification_no": "25/123/XXX(2)/2024-E67683",
+        "gazette_date": "2024-10-30",
+        "state": "Uttarakhand",
+        "department": "Personnel and Vigilance Department (Section-2)",
+        "issuing_authority": "Anand Bardhan, Additional Chief Secretary",
+        "title": "Uttarakhand Determination of Eligibility Period for the Promotion of Personal Assistant Category Posts under State (Amendment) Rules, 2024",
+        "short_title": "UK PA Category Promotion Eligibility (Amendment) Rules, 2024",
+        "act_under": "Article 309 of the Constitution of India",
+        "principal_rules_amended": "Uttarakhand Determination of Eligibility Period for the Promotion of Personal Assistant Category Posts under State Rules, 2018",
+        "effective_date": "Immediately (तुरन्त प्रवृत्त)",
+        "rule_amended": "Rule 4",
+        "source_type": "State Government Notification",
+        "jurisdiction": "Uttarakhand",
+        "subject_category": "Service Rules / HR",
+        "relevance_to_transport": false,
+        "summary": "Amends Rule 4 of the 2018 Rules to substitute the existing promotion eligibility criteria for Personal Assistant category posts. Key change: reduces required service on subordinate posts for Chief Personal Officer promotion from 25 years to 22 years. Adds a new category of Senior Personal Assistant eligible for promotion to Personal Officer after 2 years service with 15 years on subordinate posts.",
+        "amendments": [
+            {
+                "rule": "Rule 4",
+                "post": "Chief Personal Officer",
+                "existing_condition": "Substantively appointed Personal Officer with min 1 year service + 25 years on subordinate posts, by seniority",
+                "substituted_condition": "Substantively appointed Senior Personal Officer with min 1 year service + 22 years on subordinate posts, by seniority"
+            },
+            {
+                "rule": "Rule 4",
+                "post": "Personal Officer",
+                "existing_condition": "Substantively appointed Senior Personal Assistant with min 2 years or subordinate posts min 20 years, by seniority",
+                "substituted_condition": "No change in this sub-clause"
+            },
+            {
+                "rule": "Rule 4",
+                "post": "Senior Personal Assistant (new sub-clause 4)",
+                "existing_condition": "Not present",
+                "substituted_condition": "Substantively appointed Personal Assistant with min 6 years service, by seniority. Personal Officer from Senior PA with min 2 years + 15 years on subordinate posts added."
+            }
+        ],
+        "notes": "Non-transport notification. Governs civil service promotions within Uttarakhand government secretariat. Not directly relevant to DriveLegal traffic law KB."
+    },
+    {
+        "notification_id": "UK-NOTIF-002",
+        "notification_no": "23/ix-1/2024-79/ix-1/2018",
+        "gazette_date": "2024-02-09",
+        "state": "Uttarakhand",
+        "department": "Transport Section-1",
+        "issuing_authority": "Arvind Singh Hyanki, Secretary",
+        "title": "Uttarakhand On-Demand (Information Technology Based) Transportation by Contract Carriage (Amendment) Rules, 2024",
+        "short_title": "UK On-Demand Contract Carriage (Amendment) Rules, 2024",
+        "act_under": "Section 93, 95 and 96 of the Motor Vehicles Act, 1988",
+        "principal_rules_amended": "Uttarakhand On-Demand (Information Technology Based) Transportation by Contract Carriage Rules, 2020",
+        "effective_date": "Date of publication in Official Gazette",
+        "source_type": "State Government Notification",
+        "jurisdiction": "Uttarakhand",
+        "subject_category": "On-Demand Transport / Aggregator Regulation",
+        "relevance_to_transport": true,
+        "keywords": [
+            "aggregator",
+            "on-demand",
+            "contract carriage",
+            "ride-hailing",
+            "app-based transport",
+            "two-wheeler",
+            "three-wheeler",
+            "VLTD",
+            "AIS 140",
+            "surge pricing",
+            "induction training",
+            "fare regulation"
+        ],
+        "definitions_added_or_amended": [
+            {
+                "term": "License (Rule 2 sub-rule 3)",
+                "new_definition": "Any license issued or renewed under Rule 6 to engage in on-demand transport by contract carriage which includes two and three wheeler vehicles based on information technology for hire or reward."
+            },
+            {
+                "term": "Aggregator (Rule 2 sub-rule 5)",
+                "new_definition": "A service provider or operator who acts as a digital intermediary or market place for connecting a passenger with the operator or driver of a contract carriage under the Act."
+            },
+            {
+                "term": "App (Rule 2 sub-rule 6 — new)",
+                "new_definition": "An electronic interface operated by the Aggregator or any third party on behalf of the Aggregator, accessible through a computer resource or communication device."
+            },
+            {
+                "term": "Area of operation (Rule 2 sub-rule 7 — new)",
+                "new_definition": "The area or route permitted to operate in accordance with the permit to a contract carriage operated under these rules."
+            },
+            {
+                "term": "Fare (sub-rule 10)",
+                "new_definition": "The payment made by the Aggregator to the Rider at the end of the journey after the Passenger has booked the fare displayed through the App."
+            },
+            {
+                "term": "Surge Pricing (sub-rule 21)",
+                "new_definition": "An algorithm resulting from an aggregator that automatically increases the fare for a trip when demand in a given geographic area exceeds the supply."
+            }
+        ],
+        "key_rule_changes": [
+            {
+                "rule": "Rule 4 — Application for License",
+                "change": "Security deposit requirement changed from fixed Rs. 10 lakh bank guarantee to security in the form of bank guarantee, fixed deposit etc. of a scheduled bank with validity of five and a half years."
+            },
+            {
+                "rule": "Rule 5 — Eligibility of Applicant",
+                "change": "Applicant entity expanded from 'registered entity under applicable laws' to include companies under Companies Act 1956/2013, cooperative societies, LLPs, or any business undertaking formed under any law in force in India or any State. Fleet requirement changed from 50 motor cabs to 10 contract buses or 25 other vehicles."
+            },
+            {
+                "rule": "Rule 6 — License Renewal",
+                "change": "Application window changed. Security deposit requirement updated to prescribed form in Rule 18."
+            },
+            {
+                "rule": "Rule 8 — Vehicle Requirements (sub-rule xi)",
+                "change": "Tracking device must comply with AIS 140 standard (Rule 125(h) of CMVR 1989). Location tracking device must comply with commands given by Licensing Authority through OTA or other means."
+            },
+            {
+                "rule": "Rule 8 — Induction Training (sub-rule xiv — new)",
+                "change": "Aggregator must establish an induction training system for drivers. Mandatory 30-hour, 5-day training programme before on-boarding. Curriculum includes: efficient use of aggregator app; MV Act 1988 provisions; 6 hours road safety and first responder training; vehicle operation; cleaning and maintenance; routes; contract terms; gender sensitivity and protection of women and girls."
+            },
+            {
+                "rule": "Rule 8 — App Policy (sub-rule 10)",
+                "change": "App must be made under IT Act 2000; in Hindi and English; security certified by accredited security association; internal vulnerabilities exposed to CERT-In; data stored for minimum 3 months and maximum 24 months; data provided to State Transport Authority as per prescribed procedure; no data displayed without written consent of customers."
+            },
+            {
+                "rule": "Rule 8A — Fare Regulation (new)",
+                "change": "Fare policy must be based on State Government rate. Proven software algorithm for fare and distance calculation, quality tested by STQC or MeitY-authorized institution. Minimum fare for first 5 km chargeable. Surge pricing maximum 25% above prescribed fare; if supply exceeds demand, up to 25% less than prescribed fare. Driver receives minimum 80% of fare per journey. 2% surcharge on each fare deposited to fund under Section 8A of Motor Vehicle Taxation (Reforms) Act 2003."
+            },
+            {
+                "rule": "Rule 8B — Journey Cancellation (new)",
+                "change": "If booking cancelled by driver/vehicle owner/aggregator without valid reason: penalty 10% of total fare, max Rs. 200. If cancelled by rider without valid reason: penalty 10% of total fare, max Rs. 200, distributed 80:20 between driver and aggregator. All fines deposited in fund under Rule 8A(6)."
+            },
+            {
+                "rule": "Rule 12 — Suspension/Revocation",
+                "change": "License authority may suspend/revoke and forfeit total amount of security deposit or appropriate part thereof in case of malpractice or misconduct with passenger."
+            },
+            {
+                "rule": "Rule 14A — Transfer of License (new)",
+                "change": "License can be transferred on joint application in Form 4 with fee per Rule 18. Transferee furnishes security till date of validity per Rule 18. Transferor's security returned after transfer. All terms and conditions apply to transferee as original licensee. Within 45 days of transfer, digital consent from all registered vehicles required."
+            },
+            {
+                "rule": "Rule 14B — Exemptions (new)",
+                "change": "Aggregators with fleet of not more than 500 two-wheelers and three-wheelers are exempt from clauses (x), (xi), (xiii), (xiv) of sub-rule (1) of Rule 8 and clause (v)(f) of sub-rule (3) of Rule 8 and Rule 8B. Ambulance category vehicles do not need separate license."
+            },
+            {
+                "rule": "Rule 18 — Fee Schedule",
+                "change": "New fee table: (a) Fleet up to 500 two/three-wheelers: Rs. 2500 fee + Rs. 2500 security deposit. (b) Mixed fleets: 50 buses/200 vehicles: Rs. 25000 + Rs. 25000; 51-100 buses/201-500 vehicles: Rs. 50000 + Rs. 50000; 101-200 buses/501-2000 vehicles: Rs. 200000 + Rs. 200000; 200+ buses/2000+ vehicles: Rs. 500000 + Rs. 500000. Duplicate license: Rs. 500. Address change/new branch: Rs. 2500."
+            }
+        ],
+        "forms_added": [
+            "Form AR-4 — Application for Transfer of License (Rule 14a)"
+        ],
+        "notes": "Major amendment to ride-hailing/aggregator regulations in Uttarakhand. Directly relevant to DriveLegal for aggregator compliance queries."
+    },
+    {
+        "notification_id": "UK-NOTIF-003",
+        "notification_no": "245/ix-1/2023-01(13)/2022",
+        "gazette_date": "2023-03-03",
+        "state": "Uttarakhand",
+        "department": "Transport Section-1",
+        "issuing_authority": "Arvind Singh Hyanki, Secretary",
+        "title": "Agents/Canvasser (for the Collection of Passengers and Sales of Tickets for Travelling by Public Service Vehicles) Rules, 2023",
+        "short_title": "UK Agents/Canvasser Rules, 2023",
+        "act_under": "Section 93, 95 and 96 of the Motor Vehicles Act, 1988",
+        "effective_date": "Date of publication in Official Gazette",
+        "source_type": "State Government Notification",
+        "jurisdiction": "Uttarakhand",
+        "subject_category": "Travel Agent / Canvasser Licensing",
+        "relevance_to_transport": true,
+        "keywords": [
+            "travel agent",
+            "canvasser",
+            "bus agent",
+            "ticket agent",
+            "public service vehicle",
+            "agent license",
+            "tour operator"
+        ],
+        "definitions": {
+            "agent_canvasser": "Any person appointed as such by the owner of public service vehicles on his behalf, engaged in collection of customers or sale of tickets for travel by such vehicle.",
+            "license": "A license issued under these rules.",
+            "licensing_authority": "State Transport Authority for whole Uttarakhand and Regional Transport Authority for the region.",
+            "travel_agency": "Any person, company or firm who owns or has leased vehicles for not less than one year, that arranges journey by road services.",
+            "tour_operator": "Person, company or firm having own personal vehicle or lease vehicle for not less than one year, to provide transport, accommodation, sightseeing, entertainment and incidental services."
+        },
+        "key_rules": [
+            {
+                "rule_no": 3,
+                "title": "Requirement of License",
+                "content": "No person shall act as agent/canvasser unless licensed from the concerned Transport Authority. No vehicle owner shall employ any such person without them obtaining the agent's license."
+            },
+            {
+                "rule_no": 4,
+                "title": "Validity of License",
+                "content": "3 years from date of issue or renewal. Effective only in the area or region in which it has been issued or renewed."
+            },
+            {
+                "rule_no": 5,
+                "title": "Application for License",
+                "content": "Apply in Form T.R.-1 (written or online) to Licensing Authority. Fee as per Rule 22. Required documents: copy of vehicle registration and permit; lease agreement if applicable; identity and date of birth certificate; company registration and GST certificate; self-attested office address and map; office rent agreement if applicable."
+            },
+            {
+                "rule_no": 6,
+                "title": "Scrutiny Criteria",
+                "content": "Travel agency: minimum 5 own vehicles or 5 on lease for min 1 year + road services. Tour operator: minimum 5 own vehicles or 5 on lease. Good moral character. Office owned or leased with reception hall, administrative section, secured luggage room, drinking water, toilets, parking. Vehicle maintenance facilities. Day and night telephone. Sufficient financial resources."
+            },
+            {
+                "rule_no": 7,
+                "title": "Age of Agent",
+                "content": "Minimum age 18 years."
+            },
+            {
+                "rule_no": 8,
+                "title": "Security Deposit",
+                "content": "Bank guarantee from scheduled bank to be deposited at time of grant. Returned on expiry or voluntary cessation of business. May be forfeited in whole or part at discretion of Licensing Authority."
+            },
+            {
+                "rule_no": 9,
+                "title": "Issue of License",
+                "content": "Issued on Form T.R.-3 after verification against Rule 6 criteria."
+            },
+            {
+                "rule_no": 10,
+                "title": "Renewal",
+                "content": "Application in Form T.R.-4 with fee per Rule 22. Duplicate license application in Form T.R.-5."
+            },
+            {
+                "rule_no": 11,
+                "title": "Display of License",
+                "content": "Must carry license while on duty and produce on demand."
+            },
+            {
+                "rule_no": 13,
+                "title": "General Conditions",
+                "content": "Cannot contract with vehicles not covered by permit. Must treat passengers courteously. Maintain fully furnished office. Cannot transfer license. Maintain complaint book. Maintain vehicle register in Form T.R.-8. Cannot change principal place of business without permission."
+            },
+            {
+                "rule_no": 17,
+                "title": "Agent's Badge",
+                "content": "Rectangular badge (6.5 cm x 4.0 cm) with name, license number, service name, area name. Worn on left chest. Cannot be lent to others."
+            },
+            {
+                "rule_no": 18,
+                "title": "Penalty for Violation",
+                "content": "Contravention of any rule or Section 93 of MV Act punishable as per Section 193 of the Act."
+            },
+            {
+                "rule_no": 19,
+                "title": "Appeal",
+                "content": "Appeal before State Transport Appellate Tribunal within 30 days of receipt of order."
+            }
+        ],
+        "fee_schedule_rule_22": [
+            {
+                "sr_no": 1,
+                "purpose": "Grant and renewal of License",
+                "amount_inr": 1500,
+                "rule_ref": "5, 9"
+            },
+            {
+                "sr_no": 2,
+                "purpose": "Change of Address",
+                "amount_inr": 200,
+                "rule_ref": "12"
+            },
+            {
+                "sr_no": 3,
+                "purpose": "Duplicate License",
+                "amount_inr": 500,
+                "rule_ref": "9"
+            },
+            {
+                "sr_no": 4,
+                "purpose": "Issue of Badge and Duplicate",
+                "amount_inr": 500,
+                "rule_ref": "17"
+            },
+            {
+                "sr_no": 5,
+                "purpose": "Security Deposit (Bank Guarantee/NSC/FDR etc.)",
+                "amount_inr": 10000,
+                "rule_ref": "8"
+            }
+        ],
+        "forms": [
+            {
+                "form": "T.R.-1",
+                "purpose": "Application for Agent/Canvasser License",
+                "rule_ref": "Rule 5"
+            },
+            {
+                "form": "T.R.-2",
+                "purpose": "Bank Guarantee for Performance Guarantee",
+                "rule_ref": "Rule 8"
+            },
+            {
+                "form": "T.R.-3",
+                "purpose": "Agent/Canvasser License Certificate",
+                "rule_ref": "Rules 9 & 10"
+            },
+            {
+                "form": "T.R.-4",
+                "purpose": "Application for Renewal of License",
+                "rule_ref": "Rule 10"
+            },
+            {
+                "form": "T.R.-5",
+                "purpose": "Application for Duplicate License",
+                "rule_ref": "Rule 10"
+            },
+            {
+                "form": "T.R.-6",
+                "purpose": "Application for Address Change",
+                "rule_ref": "Rule 12"
+            },
+            {
+                "form": "T.R.-7",
+                "purpose": "Tourist Vehicle Hire Register",
+                "rule_ref": "Rule 13"
+            },
+            {
+                "form": "T.R.-8",
+                "purpose": "Vehicle Register maintained by License Holder",
+                "rule_ref": "Rule 13"
+            },
+            {
+                "form": "T.R.-9",
+                "purpose": "Agent/Canvasser Badge (6.5 cm x 4.0 cm)",
+                "rule_ref": "Rule 17"
+            }
+        ]
+    },
+    {
+        "notification_id": "UK-NOTIF-004",
+        "notification_no": "466/ix-1/2022-651/ix-1/2011",
+        "gazette_date": "2022-12-29",
+        "state": "Uttarakhand",
+        "department": "Transport Section-1",
+        "issuing_authority": "Arvind Singh Hyanki, Secretary",
+        "title": "Uttarakhand Transport Department Enforcement Staff Service (Amendment) Rules, 2022",
+        "short_title": "UK Transport Enforcement Staff Service (Amendment) Rules, 2022",
+        "act_under": "Article 309 of the Constitution of India",
+        "principal_rules_amended": "Uttarakhand Transport Department Enforcement Staff Service Rules, 2004",
+        "effective_date": "Immediately",
+        "source_type": "State Government Notification",
+        "jurisdiction": "Uttarakhand",
+        "subject_category": "Service Rules / Transport Enforcement Staff",
+        "relevance_to_transport": true,
+        "keywords": [
+            "enforcement constable",
+            "transport department",
+            "direct recruitment",
+            "service rules"
+        ],
+        "amendments": [
+            {
+                "rule": "Rule 5(1) — Enforcement Constable Recruitment",
+                "existing_provision": "66 2/3% posts by Direct Recruitment; 33 1/3% posts by promotion from Group D permanent employees meeting eligibility under Rule 8(1) and physical fitness under Rule 13.",
+                "substituted_provision": "100% posts of cadre by Direct Recruitment.",
+                "notes": "Promotion route for Enforcement Constable abolished. All posts now filled by direct recruitment only."
+            }
+        ]
+    },
+    {
+        "notification_id": "UK-NOTIF-005",
+        "notification_no": "74666/XXX-2/2023-E64958",
+        "gazette_date": "2023-12-13",
+        "state": "Uttarakhand",
+        "department": "Personnel and Vigilance Department (Section-2)",
+        "issuing_authority": "Shailesh Bagauli, Secretary",
+        "title": "Gazette Notification — Ministerial Cadre Chief Administrative Officer Post Gazette Notification",
+        "short_title": "UK Ministerial Cadre CAO Post Gazette Notification, 2023",
+        "act_under": "Not specified (Governor approval)",
+        "effective_date": "2023-12-13",
+        "source_type": "State Government Notification",
+        "jurisdiction": "Uttarakhand",
+        "subject_category": "Service Rules / HR / Ministerial Cadre",
+        "relevance_to_transport": false,
+        "summary": "Governor of Uttarakhand approves gazette notification for designation of Chief Administrative Officer post in Ministerial cadre. Administrative/HR notification with no direct transport law relevance.",
+        "notes": "Non-transport. Not directly relevant to DriveLegal traffic law KB."
+    },
+    {
+        "notification_id": "UK-NOTIF-006",
+        "notification_no": "585/ix-1/2023-195/ix-1/2004 T.C.",
+        "gazette_date": "2023-08-08",
+        "state": "Uttarakhand",
+        "department": "Transport Section-1",
+        "issuing_authority": "Arvind Singh Hyanki, Secretary",
+        "title": "Uttarakhand Road Transport Accident Relief Fund (Second Amendment) Rules, 2023",
+        "short_title": "UK Road Transport Accident Relief Fund (2nd Amendment) Rules, 2023",
+        "act_under": "Clause (K) of sub-rule (2) of Rule 28 of the Uttarakhand Motor Vehicles Taxation Reform Act, 2003",
+        "principal_rules_amended": "Uttarakhand Road Transport Accident Relief Fund Rules, 2008",
+        "effective_date": "Immediately",
+        "source_type": "State Government Notification",
+        "jurisdiction": "Uttarakhand",
+        "subject_category": "Road Accident Relief Fund",
+        "relevance_to_transport": true,
+        "keywords": [
+            "accident relief fund",
+            "road accident",
+            "compensation",
+            "district magistrate",
+            "transport commissioner"
+        ],
+        "amendments": [
+            {
+                "rule": "Rule 5(2) — Executive Committee Composition",
+                "change": "Position (ii) changed from 'Additional Transport Commissioner or officer not below Assistant Transport Commissioner (when ATC post vacant)' to 'Joint Transport Commissioner or officer not below rank of Assistant Transport Commissioner — Secretary Member'. Position (iii) changed from 'Concerning Regional Transport Officer of district' to 'Regional Transport Officer (Enforcement) of district concerned — Member'. Position (iv) changed to 'Assistant Regional Transport Officer (Enforcement) of concerned sub-region from Head Quarter — Member'. Note added: Where ARTO (Enforcement) is not posted, ARTO (Administration) shall be the Member."
+            },
+            {
+                "rule": "Rule 8(2) — Fund Corpus / Deposit Mechanism",
+                "change": "Previously: Bank draft of surcharge amount deposited in SBI main branch account opened by Additional Transport Commissioner. Now: Amount equivalent to portion of motor vehicle tax under Section 8(1) of the Act shall be deposited by the taxation officer in the savings bank account opened in the 'Schedule Bank' in this behalf, as per procedure prescribed by Transport Commissioner. Taxation officer shall send information monthly/cumulatively to Transport Commissioner."
+            }
+        ],
+        "notes": "Relevant to accident relief fund administration. Key change: increases minimum district-level relief corpus from Rs. 25 lakh to Rs. 50 lakh (per cross-reference with First Amendment)."
+    },
+    {
+        "notification_id": "UK-NOTIF-007",
+        "notification_no": "76293/IX-1/2023-176/2007",
+        "gazette_date": "2023-12-19",
+        "state": "Uttarakhand",
+        "department": "Transport Section-1",
+        "issuing_authority": "Arvind Singh Hyanki, Secretary",
+        "title": "Uttarakhand Information Technology (User Charges for Filing, Creation and Issue of Electronic Records in Transport Department) (Amendment) Rules, 2023",
+        "short_title": "UK IT User Charges Transport Dept (Amendment) Rules, 2023",
+        "act_under": "Section 90 sub-section (1) and (2) read with Section 6 of the Information Technology Act, 2000",
+        "principal_rules_amended": "Uttarakhand Information Technology (User Charges for Filing, Creation and Issue of Electronic Records in Transport Department) Rules, 2011",
+        "effective_date": "Immediately",
+        "source_type": "State Government Notification",
+        "jurisdiction": "Uttarakhand",
+        "subject_category": "IT / Digital Records / Automated Driving Test Track",
+        "relevance_to_transport": true,
+        "keywords": [
+            "automated driving test track",
+            "user charges",
+            "electronic records",
+            "driving licence",
+            "CCTV",
+            "sensors",
+            "dynamic task force"
+        ],
+        "amendments": [
+            {
+                "rule": "Rule 2 — Definitions (new clause d)",
+                "change": "Added definition: 'Automated Driving Test Track' means a field structure on which automation has been done through CCTV, sensors, electronic devices etc. along with civil work, and on which motor vehicle driving of two wheelers or light vehicles can be done easily. Figures determined by Transport Commissioner Uttarakhand from time to time."
+            },
+            {
+                "rule": "Rule 3 — User Charges",
+                "change": "Additional user charge of Rs. 100.00 payable separately for vehicle driving test from applicants at offices where 'Automated Driving Test Track' facility is available, in addition to existing user charges."
+            },
+            {
+                "rule": "Rule 5 — Expenditure Purposes",
+                "change": "New clause (c-a) added: Getting automation of Automated Driving Test Track, arranging software for operation, maintaining track and taking appropriate action for examination of drivers and arranging personnel through outsource. In clause (e): 'nationalized bank' replaced with 'scheduled bank'. In proviso: 'check post' replaced with 'Dynamic Task Force'."
+            },
+            {
+                "rule": "Rule 7 — Eligible Expenditure",
+                "change": "New clause (t) added: Purchase and maintenance of sensors, mobile phones, CCTV, software and other necessary equipment for Automated Driving Test Track."
+            }
+        ],
+        "financial_impact": {
+            "additional_user_charge_for_automated_driving_test": 100,
+            "currency": "INR",
+            "applicability": "Offices where Automated Driving Test Track facility is installed"
+        }
+    },
+    {
+        "notification_id": "UK-NOTIF-008",
+        "notification_no": "328/ix-1/2023-651/ix-1/2011",
+        "gazette_date": "2023-04-12",
+        "state": "Uttarakhand",
+        "department": "Transport Section-1",
+        "issuing_authority": "Arvind Singh Hyanki, Secretary",
+        "title": "Uttarakhand Motor Vehicles (Amendment) Rules, 2023",
+        "short_title": "UK Motor Vehicles (Amendment) Rules, 2023",
+        "act_under": "Section 213 of the Motor Vehicles Act, 1988 (as amended, 2019)",
+        "principal_rules_amended": "Uttarakhand Motor Vehicles Rules, 2011",
+        "effective_date": "Immediately",
+        "source_type": "State Government Notification",
+        "jurisdiction": "Uttarakhand",
+        "subject_category": "Motor Vehicles Rules / Enforcement / Senior Enforcement Supervisor",
+        "relevance_to_transport": true,
+        "keywords": [
+            "enforcement supervisor",
+            "senior enforcement supervisor",
+            "Rule 229",
+            "177A",
+            "194A",
+            "194B",
+            "194C",
+            "194D",
+            "194E",
+            "194F",
+            "199A",
+            "206"
+        ],
+        "amendments": [
+            {
+                "rule": "Rule 229(1) — Compounding Powers",
+                "change": "After serial number (10) 'Senior Enforcement Supervisor', serial number (11) shall be added as follows: Senior Enforcement Supervisor empowered to compound offences under Sections 177(A), 194(A), (B), (C), (D), (E), (F), 199(A) and 206 of the MV Act."
+            }
+        ],
+        "notes": "Grants Senior Enforcement Supervisors in Uttarakhand the power to compound specific MV Act offences on-the-spot. Relevant to DriveLegal for challan/compounding authority in Uttarakhand."
+    },
+    {
+        "notification_id": "UK-NOTIF-009",
+        "notification_no": "243/ix-1/2023-195/2004 T.C.",
+        "gazette_date": "2023-03-03",
+        "state": "Uttarakhand",
+        "department": "Transport Section-1",
+        "issuing_authority": "Arvind Singh Hyanki, Secretary",
+        "title": "Uttarakhand Road Transport Accident Relief Fund (Amendment) Rules, 2023",
+        "short_title": "UK Road Transport Accident Relief Fund (Amendment) Rules, 2023",
+        "act_under": "Clause (K) of sub-rule (2) of Rule 28 of the Uttarakhand Motor Vehicles Taxation Reform Act, 2003",
+        "principal_rules_amended": "Uttarakhand Road Transport Accident Relief Fund Rules, 2008",
+        "effective_date": "Date of publication in Official Gazette",
+        "source_type": "State Government Notification",
+        "jurisdiction": "Uttarakhand",
+        "subject_category": "Road Accident Relief Fund",
+        "relevance_to_transport": true,
+        "keywords": [
+            "accident relief fund",
+            "road accident",
+            "compensation",
+            "district magistrate",
+            "relief distribution",
+            "public service vehicle"
+        ],
+        "amendments": [
+            {
+                "rule": "Rule 4 Title Amendment",
+                "change": "Heading 'Entitlement to Relief' replaced with 'Entitlement to Relief and Distribution of Relief Amount'."
+            },
+            {
+                "rule": "Rule 4 — New Sub-rule (3)",
+                "change": "New sub-rule added: District Magistrate of the district in whose jurisdiction the accident occurred, after ascertaining that the vehicle involved is a public service vehicle and the identity of persons entitled to relief has been established, shall immediately distribute the relief amount under sub-rule (2) of rule 4 in favour of entitled persons."
+            },
+            {
+                "rule": "Rule 8(3) — Initial Fund Distribution to Districts",
+                "existing": "Within 15 days of coming into force, Rs. 25 lakh placed at disposal of each District Magistrate by Transport Commissioner/Chairman Uttarakhand Road Transport Accident Relief Fund.",
+                "substituted": "Within 15 days of coming into force, Rs. 50 lakh placed at disposal of each District Magistrate by Transport Commissioner/Chairman Uttarakhand Road Transport Accident Relief Fund."
+            },
+            {
+                "rule": "Rule 8(6) — Investigation Scope",
+                "change": "Existing rule required District Magistrate to conduct inquiry to ascertain entitlement to relief and ensure disbursement. New rule: District Magistrate shall cause inquiry to identify causes of the accident and obtain suggestions for preventing recurrence of such accidents in future."
+            },
+            {
+                "rule": "Rule 8(8) — Re-allocation of Funds",
+                "existing": "On demand from District Magistrate, Transport Commissioner re-allocates such amount ensuring minimum Rs. 25 lakh balance in DM's savings account.",
+                "substituted": "On demand from District Magistrate, Transport Commissioner re-allocates such amount ensuring minimum Rs. 50 lakh balance in DM's savings account."
+            }
+        ],
+        "financial_impact": {
+            "district_level_minimum_corpus_old_inr": 2500000,
+            "district_level_minimum_corpus_new_inr": 5000000,
+            "currency": "INR",
+            "notes": "Minimum per-district accident relief corpus doubled from Rs. 25 lakh to Rs. 50 lakh."
+        }
+    }
+]

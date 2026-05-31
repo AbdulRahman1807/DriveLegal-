@@ -1,6 +1,13 @@
 from typing import List, Dict, Any
 from backend.schemas.retrieval import RetrievalResult, LegalChunk, FineResult, Citation
 
+def _brief_from_text(text: str, limit: int = 320) -> str:
+    clean = " ".join(text.split()).strip()
+    if len(clean) <= limit:
+        return clean
+    trimmed = clean[:limit].rsplit(" ", 1)[0]
+    return f"{trimmed}…"
+
 class FusionEngine:
     def fuse_results(self, sql_results: List[FineResult], bm25_results: List[LegalChunk]) -> RetrievalResult:
         """
@@ -27,12 +34,17 @@ class FusionEngine:
         
         citations = []
         for chunk in unique_chunks.values():
+            full_text = chunk.text or ""
             citations.append(Citation(
                 id=chunk.id,
                 act_name=chunk.act_name,
                 section=chunk.section_number,
                 clause=chunk.clause,
-                relevance_score=confidence
+                relevance_score=confidence,
+                brief=_brief_from_text(full_text) if full_text else None,
+                chapter=chunk.chapter,
+                source_url=chunk.source_url,
+                full_text=full_text or None,
             ))
             
         return RetrievalResult(

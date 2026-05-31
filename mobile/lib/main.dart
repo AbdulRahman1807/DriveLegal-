@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'screens/auth_screen.dart';
 import 'screens/chat_screen.dart';
+import 'services/api_service.dart';
+import 'theme/app_theme.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await ApiService.loadSession();
   runApp(const MainApp());
 }
 
@@ -13,12 +18,8 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       title: 'DriveLegal',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        brightness: Brightness.dark,
-        primaryColor: Colors.blueAccent,
-        useMaterial3: true,
-      ),
-      home: const ChatScreen(),
+      theme: DriveLegalTheme.dark(),
+      home: ApiService.isAuthenticated ? const ChatScreen() : const AuthScreen(),
     );
   }
 }

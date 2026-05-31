@@ -1,0 +1,596 @@
+{
+    "transport_department": {
+        "motor_vehicle_division": {
+            "overview": "Constituent part of the Transport Department, Government of Sikkim. Enforces and implements laws relating to the Motor Vehicles Act, 1988, Central Motor Vehicles Rules, 1989, Sikkim Motor Vehicle Rules, 1991, and the Sikkim Motor Vehicles (Taxation) Act, 1982.",
+            "business_functions": [
+                "Registration of motor vehicles",
+                "Issue of route permits to transport vehicles",
+                "Issue of driving licenses",
+                "Issue of fitness certificate",
+                "Collection of motor vehicle road tax",
+                "Meeting of State Transport Authority",
+                "Collection of Government revenue via fees from vehicle owners",
+                "Recommendation of countersignature of permit for Sikkim vehicles in West Bengal",
+                "Countersignature of permit to West Bengal public/stage/contract carriages under Reciprocal Transport Agreement",
+                "All matters relating to Inter-State Transport Arrangement",
+                "Enforcement of Motor Vehicles Act 1988, CMVR 1989, SMVR 1991, and Sikkim MV Taxation Act 1982",
+                "Control of all State Transport undertakings",
+                "Public service statutory rules",
+                "Transport Policy"
+            ]
+        },
+        "permits": {
+            "contract_carriage_permit": {
+                "series": "J",
+                "required_documents": [
+                    "Form SKV 33 with passport size photo",
+                    "Attested copy of Sikkim Subject Certificate / Certificate of Identification or Trade License / landed property documents",
+                    "Attested copy of Residential Certificate (residence in Sikkim prior to 1975)",
+                    "Unemployment Certificate and Local Employment Card copy",
+                    "Attested copy of Voter ID / Ration Card / Aadhaar / Driving License / Passport",
+                    "Parking Certificate from SP (urban areas)",
+                    "Certificate from Registering Authority / Sr. RTO for no prior permit",
+                    "Applicable identity documents for unmarried/married female applicants",
+                    "Affidavit undertaking to employ driver with Sikkim Subject Certificate / Certificate of Identification",
+                    "Bank Receipt of Rs. 100/- as Assurance Letter Fee (Head 0041: Taxes on Vehicles)"
+                ]
+            },
+            "local_taxi_permit": {
+                "series": "T",
+                "note": "Restricted in Gangtok and suburban areas till parking infrastructure improves",
+                "required_documents": [
+                    "Form SKV 38 with passport size photo",
+                    "Attested copy of Sikkim Subject Certificate / Certificate of Identification or Trade License / landed property documents",
+                    "Attested copy of Residential Certificate (residence in Sikkim prior to 1975)",
+                    "Unemployment Certificate and Local Employment Card copy",
+                    "Attested copy of Voter ID / Ration Card / Aadhaar / Driving License / Passport",
+                    "Parking Certificate from SP (urban areas)",
+                    "Certificate from Registering Authority / Sr. RTO for no prior permit",
+                    "Applicable identity documents for unmarried/married female applicants",
+                    "Affidavit undertaking to employ driver with Sikkim Subject Certificate / Certificate of Identification",
+                    "Bank Receipt of Rs. 100/- as Assurance Letter Fee (Head 0041: Taxes on Vehicles)"
+                ]
+            },
+            "goods_carrier_permit": {
+                "series": "D",
+                "required_documents": [
+                    "Form SKV 38 with passport size photo",
+                    "Attested copy of Sikkim Subject Certificate / Certificate of Identification or Trade License / landed property documents",
+                    "Attested copy of Residential Certificate (residence in Sikkim prior to 1975)",
+                    "Unemployment Certificate and Local Employment Card copy",
+                    "Attested copy of Voter ID / Ration Card / Aadhaar / Driving License / Passport",
+                    "Parking Certificate from SP (urban areas)",
+                    "Certificate from Registering Authority / Sr. RTO for no prior permit",
+                    "Applicable identity documents for unmarried/married female applicants",
+                    "Affidavit undertaking to employ driver with Sikkim Subject Certificate / Certificate of Identification",
+                    "Bank Receipt of Rs. 200/- as Assurance Letter Fee (Head 0041: Taxes on Vehicles)",
+                    "For Power Developers and Pharmaceutical Companies: Registration Certificate, Government Agreement, Work Order, Undertaking to employ local drivers (permits restricted to project sites)"
+                ]
+            },
+            "stage_carriage_permit": {
+                "series": "B",
+                "required_documents": [
+                    "Form SKV 38 with passport size photo",
+                    "Attested copy of Sikkim Subject Certificate / Certificate of Identification or Trade License / landed property documents",
+                    "Attested copy of Residential Certificate (residence in Sikkim prior to 1975)",
+                    "Unemployment Certificate and Local Employment Card copy",
+                    "Attested copy of Voter ID / Ration Card / Aadhaar / Driving License / Passport",
+                    "Parking Certificate from SP (urban areas)",
+                    "Certificate from Registering Authority / Sr. RTO for no prior permit",
+                    "Applicable identity documents for unmarried/married female applicants",
+                    "Affidavit undertaking to employ driver with Sikkim Subject Certificate / Certificate of Identification",
+                    "Bank Receipt of Rs. 200/- as Assurance Letter Fee (Head 0041: Taxes on Vehicles)",
+                    "For employee transport: Agreement copy between Company and applicant"
+                ]
+            },
+            "luxury_tourist_vehicle_permit": {
+                "series": "Z",
+                "applicable_to": "Travel agencies / hotels",
+                "required_documents": [
+                    "Form SKV-72 with countersigned passport size photo",
+                    "Attested copy of Certificate of Identification / Sikkim Subject Certificate / Trade License / landed property documents",
+                    "Parking Certificate from SP (urban areas)",
+                    "Applicable identity documents for unmarried/married female applicants",
+                    "Attested copy of Voter ID / Aadhaar / Ration Card / Driving License / Passport",
+                    "Signed undertaking with witness",
+                    "Registration certificate from Tourism Department (for travel agencies/hotels)",
+                    "Bank Receipt of Rs. 250/- as processing fee (Head 0041: Taxes on Vehicles)"
+                ]
+            }
+        },
+        "driving_license": {
+            "legal_basis": "Sections 1-11 of Motor Vehicles Act; Rules 3-21 of CMVR 1989; Rules 3-19 of SMVR 1991",
+            "issuing_offices": 4,
+            "software": "SARATHI (e-Governance Solution for Driving License and related activities)",
+            "license_types_issued": [
+                "Learner's License",
+                "Permanent Driving License",
+                "Conductor License",
+                "Driving School License"
+            ],
+            "categories": [
+                {
+                    "sl_no": 1,
+                    "category": "Motor cycle of special category",
+                    "age_limit": "16 years",
+                    "criteria": "Motor cycle with engine capacity not more than 50cc without gear. Application must be signed by applicant or guardian."
+                },
+                {
+                    "sl_no": 2,
+                    "category": "Private cars and motor cycles",
+                    "age_limit": "18 years",
+                    "criteria": "All light vehicles not used for carrying passengers/goods for hire."
+                },
+                {
+                    "sl_no": 3,
+                    "category": "Transport vehicles",
+                    "age_limit": "20 years",
+                    "criteria": "All buses, lorries, taxis, auto rickshaws, etc."
+                }
+            ]
+        },
+        "penalties": {
+            "legal_basis": "Sub-section (1) of Section 200 of the Motor Vehicles Act, 1988",
+            "notification": "No. 121/MV/T dated 29/07/2010",
+            "fines": [
+                {
+                    "section": "Section 41(8)(11)(13) read with Section 177",
+                    "1st_offence": 100,
+                    "2nd_offence": 300,
+                    "3rd_offence": 300
+                },
+                {
+                    "section": "177",
+                    "1st_offence": 100,
+                    "2nd_offence": 250,
+                    "3rd_offence": 300
+                },
+                {
+                    "section": "178(1)",
+                    "1st_offence": 300,
+                    "2nd_offence": 400,
+                    "3rd_offence": 500
+                },
+                {
+                    "section": "178(3)(a)",
+                    "1st_offence": 50,
+                    "2nd_offence": 50,
+                    "3rd_offence": 50
+                },
+                {
+                    "section": "178(3)(b)",
+                    "1st_offence": 200,
+                    "2nd_offence": 200,
+                    "3rd_offence": 200
+                },
+                {
+                    "section": "179(1)",
+                    "1st_offence": 450,
+                    "2nd_offence": 500,
+                    "3rd_offence": 500
+                },
+                {
+                    "section": "179(2)",
+                    "1st_offence": 450,
+                    "2nd_offence": 500,
+                    "3rd_offence": 500
+                },
+                {
+                    "section": "180",
+                    "1st_offence": 900,
+                    "2nd_offence": 1000,
+                    "3rd_offence": 1000
+                },
+                {
+                    "section": "181",
+                    "1st_offence": 450,
+                    "2nd_offence": 450,
+                    "3rd_offence": 500
+                },
+                {
+                    "section": "182(1)",
+                    "1st_offence": 450,
+                    "2nd_offence": 450,
+                    "3rd_offence": 500
+                },
+                {
+                    "section": "182(2)",
+                    "1st_offence": 100,
+                    "2nd_offence": 100,
+                    "3rd_offence": 100
+                },
+                {
+                    "section": "183(1)",
+                    "vehicle_types": [
+                        {
+                            "type": "Motor cab / auto rickshaw",
+                            "1st_offence": 700,
+                            "2nd_offence": 800,
+                            "3rd_offence": 900
+                        },
+                        {
+                            "type": "Stage carriage buses and mini buses",
+                            "1st_offence": 700,
+                            "2nd_offence": 800,
+                            "3rd_offence": 900
+                        },
+                        {
+                            "type": "Contract carriage buses / goods carriers",
+                            "1st_offence": 700,
+                            "2nd_offence": 800,
+                            "3rd_offence": 900
+                        },
+                        {
+                            "type": "Private cars / omnibuses / jeeps / others",
+                            "1st_offence": 700,
+                            "2nd_offence": 800,
+                            "3rd_offence": 900
+                        }
+                    ]
+                },
+                {
+                    "section": "183(2)",
+                    "vehicle_types": [
+                        {
+                            "type": "Motor cab / auto rickshaw",
+                            "1st_offence": 400,
+                            "2nd_offence": 500,
+                            "3rd_offence": 500
+                        },
+                        {
+                            "type": "Stage carriage buses and mini buses",
+                            "1st_offence": 400,
+                            "2nd_offence": 500,
+                            "3rd_offence": 500
+                        },
+                        {
+                            "type": "Contract carriage buses / goods carriers",
+                            "1st_offence": 400,
+                            "2nd_offence": 500,
+                            "3rd_offence": 500
+                        },
+                        {
+                            "type": "Private cars / omnibuses / jeeps / others",
+                            "1st_offence": 400,
+                            "2nd_offence": 500,
+                            "3rd_offence": 500
+                        }
+                    ]
+                },
+                {
+                    "section": "184",
+                    "vehicle_types": [
+                        {
+                            "type": "Motor cab / auto rickshaw",
+                            "1st_offence": 1000,
+                            "2nd_offence": 1500,
+                            "3rd_offence": 2000
+                        },
+                        {
+                            "type": "Stage carriage buses and mini buses",
+                            "1st_offence": 1000,
+                            "2nd_offence": 1500,
+                            "3rd_offence": 2000
+                        },
+                        {
+                            "type": "Contract carriage buses / goods carriers",
+                            "1st_offence": 1000,
+                            "2nd_offence": 1500,
+                            "3rd_offence": 2000
+                        },
+                        {
+                            "type": "Private cars / omnibuses / jeeps / others",
+                            "1st_offence": 1000,
+                            "2nd_offence": 1500,
+                            "3rd_offence": 2000
+                        }
+                    ]
+                },
+                {
+                    "section": "186",
+                    "1st_offence": 200,
+                    "2nd_offence": 300,
+                    "3rd_offence": 500
+                },
+                {
+                    "section": "189",
+                    "1st_offence": 450,
+                    "2nd_offence": 500,
+                    "3rd_offence": 500
+                },
+                {
+                    "section": "190(2)",
+                    "1st_offence": 1000,
+                    "2nd_offence": 1500,
+                    "3rd_offence": 2000
+                },
+                {
+                    "section": "191",
+                    "1st_offence": 450,
+                    "2nd_offence": 500,
+                    "3rd_offence": 500
+                },
+                {
+                    "section": "192 (excluding failure under Sec 47 and Sec 41(8)(11))",
+                    "vehicle_types": [
+                        {
+                            "type": "Motor cab / auto rickshaw",
+                            "1st_offence": 3000,
+                            "2nd_offence": 4000,
+                            "3rd_offence": 5000
+                        },
+                        {
+                            "type": "Stage carriage buses and mini buses",
+                            "1st_offence": 3000,
+                            "2nd_offence": 4000,
+                            "3rd_offence": 5000
+                        },
+                        {
+                            "type": "Contract carriage buses / goods carriers",
+                            "1st_offence": 3000,
+                            "2nd_offence": 4000,
+                            "3rd_offence": 5000
+                        },
+                        {
+                            "type": "Private cars / omnibuses / jeeps / others",
+                            "1st_offence": 3000,
+                            "2nd_offence": 4000,
+                            "3rd_offence": 5000
+                        }
+                    ]
+                },
+                {
+                    "section": "192 - Failure to obtain new Registration mark (Sec 47) or renew registration (Sec 41(8)(11))",
+                    "1st_offence": 3000,
+                    "2nd_offence": 4000,
+                    "3rd_offence": 5000
+                },
+                {
+                    "section": "192A",
+                    "1st_offence": 2000,
+                    "2nd_offence": 3000,
+                    "3rd_offence": 4000
+                },
+                {
+                    "section": "194 - Vehicle exceeding permissible weights",
+                    "base_fine": 2000,
+                    "weight_slabs": [
+                        {
+                            "excess_weight_kg": "Up to 500",
+                            "1st_offence": 3000,
+                            "2nd_offence": 3000,
+                            "3rd_offence": 4000
+                        },
+                        {
+                            "excess_weight_kg": "501–1500",
+                            "1st_offence": 4000,
+                            "2nd_offence": 5000,
+                            "3rd_offence": 5000
+                        },
+                        {
+                            "excess_weight_kg": "1501–2500",
+                            "1st_offence": 4000,
+                            "2nd_offence": 5000,
+                            "3rd_offence": 6000
+                        },
+                        {
+                            "excess_weight_kg": "2501–3500",
+                            "1st_offence": 5000,
+                            "2nd_offence": 6000,
+                            "3rd_offence": 7000
+                        },
+                        {
+                            "excess_weight_kg": "3501–4500",
+                            "1st_offence": 6000,
+                            "2nd_offence": 7000,
+                            "3rd_offence": 8000
+                        },
+                        {
+                            "excess_weight_kg": "4501–5500",
+                            "1st_offence": 7000,
+                            "2nd_offence": 8000,
+                            "3rd_offence": 9000
+                        },
+                        {
+                            "excess_weight_kg": "5501 and above",
+                            "1st_offence": 10000,
+                            "2nd_offence": 10000,
+                            "3rd_offence": 10000
+                        }
+                    ]
+                },
+                {
+                    "section": "194(2)",
+                    "1st_offence": 2500,
+                    "2nd_offence": 3000,
+                    "3rd_offence": 3000
+                },
+                {
+                    "section": "196",
+                    "1st_offence": 900,
+                    "2nd_offence": 1000,
+                    "3rd_offence": 1000
+                },
+                {
+                    "section": "198",
+                    "1st_offence": 100,
+                    "2nd_offence": 100,
+                    "3rd_offence": 100
+                }
+            ]
+        },
+        "pollution_control": {
+            "smoke_testing_units": 2,
+            "locations": [
+                "Gangtok",
+                "Jorethang"
+            ],
+            "policy": "Smoke test mandatory during fitness check. No fitness certificate issued to failing vehicles. Surprise checks by Motor Vehicles officials; PUC certificate demanded; defaulters fined."
+        },
+        "facilities": {
+            "SNT_booking_offices": {
+                "count": 13,
+                "locations": [
+                    "Gangtok",
+                    "Siliguri",
+                    "Jorethang",
+                    "Rangpo",
+                    "Namchi",
+                    "Rhenock",
+                    "Singtam",
+                    "Ravangla",
+                    "Gyalsing",
+                    "Mangan",
+                    "Chungthang",
+                    "Melli",
+                    "Sombaria"
+                ]
+            },
+            "amenities": [
+                "Canteen, STD booth, and pay & use toilets at Gangtok and Siliguri booking offices",
+                "Book stall at Gangtok booking office",
+                "Service schedules on notice boards at bus stations",
+                "Home Guards posted at Gangtok and Siliguri for commuter security",
+                "Insurance coverage for passengers traveling with valid tickets",
+                "Monthly lottery scheme: 1st prize Rs.15,000, 2nd Rs.10,000, 3rd Rs.5,000",
+                "Computerized Railway Out Agency at Gangtok SNT office",
+                "Manual reservation counter for rail journey at Jorethang"
+            ],
+            "ticket_cancellation_policy": {
+                "12_hours_before": "25% deduction",
+                "6_hours_before": "50% deduction",
+                "3_hours_before": "No refund"
+            }
+        },
+        "road_safety": {
+            "monitoring_body": "Committee on Road Safety, Supreme Court of India (constituted 2012)",
+            "nodal_department": "Transport Department",
+            "committees": [
+                {
+                    "name": "Road Safety Council",
+                    "head": "Hon'ble Minister, Transport Department",
+                    "notification": "No. 113/MV/T dated 13/05/2010"
+                },
+                {
+                    "name": "Road Safety Committee (District Level)",
+                    "notification": "112/MV/T dated 13/05/2010"
+                },
+                {
+                    "name": "Lead Agencies",
+                    "notification": "GOS/MVD/T/2015-16/Adm/199/670(ii) dated 27/07/2015"
+                }
+            ],
+            "road_safety_fund": {
+                "financial_year": "2015-16",
+                "amount_INR_lakhs": 13.93
+            },
+            "five_pillars": [
+                "Road Safety Management",
+                "Safer Roads and Mobility",
+                "Safer Vehicles",
+                "Safer Road Users",
+                "Post Crash Response"
+            ],
+            "actions_taken": [
+                "Road Safety Committee set up at State and District levels",
+                "Lead Agency notified (Police, Health, PWD, HRDD, Roads & Bridges, BRO, NGOs, Local Bodies)",
+                "Black Spots identified by Crime Branch, Police Department",
+                "Enforcement strengthened for drunken driving, over-speeding, red light jumping, helmet/seat belt",
+                "Road patrolling strengthened on National Highways",
+                "Traffic calming techniques directed (rumble strips, speed breakers, road signs)",
+                "Ban on alcohol sale on State/National Highways enforced",
+                "Notification issued for removal of obstructive hoardings",
+                "Budget head created for Road Safety in 2015-16",
+                "Road Safety Action Plan submitted to MoRTH in February 2015",
+                "Action for pedestrian path encroachment removal underway"
+            ]
+        },
+        "odd_even_notification": {
+            "notification_no": "58/TRANSPORT/2024",
+            "date": "24/10/2024",
+            "effective_from": "05/11/2024",
+            "legal_authority": "Section 115, Motor Vehicles Act, 1988",
+            "applicable_area": "National Highway, Mayfair Fatak to GICI Zero Point, Gangtok Municipal Area",
+            "restriction_timings": [
+                {
+                    "period": "Restriction",
+                    "from": "09:30",
+                    "to": "12:00"
+                },
+                {
+                    "period": "Exemption Window",
+                    "from": "12:00",
+                    "to": "15:30"
+                },
+                {
+                    "period": "Restriction",
+                    "from": "15:30",
+                    "to": "18:00"
+                }
+            ],
+            "rules": {
+                "odd_dates": "Vehicles with registration number ending in odd digit (1,3,5,7,9) permitted between 9:00–12:30 and 15:30–18:00",
+                "even_dates": "Vehicles with registration number ending in even digit (0,2,4,6,8) permitted between 9:00–12:30 and 15:30–18:00"
+            },
+            "exemptions_from_restriction": [
+                "Feeder roads within Gangtok Municipal area",
+                "Indira Bye-Pass and Northern Bye-Pass roads",
+                "2nd and 4th Saturdays, Sundays, and Government Holidays"
+            ],
+            "penalty_for_violation": "As per Section 177 and Section 179(1) of the Motor Vehicles Act, 1988",
+            "signed_by": "V. B. Pathak, IAS, Chief Secretary, Government of Sikkim",
+            "emergency_exemptions": [
+                {
+                    "sl_no": 1,
+                    "category": "Ambulance",
+                    "exemption": "All Emergency Ambulance Services"
+                },
+                {
+                    "sl_no": 2,
+                    "category": "Police Personnel",
+                    "exemption": "On official duty with valid ID card"
+                },
+                {
+                    "sl_no": 3,
+                    "category": "Fire Tenders",
+                    "exemption": "Fire personnel in uniform with valid ID card"
+                },
+                {
+                    "sl_no": 4,
+                    "category": "Essential Services",
+                    "exemption": "Power, water, sewerage, telecom, medical vehicles with Red Exemption Sticker from Home Department"
+                },
+                {
+                    "sl_no": 5,
+                    "category": "Government Vehicles",
+                    "exemption": "Vehicles of Additional Secretary and above with Red Exemption Sticker from Home Department"
+                },
+                {
+                    "sl_no": 6,
+                    "category": "Tourist vehicles registered outside State",
+                    "exemption": "Self-driven private vehicles with valid residential proof from outside State"
+                },
+                {
+                    "sl_no": 7,
+                    "category": "Media Personnel",
+                    "exemption": "Accredited with IPR Department with valid ID card"
+                },
+                {
+                    "sl_no": 8,
+                    "category": "2-wheelers and taxis registered in the State",
+                    "exemption": "All such vehicles"
+                },
+                {
+                    "sl_no": 9,
+                    "category": "Marriage",
+                    "exemption": "Maximum 4 private vehicles; Special Pass from ASP Traffic (9319564241 / 8145486215)"
+                },
+                {
+                    "sl_no": 10,
+                    "category": "Funeral procession",
+                    "exemption": "Maximum 10 private vehicles; Special Pass from ASP Traffic (9319564241 / 8145486215)"
+                }
+            ]
+        }
+    }
+}

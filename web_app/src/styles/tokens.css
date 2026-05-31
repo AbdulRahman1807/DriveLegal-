@@ -1,0 +1,29 @@
+/* DriveLegal — Premium pearl / platinum design tokens */
+
+:root {
+  --dl-pearl: #fafbfc;
+  --dl-pearl-soft: #f4f5f7;
+  --dl-silver: #e8eaef;
+  --dl-platinum: #d1d5db;
+  --dl-charcoal: #3f3f46;
+  --dl-graphite: #27272a;
+  --dl-graphite-deep: #18181b;
+  --dl-muted: #71717a;
+  --dl-slate: #64748b;
+  --dl-blue-grey: #5b6b7c;
+
+  --dl-glass: rgba(255, 255, 255, 0.72);
+  --dl-glass-strong: rgba(255, 255, 255, 0.88);
+  --dl-glass-border: rgba(255, 255, 255, 0.85);
+  --dl-border: rgba(15, 23, 42, 0.08);
+  --dl-border-strong: rgba(15, 23, 42, 0.12);
+
+  --dl-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04), 0 4px 16px rgba(15, 23, 42, 0.06);
+  --dl-shadow-md: 0 4px 24px rgba(15, 23, 42, 0.08), 0 12px 48px rgba(15, 23, 42, 0.06);
+  --dl-shadow-lg: 0 8px 32px rgba(15, 23, 42, 0.1), 0 24px 64px rgba(15, 23, 42, 0.08);
+
+  --dl-blur: blur(20px);
+  --dl-blur-heavy: blur(40px);
+
+  --dl-font: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}

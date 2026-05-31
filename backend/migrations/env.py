@@ -25,6 +25,23 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 from backend.config import settings
 from backend.models import Base
 
+# Register SQLite compilations for PostgreSQL types to support SQLite migrations
+from sqlalchemy.ext.compiler import compiles
+from sqlalchemy.dialects.postgresql import JSONB, TSVECTOR
+from pgvector.sqlalchemy import Vector
+
+@compiles(JSONB, "sqlite")
+def compile_jsonb_sqlite(type_, compiler, **kw):
+    return "JSON"
+
+@compiles(TSVECTOR, "sqlite")
+def compile_tsvector_sqlite(type_, compiler, **kw):
+    return "TEXT"
+
+@compiles(Vector, "sqlite")
+def compile_vector_sqlite(type_, compiler, **kw):
+    return "TEXT"
+
 target_metadata = Base.metadata
 config.set_main_option("sqlalchemy.url", settings.DATABASE_URL)
 

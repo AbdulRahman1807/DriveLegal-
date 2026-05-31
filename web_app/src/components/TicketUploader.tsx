@@ -94,7 +94,7 @@ export default function TicketUploader({ onAnalysisComplete }: TicketUploaderPro
         type="button"
         onClick={() => fileInputRef.current?.click()}
         disabled={isScanning}
-        className="p-2 text-gray-400 hover:text-white bg-white/5 rounded-full hover:bg-white/10 transition-all border border-white/10"
+        className="p-2 text-[#71717a] hover:text-[#18181b] bg-[rgba(255,255,255,0.55)] rounded-[12px] border border-[rgba(15,23,42,0.08)] hover:border-[rgba(15,23,42,0.14)] hover:bg-white transition-all disabled:opacity-50"
         title="Upload e-Challan"
       >
         {isScanning ? (

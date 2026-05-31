@@ -17,6 +17,7 @@ class Settings(BaseSettings):
     
     # Security
     SECRET_KEY: str
+    MASTER_API_KEY: str = "drivelegal-secret-dev-key"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 15
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
     

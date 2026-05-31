@@ -1,68 +1,100 @@
-import React, { useState, useEffect } from 'react';
+'use client';
+
+import { useEffect, useRef, useState } from 'react';
+import { Mic, MicOff } from 'lucide-react';
+import styles from './VoiceInput.module.css';
 
 interface VoiceInputProps {
   onTranscription: (text: string) => void;
+  onRecordingChange?: (recording: boolean) => void;
+  variant?: 'icon' | 'prominent';
+  disabled?: boolean;
 }
 
-export default function VoiceInput({ onTranscription }: VoiceInputProps) {
+export default function VoiceInput({
+  onTranscription,
+  onRecordingChange,
+  variant = 'icon',
+  disabled = false,
+}: VoiceInputProps) {
   const [isRecording, setIsRecording] = useState(false);
-  const [recognition, setRecognition] = useState<any>(null);
+  const [supported, setSupported] = useState(true);
+  const recognitionRef = useRef<SpeechRecognition | null>(null);
+  const onTranscriptionRef = useRef(onTranscription);
+  const onRecordingChangeRef = useRef(onRecordingChange);
 
   useEffect(() => {
-    // Check for browser support
-    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
-    if (SpeechRecognition) {
-      const rec = new SpeechRecognition();
-      rec.continuous = false;
-      rec.interimResults = false;
-      rec.lang = 'en-IN'; // Default to Indian English
+    onTranscriptionRef.current = onTranscription;
+    onRecordingChangeRef.current = onRecordingChange;
+  }, [onTranscription, onRecordingChange]);
 
-      rec.onresult = (event: any) => {
-        const transcript = event.results[0][0].transcript;
-        onTranscription(transcript);
-        setIsRecording(false);
-      };
+  useEffect(() => {
+    const SpeechRecognitionCtor =
+      window.SpeechRecognition || (window as unknown as { webkitSpeechRecognition?: typeof SpeechRecognition }).webkitSpeechRecognition;
 
-      rec.onerror = (event: any) => {
-        console.error("Speech recognition error", event.error);
-        setIsRecording(false);
-      };
-
-      rec.onend = () => {
-        setIsRecording(false);
-      };
-
-      setRecognition(rec);
+    if (!SpeechRecognitionCtor) {
+      setSupported(false);
+      return;
     }
-  }, [onTranscription]);
+
+    const rec = new SpeechRecognitionCtor();
+    rec.continuous = false;
+    rec.interimResults = false;
+    rec.lang = 'en-IN';
+
+    rec.onresult = (event: SpeechRecognitionEvent) => {
+      const transcript = event.results[0]?.[0]?.transcript;
+      if (transcript) {
+        onTranscriptionRef.current(transcript);
+      }
+      setIsRecording(false);
+      onRecordingChangeRef.current?.(false);
+    };
+
+    rec.onerror = () => {
+      setIsRecording(false);
+      onRecordingChangeRef.current?.(false);
+    };
+
+    rec.onend = () => {
+      setIsRecording(false);
+      onRecordingChangeRef.current?.(false);
+    };
+
+    recognitionRef.current = rec;
+  }, []);
 
   const toggleRecording = () => {
-    if (!recognition) {
-      alert("Voice input is not supported in this browser.");
+    const rec = recognitionRef.current;
+    if (!rec) {
+      alert('Voice input is not supported in this browser. Try Chrome or Safari.');
       return;
     }
 
     if (isRecording) {
-      recognition.stop();
-    } else {
-      recognition.start();
-      setIsRecording(true);
+      rec.stop();
+      setIsRecording(false);
+      onRecordingChangeRef.current?.(false);
+      return;
     }
+
+    rec.start();
+    setIsRecording(true);
+    onRecordingChangeRef.current?.(true);
   };
 
-  if (!recognition) {
-    // BUG-U2: Provide fallback UX instead of disappearing silently
+  if (variant === 'prominent') {
     return (
       <button
         type="button"
-        disabled
-        className="p-2 rounded-full transition-all border bg-gray-500/10 text-gray-600 border-gray-500/20 cursor-not-allowed"
-        title="Voice input requires Chrome or Safari."
+        onClick={toggleRecording}
+        disabled={disabled || !supported}
+        className={`${styles.prominentBtn} ${isRecording ? styles.prominentActive : ''}`}
+        title={supported ? (isRecording ? 'Stop listening' : 'Talk to Shield') : 'Voice requires Chrome or Safari'}
+        aria-pressed={isRecording}
       >
-        <svg className="w-5 h-5 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
-          <line x1="4" y1="4" x2="20" y2="20" strokeWidth={2} />
-        </svg>
+        {isRecording ? <MicOff size={20} /> : <Mic size={20} />}
+        <span>{isRecording ? 'Listening…' : 'Ask Shield'}</span>
       </button>
     );
   }
@@ -71,16 +103,12 @@ export default function VoiceInput({ onTranscription }: VoiceInputProps) {
     <button
       type="button"
       onClick={toggleRecording}
-      className={`p-2 rounded-full transition-all border ${
-        isRecording 
-          ? 'bg-red-500/20 text-red-400 border-red-500/50 animate-pulse' 
-          : 'bg-white/5 text-gray-400 border-white/10 hover:bg-white/10 hover:text-white'
-      }`}
-      title={isRecording ? "Stop Recording" : "Start Voice Input"}
+      disabled={disabled || !supported}
+      className={`${styles.iconBtn} ${isRecording ? styles.iconActive : ''}`}
+      title={supported ? (isRecording ? 'Stop recording' : 'Voice input') : 'Voice requires Chrome or Safari'}
+      aria-pressed={isRecording}
     >
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
-      </svg>
+      <Mic size={20} />
     </button>
   );
 }

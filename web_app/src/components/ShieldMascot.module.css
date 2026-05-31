@@ -1,0 +1,243 @@
+.mascotWrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.compact {
+  flex-direction: row;
+  gap: 0.85rem;
+  width: 100%;
+  padding: 0.85rem 1rem;
+  background: var(--dl-glass-strong);
+  backdrop-filter: var(--dl-blur);
+  -webkit-backdrop-filter: var(--dl-blur);
+  border: 1px solid var(--dl-glass-border);
+  border-radius: 14px;
+  box-shadow: var(--dl-shadow-sm);
+  align-items: center;
+}
+
+.speechBubble {
+  position: relative;
+  background: var(--dl-glass-strong);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--dl-border-strong);
+  border-radius: 16px;
+  padding: 1rem 1.15rem;
+  box-shadow: var(--dl-shadow-md);
+  animation: bubbleIn 0.45s ease-out;
+}
+
+.hero .speechBubble {
+  flex: 1;
+  max-width: 300px;
+  min-width: 0;
+}
+
+.hero .speechBubble::after {
+  content: '';
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid var(--dl-border-strong);
+}
+
+.hero .speechBubble::before {
+  content: '';
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid rgba(255, 255, 255, 0.92);
+  z-index: 1;
+}
+
+.compact .speechBubble {
+  flex: 1;
+  min-width: 0;
+}
+
+.compact .speechBubble::after {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid var(--dl-border-strong);
+}
+
+.compact .speechBubble::before {
+  content: '';
+  position: absolute;
+  left: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 6px solid rgba(255, 255, 255, 0.92);
+  z-index: 1;
+}
+
+.speechText {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--dl-charcoal);
+}
+
+.compact .speechText {
+  font-size: 0.82rem;
+}
+
+.speechName {
+  color: var(--dl-graphite-deep);
+  font-weight: 700;
+}
+
+.speechCursor {
+  display: inline-block;
+  width: 2px;
+  height: 0.9em;
+  background: var(--dl-slate);
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  animation: blink 0.9s step-end infinite;
+}
+
+.heroWelcome {
+  text-align: left;
+}
+
+.heroGreeting {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dl-graphite-deep);
+}
+
+.heroLead {
+  margin: 0 0 0.35rem;
+  font-size: 0.78rem;
+  color: var(--dl-muted);
+}
+
+.heroList {
+  margin: 0 0 0.55rem;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem 0.5rem;
+}
+
+.heroList li {
+  font-size: 0.78rem;
+  color: var(--dl-charcoal);
+  padding-left: 1rem;
+  position: relative;
+}
+
+.heroList li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--dl-slate);
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+
+.heroPrompt {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--dl-blue-grey);
+  font-weight: 600;
+}
+
+@keyframes bubbleIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+
+  .hero .speechBubble {
+    max-width: 100%;
+    order: 2;
+  }
+
+  .hero .speechBubble::after,
+  .hero .speechBubble::before {
+    right: auto;
+    left: 50%;
+    top: -8px;
+    transform: translateX(-50%);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid var(--dl-border-strong);
+    border-top: none;
+  }
+
+  .hero .speechBubble::before {
+    top: -6px;
+    border-bottom-color: rgba(255, 255, 255, 0.92);
+  }
+
+  .heroList {
+    grid-template-columns: 1fr;
+  }
+
+  .compact {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .compact .speechBubble::after,
+  .compact .speechBubble::before {
+    left: 50%;
+    top: -8px;
+    transform: translateX(-50%);
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-bottom: 8px solid var(--dl-border-strong);
+    border-top: none;
+  }
+
+  .compact .speechBubble::before {
+    top: -6px;
+    border-bottom-color: rgba(255, 255, 255, 0.92);
+  }
+}

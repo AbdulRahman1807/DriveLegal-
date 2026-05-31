@@ -1,0 +1,533 @@
+{
+    "drivelegal_operational_procedures": {
+        "meta": {
+            "version": "1.0.0",
+            "generated_for": "DRIVELEGAL HHA-VRAG+ Legal Retrieval System",
+            "generated_date": "2026-05-30",
+            "document_title": "Traffic Direction and Control — Standard Operating Procedures",
+            "document_type": "ENFORCEMENT_MANUAL",
+            "jurisdiction": "General — Traffic Law Enforcement",
+            "country": "DATA_NOT_AVAILABLE",
+            "issuing_authority": "DATA_NOT_AVAILABLE",
+            "effective_date": "DATA_NOT_AVAILABLE",
+            "source": "Uploaded PDF — Traffic Direction and Control",
+            "data_quality_notes": "Procedural/operational manual. No fines or citation numbers. Useful for enforcement knowledge base and AI advisor context."
+        },
+        "sections": [
+            {
+                "section_id": "TDC-A",
+                "section_code": "A",
+                "title": "Traffic Direction and Control — General",
+                "rules": [
+                    {
+                        "rule_id": "TDC-A-1",
+                        "description": "Standardized methods of traffic control are more effective and result in improved public relations.",
+                        "sub_rules": [
+                            {
+                                "sub_id": "TDC-A-1a",
+                                "description": "For safety and to best observe traffic flow, the center of an intersection is often the best officer position."
+                            },
+                            {
+                                "sub_id": "TDC-A-1b",
+                                "description": "When regulating foot traffic or at complex intersections where full manual control is not necessary, the officer should be in the best position to observe approaching traffic. A motorist may fail to obey hand signals if unable to see the officer."
+                            }
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-A-2",
+                        "description": "Employees will wear a reflective safety vest whenever in the roadway directing or controlling traffic. Wearing the helmet is at the discretion of the officer except when directed by a supervisor. Reflective vests are issued and will be carried at all times.",
+                        "keywords": [
+                            "reflective vest",
+                            "safety vest",
+                            "officer safety",
+                            "directing traffic"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-A-3",
+                        "description": "When hazardous situations develop, a supervisor will direct establishment of a manual traffic control point if needed. For special events, the supervisor may issue directed patrol assignments for manual intersection control. Manual control shall not be used when an existing automatic control device will alleviate the problem.",
+                        "keywords": [
+                            "manual control",
+                            "traffic control point",
+                            "supervisor",
+                            "special event",
+                            "automatic control"
+                        ]
+                    }
+                ]
+            },
+            {
+                "section_id": "TDC-B",
+                "section_code": "B",
+                "title": "Manual Operation of Traffic Control Devices",
+                "rules": [
+                    {
+                        "rule_id": "TDC-B-1",
+                        "description": "Manual operation of traffic control signal lights is normally done to recycle a signal or place it on flash. Other situations requiring manual operation include:",
+                        "sub_rules": [
+                            {
+                                "sub_id": "TDC-B-1a",
+                                "description": "When the traffic light malfunctions."
+                            },
+                            {
+                                "sub_id": "TDC-B-1b",
+                                "description": "To facilitate movement at traffic accidents or other emergencies."
+                            },
+                            {
+                                "sub_id": "TDC-B-1c",
+                                "description": "To provide uninterrupted movement for a motorcade, funeral procession, etc."
+                            },
+                            {
+                                "sub_id": "TDC-B-1d",
+                                "description": "To alleviate congestion resulting from use of automatic controls, particularly during planned special events."
+                            }
+                        ],
+                        "keywords": [
+                            "signal light",
+                            "manual operation",
+                            "traffic signal malfunction",
+                            "motorcade",
+                            "funeral procession"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-B-2",
+                        "description": "When manually operating traffic control signals due to congestion in all four directions, employees will:",
+                        "procedure_steps": [
+                            "Stop traffic in all directions.",
+                            "Place the traffic control signal on four-way flash.",
+                            "Direct traffic from within the intersection until congestion is alleviated."
+                        ],
+                        "keywords": [
+                            "four-way congestion",
+                            "four-way flash",
+                            "manual signal operation"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-B-3",
+                        "description": "When manually operating due to congestion on one street, employees will:",
+                        "procedure_steps": [
+                            "Place the traffic signal box switch on 'manual' and run traffic for an extended period in one direction.",
+                            "Switch to the other direction for shorter periods until congestion is alleviated."
+                        ],
+                        "keywords": [
+                            "one-way congestion",
+                            "manual traffic signal",
+                            "congestion management"
+                        ]
+                    }
+                ]
+            },
+            {
+                "section_id": "TDC-C",
+                "section_code": "C",
+                "title": "Hand Signals",
+                "rules": [
+                    {
+                        "rule_id": "TDC-C-1",
+                        "description": "It is essential that road users know the officer is present and directing traffic.",
+                        "keywords": [
+                            "hand signals",
+                            "officer visibility"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-C-2",
+                        "description": "Employees will use approved traffic direction and control methods to ensure standardized techniques.",
+                        "keywords": [
+                            "standardized hand signals",
+                            "traffic direction methods"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-C-3",
+                        "description": "Orders or direction to a motorist or pedestrian should never be vocal except in an emergency. Simple hand signals clearly visible and readily understandable, emphasized by whistle, will conform to:",
+                        "sub_rules": [
+                            {
+                                "sub_id": "TDC-C-3a",
+                                "description": "The officer should stand facing one line of stopped traffic with their side toward moving traffic. Any mechanical signals should be turned off if possible, as hand signals combined with traffic signals cause confusion."
+                            },
+                            {
+                                "sub_id": "TDC-C-3b",
+                                "description": "The manual 'stop' signal should be given while standing sideways to the flow of traffic, preceded by one blast of the whistle.",
+                                "sub_sub_rules": [
+                                    "Speed and distance should be carefully considered so vehicles can stop safely.",
+                                    "A 'stop' signal will be given when vehicles approach an intersection where cross traffic has right-of-way if there are no other stopped vehicles."
+                                ]
+                            },
+                            {
+                                "sub_id": "TDC-C-3c",
+                                "description": "The employee maintains arms in the 'stop' signal position and turns at right angles so their side faces the traffic to be started. When clear, the officer turns their head to one direction giving the 'go' signal then to the opposite direction with a similar gesture."
+                            },
+                            {
+                                "sub_id": "TDC-C-3d",
+                                "description": "The 'go' signal need not be continuously repeated for a steady stream of vehicles, but vehicles approaching after a gap in traffic flow should be signaled."
+                            }
+                        ],
+                        "keywords": [
+                            "stop signal",
+                            "go signal",
+                            "hand signal procedure",
+                            "officer positioning"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-C-4",
+                        "title": "Using the Whistle",
+                        "sub_rules": [
+                            {
+                                "sub_id": "TDC-C-4a",
+                                "description": "One whistle blast is used with the manual 'stop' signal; two blasts with the 'go' signal."
+                            },
+                            {
+                                "sub_id": "TDC-C-4b",
+                                "description": "Short rapid whistle blasts warn of unusual or hazardous conditions or to attract attention from persons not responding to hand signals."
+                            }
+                        ],
+                        "keywords": [
+                            "whistle signal",
+                            "one blast stop",
+                            "two blast go",
+                            "rapid whistle hazard"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-C-5",
+                        "description": "Vehicles should not be allowed to enter intersections they cannot clear because of congestion immediately beyond.",
+                        "keywords": [
+                            "blocking intersection",
+                            "box junction",
+                            "congestion intersection"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-C-6",
+                        "description": "Advantage should be taken of gaps in one moving line of traffic to stop the flow and start cross traffic moving.",
+                        "keywords": [
+                            "traffic gap",
+                            "cross traffic",
+                            "traffic flow management"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-C-7",
+                        "description": "Left turns at an intersection controlled by an officer are at the employee's discretion based on traffic volume and conditions, unless otherwise directed by a supervisor.",
+                        "keywords": [
+                            "left turn",
+                            "officer discretion",
+                            "intersection left turn"
+                        ]
+                    }
+                ]
+            },
+            {
+                "section_id": "TDC-D",
+                "section_code": "D",
+                "title": "Emergency Vehicles Approaching",
+                "rules": [
+                    {
+                        "rule_id": "TDC-D-1",
+                        "description": "Emergency vehicles may have to be directed through an intersection. All vehicular and pedestrian traffic will be stopped for the emergency vehicle to proceed.",
+                        "keywords": [
+                            "emergency vehicle",
+                            "ambulance",
+                            "fire truck",
+                            "clear intersection"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-D-2",
+                        "description": "If the driver of an emergency vehicle signals a turn, the officer should acknowledge by motioning in the proper direction.",
+                        "keywords": [
+                            "emergency vehicle turn",
+                            "officer acknowledgment"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-D-3",
+                        "description": "The officer should check to ensure another emergency vehicle is not approaching on a conflicting course. In such circumstance, a very distinct 'stop' signal will be given to one of the vehicles.",
+                        "keywords": [
+                            "conflicting emergency vehicles",
+                            "two ambulances",
+                            "stop signal emergency"
+                        ]
+                    }
+                ]
+            },
+            {
+                "section_id": "TDC-E",
+                "section_code": "E",
+                "title": "Violations Observed While Directing Traffic",
+                "rules": [
+                    {
+                        "rule_id": "TDC-E-1",
+                        "description": "If minor traffic violations are observed while directing traffic, they should be overlooked. If the violation is serious, the driver will be instructed to pull clear of the intersection to the nearest curb for proper enforcement action when feasible.",
+                        "keywords": [
+                            "minor violation",
+                            "serious violation",
+                            "enforcement action",
+                            "directing traffic violation"
+                        ]
+                    }
+                ]
+            },
+            {
+                "section_id": "TDC-F",
+                "section_code": "F",
+                "title": "Special Events",
+                "rules": [
+                    {
+                        "rule_id": "TDC-F-1",
+                        "description": "Special contingency plans will be prepared for all planned major special events.",
+                        "contingency_plan_elements": [
+                            "Entrance and exit of vehicles and pedestrians",
+                            "Provisions for parking and spectator control",
+                            "Public transportation arrangements",
+                            "Assignment of point control duties and relief",
+                            "Alternate traffic routing",
+                            "Temporary traffic controls and parking prohibitions",
+                            "Emergency vehicle access",
+                            "Appropriate media coverage of such plans"
+                        ],
+                        "keywords": [
+                            "special event traffic",
+                            "contingency plan",
+                            "event parking",
+                            "alternate route",
+                            "emergency access"
+                        ]
+                    }
+                ]
+            },
+            {
+                "section_id": "TDC-G",
+                "section_code": "G",
+                "title": "Fire Scenes",
+                "rules": [
+                    {
+                        "rule_id": "TDC-G-1",
+                        "description": "No vehicles, including those of volunteer firemen, are allowed to drive into the block where fire apparatus is parked and operating.",
+                        "keywords": [
+                            "fire scene",
+                            "fire apparatus",
+                            "vehicle restriction fire"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-G-2",
+                        "description": "No vehicles are allowed to drive over fire hoses without the approval of the on-scene fire commander.",
+                        "keywords": [
+                            "fire hose",
+                            "driving over hose",
+                            "fire commander approval"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-G-3",
+                        "description": "In case of a fire at a facility such as a hospital, no vehicles including volunteer firemen will be allowed on the grounds.",
+                        "keywords": [
+                            "hospital fire",
+                            "fire at hospital",
+                            "vehicle restriction hospital fire"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-G-4",
+                        "description": "The exceptions to the rules above will be life-saving vehicles on actual calls for service.",
+                        "keywords": [
+                            "exception life saving vehicle",
+                            "ambulance fire scene"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-G-5",
+                        "description": "Parked vehicles that interfere with fire operations may be towed.",
+                        "keywords": [
+                            "vehicle towed",
+                            "fire obstruction",
+                            "towing fire scene"
+                        ]
+                    }
+                ]
+            },
+            {
+                "section_id": "TDC-H",
+                "section_code": "H",
+                "title": "Helicopter Landing Zones",
+                "rules": [
+                    {
+                        "rule_id": "TDC-H-1",
+                        "description": "When helicopters land for ambulance service, responsibility for the safety of the helicopter falls on the police department.",
+                        "keywords": [
+                            "helicopter landing",
+                            "air ambulance",
+                            "police responsibility helicopter"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-H-2",
+                        "description": "The supervisor or on-scene officer will coordinate security of the landing site with the on-scene fire commander.",
+                        "keywords": [
+                            "landing site security",
+                            "helicopter coordination",
+                            "fire commander"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-H-3",
+                        "description": "Alleys and private drives on side streets that may not normally be blocked on an arterial accident are given special consideration.",
+                        "keywords": [
+                            "alley",
+                            "private drive",
+                            "side street helicopter"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-H-4",
+                        "description": "A safe zone of at least 50 feet should be maintained around the helicopter where no persons will be allowed to enter except emergency personnel.",
+                        "safe_zone_feet": 50,
+                        "keywords": [
+                            "helicopter safe zone",
+                            "50 feet",
+                            "exclusion zone",
+                            "emergency personnel only"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-H-5",
+                        "description": "The Fire Department is responsible for landing and communicating with the helicopter.",
+                        "keywords": [
+                            "fire department helicopter",
+                            "helicopter communication",
+                            "landing responsibility"
+                        ]
+                    }
+                ]
+            },
+            {
+                "section_id": "TDC-I",
+                "section_code": "I",
+                "title": "Adverse Road and Weather Conditions",
+                "rules": [
+                    {
+                        "rule_id": "TDC-I-1",
+                        "description": "The Patrol shift commander will ensure notification is given to any agency or group that may be affected by or needed to help control traffic or road conditions to prevent injury or further damage.",
+                        "keywords": [
+                            "adverse weather",
+                            "road condition",
+                            "shift commander",
+                            "agency notification"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-I-2",
+                        "description": "The shift commander may contact news media, Traffic Engineering, Public Works or other departments for assistance.",
+                        "keywords": [
+                            "media contact",
+                            "Traffic Engineering",
+                            "Public Works",
+                            "weather assistance"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-I-3",
+                        "description": "Supervisors may close roads or streets if existing conditions pose a hazard. If streets may be closed for an extended period, a media release may be prepared to announce the closings.",
+                        "keywords": [
+                            "road closure",
+                            "street closure",
+                            "hazard",
+                            "media release",
+                            "road closed"
+                        ]
+                    }
+                ]
+            },
+            {
+                "section_id": "TDC-J",
+                "section_code": "J",
+                "title": "Temporary Traffic Control Devices",
+                "rules": [
+                    {
+                        "rule_id": "TDC-J-1",
+                        "description": "Temporary traffic control devices will normally only be used with supervisor approval to control traffic during special events or key signal light malfunctions. Cones are located in Patrol cars; barricades or signs may be requested from Public Works. Supervisors will ensure return of all signs when no longer required.",
+                        "keywords": [
+                            "cones",
+                            "barricades",
+                            "temporary signs",
+                            "supervisor approval",
+                            "signal malfunction"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-J-2",
+                        "description": "Temporary devices may be used to augment personnel controlling traffic in problem areas or emergency locations arising from severe weather or flooding.",
+                        "keywords": [
+                            "flooding",
+                            "severe weather",
+                            "temporary device",
+                            "emergency location"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-J-3",
+                        "description": "The use of temporary stop signs will be limited to key intersections where a traffic signal has failed completely. Traffic signals placed on four-way flash are preferred over temporary stop signs.",
+                        "keywords": [
+                            "temporary stop sign",
+                            "failed signal",
+                            "four-way flash",
+                            "signal failure"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-J-4",
+                        "description": "When portable traffic signs are required, employees will request assistance from the Street Department through Communications.",
+                        "keywords": [
+                            "portable signs",
+                            "Street Department",
+                            "Communications"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-J-5",
+                        "description": "The traffic signal will be placed on four-way flash when temporary signs are in place to avoid confusion.",
+                        "keywords": [
+                            "four-way flash",
+                            "temporary signs",
+                            "avoid confusion"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-J-6",
+                        "description": "Employees will ensure that street obstructions and hazards have proper barricades and signs.",
+                        "keywords": [
+                            "street obstruction",
+                            "hazard",
+                            "barricades",
+                            "warning signs"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-J-7",
+                        "description": "If a situation causes a traffic problem or danger, employees will take control of traffic until the necessary barricades are in place.",
+                        "keywords": [
+                            "traffic control",
+                            "danger",
+                            "barricades in place"
+                        ]
+                    },
+                    {
+                        "rule_id": "TDC-J-8",
+                        "description": "When a construction company is unable to supply necessary equipment to warn the public, employees will contact the Street Department and request necessary barricades.",
+                        "keywords": [
+                            "construction",
+                            "barricades",
+                            "Street Department",
+                            "public warning"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

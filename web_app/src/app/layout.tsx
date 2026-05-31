@@ -1,38 +1,23 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
+import { AuthProvider } from '@/services/AuthContext';
 
 export const viewport: Viewport = {
-  themeColor: '#0a0a0c',
+  themeColor: '#ffffff',
 };
 
 export const metadata: Metadata = {
   title: 'DriveLegal | Indian Traffic Law AI',
-  description: 'AI-powered traffic law advisor for the Indian Motor Vehicles Act. Get instant legal citations, fine calculations, and compliance checks.',
+  description:
+    'AI-powered traffic law advisor for the Indian Motor Vehicles Act.',
   manifest: '/manifest.json',
-  appleWebApp: {
-    capable: true,
-    statusBarStyle: 'black-translucent',
-    title: 'DriveLegal',
-  },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-      </head>
       <body suppressHydrationWarning>
-        <div className="app-container">
-          <header>
-            <h1>DriveLegal</h1>
-          </header>
-          {children}
-        </div>
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   );

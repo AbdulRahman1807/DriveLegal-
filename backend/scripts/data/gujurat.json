@@ -1,0 +1,603 @@
+{
+    "gujarat_transport_penalty_structure": {
+        "metadata": {
+            "title": "Penalty Structure — Commissionerate of Transport, Government of Gujarat",
+            "source_url": "https://rtogujarat.gov.in/penalty_structure.php",
+            "authority": "Commissionerate of Transport, Government of Gujarat",
+            "page_last_updated": "5/2/2026",
+            "copyright": "Copyright 2023 Commissionerate of Transport, Government of Gujarat"
+        },
+        "enforcing_officers": {
+            "motor_vehicle_department": "Officers of the Motor Vehicle Department of and above the rank of Assistant Inspector of Motor Vehicles on checking duty.",
+            "police_department": "Officers of the police department of and above the rank of Head Constable of Police in all cities and municipal towns when performing traffic regulation duties."
+        },
+        "penalties": [
+            {
+                "sr_no": 1,
+                "section": "177",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Traffic related offences",
+                "offences": [
+                    "Violating parking rules",
+                    "Documents like driving license, PUC certificate, registration certificate, permit, fitness, third party insurance certificate, etc. are not in the possession of the person on demand. Note: (1) Documents produced in electronic form (Digilocker) shall be valid. (2) Documents shall be produced within 15 days from the date of demand.",
+                    "PUC certificate not obtained",
+                    "Passenger related offences — Having passengers standing on footboard",
+                    "Passenger related offences — Having additional person sitting on driver seat",
+                    "Smoking and/or misbehavior in public service transport vehicle",
+                    "Conductor Related Offences — Not to stop the Bus on stoppage",
+                    "Advertisement on vehicle without permission",
+                    "Breach of Rule 123 of Gujarat Motor Vehicles Rules, 1989 by carrying animals in vehicles",
+                    "To charge more than permissible fare",
+                    "Not to display essential information in goods vehicle",
+                    "Fare meter in non-working condition",
+                    "Having dark film on glass",
+                    "Other offences not mentioned above and for which no penalty is provided in other sections"
+                ],
+                "first_offence_inr": 500,
+                "second_or_subsequent_offence_inr": 1000
+            },
+            {
+                "sr_no": 2,
+                "section": "178(1)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Offences related to passenger in Stage Carriage",
+                "offences": [
+                    "To travel without pass or ticket",
+                    "Deny showing ticket or pass when asked for"
+                ],
+                "first_offence_inr": 500,
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 3,
+                "section": "178(2)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Offences related to Stage Carriage Conductor",
+                "offences": [
+                    "Not to accept the fare or deny to accept the fare",
+                    "Not to issue ticket or deny to issue ticket",
+                    "To supply invalid ticket",
+                    "To supply ticket of less fare",
+                    "Does not check the ticket or pass"
+                ],
+                "first_offence_inr": 500,
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 4,
+                "section": "178(3)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Offences related to contract carriages — If the holder of a permit or the driver of a contract carriage refuses, in contravention of the provisions of this Act or rules made thereunder to ply the contract carriage or to carry the passengers",
+                "offences": [
+                    "Two wheel or three wheel motor vehicles",
+                    "Other cases"
+                ],
+                "first_offence_inr_by_vehicle": {
+                    "two_or_three_wheeler": 50,
+                    "other_vehicles": 200
+                },
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 5,
+                "section": "179(1)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Disobedience of orders, obstruction and refusal of information",
+                "offences": [
+                    "Disobedience of any direction lawfully given by authority",
+                    "Making obstruction in the discharge of any function which authorities are required or empowered under this Act to discharge"
+                ],
+                "first_offence_inr": 1000,
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 6,
+                "section": "179(2)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Refusal to give information or giving false information required to be supplied under this Act",
+                "offences": [
+                    "Refusal of information which is required to be supplied under this Act",
+                    "Gives false information or supplies information which he believes not to be true"
+                ],
+                "first_offence_inr": 1000,
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 7,
+                "section": "180",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Allowing unauthorized person to drive vehicles",
+                "offences": [
+                    "Whoever, being the owner or person in charge of motor vehicle, causes or permits any other person who does not satisfy the provisions of section 3 or section 4 to drive the vehicle"
+                ],
+                "first_offence_inr_by_vehicle": {
+                    "two_wheeler": 2000,
+                    "other_vehicles": 3000
+                },
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 8,
+                "section": "181",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Driving Vehicle in contravention of Section 3 or Section 4",
+                "offences": [
+                    "Drive vehicle without holding driving license",
+                    "Drive transport vehicle without holding transport authorization",
+                    "Under age driver drives the vehicle",
+                    "Drive vehicle in contravention of the conditions of learning license"
+                ],
+                "first_offence_inr_by_vehicle": {
+                    "two_wheeler": 2000,
+                    "other_vehicles": 3000
+                },
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 9,
+                "section": "182(1)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Driving the vehicle by a person who is disqualified under this Act for holding or obtaining driving license",
+                "offences": [
+                    "Driving by a disqualified person"
+                ],
+                "first_offence_inr_by_vehicle": {
+                    "two_wheeler": 2000,
+                    "other_vehicles": 3000
+                },
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 10,
+                "section": "182(2)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)"
+                ],
+                "description": "Acting as a conductor of Stage Carriage by a person who is disqualified under this Act for holding or obtaining conductor license",
+                "offences": [
+                    "Acting as conductor while disqualified"
+                ],
+                "first_offence_inr": 2000,
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 11,
+                "section": "182A(1)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (Assistant Regional Transport Officer and above)"
+                ],
+                "description": "Whoever, being a manufacturer, importer or dealer of motor vehicles, sells or delivers or alters or offers to sell or deliver a vehicle that is in contravention of the provisions of Chapter VII of the Act and the rules and regulations made thereunder",
+                "offences": [
+                    "Sale or delivery of non-compliant vehicle by manufacturer, importer or dealer"
+                ],
+                "first_offence": "Rs. 1,00,000/- per vehicle",
+                "first_offence_inr_per_unit": 100000,
+                "unit": "per vehicle",
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 12,
+                "section": "182A(3)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (Assistant Regional Transport Officer and above)"
+                ],
+                "description": "Whoever sells or offers to sell, or permits the sell of any component of a motor vehicle which has been notified as a critical safety component by the Central Government and which does not comply with the provisions of Chapter VII of Act and the rules and regulations made thereunder",
+                "offences": [
+                    "Sale of non-compliant critical safety component"
+                ],
+                "first_offence": "Rs. 1,00,000/- per component",
+                "first_offence_inr_per_unit": 100000,
+                "unit": "per component",
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 13,
+                "section": "182A(4)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (Inspector of Motor Vehicles and above)"
+                ],
+                "description": "Whoever, being an owner of a motor vehicle, alters a motor vehicle, including by way of retrofitting of motor vehicle parts, in a manner not permitted under the Act or the rules and regulations made thereunder",
+                "offences": [
+                    "Unauthorized alteration or retrofitting of motor vehicle"
+                ],
+                "first_offence": "Rs. 5,000/- per alteration",
+                "first_offence_inr_per_unit": 5000,
+                "unit": "per alteration",
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 14,
+                "section": "182B",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (Deputy Director of Transport or Officer on Special Duty at office of Transport Commissioner and above)"
+                ],
+                "description": "Contravenes provisions of section 62A (Subject to the commencement of this section 62A)",
+                "offences": [
+                    "Contravention of section 62A"
+                ],
+                "first_offence_inr": 10000,
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 15,
+                "section": "183",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Driving at excessive speed — Whoever drives a motor vehicle or causes any person who is employed by him or is subject to his control in driving to drive a motor vehicle in contravention of the speed limits referred to in section 112 of the Act",
+                "offences": [
+                    "Driving beyond prescribed speed limits"
+                ],
+                "first_offence_inr_by_vehicle": {
+                    "two_three_wheeler": 1500,
+                    "tractor": 1500,
+                    "lmv": 2000,
+                    "other_vehicles": 4000
+                },
+                "second_or_subsequent_offence_by_vehicle": {
+                    "two_three_wheeler": 2000,
+                    "tractor": 2000,
+                    "lmv": 3000,
+                    "other_vehicles": "Disqualified for 6 months from holding a driving license"
+                }
+            },
+            {
+                "sr_no": 16,
+                "section": "184",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Driving Dangerously",
+                "offences": [
+                    "Driving a motor vehicle at a speed which is dangerous to the public",
+                    "Driving a motor vehicle in a manner which is dangerous to the public"
+                ],
+                "first_offence_inr_by_vehicle": {
+                    "two_three_wheeler": 1500,
+                    "lmv": 3000,
+                    "other_vehicles": 5000
+                },
+                "second_or_subsequent_offence_inr_by_vehicle": {
+                    "two_three_wheeler": 1500,
+                    "lmv": 3000,
+                    "other_vehicles": 5000
+                }
+            },
+            {
+                "sr_no": 17,
+                "section": "186",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Driving when mentally or physically unfit to drive — Whoever drives a motor vehicle in any public place when he is suffering from any disease or disability which hinders his driving and is a source of danger",
+                "offences": [
+                    "Driving while suffering from a disease or disability that hinders driving"
+                ],
+                "first_offence_inr": 1000,
+                "second_or_subsequent_offence_inr": 2000
+            },
+            {
+                "sr_no": 18,
+                "section": "189",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Racing and Trials of speed — Whoever without the written consent of the State Government permits or takes part in a race or trial of speed between motor vehicles in any public place",
+                "offences": [
+                    "Unauthorized racing or speed trial of motor vehicles in public place"
+                ],
+                "first_offence_inr": 5000,
+                "second_or_subsequent_offence_inr": 10000
+            },
+            {
+                "sr_no": 19,
+                "section": "190(2)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)"
+                ],
+                "description": "Any person who drives or causes or allows to be driven in any public place a motor vehicle in contravention of the standards prescribed in relation to road safety, control of noise and air pollution",
+                "offences": [
+                    {
+                        "offence": "Contravention of standards of road safety",
+                        "first_offence_inr_by_vehicle": {
+                            "two_three_wheeler_and_lmv": 1000,
+                            "other_vehicles": 3000
+                        }
+                    },
+                    {
+                        "offence": "Violation of standards prescribed in relation to air pollution",
+                        "first_offence_inr_by_vehicle": {
+                            "two_three_wheeler_and_lmv": 1000,
+                            "other_vehicles": 3000
+                        }
+                    },
+                    {
+                        "offence": "Violation of standards prescribed in relation to Noise Pollution",
+                        "first_offence_inr_by_vehicle": {
+                            "two_three_wheeler_and_lmv": 1000,
+                            "other_vehicles": 3000
+                        }
+                    },
+                    {
+                        "offence": "Use of vehicle in contravention of rule 93(1) to (7) — having over dimension",
+                        "first_offence_inr_by_vehicle": {
+                            "car_carrier_or_automobile_carrier": "Rs. 1,000/- per dimension",
+                            "other_vehicles": "Rs. 10,000/- per dimension"
+                        }
+                    }
+                ],
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 20,
+                "section": "192",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty — offences other than related to fitness)"
+                ],
+                "description": "Using vehicle without registration",
+                "offences": [
+                    {
+                        "offence": "Whoever drives or causes or allows to be driven a motor vehicle carrying a registration mark displayed in contravention of rule 50 or rule 51 of the Central Motor Vehicles Rules, 1989 in a public place",
+                        "first_offence_inr_by_vehicle": {
+                            "two_wheeler": 300,
+                            "three_wheeler": 400,
+                            "lmv_four_wheels": 500,
+                            "other_vehicles": 1000
+                        }
+                    },
+                    {
+                        "offence": "Whoever drives or causes or allows to be driven a motor vehicle without registration or in spite of suspension or cancellation of registration or in violation of provisions with respect to trade certificate in a public place",
+                        "first_offence_inr_by_vehicle": {
+                            "two_wheeler": 1000,
+                            "three_wheeler": 2000,
+                            "lmv_four_wheels": 3000,
+                            "other_vehicles": 5000
+                        }
+                    },
+                    {
+                        "offence": "Whoever drives or causes or allows to be driven a transport vehicle without valid certificate of fitness",
+                        "first_offence_inr_by_vehicle": {
+                            "three_wheeler": 500,
+                            "other_vehicles": 5000
+                        }
+                    }
+                ],
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 21,
+                "section": "192A",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)"
+                ],
+                "description": "Whoever drives a motor vehicle or causes or allows a motor vehicle to be driven in contravention of the provisions of sub-section (1) of section 66 of the Act or in contravention of any condition of a permit relating to the route on which or the area in which or the purpose for which the vehicle may be driven",
+                "offences": [
+                    "Driving without permit or in contravention of permit conditions"
+                ],
+                "first_offence_inr": 10000,
+                "second_or_subsequent_offence_inr": 10000
+            },
+            {
+                "sr_no": 22,
+                "section": "194(1)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)"
+                ],
+                "description": "Driving vehicle exceeding permissible weight etc.",
+                "offences": [
+                    {
+                        "offence": "Whoever drives or causes or allows to be driven a transport vehicle in contravention of the conditions of permit prescribed by State or Regional Transport Authorities under sub-section 1 of section 113 prohibiting or restricting the use of such vehicle in area or route",
+                        "first_offence_inr": 5000
+                    },
+                    {
+                        "offence": "Driving vehicle or causing or allowing to be driven in any public place which is not fitted with pneumatic tyres",
+                        "first_offence_inr": 5000
+                    },
+                    {
+                        "offence": "Driving vehicle or causing or allowing to be driven in any public place where the unladen weight exceeds the unladen weight specified in the certificate of registration, or the laden weight exceeds the gross vehicle weight specified in the certificate of registration",
+                        "first_offence_inr": 5000,
+                        "additional_penalty": "Rs. 1,000/- per ton of excess load"
+                    },
+                    {
+                        "offence": "Whoever drives or causes or allows to be driven in contravention of the notification of the State Government issued under section 115 restricting or prohibiting the use of such vehicle on any road or bridge",
+                        "first_offence_inr": 5000
+                    }
+                ],
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 23,
+                "section": "194(1A)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)"
+                ],
+                "description": "Whoever drives a motor vehicle or causes or allows a motor vehicle to be driven when such motor vehicle is loaded in such a manner that the load or any part thereof or anything extends laterally beyond the side of the body or to the front or to the rear or in height beyond the permissible limit",
+                "offences": [
+                    "Over-dimension loading beyond permissible limits"
+                ],
+                "first_offence": "As mentioned in Annexure (Compounding Fee for violation of Rule 93(8) of Central Motor Vehicles Rules, 1989)",
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 24,
+                "section": "194(2)",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)"
+                ],
+                "description": "Driving vehicle or causing or allowing to be driven violating the provisions of section 114",
+                "offences": [
+                    "Refuses to stop and submit vehicle to weighing after being directed to do so by an officer authorized under section 114",
+                    "Removes or causes the removal of the load or part of it prior to weighing"
+                ],
+                "first_offence_inr": 5000,
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 25,
+                "section": "194B",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Failure to use safety belts while driving",
+                "offences": [
+                    "Not wearing seat belt while driving"
+                ],
+                "first_offence_inr": 500,
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 26,
+                "section": "194C",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Whoever drives a motor cycle or causes or allows a motor cycle to be driven carrying more than one person in addition to himself",
+                "offences": [
+                    "Triple riding on motorcycle (carrying more than one pillion)"
+                ],
+                "first_offence_inr": 100,
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 27,
+                "section": "194D",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Violation of not wearing Helmet",
+                "offences": [
+                    "Not wearing helmet while riding a two-wheeler"
+                ],
+                "first_offence_inr": 500,
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 28,
+                "section": "194E",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Failure to allow free passage to emergency vehicles like ambulance, fire fighting vehicle, etc.",
+                "offences": [
+                    "Not giving way to emergency vehicles (ambulance, fire engine, etc.)"
+                ],
+                "first_offence_inr": 1000,
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 29,
+                "section": "194F",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Horn-related offences and use of cut-out",
+                "offences": [
+                    "Sounds the horn needlessly or continuously or more than necessary to ensure safety",
+                    "Sounds the horn in an area with a traffic sign prohibiting the use of a horn",
+                    "Drives a motor vehicle which makes use of a cut-out by which exhaust gases are released other than through the silencer"
+                ],
+                "first_offence_inr": 1000,
+                "second_or_subsequent_offence_inr": null
+            },
+            {
+                "sr_no": 30,
+                "section": "196",
+                "enforcing_officers": [
+                    "Motor Vehicle Department (AIMV and above)",
+                    "Police Department (Head Constable and above — cities and municipal towns, traffic duty)"
+                ],
+                "description": "Driving uninsured vehicle",
+                "offences": [
+                    "Whoever drives or causes or allows to drive a motor vehicle without third party insurance policy as required under section 146 of the Act",
+                    "Whoever drives or causes or allows goods vehicle transporting goods which are dangerous and hazardous to human life without insurance policy issued under the Public Liabilities Insurance Act, 1991 along with third party insurance policy"
+                ],
+                "first_offence_inr": 2000,
+                "second_or_subsequent_offence_inr": 4000
+            }
+        ],
+        "annexure": {
+            "title": "Compounding Fee in case of violation of Rule 93(8) of Central Motor Vehicles Rules, 1989",
+            "description": "Applicable under Section 194(1A) for over-dimension loading",
+            "fee_schedule": [
+                {
+                    "sr_no": 1,
+                    "vehicle_type": "Rigid Chassis",
+                    "type_of_goods": "Agro Product and House Keepings",
+                    "compounding_fee_inr": 1000
+                },
+                {
+                    "sr_no": 2,
+                    "vehicle_type": "Rigid Chassis",
+                    "type_of_goods": "Loose Goods / ODC / Metal Plates / Pipes / Channels",
+                    "compounding_fee_inr": 2000
+                },
+                {
+                    "sr_no": 3,
+                    "vehicle_type": "Articulated trailer / tractor trailer combination / truck trailer combination",
+                    "type_of_goods": "Loose material / Agro Product and House Keepings",
+                    "compounding_fee_inr": 4000
+                },
+                {
+                    "sr_no": 4,
+                    "vehicle_type": "Trailer / tractor trailer combination / truck trailer combination",
+                    "type_of_goods": "Indivisible Goods / ODC / Metal Plates / Pipes / Channels",
+                    "compounding_fee_inr": 10000
+                },
+                {
+                    "sr_no": 5,
+                    "vehicle_type": "Car Carrier or Automobile Carrier",
+                    "type_of_goods": "Automobiles",
+                    "compounding_fee_inr": 1000
+                }
+            ]
+        },
+        "abbreviations": {
+            "AIMV": "Assistant Inspector of Motor Vehicles",
+            "ARTO": "Assistant Regional Transport Officer",
+            "IMV": "Inspector of Motor Vehicles",
+            "LMV": "Light Motor Vehicle",
+            "ODC": "Over Dimensional Cargo",
+            "PUC": "Pollution Under Control",
+            "MV Act": "Motor Vehicles Act",
+            "GMVR": "Gujarat Motor Vehicles Rules, 1989",
+            "CMVR": "Central Motor Vehicles Rules, 1989"
+        }
+    }
+}

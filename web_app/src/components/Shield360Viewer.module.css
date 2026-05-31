@@ -1,0 +1,109 @@
+.viewer {
+  position: relative;
+  touch-action: none;
+  user-select: none;
+  cursor: grab;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.viewer.dragging {
+  cursor: grabbing;
+}
+
+.hero {
+  width: 130px;
+  height: 150px;
+  flex-shrink: 0;
+}
+
+.compact {
+  width: 72px;
+  height: 82px;
+  flex-shrink: 0;
+}
+
+.auth {
+  width: 140px;
+  height: 155px;
+  flex-shrink: 0;
+}
+
+.floatWrap {
+  width: 100%;
+  height: 100%;
+  animation: float 3.2s ease-in-out infinite;
+  filter: drop-shadow(0 10px 22px rgba(15, 23, 42, 0.12));
+}
+
+.floatPaused {
+  animation: none;
+}
+
+.canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.talking:not(.dragging) .floatWrap {
+  animation: waveTilt 0.55s ease-in-out infinite, float 3.2s ease-in-out infinite;
+}
+
+.listening:not(.dragging) .floatWrap {
+  animation: float 1.2s ease-in-out infinite;
+}
+
+.glowRing {
+  position: absolute;
+  inset: 10% 8% 14%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.85) 0%, transparent 70%);
+  filter: blur(16px);
+  animation: glowPulse 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.viewer:not(.loaded) .canvas {
+  opacity: 0.35;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes waveTilt {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-1.5deg);
+  }
+  75% {
+    transform: rotate(1.5deg);
+  }
+}
+
+@keyframes glowPulse {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    width: 110px;
+    height: 128px;
+  }
+}

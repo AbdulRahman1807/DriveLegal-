@@ -18,6 +18,10 @@ class Citation(BaseModel):
     section: str
     clause: Optional[str] = None
     relevance_score: float
+    brief: Optional[str] = None
+    chapter: Optional[str] = None
+    source_url: Optional[str] = None
+    full_text: Optional[str] = None
 
 class FineResult(BaseModel):
     violation_id: UUID

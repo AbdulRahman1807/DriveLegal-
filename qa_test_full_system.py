@@ -16,7 +16,11 @@ def test_full_system():
         "violation_code": "SPEEDING" # Using speeding code from our seeds for testing purposes
     }
     
-    response = client.post("/api/v1/chat", json=payload)
+    response = client.post(
+        "/api/v1/chat",
+        json=payload,
+        headers={"Authorization": "Bearer drivelegal-secret-dev-key"}
+    )
     
     if response.status_code == 200:
         data = response.json()

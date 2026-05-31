@@ -1,0 +1,800 @@
+{
+    "source": "Rajasthan Act and Rules - Motor Vehicles Legal Database",
+    "compiled_for": "DriveLegal AI-Powered Traffic Law Advisor",
+    "state": "Rajasthan",
+    "documents": [
+        {
+            "doc_id": "RJ-ACT-001",
+            "title": "The Rajasthan Motor Vehicles Taxation Act, 1951",
+            "act_number": "Act No. XI of 1951",
+            "enacted": "1st April 1951",
+            "published": "Rajasthan Gazette No. 2, Part IV B E.O., dated April 3, 1951",
+            "last_amended": "Rajasthan Finance Act No. 20 of 2019; Finance Act No. 4 of 2022",
+            "purpose": "To provide for the imposition of tax on Motor Vehicles throughout the State of Rajasthan",
+            "sections": [
+                {
+                    "section": "1",
+                    "title": "Short title, extent and commencement",
+                    "text": "This Act may be called the Rajasthan Motor Vehicles Taxation Act, 1951. It extends to the whole of the State of Rajasthan and shall come into force on such date as the State Government may, by notification in the Official Gazette, appoint."
+                },
+                {
+                    "section": "2",
+                    "title": "Definitions",
+                    "definitions": [
+                        {
+                            "term": "Additional Transport Commissioner",
+                            "meaning": "The person appointed by the State Government to be the Additional Transport Commissioner."
+                        },
+                        {
+                            "term": "Commissioner",
+                            "meaning": "The person appointed by the State Government to be the Transport Commissioner, and includes the Additional Transport Commissioner."
+                        },
+                        {
+                            "term": "prescribed",
+                            "meaning": "Prescribed by this Act or by Rules made under this Act."
+                        },
+                        {
+                            "term": "tax",
+                            "meaning": "A tax and surcharge imposed under this Act."
+                        },
+                        {
+                            "term": "Taxation Officer",
+                            "meaning": "An officer authorised by the State Government to perform the duties and exercise the powers imposed or conferred upon a Taxation Officer by this Act."
+                        }
+                    ],
+                    "note": "Words and expressions used but not defined in this Act and defined in Motor Vehicles Act, 1988 (Central Act 59 of 1988) and Central Motor Vehicle Rule, 1989, shall have the meaning assigned to them therein."
+                },
+                {
+                    "section": "3",
+                    "title": "Exemption",
+                    "text": "The State Government may by notification in the Official Gazette exempt either totally or partially, whether prospectively or retrospectively, any motor vehicles or class of motor vehicles from the payment of the tax, penalty or interest imposed or charged under this Act or rules made thereunder. Interest or penalty shall be exempted only for the purposes of giving effect to amnesty schemes of limited duration. Every such notification shall be laid before the House of the State Legislature."
+                },
+                {
+                    "section": "4",
+                    "title": "Imposition of Tax",
+                    "sub_sections": [
+                        {
+                            "sub_section": "4(1)(a)",
+                            "description": "Annual/periodic tax on vehicles not covered by one-time tax",
+                            "rate_limits": {
+                                "goods_vehicles": "Not exceeding Rs. 2000/- per thousand Kg. of Gross Vehicle Weight or part thereof per year",
+                                "passenger_vehicles": "Not exceeding Rs. 2000/- per seat per month for passenger vehicles of this State"
+                            },
+                            "note": "Where rates are not specified on quarterly, half yearly or monthly basis, the amount payable shall be 1/4, 1/2 or 1/12 respectively of the annual rate."
+                        },
+                        {
+                            "sub_section": "4(1)(b)",
+                            "description": "One-time tax on non-transport vehicles and specified transport vehicles",
+                            "rate_limits": "Not exceeding 50% of the cost of the vehicle/chassis",
+                            "note": "On every transfer of ownership of non-transport vehicles, an additional one-time tax shall be payable."
+                        },
+                        {
+                            "sub_section": "4(1)(c)",
+                            "description": "Tax on vehicles registered outside Rajasthan using roads in Rajasthan",
+                            "rate_limits": {
+                                "passenger_vehicles": "Not exceeding Rs. 2000/- per day",
+                                "goods_vehicles": "Not exceeding Rs. 2000/- per thousand Kg. Gross Vehicle Weight or part thereof for 30 days or part thereof",
+                                "construction_equipment_vehicles": "Not exceeding Rs. 5000/- per thousand Kg. of Unladen Weight or part thereof for 30 days or part thereof"
+                            }
+                        },
+                        {
+                            "sub_section": "4(1)(cc)",
+                            "description": "Tax on motor vehicles or chassis temporarily registered and passing through the State",
+                            "rate_limits": "Not exceeding Rs. 5000/-"
+                        },
+                        {
+                            "sub_section": "4(1)(d)",
+                            "description": "Tax on dealers in or manufacturers of motor vehicles",
+                            "rate_limits": {
+                                "three_or_four_wheeled_vehicles": "Not exceeding Rs. 10,000/- for every 50 vehicles or part thereof",
+                                "two_wheeled_vehicles": "Not exceeding Rs. 10,000/- for every 100 vehicles or part thereof"
+                            }
+                        },
+                        {
+                            "sub_section": "4(2)",
+                            "description": "Non-use/surrender exemption from tax",
+                            "conditions_for_non_use": [
+                                "Motor vehicle restrained from plying by competent court or authority",
+                                "Motor vehicle involved in an accident reported to police and remained out of use due to accident",
+                                "Motor vehicle attached for recovery of tax under Rajasthan Land Revenue Act, 1956 by competent authority",
+                                "Certificate of registration suspended or cancelled by competent authority"
+                            ],
+                            "surrender_period_limits": {
+                                "stage_carriages": "Not less than 7 days",
+                                "other_vehicles": "Not less than 30 days",
+                                "maximum_per_calendar_year": "Not more than 180 days for all vehicle categories except in case of theft"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "section": "4-D",
+                    "title": "Levy of Green Tax",
+                    "description": "A cess called 'green tax' levied in addition to tax under Section 4 for the purpose of implementing measures to control air pollution.",
+                    "green_tax_table": {
+                        "non_transport_vehicles": {
+                            "timing": "At the time of registration (Sec 41), or assignment (Sec 47), and thereafter at renewal of registration certificate (Sec 41(10)) under the Motor Vehicles Act, 1988.",
+                            "rates": [
+                                {
+                                    "category": "Two wheelers",
+                                    "max_rate_INR": 1000
+                                },
+                                {
+                                    "category": "Four wheeled diesel driven vehicles",
+                                    "sub_categories": [
+                                        {
+                                            "type": "LMV engine capacity upto 1500 cc",
+                                            "max_rate_INR": 5000
+                                        },
+                                        {
+                                            "type": "LMV engine capacity above 1500 cc and upto 2000 cc",
+                                            "max_rate_INR": 10000
+                                        },
+                                        {
+                                            "type": "LMV engine capacity above 2000 cc with seating capacity upto 5",
+                                            "max_rate_INR": 10000
+                                        },
+                                        {
+                                            "type": "LMV engine capacity above 2000 cc with seating capacity more than 5",
+                                            "max_rate_INR": 25000
+                                        }
+                                    ]
+                                },
+                                {
+                                    "category": "Four wheeled petrol/LPG driven vehicles",
+                                    "sub_categories": [
+                                        {
+                                            "type": "LMV engine capacity upto 1500 cc",
+                                            "max_rate_INR": 2000
+                                        },
+                                        {
+                                            "type": "LMV engine capacity above 1500 cc and upto 2000 cc",
+                                            "max_rate_INR": 2500
+                                        },
+                                        {
+                                            "type": "LMV engine capacity above 2000 cc with seating capacity upto 5",
+                                            "max_rate_INR": 3000
+                                        },
+                                        {
+                                            "type": "LMV engine capacity above 2000 cc with seating capacity more than 5",
+                                            "max_rate_INR": 5000
+                                        }
+                                    ]
+                                },
+                                {
+                                    "category": "Other fuel driven four wheeled vehicles",
+                                    "max_rate_INR": 1000
+                                },
+                                {
+                                    "category": "Other non-transport vehicles",
+                                    "max_rate_INR": 2000
+                                }
+                            ]
+                        },
+                        "transport_vehicles": {
+                            "timing": "At the time of registration (Sec 41), or assignment (Sec 47), and thereafter at the time of renewal of fitness certificate (Sec 56) under the Motor Vehicles Act, 1988.",
+                            "rates": [
+                                {
+                                    "category": "Two wheeled passenger vehicle / three wheeled passenger and goods vehicle",
+                                    "max_rate_INR": 2000
+                                },
+                                {
+                                    "category": "Other than three wheeled passenger and goods vehicles",
+                                    "sub_categories": [
+                                        {
+                                            "type": "Light Motor Vehicle",
+                                            "age_6_years_or_less": 5000,
+                                            "age_more_than_6_years": 8000
+                                        },
+                                        {
+                                            "type": "Other than Light Motor Vehicle",
+                                            "age_6_years_or_less": 6000,
+                                            "age_more_than_6_years": 10000
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "section": "4-E",
+                    "title": "Levy of Surcharge",
+                    "text": "The tax imposed under the Act shall be increased by a surcharge at such rates, not exceeding 20% of the said tax, as may be specified by the State Government by notification in the Official Gazette."
+                },
+                {
+                    "section": "5",
+                    "title": "Payment of Tax",
+                    "text": "Tax leviable under Section 4 shall be paid by every owner or person having possession or control of a motor vehicle in advance. Where tax becomes payable for the first time after the commencement of a financial year, the tax payable shall be 1/12 of the annual rate for each calendar month or part thereof."
+                },
+                {
+                    "section": "6",
+                    "title": "Penalty for Default in Payment",
+                    "sub_sections": [
+                        {
+                            "sub_section": "6(1)",
+                            "description": "Penalty for non-payment within the allowed period",
+                            "penalty_rate": "Not exceeding 5% per month of the amount of tax due for each month or part thereof from the date of expiry of the period allowed",
+                            "cap": "Amount of penalty shall in no case be more than double the amount of tax due"
+                        },
+                        {
+                            "sub_section": "6(3)",
+                            "description": "Penalty for out-of-state transport/construction equipment vehicle plying without paying tax",
+                            "penalty": "Not less than four times the amount of tax due"
+                        },
+                        {
+                            "sub_section": "6(4)",
+                            "description": "Penalty for out-of-state transport vehicle on National Permit plying without paying full tax",
+                            "penalty": "Not less than the amount of tax due"
+                        }
+                    ]
+                },
+                {
+                    "section": "6-A",
+                    "title": "Revision of Rates of Tax",
+                    "text": "If as a result of imposition or revision of rates under any provision of this Act, a motor vehicle becomes liable to a higher amount of tax, the owner shall pay additional tax equal to the difference between the tax already paid and the higher amount payable, within the time allowed for payment for the following financial year, quarter, or month."
+                },
+                {
+                    "section": "7",
+                    "title": "Refund of Tax",
+                    "sub_sections": [
+                        {
+                            "sub_section": "7(1)",
+                            "description": "Refund for non-use (taxes other than one-time tax)",
+                            "condition": "Vehicle not used for a continuous period of not less than one month",
+                            "refund_formula": "1/12 of the annual rate of tax paid for each complete month of non-use"
+                        },
+                        {
+                            "sub_section": "7(2)",
+                            "description": "Refund of one-time tax",
+                            "condition": "Vehicle taken out of the State or completely destroyed",
+                            "refund_formula": "Pro-rata basis in the prescribed manner"
+                        },
+                        {
+                            "sub_section": "7(3)",
+                            "description": "Refund or adjustment of amount paid in excess of tax due"
+                        }
+                    ]
+                },
+                {
+                    "section": "8",
+                    "title": "Declaration by Person Keeping Vehicle for Use",
+                    "text": "The owner or any person having possession or control of a motor vehicle shall make a declaration in the prescribed form and deliver it to the Taxation Officer within the prescribed period, every time they become liable to pay tax, along with the receipt of payment. Where due to any alteration the vehicle becomes liable to a higher tax rate, an additional declaration showing the nature of the alteration shall be made within the prescribed period. Failure to make or deliver a declaration results in a penalty not exceeding Rs. 5/- per day."
+                },
+                {
+                    "section": "9",
+                    "title": "Payment of Additional Tax on Alteration of Vehicle",
+                    "text": "Where a motor vehicle is altered in a manner causing it to become liable for a higher rate of tax, the owner shall pay additional tax equal to the difference between the tax already paid and the higher tax payable after such alteration."
+                },
+                {
+                    "section": "10",
+                    "title": "Grant of Receipt and Token or Tax Certificate",
+                    "text": "The Taxation Officer shall grant and deliver to every person who pays the tax a receipt and either a tax certificate (for one-time tax vehicles) or a token (for other vehicles). No motor vehicle liable to tax shall be used or kept for use in Rajasthan unless the owner has obtained the relevant tax certificate or token, which shall always be kept in the vehicle."
+                },
+                {
+                    "section": "11",
+                    "title": "Offences and Punishments",
+                    "offences": [
+                        {
+                            "offence": "Using or keeping a motor vehicle without paying tax or additional tax due",
+                            "punishment": "Fine not less than twice the annual tax payable, which may extend to five times of such annual tax"
+                        },
+                        {
+                            "offence": "Delivering a declaration or additional declaration with particulars not fully and truly stated",
+                            "punishment": "Fine not less than twice the annual tax payable, which may extend to five times of such annual tax"
+                        },
+                        {
+                            "offence": "Obstructing any officer in exercise of powers under Section 18 or failing to stop the vehicle when required under Section 17",
+                            "punishment": "Fine not less than twice the annual tax payable, which may extend to five times of such annual tax"
+                        },
+                        {
+                            "offence": "Contravening any provision of the Act where no specific penalty is provided",
+                            "punishment": "Fine up to Rs. 500/-; in case of previous conviction, fine up to Rs. 1000/-"
+                        }
+                    ]
+                },
+                {
+                    "section": "12",
+                    "title": "Compounding of Offences",
+                    "text": "Where an offence under Section 11 has been committed, such offence may at any time before conviction be compounded by the prescribed officer by accepting a sum of money not exceeding the prescribed amount, together with the amount of tax and penalty due. Such composition shall discharge the person from all liability for the offence."
+                },
+                {
+                    "section": "13",
+                    "title": "Recovery of Tax, Penalty or Interest",
+                    "text": "When any person without reasonable cause fails or refuses to pay the tax, penalty or interest, the Taxation Officer may forward a certificate to the Collector of the District, who shall proceed to recover such amounts as arrears of land revenue. Tax, penalty or interest payable under this Act shall be the first charge on the motor vehicle in respect whereof it is due."
+                },
+                {
+                    "section": "13-A",
+                    "title": "Power of Taxation Officer to Recover Tax and Penalty",
+                    "text": "Without prejudice to Section 13, the Taxation Officer may, with the previous sanction of the Commissioner, recover tax or penalty due under this Act by attachment and sale of movable property of the person liable. The Taxation Officer may grant instalments on prescribed terms in specified classes of cases."
+                },
+                {
+                    "section": "13-B",
+                    "title": "Liability of Transferee of Vehicles",
+                    "text": "If tax payable in respect of a motor vehicle remains unpaid and the person liable has transferred ownership or ceased to be in possession, the new owner or person in possession shall also be liable to pay said tax, along with any penalty and/or interest levied. This does not apply to a person who obtained possession through a public auction by a Government Department."
+                },
+                {
+                    "section": "14",
+                    "title": "Appeal",
+                    "text": "Any person aggrieved by an order relating to the determination or recovery of tax may, within 30 days from the date of such order, prefer an appeal to the appellate authority appointed by the State Government. No appeal shall be entertained unless accompanied by satisfactory proof of payment of 50% of the amount due under the order or the admitted amount, whichever is higher. The Commissioner may, on application, stay recovery of disputed amount if sufficient security is furnished."
+                },
+                {
+                    "section": "17",
+                    "title": "Power to Stop a Motor Vehicle",
+                    "text": "Any police officer in uniform not below the prescribed rank, any officer of the Transport Department not below the rank of Sub-Inspector, and any officer of the State Directorate of Revenue Intelligence not below the rank of Revenue Intelligence Officer may require the driver of any motor vehicle in any public place to stop the vehicle. Where tax has not been paid, such officer may seize and detain the vehicle. The vehicle shall not be released unless full tax due, penalty, interest, and all other dues payable have been paid."
+                },
+                {
+                    "section": "20",
+                    "title": "Levy of Toll on Certain Bridges, Roads etc.",
+                    "text": "The State Government may levy toll on motor vehicles and trailers passing over any bridge, tunnel, section of road or bypass constructed, reconstructed, improved or repaired at the expense of the State Government or any person/body where total capital outlay is not less than Rs. 10 lakhs, or which in the opinion of the State Government is of special service to the public. Overall collection of toll shall not exceed the aggregate amount of capital outlay and expenses of collection of toll."
+                },
+                {
+                    "section": "21",
+                    "title": "No Toll or Tax to be Levied by Local Bodies",
+                    "text": "Notwithstanding anything to the contrary in any law for the time being in force, it shall not be lawful for any local authority to levy any tax or toll in respect of any motor vehicle."
+                },
+                {
+                    "section": "21-B",
+                    "title": "No Dues Certificate",
+                    "text": "A registered owner, permit holder, person in possession, or financer may apply to the Taxation Officer in the prescribed manner and along with prescribed fee, to obtain a no dues certificate regarding the tax, penalty or interest payable in respect of such vehicle. The Taxation Officer shall, after such inquiry as may be prescribed, issue the certificate in the prescribed form and within the prescribed period."
+                }
+            ]
+        },
+        {
+            "doc_id": "RJ-RULES-001",
+            "title": "The Rajasthan Motor Vehicles Taxation Rules, 1951",
+            "notification_no": "D. 40/HT/51",
+            "published": "Rajasthan Gazette Vol. II No. 32 Part II-B, dated 12.05.1951",
+            "enacted_under": "Section 22 of the Rajasthan Motor Vehicles Taxation Act, 1951",
+            "applicability": "All motor vehicles in Rajasthan",
+            "key_definitions": [
+                {
+                    "term": "Token",
+                    "meaning": "A token issued under these rules, including a computerised token issued on a smart card."
+                },
+                {
+                    "term": "Quarter",
+                    "meaning": "A period of three calendar months of a financial year, expiring on 30th June, 30th September, 31st December, and 31st March."
+                },
+                {
+                    "term": "Year",
+                    "meaning": "A financial year."
+                },
+                {
+                    "term": "Month",
+                    "meaning": "A calendar month."
+                },
+                {
+                    "term": "Tax Certificate",
+                    "meaning": "A tax certificate issued under these rules, including a computerised tax certificate issued on a smart card."
+                },
+                {
+                    "term": "Chassis",
+                    "meaning": "A motor vehicle supplied by the manufacturer to the dealer or sold directly to the buyer, without a body or platform for carrying goods or passengers, whether with or without a driver's cowl or cabin; includes semi-trailers or horses sold as such."
+                },
+                {
+                    "term": "Vehicle",
+                    "meaning": "A motor vehicle supplied by the manufacturer to the dealer or sold to the buyer, with a body or platform for carrying passengers or goods or ready for use as a rig, fork lift, compressor, crane, generator, etc."
+                },
+                {
+                    "term": "Day",
+                    "meaning": "A day beginning and ending at midnight or part thereof."
+                },
+                {
+                    "term": "Purchase price",
+                    "meaning": "Ex-showroom price inclusive of all taxes and levies as shown in the purchase bill."
+                },
+                {
+                    "term": "Purely off highway vehicle",
+                    "meaning": "A motor vehicle either used as construction equipment or designed and adapted for use in any enclosed premises, factory or mine, equipped to travel on its own source of power."
+                },
+                {
+                    "term": "Special Token",
+                    "meaning": "A token issued under Rule 15-A, including a computerised token issued on a smart card."
+                }
+            ],
+            "taxation_officer": {
+                "rule": "3",
+                "description": "The District Transport Officer appointed under the law for the time being in force, or any officer authorised by the State Government, shall be the Taxation Officer. For vehicles registered outside the State and plying within the State under a permit, the District Transport Officer having jurisdiction over the place of first entry shall be the Taxation Officer."
+            },
+            "tax_payment_schedule": {
+                "rule": "4",
+                "one_time_tax_section_4_1_b": {
+                    "new_vehicle_or_brought_into_state": "Within 30 days of purchase or bringing the vehicle into the State, or on date of registration or assignment, whichever is earlier",
+                    "vehicles_not_previously_paying_OTT_registered_before_1_4_97": "On or before 30th April 1997",
+                    "vehicles_purchased_before_1_4_97_but_registered_in_state": "Within 30 days of purchase, the tax due on date of registration"
+                },
+                "periodic_tax_due_dates": {
+                    "yearly": "On or before 30th April each year",
+                    "half_yearly": "On or before 15th October and 15th April each year",
+                    "quarterly": "On or before 10th of April, July, October, and January each year",
+                    "monthly": "On or before 7th day of each month (fleet owners: last day of each month)"
+                },
+                "vehicle_type_payment_frequencies": [
+                    {
+                        "vehicle_type": "Non-transport vehicles not covered by one-time tax",
+                        "frequency": "Annually"
+                    },
+                    {
+                        "vehicle_type": "Vehicles possessed by dealers, manufacturers, body builders, financiers",
+                        "frequency": "Annually"
+                    },
+                    {
+                        "vehicle_type": "Three-wheeled goods carriage",
+                        "frequency": "Half yearly or yearly"
+                    },
+                    {
+                        "vehicle_type": "Three-wheeled contract carriage",
+                        "frequency": "Yearly"
+                    },
+                    {
+                        "vehicle_type": "Goods carriage other than three-wheelers",
+                        "frequency": "Annually"
+                    },
+                    {
+                        "vehicle_type": "Four-wheeled contract carriages with seating capacity up to 22",
+                        "frequency": "Quarterly (can pay 2 or more quarters in advance)"
+                    },
+                    {
+                        "vehicle_type": "Four-wheeled contract carriages with seating capacity above 22",
+                        "frequency": "Monthly (can pay 2 or more months in advance)"
+                    },
+                    {
+                        "vehicle_type": "Stage carriages plying exclusively within municipal limits",
+                        "frequency": "Quarterly (can pay 2 or more quarters in advance)"
+                    },
+                    {
+                        "vehicle_type": "Stage carriages other than those within municipal limits",
+                        "frequency": "Monthly (can pay 2 or more months in advance)"
+                    },
+                    {
+                        "vehicle_type": "Vehicles of other States on temporary or tourist permit",
+                        "frequency": "Full amount at the time of entry into the State (electronic payment)"
+                    },
+                    {
+                        "vehicle_type": "Vehicles plying on temporary permit issued by this State",
+                        "frequency": "At time of issuance of permit for the entire period"
+                    },
+                    {
+                        "vehicle_type": "Stage carriages on temporary permits issued by other States and countersigned by this State",
+                        "frequency": "In advance for the entire period at time of countersignature"
+                    },
+                    {
+                        "vehicle_type": "Goods vehicles of other States under reciprocity countersigned by this State",
+                        "frequency": "Yearly at Tax Collection Centre/Check Post at time of entry"
+                    },
+                    {
+                        "vehicle_type": "Passenger vehicles not covered by any non-temporary permit",
+                        "frequency": "Monthly"
+                    },
+                    {
+                        "vehicle_type": "Transport vehicles other than those mentioned above",
+                        "frequency": "Yearly"
+                    },
+                    {
+                        "vehicle_type": "Construction equipment vehicles of other States entering Rajasthan for a temporary period",
+                        "frequency": "In advance at time of entering the State (electronic payment)"
+                    }
+                ]
+            },
+            "interest_on_delayed_tax": {
+                "rule": "8",
+                "rate": "1.5% per month on the amount of tax not paid",
+                "cap": "Amount of interest shall in no case be more than the amount of tax due"
+            },
+            "tax_payment_by_national_permit_holder": {
+                "rule": "4-A",
+                "description": "Tax payable by holders of permits issued under Sec 88(12) of the Motor Vehicles Act, 1988 by authorities outside Rajasthan and authorised to ply in Rajasthan, shall be paid in advance at the time of grant of authorisation. Tax paid once shall not be adjusted or refunded."
+            },
+            "exemptions_from_tax": {
+                "rule": "28",
+                "completely_exempt_vehicles": [
+                    "Motor vehicles owned and exclusively used by or on behalf of any department of the Central Government, Government of Rajasthan, or any other State Government (other than those used in commercial enterprise business)",
+                    "Motor vehicles owned and exclusively used by railways",
+                    "Motor vehicles owned by a local authority in Rajasthan used solely for road cleansing, road watering or conservancy purposes",
+                    "Motor vehicles used in Rajasthan solely for Fire Brigade or Ambulance purposes",
+                    "Any vehicle used solely for the conveyance of corpses",
+                    "Any motor vehicle with seating capacity more than 9 (excluding driver), owned by and used solely for an educational institution recognised by the Government or a registered society",
+                    "Private vehicles (other than transport and construction equipment vehicles) registered outside Rajasthan, brought temporarily and used for a period not exceeding 30 days",
+                    "Motor vehicles of other States visiting Rajasthan under reciprocal agreements as published in the Official Gazette",
+                    "New motor vehicles requiring body building after delivery by dealer (e.g., chassis of trucks, buses), so long as they are not moved on the road",
+                    "Motor vehicles of other States covered by the second proviso to sub-section (1) of section 63 of the Motor Vehicles Act, 1939 (provided reciprocal tax exemption exists)",
+                    "Military disposal vehicles if not roadworthy up to two months from date of entry or registration, whichever is earlier",
+                    "Motor vehicles designed and constructed for use only for exploration of oil and natural gas and used for said purpose in Rajasthan",
+                    "Period during which a motor vehicle has not remained in the possession of the owner owing to theft of the vehicle (owner must produce FIR copy and Final Report)"
+                ]
+            },
+            "compounding_of_offences": {
+                "rule": "32",
+                "description": "Any person accused of an offence punishable under Section 11 of the Act may, on payment of tax due, present an application for compounding to the Taxation Officer or Motor Vehicle Inspector/Sub-Inspector. The officer may accept a sum by way of composition as appropriate to the nature and gravity of the offence.",
+                "minimum_composition_amount": "Not less than Rs. 50/-",
+                "maximum_composition_amount": "Not exceeding the annual tax payable for the motor vehicle concerned"
+            },
+            "recovery_of_tax_instalments": {
+                "rule": "33",
+                "instalment_authority": [
+                    {
+                        "arrear_amount": "More than Rs. 3,000/- but not exceeding Rs. 50,000/-",
+                        "authority": "Taxation Officer"
+                    },
+                    {
+                        "arrear_amount": "Exceeding Rs. 50,000/- but not exceeding Rs. 1,00,000/-",
+                        "authority": "Regional Transport Officer"
+                    },
+                    {
+                        "arrear_amount": "Exceeding Rs. 1,00,000/- but not exceeding Rs. 2,00,000/-",
+                        "authority": "Transport Commissioner"
+                    },
+                    {
+                        "arrear_amount": "Exceeding Rs. 2,00,000/-",
+                        "authority": "Transport Commissioner with approval of the State Government"
+                    }
+                ],
+                "interest_on_instalment": "1.5% per month on outstanding amount where payment is postponed beyond one month",
+                "maximum_instalment_period": "6 months from date of order (extendable up to 12 months with Commissioner's approval; not beyond 3 years from date of demand notice)"
+            },
+            "refund_of_tax": {
+                "rule": "26_B",
+                "claim_deadlines": [
+                    "6 months from expiry of the period for which refund is claimed on account of non-use",
+                    "6 months from date on which owner became entitled to a lower rate of tax",
+                    "6 months from date of service of final orders passed in appeal/revision",
+                    "6 years from payment, in case of refund or adjustment of tax paid by mistake or in excess",
+                    "6 months from date of order of suspension/cancellation of registration certificate or permit"
+                ],
+                "refund_authority_approval": "No refund or adjustment order exceeding Rs. 30,000/- shall be passed by the Taxation Officer without prior sanction of the concerned Regional Transport Officer"
+            },
+            "special_token_fees_for_goods_vehicles": {
+                "rule": "15-B",
+                "annual_token_applied_in_march": [
+                    {
+                        "gvw_kg": "Up to 7500",
+                        "fee_INR": 5000
+                    },
+                    {
+                        "gvw_kg": "Above 7500 and up to 16200",
+                        "fee_INR": 7500
+                    },
+                    {
+                        "gvw_kg": "Above 16200 and up to 25000",
+                        "fee_INR": 11000
+                    },
+                    {
+                        "gvw_kg": "Above 25000 and up to 35200",
+                        "fee_INR": 19000
+                    },
+                    {
+                        "gvw_kg": "Above 35200",
+                        "fee_INR": 31000
+                    }
+                ],
+                "annual_token_applied_april_or_later": [
+                    {
+                        "gvw_kg": "Up to 7500",
+                        "fee_INR": 6000
+                    },
+                    {
+                        "gvw_kg": "Above 7500 and up to 16200",
+                        "fee_INR": 9500
+                    },
+                    {
+                        "gvw_kg": "Above 16200 and up to 25000",
+                        "fee_INR": 13000
+                    },
+                    {
+                        "gvw_kg": "Above 25000 and up to 35200",
+                        "fee_INR": 21000
+                    },
+                    {
+                        "gvw_kg": "Above 35200",
+                        "fee_INR": 31000
+                    }
+                ],
+                "monthly_token_rajasthan_registered": [
+                    {
+                        "gvw_kg": "Up to 7500",
+                        "fee_INR": 1000
+                    },
+                    {
+                        "gvw_kg": "Above 7500 and up to 16200",
+                        "fee_INR": 1500
+                    },
+                    {
+                        "gvw_kg": "Above 16200 and up to 25000",
+                        "fee_INR": 2000
+                    },
+                    {
+                        "gvw_kg": "Above 25000 and up to 35200",
+                        "fee_INR": 2500
+                    },
+                    {
+                        "gvw_kg": "Above 35200 and up to 40200",
+                        "fee_INR": 3000
+                    },
+                    {
+                        "gvw_kg": "Above 40200",
+                        "fee_INR": 3500
+                    }
+                ],
+                "monthly_token_outside_rajasthan_registered": [
+                    {
+                        "gvw_kg": "Up to 7500",
+                        "fee_INR": 2000
+                    },
+                    {
+                        "gvw_kg": "Above 7500 and up to 16200",
+                        "fee_INR": 3000
+                    },
+                    {
+                        "gvw_kg": "Above 16200 and up to 25000",
+                        "fee_INR": 3500
+                    },
+                    {
+                        "gvw_kg": "Above 25000 and up to 35200",
+                        "fee_INR": 4000
+                    },
+                    {
+                        "gvw_kg": "Above 35200 and up to 40200",
+                        "fee_INR": 4500
+                    },
+                    {
+                        "gvw_kg": "Above 40200",
+                        "fee_INR": 5000
+                    }
+                ]
+            },
+            "surrender_of_registration_certificate": {
+                "rule": "25",
+                "minimum_period_of_surrender": {
+                    "stage_carriages": "Not less than 7 days",
+                    "other_vehicles": "Not less than 1 month"
+                },
+                "documents_required": [
+                    "Certificate of registration",
+                    "Tax certificate / computerised tax certificate",
+                    "Tax token / computerised tax token",
+                    "Certificate of fitness (if any)",
+                    "In case of transport vehicles: Part A and B of the permit along with authorisation (if any)",
+                    "Insurance Certificate (original or attested photocopy if original not available)"
+                ],
+                "application_form": "Form M.T.G.",
+                "application_fee": "Rs. 10/- (cash receipt)"
+            },
+            "reasons_for_non_use_allowed": {
+                "rule": "25-AA",
+                "reasons": [
+                    "Motor vehicle restrained from plying by Competent Court or Authority",
+                    "Motor vehicle involved in an accident and police report made, vehicle remained out of use",
+                    "Motor vehicle attached for recovery of tax under Rajasthan Land Revenue Act, 1956 by competent authority or under warrant of attachment",
+                    "Certificate of registration suspended or cancelled by Competent Authority",
+                    "Mechanical breakdown due to accident or otherwise, or repair and maintenance",
+                    "Prohibitory orders under Section 144 of the Code of Criminal Procedure, 1973 or other law and order situation",
+                    "Theft of the vehicle"
+                ]
+            },
+            "computation_of_cost_for_tax": {
+                "rule": "42",
+                "method": "Cost of vehicle/chassis for tax computation is the purchase price of the vehicle in the financial year in which tax is due. For vehicles purchased in an earlier year, notional price increase at 15% per annum compounded annually is applied on the purchase price as of 1st April of the year of purchase. The computed cost shall not exceed the current cost of similar new vehicles.",
+                "rounding_rules": {
+                    "two_wheelers": "Fractions of a hundred rupees rounded off to the next hundred",
+                    "other_vehicles": "Fractions of a thousand rupees rounded off to the next thousand",
+                    "taxes_interest_penalties_refunds": "Fractions of a rupee rounded off to the next higher rupee"
+                }
+            },
+            "appeals": {
+                "rule": "37",
+                "requirements": [
+                    "Appeal/revision to be in writing with a court fee stamp of Rs. 10/-",
+                    "Accompanied by certified copy of the order appealed against",
+                    "In case of revision by owner, accompanied by treasury receipt of Rs. 250/-",
+                    "Must contain a statement that the admitted tax and penalty have been paid"
+                ]
+            },
+            "transfer_of_ownership": {
+                "rule": "36",
+                "requirements": "Every transfer of ownership must be reported within 14 days by both transferor and transferee to the concerned Taxation Officer. The transferee must produce the registration certificate and token. A transfer fee of Rs. 1/- is payable. No transfer shall be valid until a clearance certificate (no arrears of tax under the Rajasthan Motor Vehicles Taxation Act, 1951 or Rajasthan Passengers and Goods Taxation Act, 1959) is produced by the transferor at the office of the Registering Authority."
+            }
+        },
+        {
+            "doc_id": "RJ-RULES-002",
+            "title": "The Rajasthan Motor Vehicles Rules, 1990",
+            "chapters": [
+                {
+                    "chapter": "I",
+                    "title": "Preliminary"
+                },
+                {
+                    "chapter": "II",
+                    "title": "Licensing of Drivers of Motor Vehicles"
+                },
+                {
+                    "chapter": "III",
+                    "title": "Licensing of Conductor of Stage Carriage"
+                },
+                {
+                    "chapter": "IV",
+                    "title": "Registration of Motor Vehicles"
+                },
+                {
+                    "chapter": "V",
+                    "title": "Control of Transport Vehicles"
+                },
+                {
+                    "chapter": "VI",
+                    "title": "Special Provisions Relating to State Transport Undertakings"
+                },
+                {
+                    "chapter": "VII",
+                    "title": "Construction, Equipment and Maintenance of Motor Vehicles"
+                },
+                {
+                    "chapter": "VIII",
+                    "title": "Control of Traffic"
+                },
+                {
+                    "chapter": "IX",
+                    "title": "Rajasthan State Road Transport Corporation Motor Vehicles Third Party Liability Fund"
+                },
+                {
+                    "chapter": "X",
+                    "title": "Claims Tribunal"
+                },
+                {
+                    "chapter": "XI",
+                    "title": "Offences, Penalties and Procedure"
+                },
+                {
+                    "chapter": "XII",
+                    "title": "Miscellaneous"
+                },
+                {
+                    "chapter": "XIII",
+                    "title": "Special Provisions Relating to Smart Card"
+                },
+                {
+                    "chapter": "FORMS",
+                    "title": "Prescribed Forms"
+                },
+                {
+                    "chapter": "NOTIFICATIONS",
+                    "title": "Official Notifications"
+                }
+            ]
+        },
+        {
+            "doc_id": "RJ-ACT-002",
+            "title": "Rajasthan State Bus Terminal Development Authority Act, 2015",
+            "year": 2015,
+            "purpose": "Establishment of the Rajasthan State Bus Terminal Development Authority for development and management of bus terminals in the State of Rajasthan."
+        }
+    ],
+    "metadata": {
+        "total_documents": 4,
+        "primary_governing_act": "The Rajasthan Motor Vehicles Taxation Act, 1951 (Act No. XI of 1951)",
+        "primary_rules": "The Rajasthan Motor Vehicles Taxation Rules, 1951",
+        "state_government": "Government of Rajasthan",
+        "nodal_authority": "Transport Commissioner, Rajasthan",
+        "rag_tags": [
+            "vehicle_tax",
+            "one_time_tax",
+            "green_tax",
+            "surcharge",
+            "token",
+            "tax_certificate",
+            "penalty",
+            "exemption",
+            "refund",
+            "compounding",
+            "surrender",
+            "non_use",
+            "national_permit",
+            "stage_carriage",
+            "goods_vehicle",
+            "transport_vehicle",
+            "non_transport_vehicle",
+            "driving_license",
+            "road_safety",
+            "Rajasthan"
+        ]
+    }
+}

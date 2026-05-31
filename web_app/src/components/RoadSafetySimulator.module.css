@@ -1,0 +1,674 @@
+/* Road safety simulator — interactive, Chennai context */
+
+.scene {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(180deg, #eef1f5 0%, #e2e6ec 48%, #d4dae2 100%);
+  border-top: 1px solid var(--dl-border);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75), var(--dl-shadow-sm);
+}
+
+.login {
+  height: 220px;
+}
+
+.footer {
+  height: 160px;
+  border-radius: 14px 14px 0 0;
+}
+
+.glassPanel {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.3) 0%, transparent 50%);
+}
+
+/* Location + rule card (clear gap above road) */
+.locationBar {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  z-index: 8;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  max-width: 72%;
+}
+
+.locationPin {
+  font-size: 0.52rem;
+  font-weight: 700;
+  color: var(--dl-graphite-deep);
+  width: 100%;
+}
+
+.locationMeta {
+  font-size: 0.48rem;
+  font-weight: 600;
+  color: var(--dl-muted);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  background: rgba(24, 24, 37, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.ruleCard {
+  position: absolute;
+  top: 52px;
+  left: 8px;
+  z-index: 7;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.52rem;
+  font-weight: 700;
+  color: var(--dl-charcoal);
+  background: #ffffff;
+  border: 1px solid var(--dl-border-strong);
+  border-radius: 999px;
+  box-shadow: 0 2px 4px rgba(15, 23, 42, 0.06);
+}
+
+/* City — extra bottom inset so cards don’t crowd the road */
+.cityLayer {
+  position: absolute;
+  inset: 0 0 50%;
+  z-index: 0;
+}
+
+.skyline {
+  position: absolute;
+  bottom: 0;
+  left: -4%;
+  right: -4%;
+  height: 52px;
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.building {
+  flex: 1;
+  min-width: 12px;
+  max-width: 40px;
+  background: linear-gradient(180deg, #2d3748 0%, #111827 100%);
+  border-radius: 3px 3px 0 0;
+  position: relative;
+}
+
+.windowRow {
+  position: absolute;
+  top: 22%;
+  left: 12%;
+  right: 12%;
+  height: 3px;
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(251, 191, 36, 0.45) 0,
+    rgba(251, 191, 36, 0.45) 3px,
+    transparent 3px,
+    transparent 6px
+  );
+}
+
+.streetLights {
+  position: absolute;
+  inset: 0;
+}
+
+.streetLamp {
+  position: absolute;
+  bottom: 6px;
+}
+
+.lampPole {
+  display: block;
+  width: 2px;
+  height: 20px;
+  background: #4b5563;
+  margin: 0 auto;
+}
+
+.lampGlow {
+  display: block;
+  width: 7px;
+  height: 7px;
+  margin: -2px auto 0;
+  border-radius: 50%;
+  background: #fbbf24;
+  box-shadow: 0 0 4px rgba(251, 191, 36, 0.4);
+}
+
+/* Roadside props */
+.roadside {
+  position: absolute;
+  bottom: 46%;
+  left: 0;
+  right: 0;
+  height: 36px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.schoolBuilding {
+  position: absolute;
+  left: 6%;
+  bottom: 0;
+  width: 28px;
+  height: 32px;
+}
+
+.schoolRoof {
+  display: block;
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 10px solid #7c3aed;
+  opacity: 0.7;
+}
+
+.schoolBody {
+  display: block;
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: -2px;
+  opacity: 0.85;
+}
+
+.busStop {
+  position: absolute;
+  left: 72%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.busPole {
+  width: 2px;
+  height: 18px;
+  background: #6b7280;
+}
+
+.busSign {
+  font-size: 0.7rem;
+  opacity: 0.8;
+}
+
+.trees {
+  position: absolute;
+  right: 14%;
+  bottom: -4px;
+  display: flex;
+  gap: 6px;
+}
+
+.tree {
+  font-size: 0.75rem;
+  opacity: 0.65;
+}
+
+.dirSign {
+  position: absolute;
+  right: 6%;
+  bottom: 8px;
+  font-size: 0.65rem;
+  opacity: 0.5;
+}
+
+/* Signal */
+.signalCluster {
+  position: absolute;
+  top: 48px;
+  right: 6%;
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.trafficLight {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 6px 5px;
+  background: #1a1a23;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bulb {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  transition: opacity 0.2s, box-shadow 0.2s;
+}
+
+.bulbRed {
+  background: #ef4444;
+}
+.bulbAmber {
+  background: #f59e0b;
+}
+.bulbGreen {
+  background: #22c55e;
+}
+
+.bulbDim {
+  opacity: 0.18;
+}
+.bulbActive {
+  opacity: 1;
+}
+.bulbRed.bulbActive {
+  box-shadow: 0 0 6px rgba(239, 68, 68, 0.6);
+}
+.bulbAmber.bulbActive {
+  box-shadow: 0 0 6px rgba(245, 158, 11, 0.6);
+}
+.bulbGreen.bulbActive {
+  box-shadow: 0 0 6px rgba(34, 197, 94, 0.6);
+}
+
+.phaseLabel {
+  font-size: 0.48rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: #64748b;
+}
+
+/* Curved road perspective */
+.roadPerspective {
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+  right: 2%;
+  height: 46%;
+  z-index: 2;
+  perspective: 280px;
+  perspective-origin: 50% 100%;
+}
+
+.roadLayer {
+  position: absolute;
+  inset: 0;
+  transform: rotateX(12deg);
+  transform-origin: 50% 100%;
+}
+
+.roadNeon {
+  position: absolute;
+  inset: -4px 0 auto;
+  height: 16px;
+  background: linear-gradient(180deg, rgba(100, 116, 139, 0.08) 0%, transparent 100%);
+}
+
+.roadSurface {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #3d4f63 0%, #283040 100%);
+  border-top: 2px solid rgba(100, 116, 139, 0.3);
+  border-radius: 8px 8px 0 0;
+  clip-path: polygon(4% 0%, 96% 0%, 100% 100%, 0% 100%);
+}
+
+.sidewalkLeft,
+.sidewalkRight {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 8%;
+  background: linear-gradient(180deg, #1f2937 0%, #111827 100%);
+  opacity: 0.85;
+}
+
+.sidewalkLeft {
+  left: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sidewalkRight {
+  right: 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.roadReflection {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(100, 116, 139, 0.07), transparent);
+  animation: shimmer 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.laneStripes {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  right: 10%;
+  height: 4px;
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.7) 0,
+    rgba(255, 255, 255, 0.7) 20px,
+    transparent 20px,
+    transparent 40px
+  );
+  background-size: 40px 100%;
+  animation: stripeScroll 1.1s linear infinite;
+}
+
+.laneStripesInner {
+  position: absolute;
+  top: 68%;
+  left: 12%;
+  right: 12%;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.35) 0,
+    rgba(255, 255, 255, 0.35) 8px,
+    transparent 8px,
+    transparent 16px
+  );
+  background-size: 16px 100%;
+  animation: stripeScroll 0.8s linear infinite;
+}
+
+.zebra {
+  position: absolute;
+  left: 34%;
+  top: 0;
+  bottom: 0;
+  width: 18%;
+}
+
+.zebraBars {
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.88) 0,
+    rgba(255, 255, 255, 0.88) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  opacity: 0.42;
+}
+
+/* Pedestrian on sidewalk */
+.pedestrian {
+  position: absolute;
+  bottom: 47%;
+  z-index: 5;
+  width: 30px;
+  height: 48px;
+  transform: translateX(-50%);
+}
+
+.pedSvg {
+  width: 100%;
+  height: 100%;
+}
+
+.pedWalking .pedLegs {
+  animation: pedStep 0.4s ease-in-out infinite alternate;
+}
+
+/* Vehicles */
+.vehicle {
+  position: absolute;
+  z-index: 4;
+  filter: drop-shadow(0 5px 14px rgba(0, 0, 0, 0.5));
+  will-change: left;
+}
+
+.vehicleSvg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.wheelSpin {
+  animation: spinWheel 0.6s linear infinite;
+  transform-box: fill-box;
+}
+
+.helmetGlowActive {
+  filter: drop-shadow(0 2px 6px rgba(15, 23, 42, 0.2));
+}
+
+.biker {
+  bottom: 34%;
+  width: 76px;
+  height: 54px;
+}
+
+.carLane {
+  bottom: 24%;
+  width: 92px;
+  height: 44px;
+}
+
+.carFront {
+  bottom: 14%;
+  width: 92px;
+  height: 44px;
+}
+
+.vehicleStopped {
+  filter: drop-shadow(0 4px 10px rgba(34, 197, 94, 0.2));
+}
+
+.carYielding {
+  filter: drop-shadow(0 4px 12px rgba(251, 191, 36, 0.35));
+}
+
+/* Badges */
+.badge {
+  position: absolute;
+  z-index: 7;
+  font-size: 0.58rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(15, 23, 42, 0.08);
+}
+
+.badge_helmet {
+  color: #4ade80;
+  background: rgba(74, 222, 128, 0.16);
+  border: 1px solid rgba(74, 222, 128, 0.4);
+}
+
+.badge_signal {
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.14);
+  border: 1px solid rgba(251, 191, 36, 0.4);
+}
+
+.badge_lane {
+  color: #c084fc;
+  background: rgba(100, 116, 139, 0.16);
+  border: 1px solid rgba(100, 116, 139, 0.35);
+}
+
+.badge_speed {
+  color: #67e8f9;
+  background: rgba(103, 232, 249, 0.12);
+  border: 1px solid rgba(103, 232, 249, 0.35);
+}
+
+.badge_pedestrian {
+  color: #f9a8d4;
+  background: rgba(244, 114, 182, 0.14);
+  border: 1px solid rgba(244, 114, 182, 0.4);
+}
+
+.badge_warning {
+  color: #fb923c;
+  background: rgba(251, 146, 60, 0.16);
+  border: 1px solid rgba(251, 146, 60, 0.5);
+  animation: warnPulse 0.8s ease-in-out infinite;
+}
+
+/* Coach */
+.coachBubble {
+  position: absolute;
+  bottom: 6px;
+  left: 6px;
+  right: 6px;
+  z-index: 8;
+  display: flex;
+  gap: 6px;
+  padding: 0.35rem 0.5rem;
+  background: #1a1a23;
+  border: 1px solid rgba(100, 116, 139, 0.4);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.coachDot {
+  width: 6px;
+  height: 6px;
+  margin-top: 4px;
+  border-radius: 50%;
+  background: #64748b;
+  flex-shrink: 0;
+}
+
+.coachText {
+  font-size: 0.54rem;
+  line-height: 1.35;
+  color: var(--dl-graphite-deep);
+}
+
+.coachText strong {
+  color: #64748b;
+}
+
+.coachSub {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.48rem;
+  color: var(--dl-muted);
+  font-weight: 500;
+}
+
+/* Footer compact */
+.footer .login {
+  height: auto;
+}
+
+.footer .locationBar {
+  max-width: 48%;
+}
+
+.footer .locationMeta:nth-child(n + 3) {
+  display: none;
+}
+
+.footer .biker {
+  width: 58px;
+  height: 42px;
+}
+
+.footer .carLane,
+.footer .carFront {
+  width: 72px;
+  height: 36px;
+}
+
+.footer .schoolBuilding,
+.footer .busStop {
+  opacity: 0.6;
+  transform: scale(0.85);
+}
+
+.footer .coachBubble {
+  font-size: 0.5rem;
+}
+
+@keyframes stripeScroll {
+  to {
+    background-position: -40px 0;
+  }
+}
+
+@keyframes spinWheel {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shimmer {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.65;
+  }
+}
+
+@keyframes lampFlicker {
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes pedStep {
+  from {
+    transform: rotate(-6deg);
+  }
+  to {
+    transform: rotate(6deg);
+  }
+}
+
+@keyframes warnPulse {
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+@media (max-width: 960px) {
+  .login {
+    height: 188px;
+  }
+  .footer {
+    height: 140px;
+  }
+  .carFront {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .login {
+    height: 158px;
+  }
+  .footer {
+    height: 118px;
+  }
+  .locationMeta {
+    display: none;
+  }
+  .roadside .trees {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wheelSpin {
+    animation: none;
+  }
+}

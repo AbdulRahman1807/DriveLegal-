@@ -1,0 +1,584 @@
+{
+    "document": {
+        "title": "Motor Vehicles (Driving) Regulations, 2017",
+        "gazette_number": "No. 525",
+        "gazette_type": "Gazette of India - Extraordinary",
+        "notification_ref": "G.S.R.634(E)",
+        "date": "June 23, 2017",
+        "issued_by": "Ministry of Road Transport and Highways, Government of India",
+        "authority": "Section 118 of the Motor Vehicles Act, 1988 (59 of 1988)",
+        "supersedes": "Rules of the Road Regulations, 1989",
+        "joint_secretary": "Abhay Damle"
+    },
+    "kerala_circular": {
+        "circular_no": "15/2018",
+        "ref_no": "No. S2(a)-34409/2018/PHQ",
+        "date": "28/05/2018",
+        "issued_by": "Police Headquarters, Kerala, Thiruvananthapuram-695010",
+        "signed_by": "Loknath Behera IPS, Director General of Police & State Police Chief, Kerala",
+        "purpose": "Strict implementation of Motor Vehicles (Driving) Regulations, 2017",
+        "penalty": {
+            "law": "Section 177 of Motor Vehicles Act, 1988",
+            "first_offence": "Fine of Rs. 100/-",
+            "subsequent_offences": "Fine up to Rs. 300/-"
+        },
+        "distribution": [
+            "All DPCs",
+            "Zonal ADGPs / Range IGsP",
+            "Transport / Road Safety Commissioner, Govt. of Kerala",
+            "IGP Traffic & RSM / Zonal SPs - Traffic",
+            "All Officers in PHQ / PIC PHQ / Web admin SCRB",
+            "Circular Book / Stock file"
+        ]
+    },
+    "definitions": {
+        "act": "Motor Vehicles Act, 1988 (59 of 1988)",
+        "carriageway": "Part of road normally used by vehicular traffic",
+        "construction_zone": "Section of roadway where construction activity is in progress or declared to be undertaken",
+        "heavy_vehicle": "Heavy goods vehicle or heavy passenger motor vehicle as per Section 2(16) and 2(17) of the Act",
+        "intersection": "Any level crossroad, junction or fork, including open areas formed by such crossroads",
+        "longitudinal_marking": "Road marking provided along the movement of traffic on carriageway",
+        "major_district_roads": "Important roads within a district notified by the State Government",
+        "major_road": "Highway, road or street designated as such by highway or local authority",
+        "national_highways": "Highways specified in National Highways Act, 1956 schedule or declared under Section 2(2)",
+        "parking": "Bringing vehicle to stationary position and causing it to wait for any purpose other than immediate pick-up/drop; includes stopping for more than 3 minutes",
+        "rider_or_passenger": "Person travelling on a motor vehicle other than as driver",
+        "right_of_way": "Right of vehicle or road user to proceed in preference to another approaching in circumstances of danger or collision",
+        "road": "Includes bridges, tunnels, lay-bys, ferry facilities, interchanges, roundabouts, traffic islands, dividers, all lanes, ramps, toll plazas, roads under construction; excludes private roads",
+        "road_marking": "Lines, patterns, words on carriageway or kerbs for controlling, warning, guiding road users",
+        "road_user": "Person driving or travelling on road in a vehicle or otherwise; includes pedestrians",
+        "silence_zone": "Area notified by competent authority where use of sound signal is prohibited",
+        "state_highways": "Arterial roads of a State notified as such by State Government",
+        "stopping": "Halting vehicle for very short duration to allow passengers to board/alight or for quick loading/unloading",
+        "traffic": "Vehicles, carriages, pedestrians, processions, animals and all other forms of road traffic",
+        "traffic_island": "Physical provision and road markings at or near intersections to regulate vehicular traffic",
+        "traversed_marking": "Road marking provided across the carriageway"
+    },
+    "regulations": [
+        {
+            "reg_no": 3,
+            "title": "Duty towards other road users and general public",
+            "rules": [
+                "No vehicle shall be driven, stopped or parked in a manner likely to endanger safety or cause inconvenience to other road users"
+            ]
+        },
+        {
+            "reg_no": 4,
+            "title": "Use of roads by vehicles",
+            "rules": [
+                "Every moving vehicle must have a driver",
+                "Motor vehicle shall be driven on the carriageway",
+                "On dual carriageways, drive on left carriageway unless directed otherwise",
+                "Keep vehicle as far left as possible; allow opposite traffic to pass on right",
+                "Keep left when being overtaken, approaching bends or hills with restricted view",
+                "Heavy/speed-restricted vehicles must use left lane; return after overtaking",
+                "One-way roads must be used only in the specified direction",
+                "No driving against traffic flow unless directed by authority",
+                "Keep safe distance from reversing vehicles"
+            ]
+        },
+        {
+            "reg_no": 5,
+            "title": "Duties of drivers and riders",
+            "rules": [
+                "Drive with due care and caution at all times",
+                "Driver must be in full physical and mental control",
+                "Maintain good lookout; avoid distractions",
+                "Take special care for vulnerable road users: pedestrians, cyclists, children, elderly, differently abled",
+                "Ensure vehicle does not cause hindrance or inconvenience to others",
+                "Ensure view is not obstructed and hearing not impaired",
+                "Ensure all occupants wear seat belts",
+                "Children up to 12 years must be in appropriate child restraint system",
+                "Motor cycle riders, pillion-riders must wear helmet",
+                "No loud music in vehicle",
+                "No watching digital video/motion pictures while driving (navigation device allowed with care)",
+                "Strictly comply with laws on alcohol, drugs and smoking; ensure compliance by crew and passengers",
+                "Take care when getting into or out of vehicles",
+                "Do not drive a vehicle with known defects that could cause danger",
+                "If defect discovered while driving, take vehicle off road immediately",
+                "Motor cycle/three-wheeler rider shall not hold on to or push another vehicle",
+                "Motor cycle/three-wheeler driver must hold handlebar with both hands except when signalling"
+            ]
+        },
+        {
+            "reg_no": 6,
+            "title": "Lane traffic",
+            "rules": [
+                "Drive within the lane; change lanes only after proper signal",
+                "Vehicles of a special class must use lanes marked for that class",
+                "No other vehicle may use a lane designated for a special class",
+                "Do not cross yellow or white solid longitudinal line while overtaking",
+                "At intersections with turning lanes, remain in the lane for the intended direction",
+                "Do not drive on solid single/double longitudinal lines or painted traffic islands except for obstructions",
+                "On roads with broken line alongside solid line, may cross broken line to overtake then return"
+            ]
+        },
+        {
+            "reg_no": 7,
+            "title": "Right of way",
+            "rules": [
+                "At STOP sign: stop before stop line, give way to major road traffic, enter only when clear",
+                "At Give Way sign: slow down, give way to approaching traffic, proceed cautiously",
+                "Give way to pedestrians if no pedestrian crossing precedes STOP/Give Way sign",
+                "Vehicle emerging from property must give way to traffic on road"
+            ]
+        },
+        {
+            "reg_no": 8,
+            "title": "Left, right and U-turns",
+            "left_turn": [
+                "Indicate intention clearly and in good time",
+                "Move to leftmost lane or slip lane before turning",
+                "Use direction-marked lane on multi-lane roads",
+                "Give way to cyclists and slow-moving traffic before turning left",
+                "Give way to pedestrians at uncontrolled crossings"
+            ],
+            "right_turn": [
+                "Indicate intention clearly and in good time",
+                "Move to rightmost lane before turning",
+                "Give way to pedestrians at uncontrolled crossings"
+            ],
+            "u_turn": {
+                "prohibited_when": [
+                    "Prohibited by road sign or traffic signal",
+                    "On a busy road with continuous traffic flow",
+                    "On a major road, highway or expressway",
+                    "Across a continuous single or double solid line"
+                ],
+                "requirements": [
+                    "Ensure no blind spots around vehicle",
+                    "Closely observe traffic in opposite direction and mirrors",
+                    "Give way to all road users including pedestrians and cyclists",
+                    "Ensure clear view of approaching traffic",
+                    "Large vehicle may take U-turn from left lane only where permitted"
+                ]
+            }
+        },
+        {
+            "reg_no": 9,
+            "title": "Precautions at intersections",
+            "rules": [
+                "Slow down at road intersections, junctions, pedestrian crossings and road corners",
+                "Do not enter intersection if likely to endanger other road users",
+                "Vehicles from the right have right of way at intersections (unless controlled by lights/signs/authorized person)",
+                "Do not enter a standstill intersection even with a green signal"
+            ]
+        },
+        {
+            "reg_no": 10,
+            "title": "Precautions at roundabouts",
+            "rules": [
+                "Traffic already in roundabout has right of way",
+                "Choose appropriate lane before entering based on exit direction",
+                "Use indicators when changing lanes within roundabout",
+                "Follow left-turn procedure when exiting roundabout"
+            ]
+        },
+        {
+            "reg_no": 11,
+            "title": "Indication of signals",
+            "rules": [
+                "Clearly indicate intention to change course or turn before any manoeuvre",
+                "Use mechanical/electrical devices or hand signals"
+            ],
+            "hand_signals": {
+                "stop": "Raise right forearm vertically outside and to the right of vehicle, palm to the right",
+                "turn_right": "Extend right arm horizontally outside to the right, palm turned to the front",
+                "turn_left": "Extend right arm and rotate it anti-clockwise",
+                "signal_to_overtake": "Extend right arm horizontally to the right and swing arm backward and forward in semi-circular motion"
+            }
+        },
+        {
+            "reg_no": 12,
+            "title": "Traffic control signals",
+            "red_light": [
+                "Stop before stop line preceding pedestrian crossing",
+                "If no stop line, stop before pedestrian crossing",
+                "If no pedestrian crossing, stop before primary traffic signal",
+                "Move with caution after green signal",
+                "Flashing red: treat as STOP sign; give way to pedestrians and major road traffic",
+                "Left turn allowed on red after giving way to right-side traffic and pedestrians (unless prohibited)"
+            ],
+            "green_light": [
+                "Enter intersection only if way ahead is clear",
+                "Follow direction of green directional arrow if displayed",
+                "Give way to pedestrians within intersection and vehicles already in intersection",
+                "Flashing green arrow: turn in direction of arrow after giving way to pedestrians, cyclists and merging vehicles"
+            ],
+            "amber_light": [
+                "Stop before stop line preceding pedestrian crossing",
+                "If no stop line, stop before pedestrian crossing",
+                "If no pedestrian crossing, stop before signal (unless crossing stop line would cause collision)",
+                "Flashing amber: slow down, proceed with caution after giving way"
+            ]
+        },
+        {
+            "reg_no": 13,
+            "title": "Manual traffic control",
+            "rules": [
+                "Follow directions of police officer in uniform or authorised person",
+                "On STOP signal: stop before stop line preceding pedestrian crossing",
+                "If no stop line, stop before pedestrian crossing",
+                "If no pedestrian crossing, stop before the approaching road at junction",
+                "Do not move until signal to proceed is given"
+            ]
+        },
+        {
+            "reg_no": 14,
+            "title": "Overtaking",
+            "rules": [
+                "Overtake only when safe and not in violation of law",
+                "Overtake only from the right side",
+                "Left overtaking allowed: on multi-lane roads in a safe left lane; when vehicle ahead is turning right; when vehicle ahead is stationary",
+                "Do not overtake if it impedes oncoming traffic",
+                "While overtaking, drive faster than vehicle being overtaken but within speed limits",
+                "Do not overtake if traffic situation is unclear",
+                "Do not overtake across continuous solid longitudinal lines",
+                "Do not overtake on bends, corners, obstructions, junctions, intersections, pedestrian crossings",
+                "Do not overtake where road narrows, on narrow culverts, or in School/Hospital/Construction zones",
+                "Do not overtake where prohibited by mandatory traffic signs",
+                "Use direction indicators to show intention to overtake; return to left side quickly after",
+                "Do not give right indicator to signal permission for following vehicle to overtake",
+                "Outside built-up areas: signal by short horn blast or headlight flasher before overtaking",
+                "Vehicle being overtaken shall not increase speed or impede overtaking vehicle"
+            ]
+        },
+        {
+            "reg_no": 15,
+            "title": "Merging in traffic",
+            "rules": [
+                "Give way to existing traffic when entering national/state highway or major district road",
+                "At intersection of two same-category roads, vehicle on right has right of way",
+                "Use acceleration lane to build up speed before merging",
+                "Watch rear and side-view mirrors and signal before merging",
+                "Do not overtake ahead vehicle unless you have stayed long enough in left/current lane"
+            ]
+        },
+        {
+            "reg_no": 16,
+            "title": "Speed",
+            "rules": [
+                "Drive only at a speed that allows full control of vehicle at all times",
+                "Drive at lower speed during fog, rain, snowfall, storm or desert winds",
+                "Do not exceed maximum speed limit or go below minimum speed limit",
+                "Do not drive so slowly as to impede normal traffic flow",
+                "Do not exceed 25 km/h near construction sites, schools, hospitals (where indicated) or roads without footpaths used by pedestrians"
+            ]
+        },
+        {
+            "reg_no": 17,
+            "title": "Keeping safe distance",
+            "rules": [
+                "Maintain sufficient following distance to stop safely if vehicle ahead brakes suddenly",
+                "Do not brake suddenly without compelling reason when being followed",
+                "Increase following distance during adverse weather (rain, snow, storm, ice)"
+            ]
+        },
+        {
+            "reg_no": 18,
+            "title": "Restrictions on driving in reverse",
+            "rules": [
+                "Do not reverse on a road unless necessary to turn around; ensure safety of others",
+                "No vehicle shall be driven onto a public road in reverse direction",
+                "No vehicle shall reverse into a ONE WAY road"
+            ]
+        },
+        {
+            "reg_no": 19,
+            "title": "Level crossings",
+            "rules": [
+                "Rail-borne vehicles have overriding priority at all unmanned level crossings",
+                "Slow down when approaching a railway crossing",
+                "Do not park or overtake within barriers of a railway crossing; keep to left",
+                "At guarded crossing: do not enter after gates have started closing or when facing red light",
+                "At unguarded crossing: enter only after ensuring no rolling stock is in sight",
+                "Buses, goods vehicles, tractors with farm labour/goods, and hazardous material vehicles must stop and send person to check crossing before proceeding"
+            ]
+        },
+        {
+            "reg_no": 20,
+            "title": "Entering a tunnel",
+            "rules": [
+                "Switch on dipped lights before entering a tunnel",
+                "No overtaking, U-turns or reversing inside a tunnel",
+                "Do not stop or park in a tunnel unless unavoidable; if unavoidable, switch on hazard lights and place reflective triangles 20 metres from vehicle on both sides"
+            ]
+        },
+        {
+            "reg_no": 21,
+            "title": "Vehicles going uphill to be given precedence",
+            "rules": [
+                "On mountain/steep narrow roads, driver going downhill must stop on left side and allow uphill vehicle to pass first"
+            ]
+        },
+        {
+            "reg_no": 22,
+            "title": "Stopping and parking",
+            "no_stopping_zones": [
+                "Where road is narrow or view is obstructed",
+                "Near or on a sharp bend",
+                "In acceleration or deceleration lane",
+                "On or within 5 metres before a pedestrian crossing",
+                "On a level crossing",
+                "Within 5 metres before traffic light signal, Give Way or STOP sign",
+                "At designated bus stands (for non-buses)",
+                "On a yellow box marked on road",
+                "Where prohibited by mandatory No Stopping sign"
+            ],
+            "no_parking_zones": [
+                "All no-stopping zones",
+                "On main road where speed limit is 50 km/h or more",
+                "On footpath, cycle track or pedestrian crossing",
+                "Within 50 metres of an intersection or junction",
+                "Where it blocks access to designated parking spaces",
+                "Near bus stop, entrance to educational institution or hospital, or near traffic sign or fire hydrant",
+                "In a tunnel",
+                "In a bus lane",
+                "In front of entrance or exit of a property",
+                "Where there is a continuous yellow line on the kerb side",
+                "Away from edge of footpath",
+                "Opposite another parked vehicle",
+                "Alongside another parked vehicle",
+                "If likely to obstruct any vehicle or cause inconvenience",
+                "Beyond specified duration in time-limited parking zones",
+                "In category-restricted parking if vehicle doesn't qualify",
+                "In differently-abled reserved spaces by non-disabled drivers",
+                "In a manner that occupies excessive space in a designated lot",
+                "Where prohibited by No Parking sign"
+            ]
+        },
+        {
+            "reg_no": 23,
+            "title": "Use of horns and silence zones",
+            "rules": [
+                "Unnecessary use of horn is prohibited",
+                "Horn to be sounded only when driver apprehends danger",
+                "Sound horn when directed by mandatory sign",
+                "Do not sound horn continuously, repeatedly or for longer than necessary",
+                "Do not use horn in residential areas or silence zones",
+                "Do not use cut-out to release exhaust gases other than through silencer",
+                "Do not fit or use air horn or multi-toned horn giving harsh, shrill or alarming noise",
+                "Do not drive a vehicle that creates undue noise when in motion"
+            ]
+        },
+        {
+            "reg_no": 24,
+            "title": "Mandatory orders",
+            "rules": [
+                "Driver must comply when stopped by police officer for verification of fitness certificate or collection of information",
+                "Obey directions given by mandatory signages, road markings and signalling devices",
+                "Obey signals or instructions of police officer on duty in uniform regardless of other rules",
+                "Obey verbal directions of police officer including to stop, reverse, slow down, turn back, or keep in specific lane"
+            ]
+        },
+        {
+            "reg_no": 25,
+            "title": "Passing along formations",
+            "rules": [
+                "Reduce speed and pass slowly and cautiously past funeral processions, troop/police formations, or pack animals",
+                "Leave adequate space between formation and vehicle",
+                "Stop and allow formation to cross if it is crossing or about to cross the road"
+            ]
+        },
+        {
+            "reg_no": 26,
+            "title": "Bar on traffic impairment",
+            "rules": [
+                "No driver shall offer goods or services on the road",
+                "No driver shall display any advertisement on the vehicle (unless validly permitted)"
+            ]
+        },
+        {
+            "reg_no": 27,
+            "title": "Vehicles designated for emergency duties",
+            "rules": [
+                "Emergency vehicle siren and flasher to be used only when responding to actual emergency",
+                "Emergency vehicle with siren and flasher on has right of way over all other vehicles",
+                "In utmost emergency, emergency vehicle may: cross red light, exceed speed limit, drive on hard shoulder, drive on NO ENTRY or One Way street — all with extreme caution",
+                "Other vehicles must yield to emergency vehicle: move left to kerb and stop until it has passed",
+                "Maintain at least 50 metres distance from an emergency vehicle with siren/flasher on",
+                "Road/utility maintenance vehicles parked on roadway must switch on hazard lights and place warning device at least 50 metres behind"
+            ],
+            "emergency_vehicle_priority": [
+                "1st: Fire service vehicle",
+                "2nd: Ambulance",
+                "3rd: Police service vehicle",
+                "4th: Other State Government designated emergency management vehicles (water, power, public transport)"
+            ]
+        },
+        {
+            "reg_no": 28,
+            "title": "Vehicle breakdown",
+            "rules": [
+                "Switch on hazard warning lights immediately",
+                "On highways and major fast roads, place reflective warning triangles 50 metres behind broken-down vehicle",
+                "If broken down on a bend, place reflective triangles before the bend"
+            ]
+        },
+        {
+            "reg_no": 29,
+            "title": "Action in case of vehicular accident",
+            "minor_accidents": [
+                "Alight and take pictures of vehicles, occupants, pedestrians and accident scene if possible",
+                "Pull vehicles off the road immediately",
+                "Place reflective warning triangles and turn on hazard lights",
+                "Call police or ambulance immediately if anyone is hurt",
+                "Do not leave the scene until everything is resolved"
+            ],
+            "major_accidents": [
+                "Check all occupants for injuries",
+                "Call medical assistance and police immediately if someone is hurt",
+                "Take pictures of persons, vehicles, registration plates and scene once stabilised",
+                "Move vehicles to side of road if possible",
+                "If cannot move vehicle, remain at scene until police arrives (unless injured)",
+                "Cooperate with police in investigation",
+                "Exchange details with other driver: name, address, phone, insurance company, policy number, driving licence number, vehicle registration number"
+            ],
+            "interacting_with_other_driver": [
+                "Refrain from losing temper or provoking others",
+                "Exchange contact and insurance details",
+                "Call police immediately if amicable settlement cannot be made",
+                "Remain at scene if police has been informed until permitted to leave"
+            ]
+        },
+        {
+            "reg_no": 30,
+            "title": "Towing a vehicle",
+            "rules": [
+                "No two-wheeled motor vehicle shall be towed by another vehicle",
+                "Maximum towing speed: 25 km/h",
+                "Maximum distance between towing and towed vehicle: 5 metres",
+                "Tow ropes or chains shall be clearly visible to other road users",
+                "Display retro-reflective ON TOW sign (min. 10 cm height, 2 cm width, 2 cm letter spacing on white background) at front of towing vehicle and rear of towed vehicle",
+                "Do not tow at night, in darkness or adverse weather unless hazard lights of both vehicles are on",
+                "If hazard lights of towed vehicle are non-functional, towing vehicle's hazard lights must be on"
+            ]
+        },
+        {
+            "reg_no": 31,
+            "title": "Vehicle lighting",
+            "rules": [
+                "Use specified lighting at nightfall, night, dawn and when visibility is poor",
+                "Two-wheeled motor vehicle drivers must keep dipped headlights on during daytime also",
+                "All lighting devices must be kept in good working condition and unobstructed",
+                "Do not drive with parking lights only (unless directed by authority)",
+                "Do not use high beam inappropriately, for long durations or on well-lit roads",
+                "Dip high beam in good time when approaching oncoming vehicle or driving close behind another",
+                "Use fog light headlamps only in low visibility conditions (fog, dust, storm, rain, snow) and only with dipped headlamps"
+            ]
+        },
+        {
+            "reg_no": 32,
+            "title": "Driving of tractors and goods vehicles",
+            "rules": [
+                "Tractor driver shall not carry any person on the tractor",
+                "Number of persons in driver's cabin of goods carriage shall not exceed the number in certificate of registration",
+                "No person shall be carried in a goods carriage for hire or reward"
+            ]
+        },
+        {
+            "reg_no": 33,
+            "title": "Lane splitting (lane within a lane)",
+            "rules": [
+                "In urban areas on roads with max speed limit of 40 km/h, motor cyclists may filter between 3 and 4-wheeled vehicles where specifically permitted by road signs",
+                "Speed difference between motor cyclists and other vehicles must not exceed 15 km/h"
+            ]
+        },
+        {
+            "reg_no": 34,
+            "title": "Restriction on carriage of dangerous substances",
+            "rules": [
+                "Driver of public service vehicle shall not carry or allow any person to carry explosive, highly inflammable or dangerous substances except the vehicle's own fuel and lubricants"
+            ]
+        },
+        {
+            "reg_no": 35,
+            "title": "Projection of loads",
+            "rules": [
+                "Loads must be stowed and restrained so they cannot slip, fall, roll, fall off or produce avoidable noise even during emergency braking or sudden swerve",
+                "Do not drive a vehicle loaded in a manner likely to cause danger to any person",
+                "Load shall not extend beyond the sides, front, rear or height/weight limits in the certificate of registration"
+            ]
+        },
+        {
+            "reg_no": 36,
+            "title": "Registration plates",
+            "rules": [
+                "No vehicle shall be driven or parked without displaying registration plates as prescribed by law",
+                "Registration plates must be clearly visible, legible and unobstructed",
+                "No letters, words, figures, pictures or symbols other than the registration number shall appear on the plates",
+                "No load shall hide the registration plate"
+            ]
+        },
+        {
+            "reg_no": 37,
+            "title": "Use of mobile telephones and communication devices",
+            "rules": [
+                "Driver shall not use any hand-held mobile phone or other communication device while driving",
+                "No trainer or supervisor shall use a mobile phone or communication device while training or supervising a learner driver"
+            ]
+        },
+        {
+            "reg_no": 38,
+            "title": "Production of documents",
+            "transport_vehicle_documents_required": [
+                "Driving licence",
+                "Certificate of taxation",
+                "Certificate of registration",
+                "Certificate of insurance",
+                "Fitness certificate",
+                "Pollution Under Control (PUC) certificate"
+            ],
+            "hazardous_goods_vehicle": "Additional documents as per rules 132 and 133 of Central Motor Vehicles Rules, 1989",
+            "non_transport_vehicle": [
+                "Driving licence and PUC certificate (originals)",
+                "Certificate of registration and insurance (originals or photocopies)"
+            ],
+            "production_on_demand": "Must produce documents on demand by police officer, Motor Vehicles Department officer or authorised State Government officer",
+            "note": "If original registration or insurance certificate not available, produce before competent authority within 15 days if required"
+        },
+        {
+            "reg_no": 39,
+            "title": "Pedestrian crossings, footpaths and cycle tracks",
+            "rules": [
+                "Slow down, stop and give way to pedestrians, invalid carriage users and wheelchair users at uncontrolled pedestrian crossings",
+                "Do not drive onto pedestrian crossing if traffic is at standstill and you are unlikely to clear the crossing",
+                "No vehicle shall drive on a footpath or cycle track except on direction of police officer or where traffic signs permit"
+            ]
+        },
+        {
+            "reg_no": 40,
+            "title": "Knowledge and understanding of road signs, markings, traffic control signals, the Act and the Rules",
+            "driver_must_know": {
+                "general": [
+                    "Road signs, markings and traffic control signals"
+                ],
+                "motor_vehicles_act_1988_sections": [
+                    "Section 19: Grounds for disqualification or revocation of driving licence",
+                    "Section 112: Limits of speed",
+                    "Section 113: Limit of weight and limitations on use",
+                    "Section 121: Signals and signalling devices",
+                    "Section 122: Leaving vehicles in dangerous positions",
+                    "Section 125: Obstruction of a driver",
+                    "Section 132: Duty of driver to stop in certain cases",
+                    "Section 133: Duty of owner to give information",
+                    "Section 134: Duty of driver in case of accident and injury to a person",
+                    "Section 185: Driving by a drunken person or under influence of drugs",
+                    "Section 186: Driving when mentally or physically unfit to drive",
+                    "Section 187: Punishment for offences relating to accident",
+                    "Section 194: Driving vehicle exceeding permissible weight",
+                    "Section 200: Composition of certain offences",
+                    "Section 207: Power to detain vehicles without Certificate of Registration or Permit"
+                ],
+                "central_motor_vehicles_rules_1989": [
+                    "Rule 21: Acts constituting nuisance or danger for disqualifying a person from holding driving licence",
+                    "Rule 133: Responsibility of the driver",
+                    "Rule 136: Driver to report to police station about accident"
+                ],
+                "other": [
+                    "Govt. of India Notification No. 25035/101/2014-RS dated 21st January 2016 (published in Gazette of India) relating to protection of Good Samaritans"
+                ]
+            }
+        }
+    ]
+}

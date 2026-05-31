@@ -11,6 +11,15 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: "standalone",
   turbopack: {},
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        pathname: "/**",
+      },
+    ],
+  },
 };
 
 export default withPWA(nextConfig);

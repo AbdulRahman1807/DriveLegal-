@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DriveLegal — Road Safety Simulation</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f4f2ee;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+
+  :root {
+    --card-bg: #ffffff;
+    --card-border: rgba(0,0,0,0.1);
+    --text-primary: #1a1a1a;
+    --text-secondary: #6b6b6b;
+    --badge-bg: #f4f2ee;
+    --signal-red: #e24b4a;
+    --signal-amber: #ef9f27;
+    --signal-green: #639922;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body { background: #111214; }
+    :root {
+      --card-bg: #1c1f26;
+      --card-border: rgba(255,255,255,0.1);
+      --text-primary: #f0ede6;
+      --text-secondary: #9a9590;
+      --badge-bg: #252830;
+    }
+  }
+
+  .sim-card {
+    background: var(--card-bg);
+    border: 0.5px solid var(--card-border);
+    border-radius: 16px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 820px;
+  }
+
+  .sim-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px 12px;
+    border-bottom: 0.5px solid var(--card-border);
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .sim-brand { display: flex; align-items: center; gap: 8px; }
+
+  .sim-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--signal-green);
+    animation: pulse-dot 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-dot {
+    0%,100%{opacity:1;transform:scale(1)}
+    50%{opacity:0.5;transform:scale(0.85)}
+  }
+
+  .sim-title { font-size: 13px; font-weight: 500; color: var(--text-primary); }
+  .sim-subtitle { font-size: 12px; color: var(--text-secondary); }
+
+  .sim-badges { display: flex; gap: 6px; flex-wrap: wrap; }
+
+  .badge {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 9px;
+    border-radius: 20px;
+    border: 0.5px solid var(--card-border);
+    background: var(--badge-bg);
+    color: var(--text-secondary);
+    white-space: nowrap;
+    transition: all 0.3s ease;
+  }
+
+  .badge.active {
+    background: #eaf3de;
+    border-color: #97c459;
+    color: #3B6D11;
+  }
+
+  .sim-stage {
+    position: relative;
+    background: #b8d4a8;
+    overflow: hidden;
+    height: 320px;
+  }
+
+  canvas#sim {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sim-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 0.5px solid var(--card-border);
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .event-log {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    min-width: 0;
+  }
+
+  .event-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--signal-green);
+    flex-shrink: 0;
+    transition: background 0.3s ease;
+  }
+
+  .event-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .sim-controls { display: flex; gap: 6px; }
+
+  .ctrl-btn {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 8px;
+    border: 0.5px solid var(--card-border);
+    background: var(--badge-bg);
+    color: var(--text-primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: background 0.15s;
+  }
+
+  .ctrl-btn:hover { opacity: 0.8; }
+
+  @media (max-width: 540px) {
+    .sim-header { flex-direction: column; align-items: flex-start; }
+    .sim-stage { height: 220px; }
+    .sim-footer { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<div class="sim-card">
+  <div class="sim-header">
+    <div class="sim-brand">
+      <div class="sim-dot"></div>
+      <div>
+        <div class="sim-title">Road Safety Simulation</div>
+        <div class="sim-subtitle">Chennai, Tamil Nadu — Live preview</div>
+      </div>
+    </div>
+    <div class="sim-badges">
+      <span class="badge" id="badge-helmet">Helmet compliant</span>
+      <span class="badge active" id="badge-speed">40 km/h zone</span>
+      <span class="badge" id="badge-signal">Signal obeying</span>
+    </div>
+  </div>
+
+  <div class="sim-stage">
+    <canvas id="sim"></canvas>
+  </div>
+
+  <div class="sim-footer">
+    <div class="event-log">
+      <div class="event-dot" id="evt-dot"></div>
+      <span class="event-text" id="evt-text">Simulation running...</span>
+    </div>
+    <div class="sim-controls">
+      <button class="ctrl-btn" id="btn-toggle">
+        <i class="ti ti-player-pause"></i> Pause
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+const canvas = document.getElementById('sim');
+const ctx = canvas.getContext('2d');
+let running = true;
+let raf;
+
+function resize() {
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = canvas.offsetWidth * dpr;
+  canvas.height = canvas.offsetHeight * dpr;
+  ctx.scale(dpr, dpr);
+}
+resize();
+window.addEventListener('resize', resize);
+
+const COLORS = {
+  sky: '#dce8f5',
+  grass: '#c4d9b0',
+  pavement: '#c8c2b8',
+  road: '#2a2d36',
+  roadLine: 'rgba(255,255,255,0.22)',
+  roadCenter: 'rgba(255,220,80,0.55)',
+  zebra: 'rgba(255,255,255,0.7)',
+  building1: '#b8b4ac',
+  building2: '#9e9a94',
+  building3: '#ccc9c2',
+  window: 'rgba(180,200,230,0.5)',
+  tree: '#7aaf5a',
+  treeTrunk: '#8a7060',
+  pole: '#888080',
+  carBlue: '#3d5fa0',
+  carBlue2: '#2d4f90',
+  carGreen: '#4a7a55',
+  carGreen2: '#3a6a45',
+  carSilver: '#9a9da8',
+  carSilver2: '#7a7d88',
+  bikeFrame: '#5a5060',
+  helmet: '#2c2c2c',
+  busStop: '#ccc5b8',
+  text: '#3a3830',
+  signalRed: '#e24b4a',
+  signalAmber: '#ef9f27',
+  signalGreen: '#639922',
+};
+
+const ROAD_Y_TOP = 0.38;
+const ROAD_Y_BOT = 0.85;
+const LANE1_Y = 0.50;
+const LANE2_Y = 0.68;
+const LANE3_Y = 0.83;
+const ZEBRA_X = 0.68;
+const SIGNAL_X = 0.78;
+
+let t = 0;
+
+const signal = {
+  phase: 0,
+  timer: 0,
+  phases: [
+    { color: 'red',   duration: 280 },
+    { color: 'amber', duration: 60  },
+    { color: 'green', duration: 340 },
+    { color: 'amber', duration: 60  },
+  ],
+  get current() { return this.phases[this.phase]; },
+  tick() {
+    this.timer++;
+    if (this.timer >= this.current.duration) {
+      this.phase = (this.phase + 1) % this.phases.length;
+      this.timer = 0;
+    }
+  },
+  isRed()   { return this.current.color === 'red'; },
+  isGreen() { return this.current.color === 'green'; },
+};
+
+function lerp(a, b, t) { return a + (b - a) * t; }
+function easeOut(t)    { return 1 - Math.pow(1 - t, 2); }
+function easeInOut(t)  { return t < 0.5 ? 2*t*t : 1 - Math.pow(-2*t+2, 2)/2; }
+
+function Vehicle({ x, lane, color, color2, type, speed, id }) {
+  this.x = x;
+  this.lane = lane;
+  this.color = color;
+  this.color2 = color2;
+  this.type = type;
+  this.baseSpeed = speed;
+  this.speed = speed;
+  this.id = id;
+  this.stopped = false;
+}
+
+function makeVehicles() {
+  return [
+    new Vehicle({ x: 0.05,  lane: LANE1_Y, color: COLORS.carBlue,   color2: COLORS.carBlue2,   type: 'car',  speed: 0.0018, id: 'car1'  }),
+    new Vehicle({ x: -0.30, lane: LANE1_Y, color: COLORS.carSilver, color2: COLORS.carSilver2, type: 'car',  speed: 0.0018, id: 'car2'  }),
+    new Vehicle({ x: -0.80, lane: LANE1_Y, color: COLORS.carGreen,  color2: COLORS.carGreen2,  type: 'car',  speed: 0.0018, id: 'car3'  }),
+    new Vehicle({ x: 0.20,  lane: LANE2_Y, color: COLORS.carGreen,  color2: COLORS.carGreen2,  type: 'car',  speed: 0.0014, id: 'car4'  }),
+    new Vehicle({ x: -0.50, lane: LANE2_Y, color: COLORS.carBlue,   color2: COLORS.carBlue2,   type: 'car',  speed: 0.0014, id: 'car5'  }),
+    new Vehicle({ x: 0.35,  lane: LANE2_Y, color: COLORS.bikeFrame, color2: COLORS.bikeFrame,  type: 'bike', speed: 0.0012, id: 'bike1' }),
+  ];
+}
+
+let vehicles = makeVehicles();
+
+const pedestrian = {
+  active: false, x: 0, y: 0,
+  progress: 0, timer: 0, cooldown: 0, step: 0,
+};
+
+function triggerPedestrian(w, h) {
+  if (!pedestrian.active && pedestrian.cooldown <= 0 && signal.isRed()) {
+    pedestrian.active = true;
+    pedestrian.progress = 0;
+    pedestrian.x = ZEBRA_X;
+    pedestrian.step = 0;
+  }
+}
+
+function updatePedestrian() {
+  if (!pedestrian.active) {
+    pedestrian.cooldown = Math.max(0, pedestrian.cooldown - 1);
+    return;
+  }
+  pedestrian.progress += 0.004;
+  pedestrian.step++;
+  if (pedestrian.progress >= 1) {
+    pedestrian.active = false;
+    pedestrian.cooldown = 220;
+    setEvent('Pedestrian crossed safely', COLORS.signalGreen);
+  }
+}
+
+function drawPedestrian(w, h) {
+  if (!pedestrian.active) return;
+  const px = pedestrian.x * w;
+  const roadTop = ROAD_Y_TOP * h;
+  const roadBot = ROAD_Y_BOT * h;
+  const py = lerp(roadTop - h * 0.04, roadBot + h * 0.04, easeInOut(pedestrian.progress));
+  const bobX = Math.sin(pedestrian.step * 0.5) * 2.5;
+  const scale = lerp(0.55, 1.0, pedestrian.progress) * 0.7;
+
+  ctx.save();
+  ctx.translate(px + bobX, py);
+  ctx.scale(scale, scale);
+
+  ctx.fillStyle = '#8a8078';
+  ctx.beginPath(); ctx.arc(0, -24, 7, 0, Math.PI * 2); ctx.fill();
+
+  ctx.strokeStyle = '#6a6058';
+  ctx.lineWidth = 5; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(0, -17); ctx.lineTo(0, 4); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(0, -10); ctx.lineTo(-8, 0); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(0, -10); ctx.lineTo(8, 0);  ctx.stroke();
+
+  const lp = Math.sin(pedestrian.step * 0.5);
+  ctx.beginPath(); ctx.moveTo(0, 4); ctx.lineTo(-6, 14 + lp * 5); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(0, 4); ctx.lineTo(6,  14 - lp * 5); ctx.stroke();
+
+  ctx.restore();
+}
+
+function setEvent(text, color) {
+  document.getElementById('evt-text').textContent = text;
+  const dot = document.getElementById('evt-dot');
+  const map = {
+    [COLORS.signalGreen]: '#639922',
+    [COLORS.signalAmber]: '#ef9f27',
+    [COLORS.signalRed]:   '#e24b4a',
+  };
+  dot.style.background = map[color] || '#639922';
+}
+
+function drawBackground(w, h) {
+  const sky = ctx.createLinearGradient(0, 0, 0, h * ROAD_Y_TOP);
+  sky.addColorStop(0, '#cfe0f0');
+  sky.addColorStop(1, '#dceaf7');
+  ctx.fillStyle = sky;
+  ctx.fillRect(0, 0, w, h * ROAD_Y_TOP);
+
+  ctx.fillStyle = COLORS.grass;
+  ctx.fillRect(0, h * ROAD_Y_TOP - h * 0.08, w, h * 0.08);
+
+  ctx.fillStyle = COLORS.road;
+  ctx.fillRect(0, h * ROAD_Y_TOP, w, h * (ROAD_Y_BOT - ROAD_Y_TOP));
+
+  ctx.fillStyle = COLORS.pavement;
+  ctx.fillRect(0, h * ROAD_Y_BOT, w, h * (1 - ROAD_Y_BOT));
+
+  const laneH = h * (ROAD_Y_BOT - ROAD_Y_TOP) / 3;
+  const laneMiddle = h * ROAD_Y_TOP + laneH;
+
+  ctx.strokeStyle = COLORS.roadCenter;
+  ctx.lineWidth = 2;
+  ctx.setLineDash([28, 18]);
+  ctx.beginPath(); ctx.moveTo(0, laneMiddle); ctx.lineTo(w, laneMiddle); ctx.stroke();
+  ctx.setLineDash([]);
+
+  ctx.strokeStyle = COLORS.roadLine;
+  ctx.lineWidth = 1.5;
+  ctx.setLineDash([22, 16]);
+  const lane2Middle = h * ROAD_Y_TOP + laneH * 2;
+  ctx.beginPath(); ctx.moveTo(0, lane2Middle); ctx.lineTo(w, lane2Middle); ctx.stroke();
+  ctx.setLineDash([]);
+
+  ctx.strokeStyle = 'rgba(255,255,255,0.12)';
+  ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.moveTo(0, h * ROAD_Y_TOP); ctx.lineTo(w, h * ROAD_Y_TOP); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(0, h * ROAD_Y_BOT); ctx.lineTo(w, h * ROAD_Y_BOT); ctx.stroke();
+}
+
+function drawZebra(w, h) {
+  const zx = ZEBRA_X * w;
+  const zw = 36;
+  const roadTop = ROAD_Y_TOP * h;
+  const roadBot = ROAD_Y_BOT * h;
+  const stripeH = 10, gap = 7;
+  let y = roadTop + 2;
+  ctx.save();
+  ctx.globalAlpha = 0.65;
+  while (y < roadBot - 2) {
+    ctx.fillStyle = COLORS.zebra;
+    ctx.fillRect(zx - zw / 2, y, zw, Math.min(stripeH, roadBot - y));
+    y += stripeH + gap;
+  }
+  ctx.restore();
+}
+
+function drawBuildings(w, h) {
+  const horizon = h * (ROAD_Y_TOP - 0.08);
+  const buildings = [
+    { rx: 0.02, rh: 0.28, rw: 0.09, color: COLORS.building2 },
+    { rx: 0.12, rh: 0.23, rw: 0.07, color: COLORS.building3 },
+    { rx: 0.21, rh: 0.30, rw: 0.10, color: COLORS.building1 },
+    { rx: 0.33, rh: 0.25, rw: 0.08, color: COLORS.building2 },
+    { rx: 0.44, rh: 0.32, rw: 0.12, color: COLORS.building3 },
+    { rx: 0.58, rh: 0.26, rw: 0.08, color: COLORS.building1 },
+    { rx: 0.88, rh: 0.29, rw: 0.11, color: COLORS.building2 },
+  ];
+  buildings.forEach(b => {
+    const bx = b.rx * w, bh = b.rh * h, bw = b.rw * w;
+    const by = horizon - bh;
+    ctx.fillStyle = b.color;
+    ctx.beginPath();
+    ctx.roundRect(bx, by, bw, bh + 2, 3);
+    ctx.fill();
+    for (let row = 0; row < 4; row++) {
+      for (let col = 0; col < 3; col++) {
+        ctx.fillStyle = COLORS.window;
+        ctx.fillRect(bx + col * (bw / 3.5) + 3, by + row * (bh / 4.5) + 4, bw / 6, bh / 8);
+      }
+    }
+  });
+}
+
+function drawTrees(w, h) {
+  const baseY = h * (ROAD_Y_TOP - 0.02);
+  [0.08, 0.19, 0.30, 0.42, 0.53, 0.62, 0.72, 0.84, 0.95].forEach(rx => {
+    const tx = rx * w;
+    ctx.fillStyle = COLORS.treeTrunk;
+    ctx.fillRect(tx - 3, baseY - 22, 6, 22);
+    ctx.fillStyle = COLORS.tree;
+    ctx.beginPath(); ctx.arc(tx,     baseY - 30, 14, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#90b870';
+    ctx.beginPath(); ctx.arc(tx - 5, baseY - 35, 10, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#68a045';
+    ctx.beginPath(); ctx.arc(tx + 5, baseY - 28,  9, 0, Math.PI * 2); ctx.fill();
+  });
+}
+
+function drawStreetLights(w, h) {
+  const baseY = h * ROAD_Y_TOP;
+  [0.14, 0.40, 0.65, 0.92].forEach(rx => {
+    const lx = rx * w;
+    ctx.strokeStyle = '#888'; ctx.lineWidth = 3; ctx.lineCap = 'round';
+    ctx.beginPath();
+    ctx.moveTo(lx, baseY);
+    ctx.lineTo(lx, baseY - h * 0.22);
+    ctx.lineTo(lx + 18, baseY - h * 0.22);
+    ctx.stroke();
+    ctx.fillStyle = '#d4c070';
+    ctx.beginPath();
+    ctx.ellipse(lx + 18, baseY - h * 0.22 - 4, 9, 5, 0, 0, Math.PI * 2);
+    ctx.fill();
+  });
+}
+
+function drawBusStop(w, h) {
+  const bx = 0.88 * w, by = h * ROAD_Y_BOT;
+  ctx.fillStyle = COLORS.busStop; ctx.strokeStyle = '#aaa8a0'; ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.roundRect(bx - 18, by - h * 0.18, 36, h * 0.18, 4); ctx.fill(); ctx.stroke();
+  ctx.fillStyle = '#e0dcd5';
+  ctx.fillRect(bx - 16, by - h * 0.16, 32, h * 0.10);
+  ctx.fillStyle = COLORS.text;
+  ctx.font = 'bold 8px sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('BUS', bx, by - h * 0.09);
+}
+
+function drawSignal(w, h) {
+  const sx = SIGNAL_X * w;
+  const roadTop = ROAD_Y_TOP * h;
+  const poleH = h * 0.30;
+  const bw = 22, bh = 60;
+  const by = roadTop - poleH;
+
+  ctx.strokeStyle = COLORS.pole; ctx.lineWidth = 3;
+  ctx.beginPath(); ctx.moveTo(sx, roadTop); ctx.lineTo(sx, by); ctx.stroke();
+
+  ctx.fillStyle = '#1a1a1a';
+  ctx.beginPath(); ctx.roundRect(sx - bw/2, by, bw, bh, 4); ctx.fill();
+
+  const colors = {
+    red:   [COLORS.signalRed,   '#1a1a1a', '#1a1a1a'],
+    amber: ['#1a1a1a', COLORS.signalAmber, '#1a1a1a'],
+    green: ['#1a1a1a', '#1a1a1a', COLORS.signalGreen],
+  }[signal.current.color];
+
+  [by + 8, by + 28, by + 48].forEach((ly, i) => {
+    ctx.fillStyle = colors[i];
+    ctx.beginPath(); ctx.arc(sx, ly, 6, 0, Math.PI * 2); ctx.fill();
+    if (colors[i] !== '#1a1a1a') {
+      ctx.fillStyle = colors[i] + '40';
+      ctx.beginPath(); ctx.arc(sx, ly, 10, 0, Math.PI * 2); ctx.fill();
+    }
+  });
+}
+
+function drawRoadSigns(w, h) {
+  const sy = h * (ROAD_Y_TOP - 0.08);
+  ctx.strokeStyle = COLORS.pole; ctx.lineWidth = 2;
+
+  const s1x = 0.26 * w;
+  ctx.beginPath(); ctx.moveTo(s1x, sy + 4); ctx.lineTo(s1x, h * ROAD_Y_TOP); ctx.stroke();
+  ctx.strokeStyle = '#e24b4a'; ctx.lineWidth = 2.5;
+  ctx.fillStyle = '#f0ede6';
+  ctx.beginPath(); ctx.arc(s1x, sy - 12, 16, 0, Math.PI * 2); ctx.fill(); ctx.stroke();
+  ctx.fillStyle = '#1a1a1a';
+  ctx.font = 'bold 10px sans-serif'; ctx.textAlign = 'center';
+  ctx.fillText('40',   s1x, sy - 8);
+  ctx.font = '7px sans-serif';
+  ctx.fillText('km/h', s1x, sy - 1);
+
+  const s2x = 0.50 * w;
+  ctx.strokeStyle = COLORS.pole; ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.moveTo(s2x, sy + 4); ctx.lineTo(s2x, h * ROAD_Y_TOP); ctx.stroke();
+  ctx.fillStyle = '#f0c040'; ctx.strokeStyle = '#c09020'; ctx.lineWidth = 1.5;
+  ctx.beginPath(); ctx.roundRect(s2x - 20, sy - 26, 40, 22, 3); ctx.fill(); ctx.stroke();
+  ctx.fillStyle = '#1a1a1a';
+  ctx.font = 'bold 7px sans-serif'; ctx.textAlign = 'center';
+  ctx.fillText('SCHOOL', s2x, sy - 17);
+  ctx.fillText('ZONE',   s2x, sy - 8);
+}
+
+function drawCar(vx, vy, w, h, c1, c2, scale) {
+  const cw = 50 * scale, ch = 22 * scale;
+  ctx.save();
+  ctx.translate(vx, vy);
+
+  ctx.fillStyle = '#00000022';
+  ctx.beginPath(); ctx.ellipse(0, ch/2 + 3*scale, cw*0.45, 4*scale, 0, 0, Math.PI*2); ctx.fill();
+
+  ctx.fillStyle = c1;
+  ctx.beginPath(); ctx.roundRect(-cw/2, -ch/2, cw, ch, 3*scale); ctx.fill();
+  ctx.fillStyle = c2;
+  ctx.fillRect(-cw/2, -scale, cw, 2*scale);
+
+  const rw = cw * 0.58, rh = ch * 0.65;
+  ctx.fillStyle = c1;
+  ctx.beginPath(); ctx.roundRect(-rw/2 - 2*scale, -ch/2 - rh + 2*scale, rw, rh, [3*scale,3*scale,2*scale,2*scale]); ctx.fill();
+
+  ctx.fillStyle = 'rgba(180,210,235,0.75)';
+  ctx.beginPath(); ctx.roundRect(-rw/2 + scale, -ch/2 - rh + 4*scale, rw*0.44, rh - 5*scale, 2*scale); ctx.fill();
+  ctx.beginPath(); ctx.roundRect(-rw/2 + rw*0.5, -ch/2 - rh + 4*scale, rw*0.44, rh - 5*scale, 2*scale); ctx.fill();
+
+  [[-cw*0.3, ch/2], [cw*0.3, ch/2]].forEach(([wx, wy]) => {
+    ctx.fillStyle = '#1a1a1a'; ctx.beginPath(); ctx.arc(wx, wy, 6.5*scale, 0, Math.PI*2); ctx.fill();
+    ctx.fillStyle = '#888';    ctx.beginPath(); ctx.arc(wx, wy, 3*scale,   0, Math.PI*2); ctx.fill();
+  });
+
+  ctx.fillStyle = '#f0e06090';
+  ctx.beginPath(); ctx.ellipse(-cw/2 + 3*scale, -2*scale, 5*scale, 3*scale, 0, 0, Math.PI*2); ctx.fill();
+  ctx.fillStyle = '#e2404090';
+  ctx.beginPath(); ctx.ellipse(cw/2 - 3*scale,  -2*scale, 4*scale, 3*scale, 0, 0, Math.PI*2); ctx.fill();
+
+  ctx.restore();
+}
+
+function drawBike(vx, vy, w, h, scale) {
+  const s = scale;
+  ctx.save();
+  ctx.translate(vx, vy);
+
+  ctx.fillStyle = '#0000001a';
+  ctx.beginPath(); ctx.ellipse(0, 14*s, 20*s, 4*s, 0, 0, Math.PI*2); ctx.fill();
+
+  [-16*s, 16*s].forEach(wx => {
+    ctx.strokeStyle = '#2a2a2a'; ctx.lineWidth = 2.5*s;
+    ctx.beginPath(); ctx.arc(wx, 8*s, 11*s, 0, Math.PI*2); ctx.stroke();
+    ctx.fillStyle = '#aaa'; ctx.beginPath(); ctx.arc(wx, 8*s, 3*s, 0, Math.PI*2); ctx.fill();
+  });
+
+  ctx.strokeStyle = COLORS.bikeFrame; ctx.lineWidth = 2.5*s; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(-16*s, 8*s); ctx.lineTo(0, -2*s); ctx.lineTo(16*s, 8*s); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(0, -2*s); ctx.lineTo(0,    8*s);  ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(-2*s, 8*s); ctx.lineTo(16*s, 8*s); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(0, -2*s); ctx.lineTo(-10*s, -12*s); ctx.stroke();
+
+  ctx.fillStyle = '#5a5060';
+  ctx.beginPath(); ctx.arc(-10*s, -18*s, 6*s, 0, Math.PI*2); ctx.fill();
+
+  ctx.fillStyle = COLORS.helmet;
+  ctx.beginPath(); ctx.arc(-10*s, -23*s, 7*s, Math.PI, Math.PI*2); ctx.fill();
+  ctx.fillStyle = '#444';
+  ctx.fillRect(-10*s - 7*s, -23*s, 14*s, 3*s);
+
+  ctx.strokeStyle = '#888'; ctx.lineWidth = 2*s;
+  ctx.beginPath(); ctx.moveTo(16*s, -2*s); ctx.lineTo(22*s, -2*s); ctx.stroke();
+
+  ctx.fillStyle = '#f0e06080';
+  ctx.beginPath(); ctx.ellipse(-20*s, 8*s, 5*s, 3*s, 0, 0, Math.PI*2); ctx.fill();
+
+  ctx.restore();
+}
+
+function getStopX(w) { return (ZEBRA_X - 0.06) * w; }
+
+function updateVehicle(v, w) {
+  const stopX = getStopX(w);
+  const vx = v.x * w;
+  const targetSpeed = v.baseSpeed * w;
+  const isMovingLane = v.lane === LANE1_Y || v.lane === LANE2_Y;
+
+  if (isMovingLane && signal.isRed()) {
+    const dist = stopX - vx;
+    if (dist <= 2) {
+      v.speed = 0; v.stopped = true;
+    } else if (dist < w * 0.22) {
+      v.speed = targetSpeed * easeOut(Math.max(0, dist / (w * 0.22)));
+      v.stopped = false;
+    } else {
+      v.speed = targetSpeed; v.stopped = false;
+    }
+  } else {
+    v.speed = targetSpeed; v.stopped = false;
+  }
+
+  if (!v.stopped) v.x += v.speed / w;
+  if (v.x > 1.25) v.x = -0.3;
+}
+
+let lastSignalColor = signal.current.color;
+
+function loop() {
+  if (!running) return;
+  const w = canvas.width  / (window.devicePixelRatio || 1);
+  const h = canvas.height / (window.devicePixelRatio || 1);
+
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.save();
+
+  signal.tick();
+
+  if (signal.current.color !== lastSignalColor) {
+    lastSignalColor = signal.current.color;
+    if (signal.isGreen())                        setEvent('Signal green — traffic moving', COLORS.signalGreen);
+    else if (signal.current.color === 'red')     setEvent('Signal red — vehicles stopping', COLORS.signalRed);
+    else                                         setEvent('Signal amber — slowing down', COLORS.signalAmber);
+  }
+
+  triggerPedestrian(w, h);
+  updatePedestrian();
+  vehicles.forEach(v => updateVehicle(v, w));
+
+  drawBackground(w, h);
+  drawBuildings(w, h);
+  drawTrees(w, h);
+  drawStreetLights(w, h);
+  drawBusStop(w, h);
+  drawRoadSigns(w, h);
+  drawZebra(w, h);
+  drawSignal(w, h);
+
+  [...vehicles]
+    .sort((a, b) => (b.lane - a.lane) || (b.x - a.x))
+    .forEach(v => {
+      const vx = v.x * w, vy = v.lane * h;
+      const p = (v.lane - ROAD_Y_TOP) / (ROAD_Y_BOT - ROAD_Y_TOP);
+      const scale = lerp(0.5, 1.0, p) * 0.85;
+      if (v.type === 'car') drawCar(vx, vy, w, h, v.color, v.color2, scale);
+      else drawBike(vx, vy, w, h, scale);
+    });
+
+  drawPedestrian(w, h);
+
+  ctx.restore();
+  t++;
+  raf = requestAnimationFrame(loop);
+}
+
+setInterval(() => {
+  const helmEl = document.getElementById('badge-helmet');
+  const sigEl  = document.getElementById('badge-signal');
+  if (helmEl) { helmEl.textContent = 'Helmet compliant'; helmEl.className = 'badge active'; }
+  if (sigEl)  {
+    sigEl.textContent = signal.isRed() ? 'Stopping at red' : signal.isGreen() ? 'Signal obeying' : 'Slowing amber';
+    sigEl.className   = 'badge' + (signal.isGreen() ? ' active' : '');
+  }
+}, 500);
+
+loop();
+
+document.getElementById('btn-toggle').addEventListener('click', function () {
+  running = !running;
+  this.innerHTML = running
+    ? '<i class="ti ti-player-pause"></i> Pause'
+    : '<i class="ti ti-player-play"></i> Resume';
+  if (running) loop(); else cancelAnimationFrame(raf);
+});
+</script>
+</body>
+</html>

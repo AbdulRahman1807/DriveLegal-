@@ -1,0 +1,1684 @@
+{
+    "drivelegal_database": {
+        "meta": {
+            "version": "1.0",
+            "description": "Comprehensive Indian Motor Vehicle Laws Database for DriveLegal AI Advisor",
+            "compiled_date": "2026-05-31",
+            "jurisdiction": "India (Central + Telangana State)",
+            "sources": [
+                "The Motor Vehicles Act, 1988 (Act No. 59 of 1988, Amended 2019)",
+                "The Central Motor Vehicle Rules, 1989",
+                "Telangana Motor Vehicles Act",
+                "Telangana Motor Vehicles Rules",
+                "Rent a Cab Scheme, 1989",
+                "Rules of the Road Regulations, 1989",
+                "Solatium Scheme, 1989 (Superseded by Hit & Run Scheme 2022)",
+                "Motor Vehicles (All India Permit for Tourist Transport Operators) Rules, 1993",
+                "Driving Licence (Conditions for Exemption) Rules, 1992",
+                "Rent a Motor Cycle Scheme, 1997",
+                "LPG (Regulation of Use in Motor Vehicles) Order, 2001",
+                "Motor Vehicles (New High Security Registration Plates) Order, 2001",
+                "Motor Transport Workers Act, 1961",
+                "Fatal Accidents Act, 1855",
+                "Public Liability Insurance Act, 1991",
+                "Road Transport Corporations Act, 1950",
+                "Central Road Fund Act, 2000",
+                "Central Road Fund (State Roads) Rules, 2007"
+            ]
+        },
+        "acts": {
+            "motor_vehicles_act_1988": {
+                "id": "MVA_1988",
+                "short_title": "The Motor Vehicles Act, 1988",
+                "act_number": "59 of 1988",
+                "enacted": "1988",
+                "in_force": "1989-07-01",
+                "signed_by": "R. Venkataraman (President of India)",
+                "extent": "Whole of India",
+                "last_amended": "Motor Vehicles (Amendment) Act, 2019 (effective 01-09-2019); Jan Vishwas (Amendment of Provisions) Act, 2023",
+                "objective": "To consolidate and amend the law relating to motor vehicles, regulate road transport, ensure road safety, and provide for licensing, registration, insurance, and penalties.",
+                "total_sections": 222,
+                "chapters": [
+                    {
+                        "chapter": "I",
+                        "title": "Preliminary",
+                        "sections": "1-2",
+                        "description": "Short title, extent, commencement, and definitions of key terms."
+                    },
+                    {
+                        "chapter": "II",
+                        "title": "Licensing of Drivers of Motor Vehicles",
+                        "sections": "3-28",
+                        "description": "Rules governing driving licences — learner's, permanent, renewal, disqualification, endorsement."
+                    },
+                    {
+                        "chapter": "III",
+                        "title": "Licensing of Conductors of Stage Carriages",
+                        "sections": "29-38",
+                        "description": "Grant, revocation, and disqualification of conductor licences."
+                    },
+                    {
+                        "chapter": "IV",
+                        "title": "Registration of Motor Vehicles",
+                        "sections": "39-65",
+                        "description": "Registration requirements, certificates, suspension, cancellation, and maintenance of state registers."
+                    },
+                    {
+                        "chapter": "V",
+                        "title": "Control of Transport Vehicles",
+                        "sections": "66-96",
+                        "description": "Permits for stage carriages, contract carriages, goods vehicles; duration, transfer, cancellation."
+                    },
+                    {
+                        "chapter": "VI",
+                        "title": "Special Provisions Relating to State Transport Undertakings",
+                        "sections": "97-108",
+                        "description": "Schemes for road transport undertakings, permits, and compensation."
+                    },
+                    {
+                        "chapter": "VII",
+                        "title": "Construction, Equipment and Maintenance of Motor Vehicles",
+                        "sections": "109-111",
+                        "description": "General standards for vehicle construction, equipment, and maintenance — delegated to Central Government rules."
+                    },
+                    {
+                        "chapter": "VIII",
+                        "title": "Control of Traffic",
+                        "sections": "112-138",
+                        "description": "Speed limits, weight limits, traffic signs, driving regulations, duties of drivers at accidents."
+                    },
+                    {
+                        "chapter": "IX",
+                        "title": "Motor Vehicles Temporarily Leaving or Visiting India",
+                        "sections": "139",
+                        "description": "Rules for foreign vehicles operating in or temporarily entering India."
+                    },
+                    {
+                        "chapter": "X",
+                        "title": "Liability Without Fault in Certain Cases",
+                        "sections": "140-144",
+                        "description": "No-fault liability of vehicle owner — compensation for death/disability without proving negligence."
+                    },
+                    {
+                        "chapter": "XI",
+                        "title": "Insurance of Motor Vehicles Against Third Party Risks",
+                        "sections": "145-164",
+                        "description": "Mandatory third-party insurance, requirements of policies, rights of third parties, hit-and-run compensation."
+                    },
+                    {
+                        "chapter": "XII",
+                        "title": "Claims Tribunals",
+                        "sections": "165-176",
+                        "description": "Establishment, procedure, and powers of Motor Accident Claims Tribunals (MACTs)."
+                    },
+                    {
+                        "chapter": "XIII",
+                        "title": "Offences, Penalties and Procedure",
+                        "sections": "177-210",
+                        "description": "Comprehensive list of traffic offences and corresponding penalties."
+                    },
+                    {
+                        "chapter": "XIV",
+                        "title": "Miscellaneous",
+                        "sections": "211-222",
+                        "description": "Miscellaneous powers of authorities, protection, and enforcement."
+                    }
+                ],
+                "key_sections": [
+                    {
+                        "section": "3",
+                        "title": "Necessity for Driving Licence",
+                        "description": "No person shall drive a motor vehicle in any public place unless he holds an effective driving licence. Applicable to all vehicle categories."
+                    },
+                    {
+                        "section": "4",
+                        "title": "Age Limit for Driving",
+                        "description": "Minimum age 18 years for a permanent licence. Learner's permit available from 16 years for non-transport vehicles."
+                    },
+                    {
+                        "section": "5",
+                        "title": "Responsibility of Owners",
+                        "description": "Vehicle owners are responsible for ensuring their vehicle is not driven by persons contravening Sections 3 or 4."
+                    },
+                    {
+                        "section": "8",
+                        "title": "Grant of Learner's Licence",
+                        "description": "Procedure for issuance of learner's licence including medical certificate and test requirements."
+                    },
+                    {
+                        "section": "9",
+                        "title": "Grant of Driving Licence",
+                        "description": "Procedure for issuance of permanent driving licence after passing the required driving test."
+                    },
+                    {
+                        "section": "39",
+                        "title": "Necessity for Registration",
+                        "description": "No person shall drive or allow a motor vehicle to be driven on public roads without a valid registration certificate."
+                    },
+                    {
+                        "section": "41",
+                        "title": "Registration — How to be Made",
+                        "description": "Vehicle registration procedure with the RTO. Registration certificate valid for 15 years from date of registration (per 2019 amendment)."
+                    },
+                    {
+                        "section": "56",
+                        "title": "Certificate of Fitness of Transport Vehicles",
+                        "description": "Transport vehicles must hold a valid fitness certificate issued by the testing authority."
+                    },
+                    {
+                        "section": "112",
+                        "title": "Limits of Speed",
+                        "description": "State Government may prescribe speed limits for different vehicle categories on different road types. Violation is punishable under Section 183."
+                    },
+                    {
+                        "section": "113",
+                        "title": "Limits of Weight and Limitations on Use",
+                        "description": "Prescribes maximum axle weight and Gross Vehicle Weight for different vehicle types."
+                    },
+                    {
+                        "section": "116",
+                        "title": "Power to Erect Traffic Signs",
+                        "description": "Authorities empowered to erect traffic signs and signals. All drivers must obey traffic signs per Section 119."
+                    },
+                    {
+                        "section": "119",
+                        "title": "Duty to Obey Traffic Signs",
+                        "description": "Every driver must obey directions given by traffic signs and signals."
+                    },
+                    {
+                        "section": "129",
+                        "title": "Wearing of Protective Headgear",
+                        "description": "Mandatory helmet wearing for drivers and pillion riders of two-wheelers. BIS/ISI-marked helmets required."
+                    },
+                    {
+                        "section": "130",
+                        "title": "Duty to Produce Licence and Certificate of Registration",
+                        "description": "Driver must carry and produce driving licence and registration certificate on demand by a police officer."
+                    },
+                    {
+                        "section": "134",
+                        "title": "Duty of Driver in Case of Accident",
+                        "description": "Driver involved in an accident must stop, give assistance, and report to police. Failure to carry injured to hospital is punishable."
+                    },
+                    {
+                        "section": "140",
+                        "title": "No-Fault Liability",
+                        "description": "Compensation on no-fault basis: Rs. 50,000 for death; Rs. 25,000 for permanent disability."
+                    },
+                    {
+                        "section": "146",
+                        "title": "Necessity for Insurance Against Third Party Risk",
+                        "description": "Every motor vehicle on public roads must be covered by at minimum a valid third-party insurance policy."
+                    },
+                    {
+                        "section": "161",
+                        "title": "Compensation in Case of Hit-and-Run Motor Accident",
+                        "description": "Special compensation scheme for victims of accidents where vehicle and driver cannot be identified. Now governed by Scheme 2022."
+                    },
+                    {
+                        "section": "165",
+                        "title": "Claims Tribunals",
+                        "description": "State Governments shall constitute Motor Accident Claims Tribunals for adjudicating compensation claims."
+                    },
+                    {
+                        "section": "166",
+                        "title": "Application for Compensation",
+                        "description": "Accident victims or their legal representatives may file claims before the MACT for compensation."
+                    }
+                ]
+            },
+            "central_motor_vehicles_rules_1989": {
+                "id": "CMVR_1989",
+                "short_title": "The Central Motor Vehicles Rules, 1989",
+                "notification": "G.S.R. 590(E), dated 2-6-1989",
+                "in_force": "1989-07-01",
+                "parent_act": "Motor Vehicles Act, 1988 (Section 110)",
+                "extent": "Whole of India",
+                "objective": "To implement the provisions of the Motor Vehicles Act, 1988 with respect to driving licences, registration, construction and maintenance of vehicles, and vehicle standards.",
+                "chapters": [
+                    {
+                        "chapter": "I",
+                        "title": "Preliminary (Rules 1-2)",
+                        "description": "Short title, commencement, and definitions including vehicle categories (M1, M2, M3, N1, N2, N3, L categories)."
+                    },
+                    {
+                        "chapter": "II",
+                        "title": "Licensing of Drivers (Rules 3-33)",
+                        "description": "Forms, tests, medical requirements, endorsements, and procedures for all types of driving licences."
+                    },
+                    {
+                        "chapter": "III",
+                        "title": "Licensing of Conductors (Rules 34-45)",
+                        "description": "Rules for granting and managing conductor licences for stage carriages."
+                    },
+                    {
+                        "chapter": "IV",
+                        "title": "Registration of Motor Vehicles (Rules 46-88)",
+                        "description": "Registration procedures, registration marks, transfer of ownership, fitness certificates for transport vehicles."
+                    },
+                    {
+                        "chapter": "V",
+                        "title": "Control of Transport Vehicles (Rules 89-100)",
+                        "description": "Permit conditions, stage carriage, contract carriage, goods carriage permit requirements."
+                    },
+                    {
+                        "chapter": "VI",
+                        "title": "Construction, Equipment and Maintenance (Rules 101-124)",
+                        "description": "Detailed technical standards for brakes, tyres, lighting, dimensions, exhaust emissions, safety devices."
+                    },
+                    {
+                        "chapter": "VII",
+                        "title": "Control of Traffic (Rules 125-138)",
+                        "description": "Traffic signs, speed limits, parking, driving regulations, safety belts, child restraints."
+                    },
+                    {
+                        "chapter": "VIII",
+                        "title": "Insurance (Rules 139-143)",
+                        "description": "Procedures for insurance documentation and third-party policy requirements."
+                    },
+                    {
+                        "chapter": "IX",
+                        "title": "Claims Tribunals (Rules 144-163)",
+                        "description": "Procedures for filing claims before Motor Accident Claims Tribunals."
+                    },
+                    {
+                        "chapter": "X",
+                        "title": "Miscellaneous (Rules 164+)",
+                        "description": "Additional rules on vehicle standards, registration of dealers, and enforcement."
+                    }
+                ],
+                "key_rules": [
+                    {
+                        "rule": "2",
+                        "title": "Definitions — Vehicle Categories",
+                        "description": "M1: Passenger vehicle up to 8 seats; M2/M3: Buses; N1/N2/N3: Goods vehicles by GVW; L category: 2 and 3 wheelers. Agricultural tractor also defined."
+                    },
+                    {
+                        "rule": "9",
+                        "title": "Learner's Licence — Driving Test",
+                        "description": "Applicant must pass a test on traffic signs and basic driving."
+                    },
+                    {
+                        "rule": "16",
+                        "title": "Medical Certificate Requirements",
+                        "description": "Form 1 for non-transport vehicles (self-declaration); Form 1-A medical certificate from Civil Surgeon for transport vehicle licences."
+                    },
+                    {
+                        "rule": "113",
+                        "title": "Speed Limits — Central Notification",
+                        "description": "Implements Section 112 speed limits. Base notification S.O. 1522(E) dated 6 April 2018 fixed national maximum limits."
+                    },
+                    {
+                        "rule": "138",
+                        "title": "Safety Measures for Children on Motorcycles",
+                        "description": "Amended Feb 2022: Prescribes safety norms for carriage of children below 4 years on motorcycles."
+                    }
+                ]
+            },
+            "rules_of_road_regulations_1989": {
+                "id": "RRR_1989",
+                "short_title": "Rules of the Road Regulations, 1989",
+                "notification": "S.O. 439(E), dated 12th June, 1989",
+                "in_force": "1989-07-01",
+                "parent_act": "Motor Vehicles Act, 1988",
+                "extent": "Whole of India",
+                "objective": "To govern the conduct of drivers and road users while using public roads in India.",
+                "rules": [
+                    {
+                        "rule": "1",
+                        "title": "Keep Left",
+                        "description": "All motor vehicles must keep to the left side of the road and allow traffic to pass on the right."
+                    },
+                    {
+                        "rule": "2",
+                        "title": "Overtaking",
+                        "description": "Overtake only from the right side, when safe. Do not overtake (a) near bends/corners/hills, (b) when the vehicle ahead is near an intersection, (c) if following vehicle has begun overtaking, (d) if driver ahead has not signalled consent."
+                    },
+                    {
+                        "rule": "3",
+                        "title": "Prohibition on Preventing Overtaking",
+                        "description": "When being overtaken, do not increase speed or interfere with the overtaking vehicle."
+                    },
+                    {
+                        "rule": "4",
+                        "title": "Slowing Down at Intersections",
+                        "description": "Drivers must slow down when approaching road intersections, junctions, pedestrian crossings, and road corners."
+                    },
+                    {
+                        "rule": "5",
+                        "title": "Safe Following Distance",
+                        "description": "Maintain sufficient distance from the vehicle ahead to avoid collision if it suddenly slows or stops."
+                    },
+                    {
+                        "rule": "6",
+                        "title": "Gradual Braking",
+                        "description": "Do not apply brakes abruptly unless absolutely necessary to avoid accidents."
+                    },
+                    {
+                        "rule": "7",
+                        "title": "Towing Speed Limit",
+                        "description": "No motor vehicle towing another vehicle (other than a trailer or sidecar) shall exceed 24 km/h."
+                    },
+                    {
+                        "rule": "8",
+                        "title": "Pedestrian Crossings",
+                        "description": "Drivers must slow down and give way to pedestrians at marked pedestrian crossings."
+                    },
+                    {
+                        "rule": "9",
+                        "title": "Obedience to Traffic Directions",
+                        "description": "All drivers must obey: (a) police officer signals, (b) traffic signs/notices, (c) automatic traffic signals at intersections."
+                    },
+                    {
+                        "rule": "10",
+                        "title": "Right of Way at Junctions",
+                        "description": "At uncontrolled junctions, give way to vehicles approaching from the right."
+                    },
+                    {
+                        "rule": "11",
+                        "title": "Prohibition on Footpaths",
+                        "description": "Motor vehicles must not be driven on footpaths or cycle tracks without permission of an on-duty police officer."
+                    },
+                    {
+                        "rule": "12",
+                        "title": "Lane Discipline",
+                        "description": "Drive in designated lanes; do not straddle lanes or change lanes unnecessarily without signalling."
+                    },
+                    {
+                        "rule": "13",
+                        "title": "Use of Horns",
+                        "description": "Horn should be used only when necessary. Prohibited in silence zones (hospitals, schools)."
+                    },
+                    {
+                        "rule": "14",
+                        "title": "Headlights — Use at Night",
+                        "description": "Use headlights from sunset to sunrise and in conditions of reduced visibility."
+                    },
+                    {
+                        "rule": "15",
+                        "title": "Parking Restrictions",
+                        "description": "No parking near traffic lights, on pedestrian crossings, footpaths, within 5 metres of an intersection, or where obstructing traffic."
+                    },
+                    {
+                        "rule": "16",
+                        "title": "Signals Before Turning",
+                        "description": "Mandatory to give hand or mechanical signals before turning, changing lanes, or stopping."
+                    },
+                    {
+                        "rule": "17",
+                        "title": "Right Turn",
+                        "description": "Position vehicle to the middle of road, make a broad progressive right turn."
+                    },
+                    {
+                        "rule": "18",
+                        "title": "Left Turn",
+                        "description": "Stay to the left side before making a left turn."
+                    },
+                    {
+                        "rule": "19",
+                        "title": "U-Turn",
+                        "description": "U-turns permitted only where traffic conditions allow safely and where not prohibited by signs."
+                    },
+                    {
+                        "rule": "20",
+                        "title": "Speed at Junctions",
+                        "description": "Approach intersections at reduced speed; do not enter until it is safe."
+                    },
+                    {
+                        "rule": "21",
+                        "title": "Loaded Vehicles",
+                        "description": "Drivers of heavily loaded vehicles must take extra care, particularly on slopes and narrow roads."
+                    }
+                ]
+            },
+            "solatium_scheme_1989": {
+                "id": "SS_1989",
+                "short_title": "Solatium Scheme, 1989",
+                "status": "SUPERSEDED",
+                "superseded_by": "Compensation to Victims of Hit and Run Motor Accidents Scheme, 2022 (GSR 163(E) dated 25.02.2022)",
+                "effective_supersession": "2022-04-01",
+                "parent_section": "Section 163(1), Motor Vehicles Act, 1988",
+                "objective": "To provide fixed compensation to victims of hit-and-run motor accidents where the responsible vehicle cannot be identified.",
+                "original_compensation": {
+                    "death": {
+                        "amount_inr": 50000,
+                        "note": "Revised from Rs. 25,000 at inception; last revised 1994"
+                    },
+                    "grievous_hurt": {
+                        "amount_inr": 12500
+                    }
+                },
+                "current_scheme_2022": {
+                    "name": "Compensation to Victims of Hit and Run Motor Accidents Scheme, 2022",
+                    "death": {
+                        "amount_inr": 200000
+                    },
+                    "grievous_hurt": {
+                        "amount_inr": 50000
+                    },
+                    "administered_by": "General Insurance (GI) Council",
+                    "fund": "Motor Vehicle Accident Fund (Hit and Run Compensation Account)",
+                    "initial_corpus": "Rs. 76.28 Crore transferred from erstwhile Solatium Fund (New India Assurance)"
+                },
+                "claim_procedure": {
+                    "applicant": "Victim or legal representative",
+                    "apply_to": "Claims Enquiry Officer (at Taluka level)",
+                    "settles_at": "Claims Settlement Commissioner (District Collector / Deputy Commissioner)",
+                    "timeline": "Payment within 15 days from receipt of Claims Enquiry Officer report",
+                    "form": "Form I under the Scheme"
+                }
+            },
+            "rent_a_cab_scheme_1989": {
+                "id": "RCS_1989",
+                "short_title": "Rent a Cab Scheme, 1989",
+                "parent_act": "Motor Vehicles Act, 1988 (Section 75)",
+                "objective": "To regulate the business of renting motor cabs (taxis) to the public on a time or mileage basis.",
+                "key_provisions": [
+                    "Operators must obtain a Rent-a-Cab licence from the State Transport Authority.",
+                    "Cab must be a motor vehicle not plying for hire as a stage carriage.",
+                    "Minimum fleet requirement may be prescribed by state authorities.",
+                    "Vehicles must be maintained in roadworthy condition and carry all valid documents.",
+                    "Driver must hold a valid driving licence with authorisation to drive transport vehicles.",
+                    "Fare or rate schedule must be displayed in the vehicle.",
+                    "Operator liable for acts of driver while vehicle is on hire.",
+                    "Insurance coverage as required under Section 146 of MVA 1988 is mandatory."
+                ]
+            },
+            "rent_a_motorcycle_scheme_1997": {
+                "id": "RAMO_1997",
+                "short_title": "Rent a Motor Cycle Scheme, 1997",
+                "parent_act": "Motor Vehicles Act, 1988",
+                "objective": "To provide a regulatory framework for the business of renting motorcycles/two-wheelers to the public.",
+                "key_provisions": [
+                    "Operators must obtain a licence from competent authority under this scheme.",
+                    "Motorcycles must be registered and have valid insurance.",
+                    "Renter must hold a valid driving licence for two-wheelers.",
+                    "Operator must ensure helmets are available for riders.",
+                    "Operator liable for ensuring vehicle fitness before handing over.",
+                    "Records of all hirings must be maintained by operator for inspection.",
+                    "Applicable to all two-wheelers rented on time or mileage basis."
+                ]
+            },
+            "tourist_transport_permit_rules_1993": {
+                "id": "TTP_1993",
+                "short_title": "Motor Vehicles (All India Permit for Tourist Transport Operators) Rules, 1993",
+                "parent_act": "Motor Vehicles Act, 1988",
+                "objective": "To regulate the grant of All-India Tourist Permits to transport operators for operating tourist vehicles across state borders.",
+                "key_provisions": [
+                    "Permits valid throughout India — vehicle can operate across all state boundaries.",
+                    "Tourist vehicle must display a yellow board with black lettering and carry 'TOURIST' marking.",
+                    "Operator must apply to the State Transport Authority of the home state.",
+                    "Vehicle must be less than 8 years old at time of permit application.",
+                    "Driver must hold a valid driving licence for transport vehicles.",
+                    "Compulsory third-party insurance and fitness certificate required.",
+                    "Permit valid for 5 years, renewable.",
+                    "Permit fee structure set by Central Government.",
+                    "Vehicle must be air-conditioned to qualify as a Tourist Vehicle.",
+                    "Operator must carry a permit copy and all vehicle documents at all times."
+                ]
+            },
+            "driving_licence_exemption_rules_1992": {
+                "id": "DLE_1992",
+                "short_title": "Driving Licence (Conditions for Exemption) Rules, 1992",
+                "parent_act": "Motor Vehicles Act, 1988",
+                "objective": "To specify categories of persons and vehicles exempted from the requirement of a driving licence under the Act.",
+                "exemptions": [
+                    {
+                        "category": "Defence Personnel",
+                        "description": "Persons driving motor vehicles belonging to the Central Government for defence purposes under Section 18 of MVA 1988 may hold a defence-issued driving licence."
+                    },
+                    {
+                        "category": "Agricultural Vehicles",
+                        "description": "Persons driving tractors or other agricultural vehicles exclusively for agricultural purposes within a farm or private land may be exempted."
+                    },
+                    {
+                        "category": "Invalid Carriages",
+                        "description": "Persons driving invalid carriages (vehicles for physically disabled persons) that do not exceed speeds of 16 km/h may be exempted from certain licence conditions."
+                    }
+                ]
+            },
+            "lpg_motor_vehicles_order_2001": {
+                "id": "LPG_2001",
+                "short_title": "The Liquefied Petroleum Gas (Regulation of Use in Motor Vehicles) Order, 2001",
+                "parent_act": "Motor Vehicles Act, 1988",
+                "objective": "To regulate the conversion and use of LPG as fuel in motor vehicles to ensure safety standards.",
+                "key_provisions": [
+                    "Only BIS-certified LPG kits conforming to IS 14611 may be fitted in motor vehicles.",
+                    "Conversion must be done at an authorised retrofitting centre.",
+                    "Vehicle owner must obtain an amended Registration Certificate reflecting LPG fuel.",
+                    "LPG cylinders in vehicles must conform to IS 7312 and must be tested and recertified periodically.",
+                    "Insurance policy must be updated to reflect LPG fuel usage.",
+                    "Vehicle must pass a fitness inspection post-conversion.",
+                    "Transport vehicles must obtain approval from the State Transport Authority."
+                ]
+            },
+            "high_security_registration_plates_order_2001": {
+                "id": "HSRP_2001",
+                "short_title": "The Motor Vehicles (New High Security Registration Plates) Order, 2001",
+                "parent_act": "Motor Vehicles Act, 1988 (Section 41)",
+                "objective": "To standardise and enhance the security of vehicle registration plates across India to prevent counterfeiting.",
+                "key_provisions": [
+                    "All vehicles registered after notified date must be fitted with High Security Registration Plates (HSRP).",
+                    "HSRP must contain: a chromium-based hologram, a laser-branded permanent identification number (PIN), a hot-stamped IND inscription, and retro-reflective sheeting.",
+                    "Plates must be affixed with snap-lock non-removable bolts.",
+                    "Plate dimensions and font standardised nationally — white background for private vehicles, yellow for commercial.",
+                    "Plates must be manufactured by authorised suppliers only.",
+                    "Third number plate with self-destructive hologram sticker to be pasted on windshield.",
+                    "Violation of HSRP requirements is punishable under MVA 1988."
+                ]
+            },
+            "motor_transport_workers_act_1961": {
+                "id": "MTWA_1961",
+                "short_title": "The Motor Transport Workers Act, 1961",
+                "extent": "Whole of India",
+                "objective": "To regulate the conditions of employment of motor transport workers employed in motor transport undertakings.",
+                "applicability": "Motor transport undertakings employing 5 or more motor transport workers.",
+                "key_provisions": [
+                    {
+                        "provision": "Registration",
+                        "description": "Every motor transport undertaking must be registered with the registering authority."
+                    },
+                    {
+                        "provision": "Hours of Work",
+                        "description": "No worker shall work more than 8 hours a day and 48 hours a week. No driving for more than 5 hours without a rest break of at least 30 minutes."
+                    },
+                    {
+                        "provision": "Rest Period",
+                        "description": "Every worker entitled to an 8-hour rest period between two periods of duty."
+                    },
+                    {
+                        "provision": "Weekly Off",
+                        "description": "Workers entitled to one day off per week."
+                    },
+                    {
+                        "provision": "Wages",
+                        "description": "Wages must be paid at fixed pay periods not exceeding one month. Wages must be disbursed on a working day."
+                    },
+                    {
+                        "provision": "Overtime",
+                        "description": "Overtime pay at twice the ordinary rate for hours worked beyond normal working hours."
+                    },
+                    {
+                        "provision": "Health and Safety",
+                        "description": "Employer must ensure clean and adequate rest rooms, drinking water, canteens, and first-aid facilities."
+                    },
+                    {
+                        "provision": "Uniforms",
+                        "description": "Employer must provide uniforms, raincoats, and other protective equipment to workers."
+                    },
+                    {
+                        "provision": "Leaves",
+                        "description": "Annual leave with wages at rate of 1 day for every 20 days of work in a calendar year."
+                    },
+                    {
+                        "provision": "Termination",
+                        "description": "One month notice required for termination of permanent workers."
+                    }
+                ]
+            },
+            "fatal_accidents_act_1855": {
+                "id": "FAA_1855",
+                "short_title": "The Fatal Accidents Act, 1855",
+                "act_number": "13 of 1855",
+                "extent": "Whole of India",
+                "objective": "To provide a right of action for wrongful death — enabling legal representatives of a deceased to sue for damages when a person's death is caused by the wrongful act, neglect or default of another.",
+                "key_provisions": [
+                    {
+                        "section": "1A",
+                        "title": "Action for Wrongful Death",
+                        "description": "Whenever death is caused by wrongful act, neglect, or default that would have entitled the deceased to maintain an action for damages, the person's legal representatives may file suit for damages."
+                    },
+                    {
+                        "section": "2",
+                        "title": "Parties Who May Sue",
+                        "description": "Only one action shall lie for and in respect of the same subject matter; it shall be for the benefit of wife, husband, parent, and child of the deceased person."
+                    },
+                    {
+                        "section": "3",
+                        "title": "Assessment of Damages",
+                        "description": "Damages may include loss of financial support, loss of consortium, funeral expenses, and other losses arising from the death."
+                    }
+                ],
+                "relevance_to_traffic": "Provides the historical basis for compensation claims in motor vehicle accident deaths, supplemented now by Chapter X and XII of MVA 1988."
+            },
+            "public_liability_insurance_act_1991": {
+                "id": "PLIA_1991",
+                "short_title": "The Public Liability Insurance Act, 1991",
+                "act_number": "6 of 1991",
+                "in_force": "1991",
+                "extent": "Whole of India",
+                "objective": "To provide for public liability insurance for the purpose of providing immediate relief to persons affected by accidents occurring while handling hazardous substances.",
+                "key_provisions": [
+                    {
+                        "provision": "Mandatory Insurance",
+                        "description": "Every owner handling hazardous substances must take out an insurance policy against liability to give relief in case of death or injury to any person (other than an employee) or damage to property from an accident."
+                    },
+                    {
+                        "provision": "No-Fault Relief",
+                        "description": "Immediate relief payable on no-fault basis: Rs. 25,000 for fatal accidents; Rs. 12,500 for permanent/total disability."
+                    },
+                    {
+                        "provision": "Claims Application",
+                        "description": "Claims to be filed before the Collector. Collector may pass award within 3 months."
+                    },
+                    {
+                        "provision": "Environmental Relief Fund",
+                        "description": "Owner must also contribute to the Environmental Relief Fund."
+                    }
+                ],
+                "relevance_to_traffic": "Applies to vehicles transporting hazardous goods (tankers, chemical carriers). Supplements MVA 1988 Section 190(3) on carriage of dangerous goods."
+            },
+            "road_transport_corporations_act_1950": {
+                "id": "RTCA_1950",
+                "short_title": "The Road Transport Corporations Act, 1950",
+                "act_number": "64 of 1950",
+                "extent": "Whole of India",
+                "objective": "To provide for the establishment of Road Transport Corporations by State Governments for the efficient provision of road transport services.",
+                "key_provisions": [
+                    {
+                        "provision": "Establishment",
+                        "description": "State or Central Government may establish a Road Transport Corporation (e.g., KSRTC, APSRTC, TSRTC) by notification."
+                    },
+                    {
+                        "provision": "Functions",
+                        "description": "Corporation may provide road transport services, construct and manage passenger terminals, and maintain vehicles."
+                    },
+                    {
+                        "provision": "Finances",
+                        "description": "Corporations are self-financing entities; may borrow funds with State Government guarantee."
+                    },
+                    {
+                        "provision": "Relationship with MV Act",
+                        "description": "Corporations operate under permits granted under MVA 1988 Chapter VI. Special priority given to State Transport Undertakings on notified routes."
+                    },
+                    {
+                        "provision": "Employees",
+                        "description": "Employees of the Corporation are not government servants but have service conditions defined by the Corporation."
+                    }
+                ]
+            },
+            "central_road_fund_act_2000": {
+                "id": "CRF_2000",
+                "short_title": "The Central Road Fund Act, 2000",
+                "act_number": "54 of 2000",
+                "in_force": "2000",
+                "extent": "Whole of India",
+                "objective": "To provide for the constitution of a Central Road Fund and to regulate the collection and application of cess on High Speed Diesel and Petrol for the development and maintenance of roads and highways.",
+                "key_provisions": [
+                    {
+                        "provision": "Cess on Fuel",
+                        "description": "Cess levied on every litre of High Speed Diesel and Petrol. Revenue credited to Central Road Fund."
+                    },
+                    {
+                        "provision": "Allocation",
+                        "description": "Fund allocated to: National Highways, State Roads, Rural Roads (Pradhan Mantri Gram Sadak Yojana), and railway over or under bridges."
+                    },
+                    {
+                        "provision": "Administration",
+                        "description": "Fund administered by Ministry of Road Transport and Highways."
+                    },
+                    {
+                        "provision": "State Share",
+                        "description": "A portion of the fund is distributed to states for development of state roads."
+                    }
+                ]
+            },
+            "central_road_fund_state_roads_rules_2007": {
+                "id": "CRF_RULES_2007",
+                "short_title": "The Central Road Fund (State Roads) Rules, 2007",
+                "parent_act": "Central Road Fund Act, 2000",
+                "objective": "To prescribe the procedure and criteria for release of Central Road Fund money to States for development of state roads.",
+                "key_provisions": [
+                    {
+                        "provision": "State Allocation Formula",
+                        "description": "Funds distributed among states based on: (a) vehicle population, (b) road length, (c) geographical area."
+                    },
+                    {
+                        "provision": "Eligible Expenditure",
+                        "description": "Funds may be used for construction, upgradation and maintenance of state roads including bridges."
+                    },
+                    {
+                        "provision": "Project Approval",
+                        "description": "State PWD must submit project proposals to MoRTH for approval before fund utilisation."
+                    },
+                    {
+                        "provision": "Utilisation Certificate",
+                        "description": "States must submit utilisation certificates within 6 months of fund usage."
+                    },
+                    {
+                        "provision": "Audit",
+                        "description": "Accounts subject to audit by Comptroller and Auditor General of India."
+                    }
+                ]
+            }
+        },
+        "penalties_table": {
+            "title": "Indicative Penalty Table — MVA 1988 as Amended (Effective 01-09-2019)",
+            "source": "Ministry of Road Transport and Highways — Official Penalty Notification",
+            "currency": "INR",
+            "penalties": [
+                {
+                    "sl": 1,
+                    "section": "177",
+                    "offence": "General Offence (any rule violation not specifically listed)",
+                    "fine_before_2019_first": 100,
+                    "fine_before_2019_subsequent": 300,
+                    "fine_from_2019_first": 500,
+                    "fine_from_2019_subsequent": 1500
+                },
+                {
+                    "sl": 2,
+                    "section": "177A",
+                    "offence": "Violation of Rules of Road Regulations",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 1000,
+                    "fine_from_2019_subsequent": 1000
+                },
+                {
+                    "sl": 3,
+                    "section": "178(3b)",
+                    "offence": "Travelling without ticket in public transport",
+                    "fine_before_2019_first": 200,
+                    "fine_before_2019_subsequent": 200,
+                    "fine_from_2019_first": 500,
+                    "fine_from_2019_subsequent": 500
+                },
+                {
+                    "sl": 4,
+                    "section": "179(1)",
+                    "offence": "Disobedience of orders of traffic authority",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 500,
+                    "fine_from_2019_subsequent": 2000
+                },
+                {
+                    "sl": 5,
+                    "section": "179(2)",
+                    "offence": "Wilful refusal to supply information to authority",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 500,
+                    "fine_from_2019_subsequent": 2000
+                },
+                {
+                    "sl": 6,
+                    "section": "180",
+                    "offence": "Allowing unauthorised person to drive vehicle",
+                    "fine_before_2019_first": 1000,
+                    "fine_before_2019_subsequent": 1000,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 5000
+                },
+                {
+                    "sl": 7,
+                    "section": "181",
+                    "offence": "Driving without a valid licence",
+                    "fine_before_2019_first": 500,
+                    "fine_before_2019_subsequent": 500,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 5000
+                },
+                {
+                    "sl": 8,
+                    "section": "182(1)",
+                    "offence": "Driving vehicle during disqualification/suspension of licence",
+                    "fine_before_2019_first": 500,
+                    "fine_before_2019_subsequent": 500,
+                    "fine_from_2019_first": 10000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 9,
+                    "section": "182(2)",
+                    "offence": "Offences relating to conductor licence",
+                    "fine_before_2019_first": 100,
+                    "fine_before_2019_subsequent": 100,
+                    "fine_from_2019_first": 10000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 10,
+                    "section": "182-A1",
+                    "offence": "Sale of non-conforming vehicle by dealer/manufacturer/importer (Chapter VII violation)",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": "Rs. 1,00,000 per vehicle",
+                    "fine_from_2019_subsequent": "Rs. 1,00,000 per vehicle"
+                },
+                {
+                    "sl": 11,
+                    "section": "182-A2",
+                    "offence": "Manufacturer selling vehicle violating safety standards (Chapter VII)",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": "Rs. 100 Crores",
+                    "fine_from_2019_subsequent": "Rs. 100 Crores"
+                },
+                {
+                    "sl": 12,
+                    "section": "182-A3",
+                    "offence": "Sale of unauthorised critical safety component (Chapter VII)",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": "Rs. 1,00,000 per component",
+                    "fine_from_2019_subsequent": "Rs. 1,00,000 per component"
+                },
+                {
+                    "sl": 13,
+                    "section": "182-A4",
+                    "offence": "Unauthorised alteration of motor vehicle by owner",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": "Rs. 5,000 per alteration",
+                    "fine_from_2019_subsequent": "Rs. 5,000 per alteration"
+                },
+                {
+                    "sl": 14,
+                    "section": "183(i)",
+                    "offence": "Driving Light Motor Vehicle (LMV) at excessive speed",
+                    "fine_before_2019_first": 400,
+                    "fine_before_2019_subsequent": 1000,
+                    "fine_from_2019_first": 2000,
+                    "fine_from_2019_subsequent": 2000
+                },
+                {
+                    "sl": 15,
+                    "section": "183(ii)",
+                    "offence": "Driving Heavy/Medium Motor Vehicle (HMV/MMV) or passenger vehicle at excessive speed",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 4000,
+                    "fine_from_2019_subsequent": 4000
+                },
+                {
+                    "sl": 16,
+                    "section": "184",
+                    "offence": "Dangerous driving (general)",
+                    "fine_before_2019_first": 1000,
+                    "fine_before_2019_subsequent": 2000,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 10000,
+                    "imprisonment": "Up to 6 months (first); up to 2 years (subsequent)"
+                },
+                {
+                    "sl": 17,
+                    "section": "184(a)",
+                    "offence": "Jumping a red light",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 18,
+                    "section": "184(b)",
+                    "offence": "Violating a stop sign",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 19,
+                    "section": "184(c)",
+                    "offence": "Using mobile phone while driving",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 20,
+                    "section": "184(d)",
+                    "offence": "Overtaking in a no-overtaking zone",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 21,
+                    "section": "184(e)",
+                    "offence": "Driving against the flow of traffic / wrong side",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 22,
+                    "section": "184(f)",
+                    "offence": "Any other manner of dangerous driving",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 23,
+                    "section": "185",
+                    "offence": "Driving under the influence of alcohol or drugs",
+                    "fine_before_2019_first": 2000,
+                    "fine_before_2019_subsequent": 3000,
+                    "fine_from_2019_first": 10000,
+                    "fine_from_2019_subsequent": 15000,
+                    "imprisonment": "Up to 6 months (first); up to 2 years (subsequent)",
+                    "bac_limit_mg_per_100ml_blood": 30
+                },
+                {
+                    "sl": 24,
+                    "section": "186",
+                    "offence": "Driving when mentally or physically unfit to drive",
+                    "fine_before_2019_first": 200,
+                    "fine_before_2019_subsequent": 500,
+                    "fine_from_2019_first": 1000,
+                    "fine_from_2019_subsequent": 2000
+                },
+                {
+                    "sl": 25,
+                    "section": "187",
+                    "offence": "Offence relating to accident (failure to stop, assist, or report)",
+                    "fine_before_2019_first": 500,
+                    "fine_before_2019_subsequent": 1000,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 10000,
+                    "imprisonment": "Up to 3 months"
+                },
+                {
+                    "sl": 26,
+                    "section": "188",
+                    "offence": "Abetment of offences under Sections 184/185/186",
+                    "fine_from_2019_first": "Same as abetted offence",
+                    "fine_from_2019_subsequent": "Same as abetted offence"
+                },
+                {
+                    "sl": 27,
+                    "section": "189",
+                    "offence": "Racing or speed trials on public roads without government consent",
+                    "fine_before_2019_first": 500,
+                    "fine_before_2019_subsequent": 500,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 28,
+                    "section": "190(1)(a)",
+                    "offence": "Using vehicle in unsafe condition (minor defect)",
+                    "fine_before_2019_first": 250,
+                    "fine_before_2019_subsequent": 1000,
+                    "fine_from_2019_first": 1500,
+                    "fine_from_2019_subsequent": 1500
+                },
+                {
+                    "sl": 29,
+                    "section": "190(1)(b)",
+                    "offence": "Using vehicle in unsafe condition causing bodily injury or property damage",
+                    "fine_before_2019_first": 1000,
+                    "fine_before_2019_subsequent": 1000,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 30,
+                    "section": "190(2)",
+                    "offence": "Violating air or noise pollution standards (vehicle emissions)",
+                    "fine_before_2019_first": 1000,
+                    "fine_before_2019_subsequent": 2000,
+                    "fine_from_2019_first": 10000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 31,
+                    "section": "190(3)",
+                    "offence": "Carrying dangerous or hazardous goods without compliance",
+                    "fine_before_2019_first": 3000,
+                    "fine_before_2019_subsequent": 5000,
+                    "fine_from_2019_first": 10000,
+                    "fine_from_2019_subsequent": 20000
+                },
+                {
+                    "sl": 32,
+                    "section": "192",
+                    "offence": "Using vehicle without registration and/or fitness certificate",
+                    "fine_before_2019_first": 5000,
+                    "fine_before_2019_subsequent": 10000,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 33,
+                    "section": "192A",
+                    "offence": "Using vehicle without permit or violating permit conditions",
+                    "fine_before_2019_first": 5000,
+                    "fine_before_2019_subsequent": 10000,
+                    "fine_from_2019_first": 10000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 34,
+                    "section": "193(2)",
+                    "offence": "Operating as aggregator in contravention of Section 93 or rules",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 100000,
+                    "fine_from_2019_subsequent": 100000
+                },
+                {
+                    "sl": 35,
+                    "section": "193(3)",
+                    "offence": "Aggregator violating licence conditions",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 5000
+                },
+                {
+                    "sl": 36,
+                    "section": "194(1)",
+                    "offence": "Overloading goods vehicle",
+                    "fine_before_2019_first": "Rs. 2000 + Rs. 1000/extra tonne",
+                    "fine_from_2019_first": "Rs. 20,000 + Rs. 2000/extra tonne",
+                    "fine_from_2019_subsequent": "Rs. 20,000 + Rs. 2000/extra tonne"
+                },
+                {
+                    "sl": 37,
+                    "section": "194(2)",
+                    "offence": "Refusal to allow weighing of goods vehicle",
+                    "fine_before_2019_first": 3000,
+                    "fine_before_2019_subsequent": 3000,
+                    "fine_from_2019_first": 40000,
+                    "fine_from_2019_subsequent": 40000
+                },
+                {
+                    "sl": 38,
+                    "section": "194A",
+                    "offence": "Carrying excess passengers in transport vehicle",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": "Rs. 200 per extra passenger",
+                    "fine_from_2019_subsequent": "Rs. 200 per extra passenger"
+                },
+                {
+                    "sl": 39,
+                    "section": "194B(1)",
+                    "offence": "Driver or front-seat passenger not wearing seat belt",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 1000,
+                    "fine_from_2019_subsequent": 1000
+                },
+                {
+                    "sl": 40,
+                    "section": "194B(2)",
+                    "offence": "Carrying children below 14 years without safety belt or child restraint system",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 1000,
+                    "fine_from_2019_subsequent": 1000
+                },
+                {
+                    "sl": 41,
+                    "section": "194C",
+                    "offence": "Riding two-wheeler with more than one pillion rider",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 1000,
+                    "fine_from_2019_subsequent": 1000
+                },
+                {
+                    "sl": 42,
+                    "section": "194D",
+                    "offence": "Riding two-wheeler without helmet (driver or pillion rider)",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 1000,
+                    "fine_from_2019_subsequent": 1000,
+                    "note": "Also leads to 3-month licence suspension and deduction from driving record"
+                },
+                {
+                    "sl": 43,
+                    "section": "194E",
+                    "offence": "Not giving way to emergency vehicles (ambulance, fire service)",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 10000,
+                    "fine_from_2019_subsequent": 10000
+                },
+                {
+                    "sl": 44,
+                    "section": "194F(a)",
+                    "offence": "Using horn needlessly, continuously, or in prohibited area (silence zone)",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 1000,
+                    "fine_from_2019_subsequent": 2000
+                },
+                {
+                    "sl": 45,
+                    "section": "194F(b)",
+                    "offence": "Releasing exhaust fumes other than through silencer / modified exhaust",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 1000,
+                    "fine_from_2019_subsequent": 2000
+                },
+                {
+                    "sl": 46,
+                    "section": "196",
+                    "offence": "Driving uninsured vehicle (without valid third-party insurance)",
+                    "fine_before_2019_first": 1000,
+                    "fine_before_2019_subsequent": 1000,
+                    "fine_from_2019_first": 2000,
+                    "fine_from_2019_subsequent": 4000
+                },
+                {
+                    "sl": 47,
+                    "section": "197",
+                    "offence": "Taking vehicle without authority / vehicle theft",
+                    "fine_before_2019_first": 500,
+                    "fine_before_2019_subsequent": 500,
+                    "fine_from_2019_first": 5000,
+                    "fine_from_2019_subsequent": 5000
+                },
+                {
+                    "sl": 48,
+                    "section": "198",
+                    "offence": "Unauthorised interference with vehicle",
+                    "fine_before_2019_first": 100,
+                    "fine_before_2019_subsequent": 100,
+                    "fine_from_2019_first": 1000,
+                    "fine_from_2019_subsequent": 1000
+                },
+                {
+                    "sl": 49,
+                    "section": "198A(2)",
+                    "offence": "Non-adherence to road design/construction/maintenance safety standards by contractors/consultants",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 100000,
+                    "fine_from_2019_subsequent": 100000
+                },
+                {
+                    "sl": 50,
+                    "section": "199A(2)",
+                    "offence": "Offences committed by juveniles (minor driving vehicle)",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 25000,
+                    "fine_from_2019_subsequent": 25000,
+                    "note": "Guardian/owner held liable. Vehicle registration may be cancelled. Juvenile tried under Juvenile Justice Act. Imprisonment up to 3 years for guardian."
+                },
+                {
+                    "sl": 51,
+                    "section": "201",
+                    "offence": "Obstruction to free flow of traffic",
+                    "fine_before_2019_first": "Rs. 50/hr",
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": 500,
+                    "fine_from_2019_subsequent": 500
+                },
+                {
+                    "sl": 52,
+                    "section": "210B",
+                    "offence": "Offences committed by enforcing authorities / officials",
+                    "fine_before_2019_first": null,
+                    "fine_before_2019_subsequent": null,
+                    "fine_from_2019_first": "Twice the penalty for the corresponding offence",
+                    "fine_from_2019_subsequent": "Twice the penalty for the corresponding offence"
+                }
+            ]
+        },
+        "speed_limits": {
+            "title": "Maximum Speed Limits — India (as per MoRTH S.O. 1522(E) dated 06-04-2018)",
+            "note": "State Governments may fix lower limits. Limits are in km/h.",
+            "limits": [
+                {
+                    "vehicle_category": "M1 — Passenger vehicles with up to 8 seats (cars, SUVs)",
+                    "expressway_access_controlled": 120,
+                    "4_lane_national_highway": 100,
+                    "urban_roads": 70
+                },
+                {
+                    "vehicle_category": "M2/M3 — Buses (9+ passenger seats)",
+                    "expressway_access_controlled": 100,
+                    "national_highway": 90,
+                    "other_roads": 60
+                },
+                {
+                    "vehicle_category": "N — Goods vehicles (all categories)",
+                    "expressway": 80,
+                    "national_highway": 60,
+                    "other_roads": 60
+                },
+                {
+                    "vehicle_category": "Motorcycles/Two-wheelers (where permitted on expressways)",
+                    "expressway": 80,
+                    "national_highway": 80,
+                    "urban_roads": 60
+                },
+                {
+                    "vehicle_category": "Towing vehicles (towing another vehicle, not trailer)",
+                    "any_road": 24
+                }
+            ]
+        },
+        "vehicle_categories": {
+            "title": "Types of Motor Vehicles — As Defined Under CMVR 1989",
+            "categories": [
+                {
+                    "code": "L1",
+                    "description": "Two-wheeled vehicle with engine cylinder capacity up to 50 cc and max speed 50 km/h"
+                },
+                {
+                    "code": "L2",
+                    "description": "Three-wheeled vehicle with engine up to 50 cc and max speed 50 km/h (e-rickshaw type)"
+                },
+                {
+                    "code": "L3",
+                    "description": "Motorcycle / Two-wheeler with engine above 50 cc or capable of exceeding 50 km/h"
+                },
+                {
+                    "code": "L4",
+                    "description": "Motorcycle with sidecar"
+                },
+                {
+                    "code": "L5",
+                    "description": "Three-wheeled motor vehicle (auto-rickshaw) with engine above 50 cc or exceeding 50 km/h"
+                },
+                {
+                    "code": "L6",
+                    "description": "Quadricycle — 4-wheeled vehicle, engine ≤ 50 cc, max speed ≤ 45 km/h, max weight 350 kg"
+                },
+                {
+                    "code": "L7",
+                    "description": "Heavy quadricycle — 4-wheeled vehicle, engine ≤ 400 cc (petrol) or 15 kW (electric), max weight 400 kg (goods) or 550 kg (passengers)"
+                },
+                {
+                    "code": "M1",
+                    "description": "Passenger motor vehicle with up to 8 seats (in addition to driver) — e.g., cars, SUVs"
+                },
+                {
+                    "code": "M2",
+                    "description": "Passenger motor vehicle with more than 8 seats, GVW ≤ 5,000 kg — e.g., minibuses"
+                },
+                {
+                    "code": "M3",
+                    "description": "Passenger motor vehicle with more than 8 seats, GVW > 5,000 kg — e.g., buses, coaches"
+                },
+                {
+                    "code": "N1",
+                    "description": "Goods vehicle, GVW ≤ 3,500 kg — e.g., pick-up trucks, small vans"
+                },
+                {
+                    "code": "N2",
+                    "description": "Goods vehicle, GVW 3,500–12,000 kg — e.g., medium trucks"
+                },
+                {
+                    "code": "N3",
+                    "description": "Goods vehicle, GVW > 12,000 kg — e.g., heavy trucks, articulated vehicles"
+                },
+                {
+                    "code": "Trailer",
+                    "description": "Non-motorised vehicle towed by a motor vehicle. Semi-trailers and full trailers."
+                },
+                {
+                    "code": "Agricultural Tractor",
+                    "description": "4-wheeled mechanically propelled vehicle for agricultural field operations."
+                }
+            ]
+        },
+        "registration_marks": {
+            "title": "Vehicle Registration Marks — State-wise Codes (India)",
+            "format": "State Code (2 letters) + District Code (2 digits) + Series (1-2 letters) + Unique Number (4 digits)",
+            "example": "TN 38 AB 1234 (Tamil Nadu, Tiruppur district)",
+            "state_codes": [
+                {
+                    "state": "Andhra Pradesh",
+                    "code": "AP"
+                },
+                {
+                    "state": "Arunachal Pradesh",
+                    "code": "AR"
+                },
+                {
+                    "state": "Assam",
+                    "code": "AS"
+                },
+                {
+                    "state": "Bihar",
+                    "code": "BR"
+                },
+                {
+                    "state": "Chhattisgarh",
+                    "code": "CG"
+                },
+                {
+                    "state": "Goa",
+                    "code": "GA"
+                },
+                {
+                    "state": "Gujarat",
+                    "code": "GJ"
+                },
+                {
+                    "state": "Haryana",
+                    "code": "HR"
+                },
+                {
+                    "state": "Himachal Pradesh",
+                    "code": "HP"
+                },
+                {
+                    "state": "Jharkhand",
+                    "code": "JH"
+                },
+                {
+                    "state": "Karnataka",
+                    "code": "KA"
+                },
+                {
+                    "state": "Kerala",
+                    "code": "KL"
+                },
+                {
+                    "state": "Madhya Pradesh",
+                    "code": "MP"
+                },
+                {
+                    "state": "Maharashtra",
+                    "code": "MH"
+                },
+                {
+                    "state": "Manipur",
+                    "code": "MN"
+                },
+                {
+                    "state": "Meghalaya",
+                    "code": "ML"
+                },
+                {
+                    "state": "Mizoram",
+                    "code": "MZ"
+                },
+                {
+                    "state": "Nagaland",
+                    "code": "NL"
+                },
+                {
+                    "state": "Odisha",
+                    "code": "OD"
+                },
+                {
+                    "state": "Punjab",
+                    "code": "PB"
+                },
+                {
+                    "state": "Rajasthan",
+                    "code": "RJ"
+                },
+                {
+                    "state": "Sikkim",
+                    "code": "SK"
+                },
+                {
+                    "state": "Tamil Nadu",
+                    "code": "TN"
+                },
+                {
+                    "state": "Telangana",
+                    "code": "TS"
+                },
+                {
+                    "state": "Tripura",
+                    "code": "TR"
+                },
+                {
+                    "state": "Uttar Pradesh",
+                    "code": "UP"
+                },
+                {
+                    "state": "Uttarakhand",
+                    "code": "UK"
+                },
+                {
+                    "state": "West Bengal",
+                    "code": "WB"
+                },
+                {
+                    "state": "Delhi",
+                    "code": "DL"
+                },
+                {
+                    "state": "Chandigarh (UT)",
+                    "code": "CH"
+                },
+                {
+                    "state": "Jammu & Kashmir",
+                    "code": "JK"
+                },
+                {
+                    "state": "Ladakh",
+                    "code": "LA"
+                },
+                {
+                    "state": "Puducherry",
+                    "code": "PY"
+                },
+                {
+                    "state": "Lakshadweep",
+                    "code": "LD"
+                },
+                {
+                    "state": "Andaman & Nicobar",
+                    "code": "AN"
+                },
+                {
+                    "state": "Dadra & Nagar Haveli and Daman & Diu",
+                    "code": "DD/DN"
+                }
+            ],
+            "colour_coding": [
+                {
+                    "background": "White",
+                    "lettering": "Black",
+                    "vehicle_type": "Private vehicles"
+                },
+                {
+                    "background": "Yellow",
+                    "lettering": "Black",
+                    "vehicle_type": "Commercial transport vehicles (taxis, cabs, goods)"
+                },
+                {
+                    "background": "Black",
+                    "lettering": "Yellow",
+                    "vehicle_type": "Rental/self-drive vehicles"
+                },
+                {
+                    "background": "Blue",
+                    "lettering": "White",
+                    "vehicle_type": "Foreign nationals / diplomatic vehicles"
+                },
+                {
+                    "background": "Red",
+                    "lettering": "White",
+                    "vehicle_type": "Temporary registration (TR series)"
+                },
+                {
+                    "background": "Green",
+                    "lettering": "White",
+                    "vehicle_type": "Battery-operated / electric vehicles (BH series for EV)"
+                }
+            ]
+        },
+        "axle_weight_limits": {
+            "title": "Maximum Safe Axle Weights — India (MVA 1988, Section 113)",
+            "note": "These are the maximum permitted axle weights. Excess loading is a serious offence under Section 194.",
+            "unit": "kg",
+            "limits": [
+                {
+                    "axle_type": "Single axle (single tyres)",
+                    "max_weight_kg": 7500
+                },
+                {
+                    "axle_type": "Single axle (twin tyres)",
+                    "max_weight_kg": 10200
+                },
+                {
+                    "axle_type": "Tandem axle set (two closely-spaced axles)",
+                    "max_weight_kg": 18000
+                },
+                {
+                    "axle_type": "Tridem axle set (three closely-spaced axles)",
+                    "max_weight_kg": 24000
+                },
+                {
+                    "axle_type": "Steering axle (front)",
+                    "max_weight_kg": 6000
+                }
+            ],
+            "gross_vehicle_weight": [
+                {
+                    "vehicle_type": "Two-axle rigid truck",
+                    "max_gvw_kg": 16200
+                },
+                {
+                    "vehicle_type": "Three-axle rigid truck",
+                    "max_gvw_kg": 25000
+                },
+                {
+                    "vehicle_type": "Four-axle rigid truck",
+                    "max_gvw_kg": 31000
+                },
+                {
+                    "vehicle_type": "Semi-trailer combination (5 axles)",
+                    "max_gvw_kg": 40500
+                },
+                {
+                    "vehicle_type": "Semi-trailer combination (6 axles)",
+                    "max_gvw_kg": 49000
+                }
+            ]
+        },
+        "no_fault_compensation": {
+            "title": "No-Fault Liability Compensation — MVA 1988 Section 140",
+            "description": "Payable by the owner/insurer without requiring proof of negligence or fault.",
+            "compensation": [
+                {
+                    "type": "Death",
+                    "amount_inr": 50000
+                },
+                {
+                    "type": "Permanent Disablement",
+                    "amount_inr": 25000
+                }
+            ],
+            "notes": [
+                "This compensation is payable in addition to other compensation awarded by MACT.",
+                "The claimant need not prove negligence for this amount.",
+                "Deductible from final MACT award if awarded subsequently."
+            ]
+        },
+        "telangana_provisions": {
+            "id": "TG_MV",
+            "title": "Telangana Motor Vehicles Act and Rules",
+            "description": "Telangana State follows the Motor Vehicles Act, 1988 as the parent legislation, with state-specific rules under the Telangana Motor Vehicles Taxation Act and rules made by Telangana State Transport Authority (STA).",
+            "state_transport_authority": "Telangana State Transport Authority (STA), Hyderabad",
+            "key_state_specific_provisions": [
+                {
+                    "provision": "Vehicle Taxation",
+                    "description": "Telangana levies One Time Tax (OTT) on all vehicles at the time of registration. Tax rates vary by vehicle type, engine capacity, and seating capacity."
+                },
+                {
+                    "provision": "Green Tax",
+                    "description": "Telangana levies a Green Tax on vehicles older than 15 years (for non-transport) and 10 years (for transport) at the time of fitness renewal."
+                },
+                {
+                    "provision": "State-Specific Speed Limits",
+                    "description": "Default speed limits in Telangana: Motorcycles and LMV — 50 km/h (urban), 65 km/h (highways); Transport vehicles — 65 km/h; Heavy vehicles — 40-50 km/h."
+                },
+                {
+                    "provision": "RTO Districts in Telangana",
+                    "description": "Telangana has 34 RTO offices. Code prefix: TS 01 (Hyderabad Central) through TS 36 (Narayanpet)."
+                },
+                {
+                    "provision": "E-Challan System",
+                    "description": "Telangana Traffic Police issues electronic challans (e-challans) through the Vahaan/Parivahan portal. Payment can be made online."
+                },
+                {
+                    "provision": "Hyderabad City Traffic Regulations",
+                    "description": "Hyderabad Traffic Police enforces additional restrictions: no-entry zones for HMVs in city centre during peak hours; specific parking zones; two-wheeler lane restrictions on ORR."
+                }
+            ]
+        },
+        "common_faqs": [
+            {
+                "question": "What is the fine for not wearing a helmet in India?",
+                "answer": "Under Section 194D of the MVA 1988 (post 2019 amendment), the fine is Rs. 1,000. Additionally, the driving licence may be suspended for 3 months.",
+                "section": "194D",
+                "fine_inr": 1000
+            },
+            {
+                "question": "What is the fine for jumping a red light?",
+                "answer": "Under Section 184(a) of the MVA 1988, the fine is Rs. 5,000 for the first offence and Rs. 10,000 for subsequent offences.",
+                "section": "184(a)",
+                "fine_first_inr": 5000,
+                "fine_subsequent_inr": 10000
+            },
+            {
+                "question": "What is the fine for drunk driving in India?",
+                "answer": "Under Section 185 of the MVA 1988, the fine is Rs. 10,000 for the first offence (and/or imprisonment up to 6 months) and Rs. 15,000 for subsequent offences (and/or imprisonment up to 2 years). The permissible BAC limit is 30 mg per 100 ml of blood.",
+                "section": "185",
+                "fine_first_inr": 10000,
+                "fine_subsequent_inr": 15000,
+                "bac_limit_mg_per_100ml": 30
+            },
+            {
+                "question": "What is the fine for driving without insurance?",
+                "answer": "Under Section 196 of the MVA 1988, the fine is Rs. 2,000 for the first offence and Rs. 4,000 for subsequent offences.",
+                "section": "196",
+                "fine_first_inr": 2000,
+                "fine_subsequent_inr": 4000
+            },
+            {
+                "question": "What is the fine for driving without a licence?",
+                "answer": "Under Section 181 of the MVA 1988, the fine is Rs. 5,000.",
+                "section": "181",
+                "fine_inr": 5000
+            },
+            {
+                "question": "What is the fine for overspeeding?",
+                "answer": "Under Section 183 of the MVA 1988, the fine is Rs. 2,000 for LMVs (cars) and Rs. 4,000 for HMVs/MMVs. Repeat offenders risk licence suspension.",
+                "section": "183",
+                "fine_lmv_inr": 2000,
+                "fine_hmv_inr": 4000
+            },
+            {
+                "question": "What is the fine for using a mobile phone while driving?",
+                "answer": "Under Section 184(c) of the MVA 1988, the fine is Rs. 5,000 for the first offence and Rs. 10,000 for subsequent offences. This is treated as dangerous driving.",
+                "section": "184(c)",
+                "fine_first_inr": 5000,
+                "fine_subsequent_inr": 10000
+            },
+            {
+                "question": "What compensation is available in hit-and-run accident cases?",
+                "answer": "Under the Compensation to Victims of Hit and Run Motor Accidents Scheme, 2022 (which replaced the Solatium Scheme 1989): Rs. 2,00,000 for death; Rs. 50,000 for grievous hurt. Apply to the Claims Enquiry Officer at the Taluka level.",
+                "scheme": "Hit & Run Scheme 2022",
+                "compensation_death_inr": 200000,
+                "compensation_grievous_hurt_inr": 50000
+            },
+            {
+                "question": "Is it mandatory to carry vehicle documents while driving?",
+                "answer": "Yes. Under Section 130 of the MVA 1988, you must carry: (1) Driving Licence, (2) Registration Certificate, (3) Insurance Certificate, (4) Fitness Certificate (for transport vehicles), (5) Permit (for transport vehicles). Documents can also be presented digitally via DigiLocker/mParivahan app.",
+                "section": "130"
+            },
+            {
+                "question": "What is the fine for not giving way to an ambulance?",
+                "answer": "Under Section 194E of the MVA 1988, the fine for not providing way to emergency vehicles (ambulance, fire service) is Rs. 10,000.",
+                "section": "194E",
+                "fine_inr": 10000
+            }
+        ]
+}
+}

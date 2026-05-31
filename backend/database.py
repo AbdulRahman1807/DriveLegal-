@@ -1,15 +1,22 @@
 from typing import AsyncGenerator
-from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
+
+from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
+
 from backend.config import settings
 
-# Engine configuration for PostgreSQL (asyncpg)
-engine = create_async_engine(
-    settings.DATABASE_URL,
-    echo=settings.DEBUG,
-    pool_pre_ping=True, # Test connection before using it
-    pool_size=5,
-    max_overflow=10,
-)
+_is_sqlite = settings.DATABASE_URL.startswith("sqlite")
+
+_engine_kwargs: dict = {
+    "echo": settings.DEBUG,
+}
+if _is_sqlite:
+    _engine_kwargs["connect_args"] = {"check_same_thread": False}
+else:
+    _engine_kwargs["pool_pre_ping"] = True
+    _engine_kwargs["pool_size"] = 5
+    _engine_kwargs["max_overflow"] = 10
+
+engine = create_async_engine(settings.DATABASE_URL, **_engine_kwargs)
 
 # Async session factory
 async_session_maker = async_sessionmaker(

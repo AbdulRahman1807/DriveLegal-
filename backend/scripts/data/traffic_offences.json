@@ -1,0 +1,1406 @@
+[
+    {
+        "sr_no": 1,
+        "section": "Sec 4(1)/181 MVA",
+        "offense_english": "Driving Without valid License Below 16 Years of Age",
+        "offense_marathi": "वैध अनुज्ञापत्राशिवाय १६ वर्षवयाखालील व्यक्तीने वाहन चालविणे"
+    },
+    {
+        "sr_no": 2,
+        "section": "Sec 19 to 20/182 (1) MVA",
+        "offense_english": "License Disqualified Driver",
+        "offense_marathi": "अनुज्ञापत्र अपात्र चालक"
+    },
+    {
+        "sr_no": 3,
+        "section": "Sec 39/192(1) MVA",
+        "offense_english": "Without valid Registration Any Vehicle (Driver)",
+        "offense_marathi": "विना वैध नोंदणी - दुचाकी (चालक)"
+    },
+    {
+        "sr_no": 4,
+        "section": "Sec 39/192(1) MVA",
+        "offense_english": "Without valid Registration Any Vehicle (Owner)",
+        "offense_marathi": "विना वैध नोंदणी - दुचाकी (मालक)"
+    },
+    {
+        "sr_no": 5,
+        "section": "Sec 3(1)/181 MVA",
+        "offense_english": "Driving Without valid License",
+        "offense_marathi": "वैध अनुज्ञापत्राशिवाय वाहन चालविणे"
+    },
+    {
+        "sr_no": 6,
+        "section": "Sec 146/196 MVA",
+        "offense_english": "Without valid Insurance (Driver)",
+        "offense_marathi": "विना वैध विमा प्रमाणपत्र (चालक)"
+    },
+    {
+        "sr_no": 7,
+        "section": "Sec 146/196 MVA",
+        "offense_english": "Without valid Insurance (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "विना वैध विमा प्रमाणपत्र (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 8,
+        "section": "CMVR 3(C)/177 MVA",
+        "offense_english": "Driving Without L Board",
+        "offense_marathi": "विना एल फलक चालविणे"
+    },
+    {
+        "sr_no": 9,
+        "section": "CMVR 51/177 MVA",
+        "offense_english": "Illegal Number Plate Similar To DADA/MAMA/BABA Etc.",
+        "offense_marathi": "बेकायदेशिर क्रमांक फलक. उदा. मामा, दादा, बाबा इ."
+    },
+    {
+        "sr_no": 10,
+        "section": "CMVR 51/177 MVA",
+        "offense_english": "Registration Number or Letters Not as Per Prescribed Measurement",
+        "offense_marathi": "नोंदणी क्रमांक विहीत मोजमापात नाही."
+    },
+    {
+        "sr_no": 11,
+        "section": "Sec 119/177 MVA",
+        "offense_english": "No entry in prescribed time limit period for specific vehicle / No entry on Bridge (2W-3W-HMV)",
+        "offense_marathi": "विशिष्ट वाहनासाठी विहित वेळ मर्यादेत प्रवेश नाही / पुलावर प्रवेश नाही (2W-3W-HMV)"
+    },
+    {
+        "sr_no": 12,
+        "section": "Sec 125/177 MVA",
+        "offense_english": "Obstruction to Driver / Front seating",
+        "offense_marathi": "चालकास अडथळा / पुढील बैठक"
+    },
+    {
+        "sr_no": 13,
+        "section": "Sec 123/177 MVA",
+        "offense_english": "No Person to be carried on a running board or on the top or on the bonnet of a motor vehicle.",
+        "offense_marathi": "मोटार वाहनाच्या रनिंग बोर्डवर किंवा छतावर किंवा बॉनेटवर कोणत्याही इसमास वाहून नेऊ नये."
+    },
+    {
+        "sr_no": 14,
+        "section": "Sec 186 MVA",
+        "offense_english": "Driver unfit (Physically/Mentally)",
+        "offense_marathi": "चालक अयोग्य (शारीरिकरित्या / मानसिकरित्या)"
+    },
+    {
+        "sr_no": 15,
+        "section": "MMVR 235/177 MVA",
+        "offense_english": "Dazzling Light",
+        "offense_marathi": "प्रखर प्रकाश"
+    },
+    {
+        "sr_no": 16,
+        "section": "CMVR 105/177 MVA",
+        "offense_english": "Without Light after sunset",
+        "offense_marathi": "विना प्रकाश सूर्यास्तानंतर"
+    },
+    {
+        "sr_no": 17,
+        "section": "CMVR 109/177 MVA",
+        "offense_english": "Without Parking Light",
+        "offense_marathi": "विना पार्किंग प्रकाश"
+    },
+    {
+        "sr_no": 18,
+        "section": "MMVR 236(1)/177 MVA",
+        "offense_english": "Light not visible",
+        "offense_marathi": "प्रकाश दिसत नाही"
+    },
+    {
+        "sr_no": 19,
+        "section": "CMVR 119(2)/177 MVA",
+        "offense_english": "Vehicle fitted with any multi toned horn giving a succession of different notes or with another sound producing device giving an unduly harsh, shrill, loud or alarming noise.",
+        "offense_marathi": "मो. वाहनास वेगवेगळे आवाज निर्माण करणारा बहुविध आवाजाचा भोगा किंवा अनावश्यक, कठोर, कर्कश, मोठा किंवा भीतीदायक आवाज निर्माण करणारे साधन बसविलेले असल्यास."
+    },
+    {
+        "sr_no": 20,
+        "section": "MMVR 239/177 MVA",
+        "offense_english": "Jumping signal",
+        "offense_marathi": "संकेतक ओलांडणे (जंपिंग सिग्नल)"
+    },
+    {
+        "sr_no": 21,
+        "section": "Sec 189 MVA",
+        "offense_english": "Racing / Speed test violation (Driver)",
+        "offense_marathi": "शर्यत / वेग परीक्षण उल्लंघन (चालक)"
+    },
+    {
+        "sr_no": 22,
+        "section": "Sec 189 MVA",
+        "offense_english": "Racing / Speed test violation (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "शर्यत / वेग परीक्षण उल्लंघन (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 23,
+        "section": "Sec 112/183(1) MVA (2-3 wheeler)",
+        "offense_english": "Speed violating by driver (2-3 wheeler)",
+        "offense_marathi": "वेग मर्यादा उल्लंघन चालकाद्वारे (२-३ चाकी)"
+    },
+    {
+        "sr_no": 24,
+        "section": "Sec 112/183(1) MVA (Tractor)",
+        "offense_english": "Speed violating by driver (Tractor)",
+        "offense_marathi": "वेग मर्यादा उल्लंघन चालकाद्वारे (ट्रॅक्टर)"
+    },
+    {
+        "sr_no": 25,
+        "section": "Sec 112/183(1) MVA (LMV)",
+        "offense_english": "Speed violating by driver (LMV)",
+        "offense_marathi": "वेग मर्यादा उल्लंघन चालकाद्वारे (4 चाकी LMV)"
+    },
+    {
+        "sr_no": 26,
+        "section": "Sec 112/183(1) MVA (MMV-HMV)",
+        "offense_english": "Speed violating by driver (MMV-HMV)",
+        "offense_marathi": "वेग मर्यादा उल्लंघन चालकाद्वारे (MMV-HMV)"
+    },
+    {
+        "sr_no": 27,
+        "section": "MMVR 202/177MVA",
+        "offense_english": "Unsafe-dangerous transportation of goods",
+        "offense_marathi": "मालाची असुरक्षित धोकादायक वाहतूक"
+    },
+    {
+        "sr_no": 28,
+        "section": "CMVR 93(8)/177 MVA",
+        "offense_english": "Unsafe goods beyond body",
+        "offense_marathi": "असुरक्षित माल वाहनाच्या भागाच्या बाहेर"
+    },
+    {
+        "sr_no": 29,
+        "section": "CMVR 100(2)/177 MVA",
+        "offense_english": "Tinted glasses / Black Film",
+        "offense_marathi": "रंगीत काचा / काचेवरील काळे आवरण (फिल्म)"
+    },
+    {
+        "sr_no": 30,
+        "section": "MMVR 165/177 MVA",
+        "offense_english": "Without Mud guard",
+        "offense_marathi": "विना चिखलरक्षक (मडगार्ड)"
+    },
+    {
+        "sr_no": 31,
+        "section": "MMVR 161/177 MVA",
+        "offense_english": "Without Side mirror",
+        "offense_marathi": "विना बाजूचा आरसा"
+    },
+    {
+        "sr_no": 32,
+        "section": "MMVR 162/177 MVA",
+        "offense_english": "TV/video set on dashboard",
+        "offense_marathi": "डॅशबोर्डवर दूरचित्रवाणी/व्हिडिओ चालवणे"
+    },
+    {
+        "sr_no": 33,
+        "section": "MMVR 232/177 MVA",
+        "offense_english": "Without Silencer",
+        "offense_marathi": "विना आवाजप्रतिबंधक यंत्र (सायलेन्सर)"
+    },
+    {
+        "sr_no": 34,
+        "section": "CMVR 94(3)/177 MVA",
+        "offense_english": "Tyres not in good and sound condition",
+        "offense_marathi": "चाके (टायर) चांगल्या बळकट स्थितीत नाहीत"
+    },
+    {
+        "sr_no": 35,
+        "section": "CMVR 104(1)/177 MVA",
+        "offense_english": "Without Red Reflector",
+        "offense_marathi": "विना लाल परावर्तक"
+    },
+    {
+        "sr_no": 36,
+        "section": "Sec 198 MVA",
+        "offense_english": "Unauthorized Interference with vehicle",
+        "offense_marathi": "वाहनाच्या संबंधित अनधिकृत हस्तक्षेप"
+    },
+    {
+        "sr_no": 37,
+        "section": "CMVR 101/177 MVA",
+        "offense_english": "Driving Without Wiper",
+        "offense_marathi": "विना झपाटा (वायपर) चालविणे"
+    },
+    {
+        "sr_no": 38,
+        "section": "MMVR 21(5)/177 MVA",
+        "offense_english": "Stop out of stand",
+        "offense_marathi": "थांब्याच्या बाहेर उभा (मोटर कॅब)"
+    },
+    {
+        "sr_no": 39,
+        "section": "MMVR 21(14)/177 MVA",
+        "offense_english": "Insufficient fuel (Motor Cab)",
+        "offense_marathi": "इंधन साठा पुरेसा नाही.(मोटर कॅब)"
+    },
+    {
+        "sr_no": 40,
+        "section": "MMVR 21(7)/177 MVA",
+        "offense_english": "Meter flag down on stand (Motor Cab)",
+        "offense_marathi": "मिटर झेंडा खाली थांब्यावर (मोटर कॅब)"
+    },
+    {
+        "sr_no": 41,
+        "section": "MMVR 21(10)/177 MVA",
+        "offense_english": "Carry cleaner in permit vehicle (Motor Cab)",
+        "offense_marathi": "परवानाधारक वाहनात स्वच्छकास नेणे. (मोटर कॅब)"
+    },
+    {
+        "sr_no": 42,
+        "section": "MMVR 146/177",
+        "offense_english": "Faulty Meter (Motor Cab)",
+        "offense_marathi": "बिघडलेले मिटर (मोटर कॅब)"
+    },
+    {
+        "sr_no": 43,
+        "section": "MMVR 21(18)/177 MVA",
+        "offense_english": "Cab / Taxi driver without white Uniform (Motor Cab)",
+        "offense_marathi": "कॅब/टॅक्सी चालक गणवेश पांढरा नाही"
+    },
+    {
+        "sr_no": 44,
+        "section": "MMVR 21(18)/177 MVA",
+        "offense_english": "Without Uniform (Non-Meter Tourist/Cab)",
+        "offense_marathi": "विना विहित गणवेश - पर्यटक वाहन"
+    },
+    {
+        "sr_no": 45,
+        "section": "MMVR 21(18)/177 MVA",
+        "offense_english": "Without Cab Drivers I-Card (All Cab)",
+        "offense_marathi": "विना कॅब चालक ओळखपत्र"
+    },
+    {
+        "sr_no": 46,
+        "section": "MMVR 21(18)/177 MVA RW S.O. 415(E) dt. 8/6/1989",
+        "offense_english": "Without Prescribed Uniform (Tourist Cab)",
+        "offense_marathi": "विना विहीत गणवेश - पर्यटक वाहन"
+    },
+    {
+        "sr_no": 47,
+        "section": "MMVR 21(13)/177",
+        "offense_english": "Shouting for passenger (Motor Cab)",
+        "offense_marathi": "प्रवाशांचे लक्ष वेधण्यासाठी ओरडणे."
+    },
+    {
+        "sr_no": 48,
+        "section": "MMVR 21(16)/177",
+        "offense_english": "Driver Smoking while on duty (Motor Cab)",
+        "offense_marathi": "चालक कर्तव्यावर धूम्रपान करतो.(मोटर कॅब)"
+    },
+    {
+        "sr_no": 49,
+        "section": "MMVR 23(1)/177 MVA",
+        "offense_english": "Obstruction to driver by carrying animal/things (Goods Carrier)",
+        "offense_marathi": "प्राणी / इतर सामान सहचालकास अडथळा (मालवाहक)"
+    },
+    {
+        "sr_no": 50,
+        "section": "Sec 5/180 MVA",
+        "offense_english": "Permitting Driver to Drive MV Without License (Owner)",
+        "offense_marathi": "विना अनुज्ञापत्र चालकास वाहन चालविण्यास परवानगी देणे (मालक)"
+    },
+    {
+        "sr_no": 51,
+        "section": "Sec 130(1)/177 MVA",
+        "offense_english": "Failed to Produce valid License",
+        "offense_marathi": "वैध अनुज्ञापत्र (लायसन) सादर केली नाही"
+    },
+    {
+        "sr_no": 52,
+        "section": "CMVR 139/177 MVA",
+        "offense_english": "Failed to Produce Documents Within 15 Days of Demand in Writing",
+        "offense_marathi": "लेखी मागणीच्या १५ दिवसाच्या आत दस्तऐवज सादर केले नाहीत"
+    },
+    {
+        "sr_no": 53,
+        "section": "MMVR 134(1)/177 MVA",
+        "offense_english": "Using word / figure / drawing / sticker on vehicle (press / police / polite / advocate / etc.) advertisement on transport MV w/o RTO permission.",
+        "offense_marathi": "ट्रान्सपोर्ट वाहनावर शब्द, आकृती, चित्र चिकटवलेले (प्रेस, पोलीस, पोलाइट, एडवोकेट, इत्यादी) जाहिरात RTO यांच्या अनुमती विना करणे."
+    },
+    {
+        "sr_no": 54,
+        "section": "Sec 179(1) MVA",
+        "offense_english": "Disobedience of Police order/direction",
+        "offense_marathi": "पोलिस आदेश निर्देशाचे अनुपालन न करणे"
+    },
+    {
+        "sr_no": 55,
+        "section": "Sec 190(2) MVA (2-3 Wheeler)",
+        "offense_english": "Road safety standards violation (2-3 Wheeler) (Driver)",
+        "offense_marathi": "रस्ते सुरक्षा मानके भंग (२-३ चाकी) (चालक)"
+    },
+    {
+        "sr_no": 56,
+        "section": "Sec 190(2) MVA (2-3 Wheeler)",
+        "offense_english": "Road safety standards violation (2-3 Wheeler) (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "रस्ते सुरक्षा मानके भंग (२-३ चाकी) (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 57,
+        "section": "Sec 190(2) MVA (Other than 2-3 Wheeler)",
+        "offense_english": "Road safety standards violation (Other than 2-3 Wheeler) (Driver)",
+        "offense_marathi": "रस्ते सुरक्षा मानके भंग (२-३ चाकी व्यतिरिक्त) (चालक)"
+    },
+    {
+        "sr_no": 58,
+        "section": "Sec 190(2) MVA (Other than 2-3 Wheeler)",
+        "offense_english": "Road safety standards violation (Other than 2-3 Wheeler) (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "रस्ते सुरक्षा मानके भंग (२-३ चाकी व्यतिरिक्त) (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 59,
+        "section": "CMVR 102(2)/177 MVA",
+        "offense_english": "Without Red Rear Lamp or light",
+        "offense_marathi": "विना लाल मागील दिवा किंवा प्रकाश"
+    },
+    {
+        "sr_no": 60,
+        "section": "MMVR 4/177 MVA",
+        "offense_english": "Valid Badge not in the name of Driver of passenger carrier.",
+        "offense_marathi": "वैध बॅच प्रवासी वाहनाच्या चालकाच्या नावावर नाही"
+    },
+    {
+        "sr_no": 61,
+        "section": "MMVR 249/177 MVA",
+        "offense_english": "HMV without cleaner",
+        "offense_marathi": "अवजड वाहन स्वच्छकाशिवाय (क्लीनर)"
+    },
+    {
+        "sr_no": 62,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "Visibility of number plate on front and rear of vehicle",
+        "offense_marathi": "वाहनाचा पुढील व मागील क्रमांक फलक दृश्यमानता"
+    },
+    {
+        "sr_no": 63,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "Number Plate of Transport Vehicle Not Displayed at Four Places",
+        "offense_marathi": "परिवहन वाहनाचा क्रमांक फलक वाहनाच्या चारही बाजूस प्रदर्शित नाही."
+    },
+    {
+        "sr_no": 64,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "Registration Number of Taxi Not Painted On Dash Board",
+        "offense_marathi": "नोंदणी क्रमांक टॅक्सीच्या डॅशबोर्डवर रंगवलेला नाही."
+    },
+    {
+        "sr_no": 65,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "Trailers Rear Side Number Plate Not Displayed",
+        "offense_marathi": "ट्रेलरच्या पाठीमागील क्रमांक फलक प्रदर्शित नाही"
+    },
+    {
+        "sr_no": 66,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "Number Plate Bears Personnel Name or Pictures or Symbols etc.",
+        "offense_marathi": "क्रमांक फलक वैयक्तिक नाव किंवा चित्र किंवा निशाणी इत्यादी धारी असणे"
+    },
+    {
+        "sr_no": 67,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "LMV Number Plate Not at Middle with Illumination",
+        "offense_marathi": "हलक्या मोटार वाहनाचा क्रमांक फलक मध्यावर नाही प्रकाशमिय रित्या"
+    },
+    {
+        "sr_no": 68,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "Rear Side Number Plate of Transport Vehicle Not Illuminated",
+        "offense_marathi": "परिवहन वाहनाचा पाठीमागील क्रमांक फलक प्रकाशमय नाही"
+    },
+    {
+        "sr_no": 69,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "Number Plate Letters Not In English And Figures Not In Arabic Numerals",
+        "offense_marathi": "क्रमांक फलकावरील अक्षरे इंग्रजी आणि आकडे अरेबिक नसल्यास"
+    },
+    {
+        "sr_no": 70,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "Number Plate Broken",
+        "offense_marathi": "तुटलेला क्रमांक फलक"
+    },
+    {
+        "sr_no": 71,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "Number Plate with Unauthorized Colour",
+        "offense_marathi": "अनधिकृत रंगाचा क्रमांक फलक"
+    },
+    {
+        "sr_no": 72,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "Registration Number not In Four Digits",
+        "offense_marathi": "नोंदणी क्रमांक चार आकडी नाही."
+    },
+    {
+        "sr_no": 73,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "Number Plate of Motor Cycle Not Parallel to Handle Bar",
+        "offense_marathi": "मोटार सायकलचा क्रमांक फलक हॅन्डल बारला समांतर नाही"
+    },
+    {
+        "sr_no": 74,
+        "section": "MMVR 229(2)/177 MVA",
+        "offense_english": "Unsafe goods beyond body - No White reflector disc & additional Red lamp attached at the rear.",
+        "offense_marathi": "वाहनाच्या भागाच्या बाहेर मालाची असुरक्षित वाहतूक, पांढरी परावर्तक चकती आणि अतिरिक्त लाल दिवा पाठीमागे अडकविलेला नाही"
+    },
+    {
+        "sr_no": 75,
+        "section": "MMVR 20(1)(ix)/177 MVA",
+        "offense_english": "Failed to display valid badge (PSV other than M.CAB)",
+        "offense_marathi": "वैध बिल्ला परिधान केला नाही. (सार्वजनिक सेवा वाहन मोटर कॅब वगळून)"
+    },
+    {
+        "sr_no": 76,
+        "section": "Sec 56/39/192 MVA",
+        "offense_english": "Without valid fitness certificate (Driver)",
+        "offense_marathi": "विना वैध योग्यता प्रमाणपत्र (चालक)"
+    },
+    {
+        "sr_no": 77,
+        "section": "Sec 56/39/192 MVA",
+        "offense_english": "Without valid fitness certificate (Owner)",
+        "offense_marathi": "विना वैध योग्यता प्रमाणपत्र (मालक)"
+    },
+    {
+        "sr_no": 78,
+        "section": "CMVR 93(4)/177 MVA",
+        "offense_english": "Load extends to height beyond Limits/projection of load above 3.8 meters Transport Vehicles.",
+        "offense_marathi": "भाराची उंची मर्यादा / प्रक्षेपणाच्या पलीकडे 3.8 मीटरपेक्षा जास्त असल्यास - परिवहन वाहने"
+    },
+    {
+        "sr_no": 79,
+        "section": "CMVR 125 r/w S.O. 1365(E) Dt. 19/12/2004 /177 MVA",
+        "offense_english": "Right side door not locked - Rickshaw",
+        "offense_marathi": "रिक्षाचा उजवा दरवाजा बंद नाही किंवा उजव्या दाराला कुलूप नाही"
+    },
+    {
+        "sr_no": 80,
+        "section": "MMVR 21(19)/177 MVA",
+        "offense_english": "Unclean vehicle (Motor Cab)",
+        "offense_marathi": "अस्वच्छ वाहन (मोटर कॅब)"
+    },
+    {
+        "sr_no": 81,
+        "section": "Sec 66 (I) r/w Sec 192 (A) MVA",
+        "offense_english": "Without valid permit (Driver)",
+        "offense_marathi": "वैध परवान्याशिवाय (चालक)"
+    },
+    {
+        "sr_no": 82,
+        "section": "Sec 66 (I) r/w Sec 192 (A) MVA",
+        "offense_english": "Without valid permit (Owner)",
+        "offense_marathi": "वैध परवान्याशिवाय (मालक)"
+    },
+    {
+        "sr_no": 83,
+        "section": "CMVR 103/177 MVA",
+        "offense_english": "Driving Without indicator",
+        "offense_marathi": "विना दर्शक (इंडिकेटर) चालविणे"
+    },
+    {
+        "sr_no": 84,
+        "section": "CMVR 3(b)/177 MVA",
+        "offense_english": "Learner Driver not accompanied with trainer",
+        "offense_marathi": "शिकाऊ चालकासोबत प्रशिक्षक नाही"
+    },
+    {
+        "sr_no": 85,
+        "section": "MMVR 224/177 MVA",
+        "offense_english": "Restrictions on driving with gear disengaged / Driving with neutral gear in ghats.",
+        "offense_marathi": "तरफा संच (गिअर) मोकळा ठेउन वाहन चालविण्यावर मनाई / तरफासंच (गिअर) मोकळा ठेऊन (न्यूट्रल) घाटात वाहन चालविणे"
+    },
+    {
+        "sr_no": 86,
+        "section": "Sec 84(G) r/w 177 MVA",
+        "offense_english": "Permit Holder MV - Name and Address of the operator not painted or firmly affixed to every vehicle",
+        "offense_marathi": "परवाना धारी प्रत्येक वाहनावर सेवाचालकाचे (ऑपरेटर) नाव व पत्ता रंगविलेले किंवा पट्टा बसविला पाहिजे."
+    },
+    {
+        "sr_no": 87,
+        "section": "CMVR 115(7)/177 MVA",
+        "offense_english": "Failed to produce valid PUCC",
+        "offense_marathi": "वैध पीयुसीसी सादर केली नाही"
+    },
+    {
+        "sr_no": 88,
+        "section": "MMVR 20(1)(xvi)/177 MVA",
+        "offense_english": "Failed to produce valid driving license on demand (public service vehicle) Driver permitted to produce within 48 hours of demand",
+        "offense_marathi": "वैध अनुज्ञापत्र सादर केले नाही. पीएसव्ही चालकास अनुज्ञापत्र सादर करण्यास 48 तासांची सवलत आहे"
+    },
+    {
+        "sr_no": 89,
+        "section": "Sec 6(1)/179 MVA",
+        "offense_english": "Driver found with two licenses in his name",
+        "offense_marathi": "चालकाच्या नावे दोन अनुज्ञापत्रे आढळुन आली"
+    },
+    {
+        "sr_no": 90,
+        "section": "MMVR 20(1)(x)/177 MVA",
+        "offense_english": "Unclean vehicle (public service vehicle)",
+        "offense_marathi": "अस्वच्छ वाहन (सार्वजनिक सेवा वाहन)"
+    },
+    {
+        "sr_no": 91,
+        "section": "MMVR 108/177 MVA",
+        "offense_english": "Carriage of persons in goods vehicle",
+        "offense_marathi": "मालवाहू वाहनातून इसमांची वाहतूक"
+    },
+    {
+        "sr_no": 92,
+        "section": "MMVR 163/177 MVA",
+        "offense_english": "Dangerous projection",
+        "offense_marathi": "धोकादायक रित्या पुढे आलेला भाग"
+    },
+    {
+        "sr_no": 93,
+        "section": "MMVR 168/177 MVA",
+        "offense_english": "Use of military/police colours & registration mark prohibited",
+        "offense_marathi": "मिलिटरी/पोलीस रंग आणि नोंदणी चिन्ह यांच्या वापरास मनाई"
+    },
+    {
+        "sr_no": 94,
+        "section": "MMVR 21(17)/177 MVA",
+        "offense_english": "Misbehaviour towards passenger & others (motor cab)",
+        "offense_marathi": "प्रवाशी व इतरांसोबत गैरवर्तनुक (मोटर कॅब)"
+    },
+    {
+        "sr_no": 95,
+        "section": "MMVR 20(1)(i)/177 MVA",
+        "offense_english": "Allowing any person animal or thing to be in the space reserved for driver (PSV other than M.CAB)",
+        "offense_marathi": "वाहकास आरक्षित जागेत प्राणी किंवा इतर वस्तू ठेवण्यास अनुमती देणे. (सार्वजनिक सेवा वाहन मोटर कॅब वगळून)"
+    },
+    {
+        "sr_no": 96,
+        "section": "MMVR 20(1)(ii)/177 MVA",
+        "offense_english": "Shouting for passenger (PSV other than M.CAB)",
+        "offense_marathi": "प्रवाशांसाठी ओरडणे (सार्वजनिक सेवा वाहन मोटर कॅब वगळून)"
+    },
+    {
+        "sr_no": 97,
+        "section": "MMVR 20(1)(vi)/177 MVA",
+        "offense_english": "Smoking while on duty (PSV other than M.CAB)",
+        "offense_marathi": "कर्तव्यावर धूम्रपान करणे (सार्वजनिक सेवा वाहन मोटार कॅब वगळून)"
+    },
+    {
+        "sr_no": 98,
+        "section": "MMVR 20(1)(vii)/177 MVA",
+        "offense_english": "Misbehaviour towards passenger & others (PSV other than M.CAB)",
+        "offense_marathi": "प्रवाशी व इतरांसोबत गैरवर्तनुक (सार्वजनिक सेवा वाहन मोटर कॅब वगळून)"
+    },
+    {
+        "sr_no": 99,
+        "section": "MMVR 20(1)(viii)/177 MVA",
+        "offense_english": "Driver without Khaki uniform (PSV other than M.CAB)",
+        "offense_marathi": "चालक विना खाकी गणवेश (सार्वजनिक सेवा वाहन मोटर कॅब वगळून)"
+    },
+    {
+        "sr_no": 100,
+        "section": "MMVR 20(1)(xii)/177 MVA",
+        "offense_english": "Unnecessarily delay the journey (PSV other than M.CAB)",
+        "offense_marathi": "प्रवासात अनावश्यक विलंब केला (सार्वजनिक सेवा वाहन मोटर कॅब वगळून)"
+    },
+    {
+        "sr_no": 101,
+        "section": "Sec 120/177 MVA",
+        "offense_english": "Motor Vehicle with left hand drive without displaying mechanical or signalling device board at the rear side (owner & driver both)",
+        "offense_marathi": "डावा हात चालक मो.वाहन विना यांत्रिक किंवा सांकेतिक उपकरण फलक पाठीमागे (मालक व चालक दोन्ही)"
+    },
+    {
+        "sr_no": 102,
+        "section": "MMVR 24(2)/177 MVA",
+        "offense_english": "Failed to display Badge (HMV passenger carrier)",
+        "offense_marathi": "बिल्ला प्रदर्शित केला नाही. एच एम व्ही प्रवाशांची वाहतूक"
+    },
+    {
+        "sr_no": 103,
+        "section": "CMVR 43/177 MVA",
+        "offense_english": "Form No. 19 duplicate copy not produced.",
+        "offense_marathi": "फॉर्म क्रमांक १९ ची दुय्यम प्रत सादर न करणे"
+    },
+    {
+        "sr_no": 104,
+        "section": "CMVR 40/177 MVA",
+        "offense_english": "Identification card Issued by Dealer not produced",
+        "offense_marathi": "डिलरद्वारे प्रस्तुत केलेले ओळखपत्र तपासणीसाठी सादर केलेले नाही"
+    },
+    {
+        "sr_no": 105,
+        "section": "CMVR 39(2)/177 MVA",
+        "offense_english": "Original T.C. Not produced",
+        "offense_marathi": "मूळ टिसी सादर न करणे"
+    },
+    {
+        "sr_no": 106,
+        "section": "CMVR 117/177 MVA",
+        "offense_english": "Speedo Meter Wire fraud detected",
+        "offense_marathi": "स्पीडो मीटर मशीन पासून स्पीडो मीटर वायर वेगळी केल्याचे आढळले"
+    },
+    {
+        "sr_no": 107,
+        "section": "MMVR 54(3)/177 MVA",
+        "offense_english": "F.T. Form not submitted to local RTO within seven days of arrival in M.S. (Only White Number Plate)",
+        "offense_marathi": "महाराष्ट्रात प्रवेश केल्याच्या सात दिवसाच्या आत स्थानिक आरटीओ ला एफ टी नमुन्यात आगमनाबाबत कळविले नाही. (केवळ स्वेत क्रमांक प्लेट)"
+    },
+    {
+        "sr_no": 108,
+        "section": "Sec 129/194(D) MVA",
+        "offense_english": "Riding without helmet by Driver (Owner)",
+        "offense_marathi": "हेल्मेटशिवाय मोटारसायकल चालवणे, (मालक)"
+    },
+    {
+        "sr_no": 109,
+        "section": "Sec 129/194(D) MVA",
+        "offense_english": "Riding without helmet by Pillion (Owner)",
+        "offense_marathi": "हेल्मेटशिवाय मोटारसायकल वरील दुसरी बैठक (मालक)"
+    },
+    {
+        "sr_no": 110,
+        "section": "Sec 129/194(D) MVA",
+        "offense_english": "Riding without helmet by Driver (Driver)",
+        "offense_marathi": "हेल्मेटशिवाय मोटारसायकल चालवणे, (चालक)"
+    },
+    {
+        "sr_no": 111,
+        "section": "Sec 129/194(D) MVA",
+        "offense_english": "Riding without helmet by Pillion (Driver)",
+        "offense_marathi": "हेल्मेटशिवाय मोटारसायकल वरील दुसरी बैठक (चालक)"
+    },
+    {
+        "sr_no": 112,
+        "section": "Sec 184C MVA (2-3 Wheeler)",
+        "offense_english": "Person driving the vehicle only to extent of use of handheld communication devices (2-3 Wheeler)",
+        "offense_marathi": "वाहन चालविणारी व्यक्ती (हातामध्ये धरलेले मोबाईल संदृश्य उपकरणाचा वापर करताना आढळल्यास (२-३ चाकी)"
+    },
+    {
+        "sr_no": 113,
+        "section": "Sec 184C MVA (LMV)",
+        "offense_english": "Person driving the vehicle only to extent of use of handheld communication devices (LMV)",
+        "offense_marathi": "वाहन चालविणारी व्यक्ती (हातामध्ये धरलेले मोबाईल संदृश्य उपकरणाचा वापर करताना आढळल्यास (LMV)"
+    },
+    {
+        "sr_no": 114,
+        "section": "Sec 184C MVA (Other Vehicles)",
+        "offense_english": "Person driving the vehicle only to extent of use of handheld communication devices (Other Vehicles)",
+        "offense_marathi": "वाहन चालविणारी व्यक्ती (हातामध्ये धरलेले मोबाईल संदृश्य उपकरणाचा वापर करताना आढळल्यास (इतर वाहने)"
+    },
+    {
+        "sr_no": 115,
+        "section": "Sec 194B(1) MVA",
+        "offense_english": "Without Seatbelt",
+        "offense_marathi": "विना बैठक सुरक्षा पट्टा (सीटबेल्ट)"
+    },
+    {
+        "sr_no": 116,
+        "section": "Sec 119/177 MVA",
+        "offense_english": "One way traffic sign not obeyed",
+        "offense_marathi": "एकेरी मार्ग वाहतूक चिन्ह पाळले नाही"
+    },
+    {
+        "sr_no": 117,
+        "section": "Sec 128(1)/194(C) MVA",
+        "offense_english": "Drive a motor cycle with triple seat. (Driver)",
+        "offense_marathi": "मो.सायकलवर तीन बसलेले. (चालक)"
+    },
+    {
+        "sr_no": 118,
+        "section": "Sec 128(1)/194(C) MVA",
+        "offense_english": "Drive a motor cycle with triple seat. (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "मो.सायकलवर तीन बसलेले. (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 119,
+        "section": "CMVR 109/177 MVA",
+        "offense_english": "Driving vehicle with parking light on",
+        "offense_marathi": "वाहन उभे करण्याचे दिवे प्रदीप्त असता वाहन चालविणे"
+    },
+    {
+        "sr_no": 120,
+        "section": "Sec 194F (a)(i) MVA",
+        "offense_english": "Sounds the horn needlessly or continuously or more than necessary to ensure safety.",
+        "offense_marathi": "अनावश्यक असता किंवा सातत्याने किंवा सुरक्षा खात्री साठी आवश्यकतेपेक्षा जास्त हॉर्न वाजविणे"
+    },
+    {
+        "sr_no": 121,
+        "section": "Sec 194F (a)(ii) MVA",
+        "offense_english": "Sound the horn in an area with a traffic sign prohibiting use of a horn.",
+        "offense_marathi": "हॉर्न वाजविण्यास मनाई, वाहतूक चिन्ह असलेल्या क्षेत्रात हॉर्न वाजविल्यास"
+    },
+    {
+        "sr_no": 122,
+        "section": "Sec 194F (b) MVA",
+        "offense_english": "Drives a Motor vehicle which makes use of a cut out by which exhaust gases are released other than through the silencer",
+        "offense_marathi": "कट-आउटचा वापर करून सायलेन्सर ऐवजी इतर मार्गातून धूर बाहेर पडण्यास मार्ग निर्माण केलेले मो. वाहन चालविणे"
+    },
+    {
+        "sr_no": 123,
+        "section": "MMVR 239/177 MVA",
+        "offense_english": "Police manual signal violation",
+        "offense_marathi": "पोलिसाने केलेल्या इशाऱ्याचे पालन न करणे"
+    },
+    {
+        "sr_no": 124,
+        "section": "MMVR 239/177 MVA",
+        "offense_english": "Police stop violation",
+        "offense_marathi": "पोलिसांनी थांबवण्यास सांगितल्याचे उल्लंघन करणे"
+    },
+    {
+        "sr_no": 125,
+        "section": "MMVR 226/177 MVA",
+        "offense_english": "Unsafe Towing while towing another vehicle",
+        "offense_marathi": "असुरक्षित ओढणे - दुसऱ्या वाहनाने ओढणे"
+    },
+    {
+        "sr_no": 126,
+        "section": "MMVR 162/177 MVA",
+        "offense_english": "Driver found watching digital motion pictures/videos while driving (Except route navigation)",
+        "offense_marathi": "वाहन चालवताना चालक अंकात्मक (डिजिटल) चलचित्र विडिओ पाहताना आढळला"
+    },
+    {
+        "sr_no": 127,
+        "section": "Sec 178(3) MVA",
+        "offense_english": "Refusal to ply auto Rickshaw or to carry passenger",
+        "offense_marathi": "रिक्षा / टॅक्सी भाड्याने देण्यास नकार देणे"
+    },
+    {
+        "sr_no": 128,
+        "section": "Sec 178(3) MVA",
+        "offense_english": "Refusal to ply taxi / bus or to carry passenger",
+        "offense_marathi": "टॅक्सी / बस भाड्यावर देण्यास नकार देणे"
+    },
+    {
+        "sr_no": 129,
+        "section": "Sec 194A MVA (Extra 1)",
+        "offense_english": "Excess passenger 1 (Driver)",
+        "offense_marathi": "1 अतिरीक्त प्रवासी वाहतुक (चालक)"
+    },
+    {
+        "sr_no": 130,
+        "section": "Sec 194A MVA (Extra 1)",
+        "offense_english": "Excess passenger 1 (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "1 अतिरीक्त प्रवासी वाहतुक (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 131,
+        "section": "Sec 194A MVA (Extra 2)",
+        "offense_english": "Excess passengers 2 (Driver)",
+        "offense_marathi": "2 अतिरीक्त प्रवासी वाहतुक (चालक)"
+    },
+    {
+        "sr_no": 132,
+        "section": "Sec 194A MVA (Extra 2)",
+        "offense_english": "Excess passengers 2 (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "2 अतिरीक्त प्रवासी वाहतुक (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 133,
+        "section": "Sec 194A MVA (Extra 3)",
+        "offense_english": "Excess passengers 3 (Driver)",
+        "offense_marathi": "3 अतिरीक्त प्रवासी वाहतुक (चालक)"
+    },
+    {
+        "sr_no": 134,
+        "section": "Sec 194A MVA (Extra 3)",
+        "offense_english": "Excess passengers 3 (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "3 अतिरीक्त प्रवासी वाहतुक (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 135,
+        "section": "Sec 194A MVA (Extra 4)",
+        "offense_english": "Excess passengers 4 (Driver)",
+        "offense_marathi": "4 अतिरीक्त प्रवासी वाहतुक (चालक)"
+    },
+    {
+        "sr_no": 136,
+        "section": "Sec 194A MVA (Extra 4)",
+        "offense_english": "Excess passengers 4 (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "4 अतिरीक्त प्रवासी वाहतुक (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 137,
+        "section": "Sec 194A MVA (Extra 5)",
+        "offense_english": "Excess passengers 5 (Driver)",
+        "offense_marathi": "5 अतिरीक्त प्रवासी वाहतुक (चालक)"
+    },
+    {
+        "sr_no": 138,
+        "section": "Sec 194A MVA (Extra 5)",
+        "offense_english": "Excess passengers 5 (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "5 अतिरीक्त प्रवासी वाहतुक (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 139,
+        "section": "Sec 194A MVA (Extra 6)",
+        "offense_english": "Excess passengers 6 (Driver)",
+        "offense_marathi": "६ अतिरीक्त प्रवासी वाहतुक (चालक)"
+    },
+    {
+        "sr_no": 140,
+        "section": "Sec 194A MVA (Extra 6)",
+        "offense_english": "Excess passengers 6 (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "६ अतिरीक्त प्रवासी वाहतुक (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 141,
+        "section": "Sec 194A MVA (Extra 7)",
+        "offense_english": "Excess passengers 7 (Driver)",
+        "offense_marathi": "७ अतिरीक्त प्रवासी वाहतुक (चालक)"
+    },
+    {
+        "sr_no": 142,
+        "section": "Sec 194A MVA (Extra 7)",
+        "offense_english": "Excess passengers 7 (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "७ अतिरीक्त प्रवासी वाहतुक (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 143,
+        "section": "Sec 194A MVA (Extra 8)",
+        "offense_english": "Excess passengers 8 (Driver)",
+        "offense_marathi": "८ अतिरीक्त प्रवासी वाहतुक (चालक)"
+    },
+    {
+        "sr_no": 144,
+        "section": "Sec 194A MVA (Extra 8)",
+        "offense_english": "Excess passengers 8 (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "८ अतिरीक्त प्रवासी वाहतुक (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 145,
+        "section": "Sec 194A MVA (Extra 9)",
+        "offense_english": "Excess passengers 9 (Driver)",
+        "offense_marathi": "९ अतिरीक्त प्रवासी वाहतुक (चालक)"
+    },
+    {
+        "sr_no": 146,
+        "section": "Sec 194A MVA (Extra 9)",
+        "offense_english": "Excess passengers 9 (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "९ अतिरीक्त प्रवासी वाहतुक (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 147,
+        "section": "Sec 194A MVA (Extra 10)",
+        "offense_english": "Excess passengers 10 (Driver)",
+        "offense_marathi": "१० अतिरीक्त प्रवासी वाहतुक (चालक)"
+    },
+    {
+        "sr_no": 148,
+        "section": "Sec 194A MVA (Extra 10)",
+        "offense_english": "Excess passengers 10 (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "१० अतिरीक्त प्रवासी वाहतुक (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 149,
+        "section": "MMVR 23(1)/177 MVA",
+        "offense_english": "Excess number of persons sitting in cabin of goods carriage",
+        "offense_marathi": "मालवाहू चालकाच्या खोलीत (कॅबीन) अतिरीक्त इसम बसलेले"
+    },
+    {
+        "sr_no": 150,
+        "section": "MMVR 228/177 MVA",
+        "offense_english": "Driving vehicle on Footpath/Cycle track without Permission of Police Officer",
+        "offense_marathi": "पोलीस अधिकाऱ्याच्या अनुमतीशिवाय वाहन पदपथावर सायकल मार्गावर चालविणे"
+    },
+    {
+        "sr_no": 151,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "Displaying / inscribing or writing letter / word / figure / picture or symbol on number plate",
+        "offense_marathi": "शब्द आकृती चित्र किंवा निशानी क्रमांक फलकावर प्रदर्शित करणे किंवा लिहणे"
+    },
+    {
+        "sr_no": 152,
+        "section": "CMVR 50/177 MVA",
+        "offense_english": "Driving or parking vehicle on public road without number plate (Vehicle registered but Number plate not displayed.)",
+        "offense_marathi": "क्रमांक फलक धारण न केलेले वाहन सार्वजनीक ठिकाणी चालविणे, उभे करणे."
+    },
+    {
+        "sr_no": 153,
+        "section": "MMVR 236/177 MVA",
+        "offense_english": "Hiding fully/partly number plate by placing load/other goods",
+        "offense_marathi": "भार किंवा इतर मालामुळे क्रमांक फलक पूर्णतः किंवा अंशतः थोडासा दडविणे"
+    },
+    {
+        "sr_no": 154,
+        "section": "MMVR 237/177 MVA",
+        "offense_english": "Not Stopping before stop line",
+        "offense_marathi": "थांबा रेषा (स्टॉप लाईन) अगोदर वाहन थांबविले नाही"
+    },
+    {
+        "sr_no": 155,
+        "section": "Sec 194B(2) MVA",
+        "offense_english": "Child up to 14 years age not provided seat with appropriate child restraint system (Driver)",
+        "offense_marathi": "चौदा वर्षापर्यंतच्या वयाच्या बालकास अटकाव व्यवस्थेसह बैठक पुरवण्यात आलेली नाही (चालक)"
+    },
+    {
+        "sr_no": 156,
+        "section": "Sec 194B(2) MVA",
+        "offense_english": "Child up to 14 years age not provided seat with appropriate child restraint system (Owner or person in authorized possession of the Vehicle.)",
+        "offense_marathi": "चौदा वर्षापर्यंतच्या वयाच्या बालकास अटकाव व्यवस्थेसह बैठक पुरवण्यात आलेली नाही (मालक किंवा वाहनाचा अधिकृत ताबा असलेली व्यक्ती)"
+    },
+    {
+        "sr_no": 157,
+        "section": "MMVR 231(1)/177 MVA",
+        "offense_english": "Loud music played in vehicle",
+        "offense_marathi": "वाहनात मोठ्या आवाजात संगीत लावणे"
+    },
+    {
+        "sr_no": 158,
+        "section": "MMVR 233/177 MVA",
+        "offense_english": "Restrictions on driving backwards/in reverse direction",
+        "offense_marathi": "वाहन पाठीमागे घेण्याबाबत निबंध. उलट दिशेने"
+    },
+    {
+        "sr_no": 159,
+        "section": "MMVR 233/177 MVA",
+        "offense_english": "Driving backwards/in reverse direction on road/in a parking/any other public place",
+        "offense_marathi": "रस्त्यात / उभे केलेल्या ठिकाणी / सार्वजनिक ठिकाणी वाहन पाठीमागे उलट दिशेने चालवणे"
+    },
+    {
+        "sr_no": 160,
+        "section": "MMVR 230/177 MVA",
+        "offense_english": "Restrictions to carry unpacked dangerous substances/explosive/highly inflammable substance on Public Service Vehicle",
+        "offense_marathi": "सार्वजनिक सेवा वाहनातून पॅक न केलेले धोकादायक पदार्थ / स्फोटके / अतिज्वालाग्राही पदार्थ वाहून नेण्यावरील निबंध"
+    },
+    {
+        "sr_no": 161,
+        "section": "Sec 122/177 MVA RW Sec 127 MVA (Towing)",
+        "offense_english": "Causing danger, obstructions or undue inconvenience to other users of public place by allowing the vehicle to be abandoned or to remain at rest on any public place. (Towing)",
+        "offense_marathi": "सार्वजनिक ठिकाणी लोकांना धोका, अडथळा किंवा गैरसोय होईल अशाप्रकारे गाडी उभी केल्यामुळे गाडी क्रेन ने ओढून नेणे"
+    },
+    {
+        "sr_no": 162,
+        "section": "Sec 194B(1) MVA",
+        "offense_english": "Without seatbelt other than driver",
+        "offense_marathi": "चालक व्यतिरिक्त सीटबेल्ट नसलेले प्रवासी"
+    },
+    {
+        "sr_no": 163,
+        "section": "Sec 122/177 MVA",
+        "offense_english": "Causing danger, obstructions or undue inconvenience to other users of public place by allowing the vehicle to be abandoned or to remain at rest on any public place.",
+        "offense_marathi": "सार्वजनिक ठिकाणी लोकांना धोका, अडथळा किंवा गैरसोय होईल अशाप्रकारे गाडी उभी करणे"
+    },
+    {
+        "sr_no": 164,
+        "section": "Sec 194E MVA",
+        "offense_english": "Not providing way for emergency vehicles (Fire service, Ambulance & any other emergency vehicle specified by State govt.).",
+        "offense_marathi": "अत्यंत निकडीच्या (अग्निशामक सेवा, रुग्णवाहिका आणि राज्य सरकारने निर्दिष्ट केलेले इतर कोणतेही आपत्कालीन वाहन) गाड्यांना जाण्यास जागा न देणे"
+    },
+    {
+        "sr_no": 165,
+        "section": "Sec 182(1) MVA",
+        "offense_english": "Driving the vehicle by a person who is disqualified for holding or obtaining driving license.",
+        "offense_marathi": "वाहन चालविण्यासाठी लागणाऱ्या अनुज्ञापत्रासाठी अपात्र असलेल्या व्यक्तीने वाहन चालविणे"
+    },
+    {
+        "sr_no": 166,
+        "section": "CMVR 92/177 MVA",
+        "offense_english": "Unauthorizedly maintained motor vehicle, allowed to be driven on public road (Driver)",
+        "offense_marathi": "अनधिकृतपणे देखभाल केलेले मोटार वाहन, सार्वजनिक रस्त्यावर चालवण्याची परवानगी - (चालक)"
+    },
+    {
+        "sr_no": 167,
+        "section": "CMVR 92/177 MVA",
+        "offense_english": "Unauthorizedly maintained motor vehicle, allowed to be driven on public road (Owner)",
+        "offense_marathi": "अनधिकृतपणे देखभाल केलेले मोटार वाहन, सार्वजनिक रस्त्यावर चालवण्याची परवानगी - (मालक)"
+    },
+    {
+        "sr_no": 168,
+        "section": "CMVR 9(3)/177 MVA",
+        "offense_english": "Driver failed to get endorsement in his Driving License from RTO for Transportation of Hazardous or Dangerous goods.",
+        "offense_marathi": "धोकादायक किंवा धोकादायक वस्तूंच्या वाहतुकीसाठी RTO कडून त्याच्या ड्रायव्हिंग लायसन्स मध्ये ड्रायव्हरला मान्यता मिळू शकली नाही"
+    },
+    {
+        "sr_no": 169,
+        "section": "Sec 184 MVA",
+        "offense_english": "Dangerous driving",
+        "offense_marathi": "धोकादायकरित्या वाहन चालविणे"
+    },
+    {
+        "sr_no": 170,
+        "section": "Sec 185 MVA",
+        "offense_english": "Drunk and Drive",
+        "offense_marathi": "मद्यप्राशन करून वाहन चालविने"
+    },
+    {
+        "sr_no": 171,
+        "section": "Sec 190(1) MVA",
+        "offense_english": "Driving of defective motor vehicle",
+        "offense_marathi": "सदोष मोटारवाहन चालविणे"
+    },
+    {
+        "sr_no": 172,
+        "section": "Sec 190(3) MVA",
+        "offense_english": "Carrying Hazardous or Dangerous Goods in contravention to the MV ACT and CMVR Provision",
+        "offense_marathi": "मोटार वाहन कायदा व केंद्रीय मोटार वाहन नियम यांचे उल्लंघन करून धोकादायक / घातक वस्तू वाहून नेणे"
+    },
+    {
+        "sr_no": 173,
+        "section": "Sec 197 MVA",
+        "offense_english": "Custody of Motor Vehicle without consent of Owner or Removal of Vehicle without legal authority",
+        "offense_marathi": "कायदेशिर अधिकार नसल्यास मालकाच्या संमतीशिवाय मोटार वाहनाचा वापर करणे"
+    },
+    {
+        "sr_no": 174,
+        "section": "MVDR 9/177A MVA",
+        "offense_english": "Not Slowing Down at Junction and Zebra Crossing",
+        "offense_marathi": "चौक किंवा पादचारी सारणी येथे वेग कमी न करणे"
+    },
+    {
+        "sr_no": 175,
+        "section": "MVDR 14(2)/177A MVA",
+        "offense_english": "Overtaking from left",
+        "offense_marathi": "डाव्या बाजूने ओव्हरटेकिंग करणे"
+    },
+    {
+        "sr_no": 176,
+        "section": "MVDR 6(1)/177A MVA",
+        "offense_english": "Lane cutting",
+        "offense_marathi": "मार्गिका छाटणे"
+    },
+    {
+        "sr_no": 177,
+        "section": "MVDR 4/122 177A MVA",
+        "offense_english": "Wrong side driving",
+        "offense_marathi": "चुकीच्या दिशेने वाहन चालविणे."
+    },
+    {
+        "sr_no": 178,
+        "section": "MVDR 14(9)/177A MVA",
+        "offense_english": "Overtaking obstructed",
+        "offense_marathi": "ओव्हरटेक करताना अडथळा करणे"
+    },
+    {
+        "sr_no": 179,
+        "section": "MVDR 37(2) 177A MVA",
+        "offense_english": "No use of mobile phone by trainer while training learner driver",
+        "offense_marathi": "शिकवू चालकास प्रशिक्षित करणाऱ्या प्रशिक्षकाने प्रशिक्षणादरम्यान दूरभाषणीचा वापर करू नये"
+    },
+    {
+        "sr_no": 180,
+        "section": "MVDR 14(5)(d)/177A MVA",
+        "offense_english": "Overtaking on a bend/corner/turning",
+        "offense_marathi": "वळणे / कोपरा / वळताना ओव्हरटेक करणे"
+    },
+    {
+        "sr_no": 181,
+        "section": "MVDR 19(2)(ii)/177A MVA",
+        "offense_english": "Overtaking within barriers of a railway crossing",
+        "offense_marathi": "रेल्वे ओलांडणी प्रतिबंधित क्षेत्रात ओव्हरटेक करणे"
+    },
+    {
+        "sr_no": 182,
+        "section": "MVDR 14(5)(e)/177A MVA",
+        "offense_english": "Overtaking at junctions/intersections/zebra crossing",
+        "offense_marathi": "चौक / छेदरस्ता / पादचारी सारणी येथे ओव्हरटेक करणे"
+    },
+    {
+        "sr_no": 183,
+        "section": "MVDR 14(5)(h)/177A MVA",
+        "offense_english": "Overtaking in School/Hospital/Construction Zone area",
+        "offense_marathi": "शाळा / रुग्णालय / बांधकाम क्षेत्र परिसरात ओव्हरटेक करणे"
+    },
+    {
+        "sr_no": 184,
+        "section": "MVDR 14(7)/177A MVA",
+        "offense_english": "Giving right turn indicator to following vehicle for overtaking",
+        "offense_marathi": "ओव्हरटेक करण्यासाठी उजवा दर्शक देणे"
+    },
+    {
+        "sr_no": 185,
+        "section": "MVDR 20(2)/177A MVA",
+        "offense_english": "Overtaking/U-Turn/drive backward in a tunnel",
+        "offense_marathi": "बोगद्यात ओव्हरटेक / युवळण / मागे चालविणे"
+    },
+    {
+        "sr_no": 186,
+        "section": "MVDR 4(5)6(2)/177A MVA",
+        "offense_english": "Heavy vehicles continuously driving in right lane",
+        "offense_marathi": "अवजड वाहन अखंडित उजव्या मार्गिकेतून चालविणे"
+    },
+    {
+        "sr_no": 187,
+        "section": "MVDR 6(4)/177A MVA",
+        "offense_english": "Driver crossing white/yellow Solid lane lines at time of overtaking",
+        "offense_marathi": "ओव्हरटेक करताना चालक पांढरी / पिवळी अखंडित रेषा ओलांडतो"
+    },
+    {
+        "sr_no": 188,
+        "section": "MVDR 11(1)/177A MVA",
+        "offense_english": "Turning left/right without hand signal indication",
+        "offense_marathi": "हाताने संकेत न करता डावे / उजवे वळण घेणे"
+    },
+    {
+        "sr_no": 189,
+        "section": "MVDR 16(4)/177A MVA",
+        "offense_english": "Driving slowly without good and sufficient reason to impede normal traffic flow",
+        "offense_marathi": "सबळ कारणाशिवाय वाहन हळू चालवून वाहतूकीस अडथळा केला"
+    },
+    {
+        "sr_no": 190,
+        "section": "MVDR 17(2)/177A MVA",
+        "offense_english": "Applying sudden brake without genuine reason",
+        "offense_marathi": "विना कारण अचानक गती रोधकाचा (ब्रेक) वापर केला"
+    },
+    {
+        "sr_no": 191,
+        "section": "MVDR 22(2)(n)/177A MVA",
+        "offense_english": "Parking the vehicle alongside another parked vehicle / Double parking",
+        "offense_marathi": "दुसऱ्या मोटारवाहनाचे बाजूस वाहन उभे करणे (डबल पार्किंग)"
+    },
+    {
+        "sr_no": 192,
+        "section": "MVDR 22(2)(c)/177A MVA",
+        "offense_english": "Parking the vehicle on footpath / cycle track & zebra crossing",
+        "offense_marathi": "पदपथावर दुचाकी मार्गावर आणि पादचारी सदरणीवर वाहन उभे करणे"
+    },
+    {
+        "sr_no": 193,
+        "section": "MVDR 22(2)(b)/177A MVA",
+        "offense_english": "Parking Vehicle on main road where notified speed limit is 50KM per hour or more",
+        "offense_marathi": "५० किमी वेग मर्यादा असलेल्या रस्त्यावर वाहन उभे करणे"
+    },
+    {
+        "sr_no": 194,
+        "section": "MVDR 22(2)(l)/177A MVA",
+        "offense_english": "Parking the vehicle opposite another MV or as obstruction to other vehicle",
+        "offense_marathi": "दुसऱ्या मोटारवाहनाच्या समोर वाहन उभे करणे"
+    },
+    {
+        "sr_no": 195,
+        "section": "MVDR 22(2)(s)/177A MVA",
+        "offense_english": "Parking the vehicle in 'No Parking' area",
+        "offense_marathi": "''उभे करू नये'' क्षेत्रात वाहन उभे करणे"
+    },
+    {
+        "sr_no": 196,
+        "section": "MVDR 22(2)(s)/177A MVA",
+        "offense_english": "No Parking",
+        "offense_marathi": "वाहन लावण्यास मनाई"
+    },
+    {
+        "sr_no": 197,
+        "section": "MVDR 22(2)(s)/177A MVA",
+        "offense_english": "NO PARKING (Clamping)",
+        "offense_marathi": "वाहन लावण्यास मनाई (पकडणे)"
+    },
+    {
+        "sr_no": 198,
+        "section": "MVDR 22(2)(k)/177A MVA",
+        "offense_english": "Parking the vehicle away from the edge of the footpath",
+        "offense_marathi": "पदपथाच्या किनाऱ्यापासून दूर वाहन उभे करणे"
+    },
+    {
+        "sr_no": 199,
+        "section": "MVDR 22(2)(f)/177A MVA",
+        "offense_english": "Parking the vehicle near bus stop / at educational institution / hospital entry or if blocking traffic sign",
+        "offense_marathi": "बस थांबा, शैक्षणिक संस्था, रुग्णालय प्रवेशद्वारावर किंवा वाहतूक चिन्हास अडथळा अशाप्रकारे वाहन उभे करणे"
+    },
+    {
+        "sr_no": 200,
+        "section": "MVDR 22(2)(a)/177A MVA",
+        "offense_english": "Parking the vehicle where stopping prohibited / Vehicle abandoned on road",
+        "offense_marathi": "थांबणे प्रतिबंधित ठिकाणी वाहन उभे करणे / रस्त्यावर वाहन सोडून देणे"
+    },
+    {
+        "sr_no": 201,
+        "section": "MVDR 22(2)(g)/177A MVA",
+        "offense_english": "Parking the vehicle in a tunnel",
+        "offense_marathi": "बोगद्यात वाहन उभे करणे"
+    },
+    {
+        "sr_no": 202,
+        "section": "MVDR 22(2)(h)/177A MVA",
+        "offense_english": "Parking the vehicle in bus lane",
+        "offense_marathi": "बस मार्गिकेत वाहन उभे करणे"
+    },
+    {
+        "sr_no": 203,
+        "section": "MVDR 22(2)(i)/177A MVA",
+        "offense_english": "Parking the vehicle in front of entrance or exit of property",
+        "offense_marathi": "मालमत्ता आगमन किंवा निर्गमन द्वाराच्या समोर वाहन उभे करणे."
+    },
+    {
+        "sr_no": 204,
+        "section": "MVDR 22(2)(m)/177A MVA",
+        "offense_english": "Parking the vehicle obstructing other vehicle or cause inconvenience to any person",
+        "offense_marathi": "दुसऱ्या मोटारवाहनास अडथळा होईल असे वाहन उभे करणे किंवा इतर व्यक्तींना असुविधा होईल असे वाहन उभे करणे."
+    },
+    {
+        "sr_no": 205,
+        "section": "MVDR 22(2)(d)/177A MVA",
+        "offense_english": "Parking Vehicle within 50 mtr from the edge of Junction or intersection",
+        "offense_marathi": "चौक किंवा छेद रस्त्याच्या किनाऱ्याच्या ५० मीटर आत वाहन उभे करणे"
+    },
+    {
+        "sr_no": 206,
+        "section": "MVDR 22(2)(j)/177A MVA",
+        "offense_english": "Park Vehicle on Continuous yellow line Painted on curve side on Road",
+        "offense_marathi": "सलग अखंडित पिवळ्या रंगाचा पट्टा आखलेला असता तेथे वाहन उभे करणे"
+    },
+    {
+        "sr_no": 207,
+        "section": "MVDR 22(2)(0)/177A MVA",
+        "offense_english": "Park Vehicle in permitted parking place beyond permitted time limit",
+        "offense_marathi": "निर्देशित वेळेनंतर वाहन उभे करणे"
+    },
+    {
+        "sr_no": 208,
+        "section": "MVDR 22(2)(P)/177A MVA",
+        "offense_english": "Parked vehicle is other than permitted specified Category",
+        "offense_marathi": "उभे केलेले वाहन हे विशिष्ट वर्गासाठीच्या परवाणगीपैकी नाही."
+    },
+    {
+        "sr_no": 209,
+        "section": "MVDR 22(2)(R)/177A MVA",
+        "offense_english": "Not Parking Vehicle as designated in parking lot",
+        "offense_marathi": "उभे करण्यासाठीच्या गटासाठी निर्देशित केल्याप्रकारे वाहन उभे केले नाही"
+    },
+    {
+        "sr_no": 210,
+        "section": "MVDR 22(1)(v)/177A MVA",
+        "offense_english": "Stopping Vehicle on a level Crossing",
+        "offense_marathi": "रेल्वे ओलांडणी प्रतिबंधित क्षेत्रात वाहन थांबविणे"
+    },
+    {
+        "sr_no": 211,
+        "section": "MVDR 22(1)(ix)/177A MVA",
+        "offense_english": "Stopping the vehicle at mandatory 'No stopping' sign",
+        "offense_marathi": "थांबू नये (नो स्टोपिंग) या आज्ञाधारक चिन्ह असलेल्या ठिकाणी वाहन थांबविणे"
+    },
+    {
+        "sr_no": 212,
+        "section": "MVDR 20 (3)/177A MVA",
+        "offense_english": "Parking/Stopping vehicle in a tunnel without genuine reason",
+        "offense_marathi": "बोगद्याजवळ सबळ कारणाशिवाय वाहन थांबविणे / उभे करणे"
+    },
+    {
+        "sr_no": 213,
+        "section": "MVDR 22(1)(i)/177A MVA",
+        "offense_english": "Stopping the vehicle at narrow road",
+        "offense_marathi": "अरुंद रस्त्यावर वाहन थांबविणे"
+    },
+    {
+        "sr_no": 214,
+        "section": "MVDR 22(1)(ii)/177A MVA",
+        "offense_english": "Stopping the vehicle near or on a sharp bend",
+        "offense_marathi": "तीक्ष्ण वळणावर किंवा जवळ वाहन थांबविणे."
+    },
+    {
+        "sr_no": 215,
+        "section": "MVDR 22(1)(iii)/177A MVA",
+        "offense_english": "Stopping Vehicle in an acceleration/Deceleration lane",
+        "offense_marathi": "चढण / उतार मार्गिकेत वाहन थांबविणे"
+    },
+    {
+        "sr_no": 216,
+        "section": "MVDR 22(1)(iv)/177A MVA",
+        "offense_english": "Stopping the vehicle on 5 meters before pedestrian crossing",
+        "offense_marathi": "पादचारी सारणी पासून पाच मिटर अंतराच्या आत वाहन थांबविणे"
+    },
+    {
+        "sr_no": 217,
+        "section": "MVDR 22(1)(vi)/177A MVA",
+        "offense_english": "Stopping Vehicle 5 Mtrs or less before light signal or 'GIVE WAY' or 'STOP SIGN'",
+        "offense_marathi": "''मार्गद्या'' (गिव वे) ''थांबा चिन्ह'' (स्टॉप साईन) किंवा प्रकाश संकेत (लाईट सिग्नल) च्या पाच मिटर अंतराचे आत वाहन थांबविणे"
+    },
+    {
+        "sr_no": 218,
+        "section": "MVDR 22(1)(vii)/177A MVA",
+        "offense_english": "Stopping the vehicle at bus stand when vehicle is other than bus",
+        "offense_marathi": "बस थांब्यावर बस व्यतिरिक्त इतर वाहने थांबविणे"
+    },
+    {
+        "sr_no": 219,
+        "section": "MVDR 22(1)(viii)/177A MVA",
+        "offense_english": "Stopping Vehicle on yellow box marked on road",
+        "offense_marathi": "रस्त्यावर पिवळ्या पेटीत (बॉक्स) वाहन थांबविणे"
+    },
+    {
+        "sr_no": 220,
+        "section": "Sec 119/177 MVA",
+        "offense_english": "Mandatory traffic sign boards not obeyed",
+        "offense_marathi": "आज्ञादर्शक वाहतूक चिन्ह फलकाचे अनुपालन केले नाही"
+    },
+    {
+        "sr_no": 221,
+        "section": "MMVR 21(12)/177",
+        "offense_english": "Demanding excess fare from the passenger",
+        "offense_marathi": "प्रवाशांकडून जादा भाड्याची मागणी"
+    },
+    {
+        "sr_no": 222,
+        "section": "CMVR 104(1) (i & ii)/177 MVA",
+        "offense_english": "Goods Carrier MV without white reflector at front",
+        "offense_marathi": "माल वाहतुक मोटार वाहनांस पुढील भागास पांढरा परावर्तक नसल्यास"
+    },
+    {
+        "sr_no": 223,
+        "section": "CMVR 104(1) (iii)/177 MVA",
+        "offense_english": "HMV Goods Carrier without reflective contour marking at rear and both the sides",
+        "offense_marathi": "अवजड माल वाहतुक मोटार वाहनाच्या पाठीमागे व सभोवताली विना परावर्तक रूपरेषा दर्शक"
+    },
+    {
+        "sr_no": 224,
+        "section": "CMVR 104(1) (iv)/177 MVA",
+        "offense_english": "Passenger Carrier MV without reflectors at front - white, both side - yellow & rear - red",
+        "offense_marathi": "प्रवाशी वाहतुक मोटार वाहनाच्या पुढे - पांढरा, दोन्ही बाजूस पिवळी व पाठीमागे लाल परावर्तक नसल्यास"
+    },
+    {
+        "sr_no": 225,
+        "section": "CMVR 104(1) (v)/177 MVA",
+        "offense_english": "Rickshaw, 3 wheeler Goods Carrier, e-Rickshaw, e-Cart without white reflector tape at front & red reflector tape at rear",
+        "offense_marathi": "रिक्षा, तीनचाकी मालवाहक, ई-रिक्षा, ई-कार्टच्या पुढील भागात पांढरी तर पाठीमागे लाल परावर्तित पट्टी घट्ट बसविलेली नसल्यास"
+    },
+    {
+        "sr_no": 226,
+        "section": "CMVR 138(4)(C)/177 MVA",
+        "offense_english": "M-1 = 9+1 or more seating capacity or gross vehicle weight exceeding five tonnes Passenger Carrier MV shall be fitted with white at front & red at rear retro-reflective triangles.",
+        "offense_marathi": "M-1 = 9+1 किंवा जास्त आसन क्षमता किंवा स्थूळ वजन पाच टनापेक्षा जास्त प्रवाशी वाहनाच्या पुढे पांढरा तर पाठीमागे लाल परावर्तित त्रिकोण प्रदर्शित असावा"
+    },
+    {
+        "sr_no": 227,
+        "section": "Sec 99/117 MPA 1951",
+        "offense_english": "U-turn at prohibited U turn place. (Deviation)",
+        "offense_marathi": "युटर्न प्रतिबंधित ठीकाणी वाहनाने युटर्न घेतला (योग्य रस्ता सोडून देणे)"
+    },
+    {
+        "sr_no": 228,
+        "section": "Sec 99/117 MPA 1951",
+        "offense_english": "No entry / One way Traffic Signs violated by the vehicle driver (Deviation)",
+        "offense_marathi": "प्रवेश प्रतिबंधित / एक दिशा मार्ग वाहतूक चिन्हाचे वाहन चालकाने उल्लंघन केले (योग्य रस्ता सोडून देणे)"
+    },
+    {
+        "sr_no": 229,
+        "section": "Sec 99/117 MPA 1951",
+        "offense_english": "Vehicle driver failed to drive vehicle on left side of the road",
+        "offense_marathi": "वाहन चालकाने रस्त्याच्या डाव्या बाजूने वाहन चालविले नाही"
+    },
+    {
+        "sr_no": 230,
+        "section": "Sec 99/117 MPA 1951",
+        "offense_english": "Vehicle driver overtook other vehicle or motor vehicle from left side",
+        "offense_marathi": "वाहन चालकाने पुढील वाहनाच्या / मोटार वाहनाच्या डाव्या बाजूने ओव्हर टेक केले"
+    },
+    {
+        "sr_no": 231,
+        "section": "Sec 103/117 MPA 1951",
+        "offense_english": "Vehicle driver drew or parked vehicle on footpath",
+        "offense_marathi": "वाहन चालकाने आपले वाहन फूटपाथ वरून चालविले किंवा उभे केले"
+    },
+    {
+        "sr_no": 232,
+        "section": "Sec 102/117 MPA 1951",
+        "offense_english": "Parked vehicle at Public place causing obstructions to other road users",
+        "offense_marathi": "सार्वजनिक ठीकाणी वाहन उभे करून रस्ते वापरणारे इतर यांना अडथळा निर्माण केला"
+    },
+    {
+        "sr_no": 233,
+        "section": "CMVR 108(4)/177 MVA",
+        "offense_english": "Use of multi-coloured red, blue and white light shall be permitted only on vehicles specifically designated for emergency duties and shall be specifically specified by State Governments",
+        "offense_marathi": "बहु-रंगीत लाल, निळा आणि पांढरा दिवा वापरण्याची परवानगी केवळ आणीबाणीच्या कर्तव्यांसाठी विशेषतः नियुक्त केलेल्या वाहनांवरच दिली जाईल आणि राज्य सरकारांद्वारे विशेषतः निर्दिष्ट केली जाईल"
+    },
+    {
+        "sr_no": 234,
+        "section": "MMVR 18/177 MVA",
+        "offense_english": "Driver failed to update his new address within fourteen days. (Not applicable if change of residence period not exceeding 3 months)",
+        "offense_marathi": "चौदा दिवसांच्या आत ड्रायव्हरला त्याचा नवीन पत्ता अपडेट करता आला नाही. (निवास बदलाचा कालावधी ३ महिन्यांपेक्षा जास्त नसल्यास लागू नाही)"
+    }
+]

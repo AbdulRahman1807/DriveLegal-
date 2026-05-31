@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'services/api_service.dart';
 import 'theme/app_theme.dart';
+import 'screens/auth_screen.dart';
 import 'screens/chat_screen.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await ApiService.loadSession();
   runApp(
     const ProviderScope(
       child: DriveLegalApp(),
@@ -12,7 +16,7 @@ void main() {
 }
 
 class DriveLegalApp extends StatelessWidget {
-  const DriveLegalApp({Key? key}) : super(key: key);
+  const DriveLegalApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +24,7 @@ class DriveLegalApp extends StatelessWidget {
       title: 'DriveLegal',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
-      home: const ChatScreen(),
+      home: ApiService.isAuthenticated ? const ChatScreen() : const AuthScreen(),
     );
   }
 }

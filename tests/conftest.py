@@ -44,11 +44,23 @@ async def override_get_db() -> AsyncGenerator[AsyncSession, None]:
 # Override the FastAPI dependency
 app.dependency_overrides[get_db] = override_get_db
 
+from backend.seeds.seed_jurisdictions import seed_jurisdictions
+from backend.seeds.seed_violations import seed_violations
+from backend.seeds.seed_legal_sections import seed_legal_sections
+from backend.seeds.seed_fines import seed_fines
+
 @pytest_asyncio.fixture(autouse=True)
 async def prepare_database():
     """Create all tables before each test and drop them after."""
     async with test_engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
+    
+    async with test_async_session_maker() as session:
+        await seed_jurisdictions(session)
+        await seed_violations(session)
+        await seed_legal_sections(session)
+        await seed_fines(session)
+        
     yield
     async with test_engine.begin() as conn:
         await conn.run_sync(Base.metadata.drop_all)

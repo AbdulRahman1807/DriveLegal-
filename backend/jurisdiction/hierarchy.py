@@ -8,6 +8,8 @@ class JurisdictionNode(BaseModel):
     type: str
     parent_id: Optional[UUID] = None
     code: Optional[str] = None
+    coordinates_bounds: Optional[dict] = None
+
 
 class JurisdictionHierarchy:
     def __init__(self):

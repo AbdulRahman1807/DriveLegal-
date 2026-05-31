@@ -38,7 +38,8 @@ class JurisdictionResolver:
                 name=j.name,
                 type=j.type,
                 parent_id=j.parent_id,
-                code=j.code
+                code=j.code,
+                coordinates_bounds=j.coordinates_bounds
             )
             self.hierarchy.add_node(node)
             # Serialize for cache
@@ -65,3 +66,35 @@ class JurisdictionResolver:
             if node.name.lower() == name.lower() or (node.code and node.code.lower() == name.lower()):
                 return self.hierarchy.get_chain(node.id)
         return []
+
+    async def resolve_by_coordinates(self, lat: float, lon: float) -> list[JurisdictionNode]:
+        await self.load_hierarchy()
+        matching_nodes = []
+        for node in self.hierarchy._nodes.values():
+            bounds = node.coordinates_bounds
+            if bounds and isinstance(bounds, dict):
+                lat_min = bounds.get("lat_min")
+                lat_max = bounds.get("lat_max")
+                lon_min = bounds.get("lon_min")
+                lon_max = bounds.get("lon_max")
+                if (lat_min is not None and lat_max is not None and 
+                    lon_min is not None and lon_max is not None):
+                    if lat_min <= lat <= lat_max and lon_min <= lon <= lon_max:
+                        matching_nodes.append(node)
+                        
+        if not matching_nodes:
+            return []
+            
+        # Pick the most specific matching node (the one with the longest chain)
+        best_node = None
+        longest_chain_len = -1
+        for node in matching_nodes:
+            chain = self.hierarchy.get_chain(node.id)
+            if len(chain) > longest_chain_len:
+                longest_chain_len = len(chain)
+                best_node = node
+                
+        if best_node:
+            return self.hierarchy.get_chain(best_node.id)
+        return []
+
