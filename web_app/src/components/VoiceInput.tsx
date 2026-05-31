@@ -70,7 +70,7 @@ export default function VoiceInput({
       rec.onresult = null;
       rec.onerror = null;
       rec.onend = null;
-      rec.abort();
+      (rec as any).abort();
     };
   }, []);
 
