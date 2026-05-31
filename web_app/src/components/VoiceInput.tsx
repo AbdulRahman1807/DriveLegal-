@@ -38,17 +38,20 @@ export default function VoiceInput({
     }
 
     const rec = new SpeechRecognitionCtor();
-    rec.continuous = false;
-    rec.interimResults = false;
+    rec.continuous = true;       // keep session alive across natural pauses
+    rec.interimResults = false;  // only fire onresult on finalised utterances
     rec.lang = 'en-IN';
 
     rec.onresult = (event: SpeechRecognitionEvent) => {
-      const transcript = event.results[0]?.[0]?.transcript;
-      if (transcript) {
-        onTranscriptionRef.current(transcript);
+      // Concatenate all results — event.results accumulates across the session.
+      let transcript = '';
+      for (let i = 0; i < event.results.length; i++) {
+        transcript += event.results[i][0].transcript;
       }
-      setIsRecording(false);
-      onRecordingChangeRef.current?.(false);
+      if (transcript.trim()) {
+        onTranscriptionRef.current(transcript.trim());
+      }
+      // Do NOT stop recording here — session continues until user clicks Stop.
     };
 
     rec.onerror = () => {
@@ -62,6 +65,13 @@ export default function VoiceInput({
     };
 
     recognitionRef.current = rec;
+
+    return () => {
+      rec.onresult = null;
+      rec.onerror = null;
+      rec.onend = null;
+      rec.abort();
+    };
   }, []);
 
   const toggleRecording = () => {
@@ -72,15 +82,24 @@ export default function VoiceInput({
     }
 
     if (isRecording) {
-      rec.stop();
-      setIsRecording(false);
-      onRecordingChangeRef.current?.(false);
+      try {
+        rec.stop();
+        // setIsRecording(false) called by onend once browser confirms stop.
+      } catch (e) {
+        console.error('Failed to stop recognition', e);
+        setIsRecording(false);
+        onRecordingChangeRef.current?.(false);
+      }
       return;
     }
 
-    rec.start();
-    setIsRecording(true);
-    onRecordingChangeRef.current?.(true);
+    try {
+      rec.start();
+      setIsRecording(true);
+      onRecordingChangeRef.current?.(true);
+    } catch (e) {
+      console.error('Failed to start recognition', e);
+    }
   };
 
   if (variant === 'prominent') {
