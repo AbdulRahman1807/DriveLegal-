@@ -6,8 +6,10 @@ import { ApiService, ChatMessage } from '@/services/api';
 import { v4 as uuidv4 } from 'uuid';
 import TicketUploader from '../components/TicketUploader';
 import VoiceInput from '../components/VoiceInput';
+import ChallanCalculator from '../components/ChallanCalculator';
 
 export default function Home() {
+  const [activeTab, setActiveTab] = useState<'chat' | 'calculator'>('chat');
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -86,7 +88,27 @@ export default function Home() {
   };
 
   return (
-    <main className="chat-window glass-panel">
+    <div className="flex flex-col h-screen max-w-4xl mx-auto p-4">
+      {/* Tab Navigation */}
+      <div className="flex space-x-2 mb-4 bg-white/5 p-1 rounded-lg w-fit">
+        <button 
+          onClick={() => setActiveTab('chat')}
+          className={`px-4 py-2 rounded-md font-medium transition-colors ${activeTab === 'chat' ? 'bg-[#7FFFD4]/20 text-[#7FFFD4]' : 'text-gray-400 hover:text-white'}`}
+        >
+          AI Chat
+        </button>
+        <button 
+          onClick={() => setActiveTab('calculator')}
+          className={`px-4 py-2 rounded-md font-medium transition-colors ${activeTab === 'calculator' ? 'bg-[#7FFFD4]/20 text-[#7FFFD4]' : 'text-gray-400 hover:text-white'}`}
+        >
+          Fine Calculator
+        </button>
+      </div>
+
+      {activeTab === 'calculator' ? (
+        <ChallanCalculator />
+      ) : (
+        <main className="chat-window glass-panel flex-1 flex flex-col min-h-0">
       {messages.length === 0 ? (
         <div style={{ margin: 'auto', textAlign: 'center', opacity: 0.7 }}>
           <ShieldAlert size={48} style={{ margin: '0 auto 1rem', color: 'var(--primary)' }} />
@@ -163,6 +185,9 @@ export default function Home() {
           </button>
         </div>
       </div>
-    </main>
+        </div>
+      </main>
+      )}
+    </div>
   );
 }
