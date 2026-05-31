@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 
 interface TicketAnalysisResult {
-  extracted_text: str;
+  extracted_text: string;
   inferred_violation: string;
   detected_fine: number;
   confidence: number;
