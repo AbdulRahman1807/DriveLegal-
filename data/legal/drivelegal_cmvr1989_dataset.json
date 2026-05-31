@@ -1,0 +1,1185 @@
+{
+  "drivelegal_knowledge_base": {
+    "meta": {
+      "title": "DRIVELEGAL Master Legal Knowledge Base — Central Motor Vehicles Rules, 1989",
+      "version": "1.0.0",
+      "generated_for": "DRIVELEGAL HHA-VRAG+ Legal Retrieval System",
+      "source_act": "Central Motor Vehicles Rules, 1989",
+      "parent_act": "Motor Vehicles Act, 1988 (59 of 1988)",
+      "gazette_notification": "G.S.R. 590(E), dated 2nd June 1989",
+      "effective_date": "1989-07-01",
+      "country": "India",
+      "legal_system": "Common Law (Federal + State)",
+      "primary_authority": "Ministry of Road Transport and Highways (MoRTH), Government of India",
+      "official_source_url": "https://morth.nic.in",
+      "last_updated": "DATA NOT AVAILABLE — verify from MoRTH official gazette",
+      "coverage_note": "Dataset covers Chapters I–II and key rules from subsequent chapters as publicly available. Full chapter coverage requires complete gazette text ingestion."
+    },
+
+    "country_overview": {
+      "country_name": "India",
+      "legal_system_type": "Federal — Central rules apply nationwide; States may make additional rules under Section 28 of MVA 1988",
+      "primary_traffic_law_authority": "Ministry of Road Transport and Highways (MoRTH)",
+      "national_traffic_legislation": [
+        {
+          "act_name": "Motor Vehicles Act",
+          "year": 1988,
+          "act_number": "59 of 1988",
+          "effective_date": "1989-07-01"
+        },
+        {
+          "act_name": "Central Motor Vehicles Rules",
+          "year": 1989,
+          "gazette": "G.S.R. 590(E)",
+          "gazette_date": "1989-06-02",
+          "effective_date": "1989-07-01"
+        }
+      ],
+      "official_source_urls": [
+        "https://morth.nic.in",
+        "https://parivahan.gov.in",
+        "https://cgtransport.gov.in/Notification/CMVR_1989.pdf"
+      ]
+    },
+
+    "chapters": [
+      {
+        "chapter_number": "I",
+        "chapter_title": "Preliminary",
+        "rules": [
+          {
+            "rule_number": "1",
+            "title": "Short Title and Commencement",
+            "description": "These rules are called the Central Motor Vehicles Rules, 1989. They came into force on 1st July 1989, except certain specified rules (Rule 9, sub-rule (3) of Rule 16, sub-rule (4) of Rule 96, sub-rule (3) of Rule 105, Rule 113, sub-rules (2)-(5) of Rule 115, Rules 118, 122, 124, 125, 126, 127) which come into force on dates notified separately by the Central Government.",
+            "effective_date": "1989-07-01",
+            "gazette_ref": "G.S.R. 590(E), dated 2nd June 1989",
+            "applicable_vehicle_types": ["ALL"],
+            "keywords": ["commencement", "short title", "CMVR 1989", "effective date"],
+            "amendments": [
+              { "gsr": "G.S.R. 933(E)", "date": "1989-10-28", "description": "Inserted Rule 9 reference and sub-rule (2) of rule 103" },
+              { "gsr": "G.S.R. 221(E)", "date": "2001-03-28", "description": "Omitted sub-rule (3) of rule 103 reference" }
+            ]
+          },
+          {
+            "rule_number": "2",
+            "title": "Definitions",
+            "description": "Defines key terms used throughout CMVR 1989.",
+            "definitions": [
+              {
+                "term": "Act",
+                "definition": "Means the Motor Vehicles Act, 1988 (59 of 1988)",
+                "clause": "2(a)"
+              },
+              {
+                "term": "Agricultural Tractor",
+                "definition": "Any mechanically propelled 4-wheel vehicle designed to work with implements for field operations and/or trailers to transport agricultural materials. Classified as a non-transport vehicle.",
+                "clause": "2(b)",
+                "inserted_by": "G.S.R. 338(E), dated 26-03-1993"
+              },
+              {
+                "term": "Agricultural Trailer",
+                "definition": "Trailer generally left uncovered with single/double axle construction, coupled to an agricultural tractor by two hooks, predominantly used for transporting agricultural materials.",
+                "clause": "2(c)",
+                "inserted_by": "G.S.R. 338(E), dated 26-03-1993"
+              },
+              {
+                "term": "Construction Equipment Vehicle",
+                "definition": "Rubber-tyred, rubber-padded, or steel drum wheel-mounted, self-propelled equipment (excavator, loader, backhoe, compactor, roller, dumper, grader, mobile crane, dozer, fork lift, concrete mixer, etc.) designed for off-highway operations in mining, industrial, irrigation, or construction. Non-transport vehicle; on-road driving is incidental, max speed 50 km/h.",
+                "clause": "2(ca)",
+                "inserted_by": "G.S.R. 642(E), dated 28-07-2000"
+              },
+              {
+                "term": "Financier",
+                "definition": "A person or title-holder cum dealer who lets a vehicle on hire under hire-purchase, lease, or hypothecation to the operator with permission to register in the operator's name.",
+                "clause": "2(d)",
+                "substituted_by": "G.S.R. 111(E), dated 10-02-2004"
+              },
+              {
+                "term": "Form",
+                "definition": "A Form appended to the Central Motor Vehicles Rules, 1989.",
+                "clause": "2(e)"
+              },
+              {
+                "term": "Section",
+                "definition": "Means a section of the Motor Vehicles Act, 1988.",
+                "clause": "2(f)"
+              },
+              {
+                "term": "Trade Certificate",
+                "definition": "A certificate issued by the registering authority under Rule 35.",
+                "clause": "2(g)"
+              },
+              {
+                "term": "Non-Transport Vehicle",
+                "definition": "A motor vehicle which is not a transport vehicle.",
+                "clause": "2(h)"
+              },
+              {
+                "term": "Category L1",
+                "definition": "Motor cycle with maximum design speed not exceeding 45 km/h and engine capacity not exceeding 50 cc (thermic engine).",
+                "clause": "2(i)",
+                "inserted_by": "G.S.R. 400(E), dated 31-05-2002"
+              },
+              {
+                "term": "Category L2",
+                "definition": "Motor cycle with maximum design speed exceeding 45 km/h and engine capacity exceeding 50 cc (thermic engine).",
+                "clause": "2(j)",
+                "inserted_by": "G.S.R. 400(E), dated 31-05-2002"
+              },
+              {
+                "term": "Category M",
+                "definition": "Motor vehicle with at least four wheels used for carriage of passengers and their luggage.",
+                "clause": "2(k)"
+              },
+              {
+                "term": "Category M1",
+                "definition": "Passenger vehicle comprising no more than 8 seats in addition to the driver's seat.",
+                "clause": "2(l)"
+              },
+              {
+                "term": "Category M2",
+                "definition": "Passenger vehicle comprising more than 8 seats in addition to driver's seat, maximum mass not exceeding 5 tonnes.",
+                "clause": "2(m)"
+              },
+              {
+                "term": "Category M3",
+                "definition": "Passenger vehicle comprising more than 8 seats in addition to driver's seat, maximum mass exceeding 5 tonnes.",
+                "clause": "2(n)"
+              },
+              {
+                "term": "Category N",
+                "definition": "Motor vehicle with at least four wheels used for carriage of goods.",
+                "clause": "2(o)"
+              },
+              {
+                "term": "Category N1",
+                "definition": "Goods vehicle with maximum mass not exceeding 3.5 tonnes.",
+                "clause": "2(p)"
+              },
+              {
+                "term": "Category N2",
+                "definition": "Goods vehicle with maximum mass exceeding 3.5 tonnes but not exceeding 12 tonnes.",
+                "clause": "2(q)"
+              },
+              {
+                "term": "Category N3",
+                "definition": "Goods vehicle with maximum mass exceeding 12 tonnes.",
+                "clause": "2(r)"
+              },
+              {
+                "term": "Smart Card",
+                "definition": "A microprocessor chip mounted on a plastic card (ISO/IEC 7816 specification) with non-volatile rewritable memory of minimum 4 KB, used for Driving Licence and Registration Certificate applications.",
+                "clause": "2(s)",
+                "substituted_by": "G.S.R. 513(E), dated 10-08-2004"
+              },
+              {
+                "term": "International Driving Permit",
+                "definition": "A licence issued by a licensing authority in India under Chapter II of MVA 1988 to an Indian national, authorising driving of specified motor vehicle categories in countries party to the Convention on Road Traffic signed at Geneva, 19 September 1949.",
+                "clause": "2(t)",
+                "inserted_by": "G.S.R. 720(E), dated 10-09-2003"
+              },
+              {
+                "term": "Battery Operated Vehicle",
+                "definition": "A vehicle powered exclusively by an electric motor with traction energy from an onboard battery. Exempt from 'motor vehicle' classification if: (i) 30-min motor power < 0.25 kW; (ii) max speed < 25 km/h; (iii) meets pedal-assisted bicycle criteria under AIS:049:2003 and AIS:041:2003.",
+                "clause": "2(u)",
+                "inserted_by": "GSR 589(E), dated 16-09-2005"
+              },
+              {
+                "term": "Power Tiller",
+                "definition": "Single-axle agricultural machinery for soil preparation, operator walks behind it. When coupled to a trailer: max speed 22 km/h, max haulage capacity 1.5 tonnes.",
+                "clause": "2(v)"
+              },
+              {
+                "term": "National Capital Region (NCR)",
+                "definition": "Has the meaning assigned in clause (f) of section 2 of the National Capital Region Planning Board Act, 1985 (2 of 1985).",
+                "clause": "2(w)",
+                "inserted_by": "GSR 37(E), dated 20-01-2009"
+              }
+            ],
+            "keywords": ["definitions", "vehicle categories", "L1", "L2", "M1", "M2", "M3", "N1", "N2", "N3", "battery vehicle", "EV", "tractor", "trailer", "smart card", "IDP"]
+          }
+        ]
+      },
+
+      {
+        "chapter_number": "II",
+        "chapter_title": "Licensing of Drivers of Motor Vehicles",
+        "rules": [
+          {
+            "rule_number": "3",
+            "title": "General — Learner's Licence Exemption During Training",
+            "description": "Section 3(1) of MVA 1988 (requirement to hold a driving licence) does not apply to a person receiving driving instruction, provided: (a) they hold a valid learner's licence in Form 3; (b) they are accompanied by an instructor with a valid driving licence seated in a position to control/stop the vehicle; (c) a red letter 'L' on white background (min 18 cm square, letter min 10 cm high, 2 cm thick, 9 cm wide at base) is painted/affixed front and rear.",
+            "applicable_vehicle_types": ["ALL"],
+            "special_condition": "Motorcycle learners may not carry any other person except the accompanying instructor.",
+            "keywords": ["learner licence", "L plate", "driving instructor", "training", "section 3 exemption"]
+          },
+          {
+            "rule_number": "4",
+            "title": "Evidence of Address and Age",
+            "description": "Every applicant for a driving licence must produce evidence of address and age in original or attested extracts. Acceptable documents include: Electoral Roll, Life Insurance Policy, Passport, Pay slip (Central/State/local body), School Certificate, Birth Certificate, Medical Certificate from Civil Surgeon or above. Affidavit before Executive Magistrate/First Class Judicial Magistrate/Notary Public accepted if no documents available. Foreigners must also provide proof of legal presence in India.",
+            "acceptable_documents": [
+              "Electoral Roll",
+              "Life Insurance Policy",
+              "Passport",
+              "Pay slip (Central/State/local body)",
+              "School Certificate",
+              "Birth Certificate",
+              "Medical Certificate from registered practitioner (Civil Surgeon or above)",
+              "Affidavit (if no other document available)",
+              "Other documents prescribed by State Government under Section 28(k)",
+              "Proof of legal presence in India (foreigners)"
+            ],
+            "keywords": ["address proof", "age proof", "KYC", "documents", "licence application"],
+            "attest_authority": "Gazetted Officer / Village Administration Officer / Municipal Corporation Councillor / Panchayat President"
+          },
+          {
+            "rule_number": "5",
+            "title": "Medical Certificate",
+            "description": "Applications for learner's licence, driving licence, addition of vehicle class, or renewal (non-transport vehicles) must be accompanied by a self-declaration of physical fitness in Form 1. Applications for transport vehicle licences must include a medical certificate in Form 1A from a registered medical practitioner (per Section 8(3) MVA). Form 1A is valid for one year from issue date and must include a passport-size photograph.",
+            "form_1": "Self-declaration of physical fitness (non-transport vehicles)",
+            "form_1A": "Medical certificate by registered practitioner (transport vehicles). Valid 1 year.",
+            "applicable_vehicle_types": ["ALL"],
+            "keywords": ["medical certificate", "Form 1A", "physical fitness", "transport vehicle", "health declaration"]
+          },
+          {
+            "rule_number": "6",
+            "title": "Exemption from Production of Medical Certificate",
+            "description": "A person who has already produced a medical certificate (after commencement of these rules) for obtaining/renewing a learner's or driving licence, or for addition of a vehicle class, is not required to produce it again — except when applying for renewal of a driving licence.",
+            "exception": "Medical certificate IS required at time of driving licence renewal.",
+            "keywords": ["medical certificate exemption", "renewal", "driving licence"]
+          },
+          {
+            "rule_number": "7",
+            "title": "Affixing Photograph to Medical Certificate",
+            "description": "The applicant's photograph must be affixed at the designated place in Form 1A. The registered medical practitioner must sign and seal across the photograph so that the signature and seal appear partly on the photograph and partly on the form.",
+            "keywords": ["photograph", "Form 1A", "medical certificate", "stamp", "seal"]
+          },
+          {
+            "rule_number": "8",
+            "title": "Minimum Educational Qualification for Driving Transport Vehicles",
+            "description": "Minimum educational qualification for a licence to drive a transport vehicle is a pass in the 8th standard. This does NOT apply to renewal of an existing transport vehicle driving licence or addition of another class of transport vehicle to a licence held before commencement of the Motor Vehicles (Amendment) Rules, 2007.",
+            "minimum_qualification": "Pass in 8th standard (Class VIII)",
+            "exceptions": [
+              "Renewal of existing transport vehicle driving licence",
+              "Addition of transport vehicle class to licence held before Amendment Rules 2007"
+            ],
+            "keywords": ["educational qualification", "transport vehicle", "8th standard", "driving licence eligibility"]
+          },
+          {
+            "rule_number": "9",
+            "title": "Educational Qualifications for Drivers of Goods Carriages Carrying Dangerous/Hazardous Goods",
+            "description": "From one year after commencement of CMVR (Amendment) Rules 1993, any driver of a goods carriage carrying dangerous or hazardous goods must: (a) hold a valid transport vehicle driving licence; (b) be able to read and write at least one Indian language (per Schedule VIII of the Constitution) and English; (c) hold a certificate of successfully completing a 3-day training course at a State Government-recognised institute covering Defensive Driving, Advanced Driving Skills, and Product Safety (UN classification, Hazchem Code, TREMCARD, emergency procedures). The licensing authority shall endorse the driving licence to authorise driving of goods carriages with hazardous goods.",
+            "training_duration_days": 3,
+            "training_topics": [
+              "A. Defensive Driving — accident causes, driver fitness, vehicle condition, braking distance, highway driving, railway crossings, weather adaptation",
+              "B. Advanced Driving Skills — pre-start checklist, speed/gear/signal/lane control, overtaking, stopping, night driving (mandatory lighting, headlamp alignment, dipped beam)",
+              "C. Product Safety — UN classification, Hazchem Code, Toxicity, Flammability, TREMCARD, CIS/MSDS, Emergency Procedures (spillage, PPE, fire fighting, first aid, toxic release control)"
+            ],
+            "applicable_vehicle_types": ["Goods Carriage — Dangerous/Hazardous Goods"],
+            "keywords": ["hazardous goods", "dangerous goods", "HAZCHEM", "TREMCARD", "goods carriage", "special endorsement", "UN classification"]
+          },
+          {
+            "rule_number": "10",
+            "title": "Application for Learner's Licence",
+            "description": "Application for a learner's licence must be made in Form 2 and accompanied by: (a) medical certificate in Form 1A (unless exempt under Rule 6); (b) three recent passport-size photographs; (c) appropriate fee per Rule 32; (d) for transport vehicle application, the existing driving licence; (e) proof of residence; (f) proof of age; (g) proof of citizenship.",
+            "form": "Form 2",
+            "required_documents": [
+              "Form 1A medical certificate (unless exempt under Rule 6)",
+              "3 recent passport-size photographs",
+              "Fee as per Rule 32",
+              "Existing driving licence (if applying for transport vehicle addition)",
+              "Proof of residence",
+              "Proof of age",
+              "Proof of citizenship"
+            ],
+            "keywords": ["learner licence application", "Form 2", "LL", "learner's licence documents"]
+          },
+          {
+            "rule_number": "11",
+            "title": "Preliminary Test for Learner's Licence",
+            "description": "Every learner's licence applicant must appear before the licensing authority for a test demonstrating knowledge of: (a) traffic signs, signals, and road regulations under Section 118; (b) driver duties after an accident (death/injury/property damage); (c) precautions at unmanned railway crossings; (d) documents required while driving. Objective-type questions per Annexure VI. 'Adequate knowledge' = correctly answering at least 60% of questions. Exempt persons: holders of effective driving licence, holders of recently expired licence (within 5 years), holders of valid learner's licence, holders of certificates from notified State Government institutions.",
+            "pass_percentage": 60,
+            "test_format": "Objective type (Annexure VI)",
+            "test_topics": [
+              "Traffic signs, signals, road regulations (Section 118)",
+              "Driver duties post-accident",
+              "Unmanned railway crossing precautions",
+              "Documents required while driving"
+            ],
+            "exemptions": [
+              "Holders of effective driving licence",
+              "Holders of driving licence expired within last 5 years",
+              "Holders of valid learner's licence",
+              "Holders of State-recognised institution certificates"
+            ],
+            "keywords": ["learner licence test", "preliminary test", "traffic knowledge test", "Annexure VI", "60 percent"]
+          },
+          {
+            "rule_number": "12",
+            "title": "Consent of Parent or Guardian — Minor Applicant",
+            "description": "For a learner's licence application to drive a motorcycle without gear by a minor (under the proviso to Section 4(1) MVA), the application must be signed by the applicant's parent or guardian.",
+            "applicable_vehicle_types": ["Motorcycle without gear"],
+            "applicable_persons": ["Minors (as per Section 4(1) MVA proviso)"],
+            "keywords": ["minor", "parent consent", "guardian", "motorcycle", "learner licence minor"]
+          },
+          {
+            "rule_number": "13",
+            "title": "Form of Learner's Licence",
+            "description": "Every learner's licence issued by the licensing authority shall be in Form 3.",
+            "form": "Form 3",
+            "keywords": ["Form 3", "learner licence format"]
+          },
+          {
+            "rule_number": "14",
+            "title": "Application for Driving Licence",
+            "description": "Application for a driving licence must be in Form 4 and accompanied by: (a) effective learner's licence for the vehicle type; (b) appropriate fee per Rule 32; (c) three recent passport-size photographs; (d) medical certificate in Form 1A (unless exempt under Rule 6); (e) driving certificate in Form 5 from a recognised driving school (if applicable); (f) proof of residence; (g) proof of age; (h) proof of citizenship. For International Driving Permit (IDP): application in Form 4A with valid driving licence, fee, 3 passport photos, Form 1A, valid Indian national proof, passport, and visa (if applicable).",
+            "form_domestic": "Form 4",
+            "form_idp": "Form 4A",
+            "required_documents_domestic": [
+              "Effective learner's licence",
+              "Fee as per Rule 32",
+              "3 passport-size photographs",
+              "Form 1A medical certificate (unless exempt)",
+              "Form 5 driving certificate from school (if applicable)",
+              "Proof of residence",
+              "Proof of age",
+              "Proof of citizenship"
+            ],
+            "required_documents_idp": [
+              "Valid driving licence",
+              "Fee as per Rule 32",
+              "3 passport photographs",
+              "Form 1A medical certificate",
+              "Valid proof of Indian nationality",
+              "Valid passport",
+              "Valid visa (where applicable)"
+            ],
+            "keywords": ["driving licence application", "Form 4", "Form 4A", "IDP", "international driving permit", "DL documents"]
+          },
+          {
+            "rule_number": "15",
+            "title": "Driving Test",
+            "description": "No person may appear for the driving test unless they have held a learner's licence for at least 30 days. Test is conducted by the licensing authority or an authorised person in the relevant vehicle type. The applicant must demonstrate skills covering: mirror adjustment, smooth starting, gear changing, hill starts, overtaking, signals, lane changing, emergency stopping, reversing, U-turns, response to traffic signs/lights/police signals, pedestrian crossing behaviour, maintaining left-side driving, speed regulation, use of all vehicle controls (accelerator, clutch, gears, brakes, steering, horn), road anticipation, and courteous driving.",
+            "minimum_learner_licence_hold_days": 30,
+            "test_skills": [
+              "Adjusting rear-view mirror",
+              "Pre-start safety checks",
+              "Smooth forward movement and gear progression",
+              "Downshift (top to lower gears, downhill)",
+              "Hill start (handbrake/throttle, no roll-back), left/right turns, mirror use",
+              "Safe overtaking, allowing overtaking, meeting vehicles",
+              "Traffic signals (hand and electrical indicators)",
+              "Lane changing with signals",
+              "Normal and emergency stopping",
+              "Reverse driving and limited-space reversal",
+              "Turn in opposite direction (forward/reverse gears)",
+              "Response to traffic signs, lights, police signals",
+              "Pedestrian crossing priority (non-signalised crossings)",
+              "Driving on left side",
+              "Speed regulation for road/traffic conditions",
+              "Smooth steering, gear changing, braking",
+              "Rear-view mirror use before all manoeuvres",
+              "Proper positioning at junctions (right, left, straight)",
+              "All control use (accelerator, clutch, gears, hand/foot brake, steering, horn)",
+              "Anticipation — pedestrians, other vehicles, cyclists",
+              "Junction precautions (speed adjustment, mirror, positioning, avoidance of cutting corners, look right-left-right)",
+              "Undistracted concentration",
+              "Courtesy and consideration for other road users"
+            ],
+            "keywords": ["driving test", "competence test", "30 days learner licence", "DL test", "driving skills assessment"]
+          },
+          {
+            "rule_number": "16",
+            "title": "Form of Driving Licence",
+            "description": "All driving licences issued/renewed shall be in Form 6 (standard) or Form 7 (laminated card type or Smart Card type, where apparatus is available and notified by State Government). From the date of commencement of sub-rule (3), all new and renewed licences must be in Form 7. International Driving Permits are issued in Form 6A, valid for up to 1 year or till the underlying driving licence validity, whichever is earlier. Automobile associations authorised by State/UT may issue IDPs subject to countersignature by competent authority.",
+            "forms": {
+              "standard_licence": "Form 6",
+              "smart_card_licence": "Form 7",
+              "international_driving_permit": "Form 6A"
+            },
+            "idp_validity": "Up to 1 year or DL validity, whichever is earlier",
+            "keywords": ["Form 6", "Form 7", "Form 6A", "Smart Card licence", "IDP", "laminated card DL"]
+          },
+          {
+            "rule_number": "17",
+            "title": "Addition to Driving Licence",
+            "description": "To add another class/description of motor vehicle to an existing driving licence, apply in Form 8 to the licensing authority with: (a) effective learner's licence and existing driving licence; (b) Form 5 driving certificate from school (for transport vehicle addition); (c) appropriate fee per Rule 32. Section 9(1), (3), and (4) of MVA apply mutatis mutandis.",
+            "form": "Form 8",
+            "keywords": ["addition to DL", "Form 8", "vehicle class addition", "driving licence endorsement"]
+          },
+          {
+            "rule_number": "18",
+            "title": "Renewal of Driving Licence",
+            "description": "Application for renewal to be made in Form 9 to the licensing authority having jurisdiction over the applicant's area of ordinary residence or business. Required documents: (a) appropriate fee per Rule 32; (b) three passport-size photographs (if renewal is in Form 6); (c) driving licence; (d) Form 1A medical certificate. If the DL covers both transport and other vehicles, renewal is for the appropriate period under Section 14(2) MVA. If the renewing authority is different from the issuing authority, the issuing authority must be informed. For lost/torn/mutilated licences: confirm with original authority; duplicate issued within 60 days if no response received.",
+            "form": "Form 9",
+            "duplicate_issue_timeline_days": 60,
+            "keywords": ["renewal", "Form 9", "driving licence renewal", "duplicate DL", "Form 9 renewal"]
+          },
+          {
+            "rule_number": "19",
+            "title": "Refund of Fee on Rejection of Renewal",
+            "description": "Where the licensing authority rejects a renewal application under Section 15(5) of MVA, half the renewal fee is refunded to the applicant on application made within 30 days of the rejection order.",
+            "refund_amount": "50% of renewal fee",
+            "refund_application_deadline_days": 30,
+            "keywords": ["fee refund", "renewal rejection", "driving licence fee"]
+          },
+          {
+            "rule_number": "20",
+            "title": "Driving Licence for Defence Department Vehicles",
+            "description": "Authorities authorised under Section 18(1) of MVA to issue licences for Defence vehicles are: Army — Commanding Officers of rank Major and above; Navy — Commanding Officers of rank Lieutenant-Commander and above; Air Force — Commanding Officers of rank Squadron Leader and above.",
+            "applicable_vehicle_types": ["Defence Vehicles"],
+            "authorities": {
+              "Army": "Commanding Officer, rank Major and above",
+              "Navy": "Commanding Officer, rank Lieutenant-Commander and above",
+              "Air Force": "Commanding Officer, rank Squadron Leader and above"
+            },
+            "keywords": ["defence", "army", "navy", "air force", "driving licence military"]
+          },
+          {
+            "rule_number": "21",
+            "title": "Powers of Licensing Authority to Disqualify",
+            "description": "Under Section 19(1)(f) MVA, the following acts by a licence holder constitute nuisance or danger to the public, enabling the licensing authority to disqualify the holder.",
+            "disqualifying_acts": [
+              { "id": "21-01", "act": "Theft of motor vehicle" },
+              { "id": "21-02", "act": "Assault on passengers" },
+              { "id": "21-03", "act": "Theft of personal effects of passengers" },
+              { "id": "21-04", "act": "Theft of goods in goods carriages" },
+              { "id": "21-05", "act": "Transport of goods prohibited under any law" },
+              { "id": "21-06", "act": "Engaging in activity likely to disturb concentration while driving a transport vehicle", "inserted_by": "G.S.R. 933(E), 1989" },
+              { "id": "21-07", "act": "Abduction of passengers" },
+              { "id": "21-08", "act": "Carrying overload in goods carriages" },
+              { "id": "21-09", "act": "Driving at speed exceeding the specified limit" },
+              { "id": "21-10", "act": "Carrying persons in goods carriage — inside driver's cabin in excess of capacity, or on the vehicle (for hire or otherwise)" },
+              { "id": "21-11", "act": "Failing to comply with Section 134 (duty after accident)" },
+              { "id": "21-12", "act": "Failure to stop when signalled by an authorised person" },
+              { "id": "21-13", "act": "Misbehaviour / discourtesy to passengers, intending passengers, consignors, or consignees" },
+              { "id": "21-14", "act": "Smoking while driving public service vehicles" },
+              { "id": "21-15", "act": "Abandoning vehicle in a public place causing inconvenience" },
+              { "id": "21-16", "act": "Driving under influence of drink or drugs" },
+              { "id": "21-17", "act": "Interfering with any person mounting or preparing to mount another vehicle" },
+              { "id": "21-18", "act": "Allowing persons or objects to impede driver's vision or vehicle control" },
+              { "id": "21-19", "act": "Not stopping a stage carriage at approved stopping places upon demand (applicable to public service vehicles)" },
+              { "id": "21-20", "act": "Loitering or unduly delaying journey; not proceeding to destination per timetable or with reasonable despatch" },
+              { "id": "21-21", "act": "Not driving a contract carriage to the named destination by the shortest route without reasonable cause" },
+              { "id": "21-22", "act": "Driver of motor cab refusing the first offer of hire irrespective of journey length" },
+              { "id": "21-23", "act": "Driver of motor cab demanding excess fare or refusing to ply" },
+              { "id": "21-24", "act": "Abandoning transport vehicle as protest/agitation/strike in a public place or place causing obstruction", "inserted_by": "G.S.R. 933(E), 1989" },
+              { "id": "21-25", "act": "Using mobile phone while driving", "inserted_by": "Later amendment" }
+            ],
+            "keywords": ["disqualification", "licence cancellation", "nuisance", "drunk driving", "speeding", "mobile phone", "overload", "assault"]
+          },
+          {
+            "rule_number": "22",
+            "title": "Endorsement by Courts",
+            "description": "A court convicting a licence holder for any of the listed offences must endorse (or cause endorsement of) the particulars of conviction in the driving licence.",
+            "endorseable_offences": [
+              { "offence": "Driving without a licence or without a valid/applicable licence", "legal_ref": "Section 3 MVA" },
+              { "offence": "Allowing licence to be used by another person", "legal_ref": "Section 6(2) MVA" },
+              { "offence": "Driving while disqualified", "legal_ref": "Section 23 MVA" },
+              { "offence": "Driving an unregistered vehicle", "legal_ref": "Section 39 MVA" },
+              { "offence": "Driving a transport vehicle without certificate of fitness", "legal_ref": "Section 56 MVA" },
+              { "offence": "Driving transport vehicle in contravention of permit conditions", "legal_ref": "Section 66 MVA" },
+              { "offence": "Driving in contravention of Rule 118 CMVR", "legal_ref": "Rule 118 CMVR" },
+              { "offence": "Failure to comply with Section 114 (comply with officer's directions)", "legal_ref": "Section 114 MVA" },
+              { "offence": "Refusing/failing to produce licence or registration certificate within specified time", "legal_ref": "Section 130 MVA" },
+              { "offence": "Failing to stop vehicle as required", "legal_ref": "Section 132 MVA" },
+              { "offence": "Obtaining/applying for licence without disclosing existing endorsements", "legal_ref": "Section 182 MVA" },
+              { "offence": "Driving at excessive speed", "legal_ref": "Section 183 MVA" },
+              { "offence": "Dangerous driving", "legal_ref": "Section 184 MVA" },
+              { "offence": "Driving under influence of drink or drugs", "legal_ref": "Section 185 MVA" },
+              { "offence": "Driving when mentally/physically unfit", "legal_ref": "Section 186 MVA" },
+              { "offence": "Abetment of offence under Section 183 or 186", "legal_ref": "Sections 183, 186 MVA" },
+              { "offence": "Abetment of offence under Section 188", "legal_ref": "Section 188 MVA" },
+              { "offence": "Unauthorised racing or trial of speed", "legal_ref": "Section 189 MVA" },
+              { "offence": "Using vehicle in unsafe condition", "legal_ref": "Section 190 MVA" },
+              { "offence": "Driving vehicle exceeding permissible weight/load limit", "legal_ref": "Section 194 MVA" },
+              { "offence": "Altering a licence or using an altered licence", "legal_ref": "N/A — general offence" },
+              { "offence": "Offence punishable with imprisonment in which a motor vehicle was used", "legal_ref": "N/A — general" }
+            ],
+            "keywords": ["court endorsement", "DL endorsement", "conviction", "licence record", "disqualification", "court order DL"]
+          },
+          {
+            "rule_number": "23",
+            "title": "State Register of Driving Licences",
+            "description": "Each State Government must maintain a State Register of driving licences (issued and renewed by all licensing authorities in the State) in Form 10. A printed copy must be sent to the Director (Transport Research), Ministry of Surface Transport, New Delhi.",
+            "form": "Form 10",
+            "keywords": ["state register", "driving licence database", "Form 10", "transport research"]
+          },
+          {
+            "rule_number": "24",
+            "title": "Driving Schools and Establishments — Licensing",
+            "description": "No person may establish or maintain a driving school/establishment for driving instruction for hire or reward without a licence in Form 11 granted by the licensing authority (not below rank of Regional Transport Officer). Application for grant/renewal in Form 12 or Form 13 with prescribed fee. Conditions for grant include: good character of applicant and staff, adequate premises (owned/leased, with lecture and parking facilities), sufficient financial resources, minimum one vehicle per instruction type (within 90 days of application), vehicles with dual control (except motorcycles), prescribed apparatus (blackboard, road plan board, traffic signs chart, signal charts, service chart, engine gear box, brake shoe/drums, puncture kit, tools, driving instructions manual, benches/tables, automobile mechanics books, first-aid box), instructor qualifications (10th standard pass, 5 years driving experience + motor mechanics certificate, traffic knowledge, vehicle function knowledge, English/regional language ability).",
+            "form_new": "Form 12",
+            "form_renewal": "Form 13",
+            "licence_form": "Form 11",
+            "licensing_authority": "Regional Transport Officer or above",
+            "instructor_qualifications": {
+              "minimum_education": "10th standard pass",
+              "driving_experience_years": 5,
+              "additional_qualification": "Motor mechanics certificate or higher mechanical engineering qualification from Central/State Government or BTE-recognised institution",
+              "knowledge_required": [
+                "Thorough knowledge of traffic signs (Schedule to MVA)",
+                "Regulations under Section 118 MVA",
+                "Ability to demonstrate vehicle component functions",
+                "Adequate knowledge of English or regional language"
+              ],
+              "exemption": "5+ years instructor experience before commencement of rules exempts from language requirement"
+            },
+            "keywords": ["driving school", "driving establishment", "Form 11", "Form 12", "Form 13", "instructor qualification", "dual control", "RTO"]
+          },
+          {
+            "rule_number": "25",
+            "title": "Duration of Driving School Licence and Renewal",
+            "description": "A driving school licence (Form 11) is valid for 5 years. Renewal application in Form 13 must be submitted at least 60 days before expiry. Validity subject to annual certification of compliance with State Government criteria.",
+            "licence_validity_years": 5,
+            "renewal_notice_days": 60,
+            "keywords": ["driving school licence validity", "Form 13", "renewal", "5 years"]
+          },
+          {
+            "rule_number": "26",
+            "title": "Issue of Duplicate Driving School Licence",
+            "description": "If a Form 11 licence is lost or destroyed, the holder must immediately inform the licensing authority and apply for a duplicate. The licensing authority issues a duplicate (marked 'Duplicate') on payment of the prescribed fee. If the original is found after a duplicate is issued, it must be surrendered to the licensing authority.",
+            "keywords": ["duplicate licence", "driving school", "lost licence", "Form 11 duplicate"]
+          },
+          {
+            "rule_number": "27",
+            "title": "General Conditions for Driving School Licence Holders",
+            "description": "Holders of driving school licences must: (a) maintain annual register in Form 14 and alphabetical student list; (b) conduct training per syllabus in Rule 31; (c) issue Form 5 certificate to course-completing students; (d) submit information/returns as required by licensing authority; (e) not relocate without prior written approval; (f) keep premises and records open for inspection; (g) display school name, address, telephone on all training vehicles; (h) maintain individual trainee driving-hour record in Form 15; (i) display original licence and instructor names/addresses prominently; (j) not mislead applicants or connive to circumvent licensing provisions.",
+            "forms": ["Form 14", "Form 15", "Form 5"],
+            "keywords": ["driving school conditions", "Form 14", "Form 15", "instructor display", "trainee record"]
+          },
+          {
+            "rule_number": "28",
+            "title": "Power to Suspend or Revoke Driving School Licence",
+            "description": "The licensing authority may (after opportunity of hearing) suspend for a specified period or revoke a driving school licence if the holder has: (a) failed to comply with Rule 24(3) conditions; (b) failed to maintain training vehicles in good condition; (c) failed to follow Rule 31 syllabus; or (d) violated any provision of Rule 27. Suspended/revoked licence must be surrendered to the licensing authority.",
+            "grounds_for_suspension_or_revocation": [
+              "Non-compliance with Rule 24(3) conditions",
+              "Failure to maintain training vehicles",
+              "Non-adherence to Rule 31 syllabus",
+              "Violation of Rule 27 conditions"
+            ],
+            "keywords": ["suspension", "revocation", "driving school licence", "Rule 28"]
+          },
+          {
+            "rule_number": "29",
+            "title": "Appeal Against Driving School Licensing Decisions",
+            "description": "Any person aggrieved by a licensing authority order under Rule 24(5), Rule 25, or Rule 28 may appeal within 30 days of receiving the order to the head of the Motor Vehicles Department (established under Section 213 MVA).",
+            "appeal_deadline_days": 30,
+            "appellate_authority": "Head of Motor Vehicles Department (Section 213 MVA)",
+            "keywords": ["appeal", "driving school", "licensing authority order", "Rule 29"]
+          },
+          {
+            "rule_number": "30",
+            "title": "Procedure for Appeal",
+            "description": "An appeal under Rule 29 must be filed in duplicate as a memorandum stating grounds of objection, with a certified copy of the impugned order and the prescribed fee. The appellate authority must pass orders within 45 days of receipt of the appeal after giving parties an opportunity to be heard.",
+            "decision_deadline_days": 45,
+            "keywords": ["appeal procedure", "memorandum", "appellate authority", "45 days"]
+          },
+          {
+            "rule_number": "31",
+            "title": "Syllabus for Imparting Driving Instructions",
+            "description": "Driving schools must follow the prescribed syllabus covering the following modules.",
+            "syllabus_modules": {
+              "A_Driving_Theory_I": [
+                "Know your vehicle — engine types and working",
+                "Vehicle controls — foot controls (brake, accelerator, clutch), hand controls (steering, handbrake, horn, lights, wipers, ignition, starter, indicators), other controls (mirrors, instrument cluster, windscreen)",
+                "Pre-driving checks — before and after sitting in driver's seat",
+                "Beginning to drive — precautions, moving, biting point, gear changing, stopping, braking, traffic sense, parking, positioning, reversing",
+                "Driving on road — anticipation, judgment, road positioning",
+                "Driving at intersections — MSM (Mirror-Signal-Manoeuvre) and PSL (Position-Speed-Look), zone of vision",
+                "Manoeuvres — left turn, right turn, about turn, 3-point turn, 5-point turn, U-turn, overtaking stationary and moving vehicles",
+                "Reversing — locating reverse gear, speed control, steering in reverse, S-bend weaving",
+                "Parking — parallel, angular, perpendicular, uphill, downhill",
+                "Driver responsibility — behaviour, courtesy, defensive driving, distance at railway crossings",
+                "Priority vehicles — fire engines and ambulances"
+              ],
+              "B_Traffic_Education_I": [
+                "Road use regulations (Section 118 MVA)",
+                "Hand signals",
+                "Traffic signs (Schedule to MVA)",
+                "Traffic constable/warden hand signals",
+                "Automatic light signals",
+                "Road markings",
+                "Speed regulations on highways and city roads",
+                "Parking at objectionable places",
+                "Key MVA provisions: Sections 122, 123, 125, 126, 128",
+                "Competence test (Rule 15(3) CMVR)"
+              ],
+              "C_Light_Vehicle_Driving_Practice": [
+                "Identification of vehicle parts",
+                "Pre-driving checks",
+                "Steering practice (push and pull method)",
+                "Biting point",
+                "Moving and gear changing",
+                "Normal and emergency stopping",
+                "Developing judgment and anticipation",
+                "Reversing (straight and S-bend)",
+                "Turning and parking",
+                "Licensing procedures"
+              ],
+              "D_Vehicle_Mechanism_and_Repairs": [
+                "Layout of vehicle",
+                "Diesel and petrol engine functions",
+                "Fuel system (lines, injection pump, atomiser, air/oil lock)",
+                "Cooling system (radiator, water pump, fan, fan belt, overheating rectification)",
+                "Lubrication system (engine, chassis, oil grades)",
+                "Transmission — clutch, gear box, propeller shaft, differential",
+                "Suspension system (springs, shackle, shock absorbers)",
+                "Steering system (geometry, linkages, steering box)",
+                "Brake system (hydraulic, air-assisted hydraulic, air brake, adjustment)",
+                "Electrical system (battery, dynamo/alternator, self-starter, lights, ammeter)",
+                "Tyres (study, maintenance, alignment effects)",
+                "Instrument cluster and dash meters"
+              ],
+              "E_Medium_Heavy_Vehicle_Driving_Theory_II": [
+                "Qualities of a good driver",
+                "Vehicle controls (major and minor)",
+                "Response of controls",
+                "Pre-driving checks",
+                "Steering (push-pull on move, gear change, turning, horn, signalling, emergency)",
+                "Gear changing (double de-clutching, single clutching, up/down shifting)",
+                "Beginning to drive in all gears including reverse and overdrive",
+                "MSM and PSL routines",
+                "Manoeuvres (passing, merging, diverging, overtaking, crossing, turning, cornering, reversing, parking)",
+                "Normal and emergency stopping, engine/exhaust brake",
+                "Stopping distance (reaction + braking)",
+                "Following distance (distance method, car length method, 2-second rule)",
+                "IPDE principle (Identification, Prediction, Decision, Execution)",
+                "Defensive driving (judgment, anticipation, escape route)",
+                "Night driving (headlight switch, dipped beam, lighting obligations)",
+                "Hill driving (uphill/downhill with parking brake and clutch slip methods)",
+                "Emergency manoeuvres (skidding, stuck horn, fire, brake failure, burst tyre, steering wobble, etc.)",
+                "Special conditions driving (wet weather, dawn/dusk/mist, dense traffic)",
+                "Towing and trailer driving",
+                "Fuel-saving methods"
+              ],
+              "F_Traffic_Education_II": [
+                "Road classification, design speeds, geometries, surface types, slopes",
+                "Sight distance at bends and intersections",
+                "Road junctions (T, Y, 4-arm, staggered, controlled, uncontrolled)",
+                "Traffic islands and roundabouts, channelisers, medians",
+                "Bypass, subway, overbridge, flyover driving procedures",
+                "Bus stops, terminuses (ingress/egress)",
+                "Road markings (white/yellow lines, zebra crossings, stop lines, parking markings)",
+                "Lane selection and discipline",
+                "Automatic light signals",
+                "Road user characteristics (pedestrians, children, elderly, cyclists, motorcyclists, autos, buses, trucks, VIPs, emergency vehicles, animals)",
+                "Accidents (types, causes, preventive methods, driver duties)",
+                "Key provisions of MVA 1988, CMVR 1989, State Motor Vehicles Rules, Petroleum Act 1934, City Police Act, IPC 1860"
+              ],
+              "G_Public_Relations": [
+                "Ethical and courteous behaviour with other road users"
+              ]
+            },
+            "keywords": ["driving syllabus", "Rule 31", "driving school curriculum", "MSM", "PSL", "IPDE", "defensive driving", "traffic education"]
+          }
+        ]
+      }
+    ],
+
+    "vehicle_categories": [
+      {
+        "category": "L1",
+        "description": "Motorcycle — max design speed ≤ 45 km/h, engine capacity ≤ 50 cc (thermic engine)",
+        "rule_ref": "Rule 2(i) CMVR",
+        "examples": ["Mopeds", "Low-speed scooters"]
+      },
+      {
+        "category": "L2",
+        "description": "Motorcycle — max design speed > 45 km/h, engine capacity > 50 cc (thermic engine)",
+        "rule_ref": "Rule 2(j) CMVR",
+        "examples": ["Motorcycles", "Scooters above 50cc", "Gearless bikes above 45 km/h"]
+      },
+      {
+        "category": "M1",
+        "description": "Passenger vehicle — max 8 passenger seats + driver's seat",
+        "rule_ref": "Rule 2(l) CMVR",
+        "examples": ["Cars", "SUVs", "MPVs (up to 8 passengers)"]
+      },
+      {
+        "category": "M2",
+        "description": "Passenger vehicle — more than 8 passenger seats + driver's seat, max mass ≤ 5 tonnes",
+        "rule_ref": "Rule 2(m) CMVR",
+        "examples": ["Mini-buses", "Small buses"]
+      },
+      {
+        "category": "M3",
+        "description": "Passenger vehicle — more than 8 passenger seats + driver's seat, max mass > 5 tonnes",
+        "rule_ref": "Rule 2(n) CMVR",
+        "examples": ["Full-size buses", "Coaches"]
+      },
+      {
+        "category": "N1",
+        "description": "Goods vehicle — max mass ≤ 3.5 tonnes",
+        "rule_ref": "Rule 2(p) CMVR",
+        "examples": ["Light commercial vehicles (LCVs)", "Pick-up trucks"]
+      },
+      {
+        "category": "N2",
+        "description": "Goods vehicle — max mass > 3.5 tonnes, ≤ 12 tonnes",
+        "rule_ref": "Rule 2(q) CMVR",
+        "examples": ["Medium trucks"]
+      },
+      {
+        "category": "N3",
+        "description": "Goods vehicle — max mass > 12 tonnes",
+        "rule_ref": "Rule 2(r) CMVR",
+        "examples": ["Heavy trucks", "Articulated lorries"]
+      },
+      {
+        "category": "Non-Transport",
+        "description": "Motor vehicle not classified as a transport vehicle",
+        "rule_ref": "Rule 2(h) CMVR",
+        "examples": ["Agricultural tractors", "Power tillers", "Construction equipment vehicles", "Battery operated vehicles (exempt class)"]
+      }
+    ],
+
+    "disqualifying_acts": [
+      {
+        "id": "DISQ-001",
+        "act": "Driving under influence of drink or drugs",
+        "rule_ref": "Rule 21(16) CMVR; Section 185 MVA",
+        "severity": "HIGH",
+        "keywords": ["drunk driving", "DUI", "DWI", "alcohol", "drugs", "impaired driving"]
+      },
+      {
+        "id": "DISQ-002",
+        "act": "Speeding — exceeding specified limit",
+        "rule_ref": "Rule 21(9) CMVR; Section 183 MVA",
+        "severity": "HIGH",
+        "keywords": ["speeding", "over-speed", "speed limit violation"]
+      },
+      {
+        "id": "DISQ-003",
+        "act": "Using mobile phone while driving",
+        "rule_ref": "Rule 21(25) CMVR",
+        "severity": "MEDIUM",
+        "keywords": ["mobile phone", "phone while driving", "distracted driving"]
+      },
+      {
+        "id": "DISQ-004",
+        "act": "Carrying overload in goods carriages",
+        "rule_ref": "Rule 21(8) CMVR; Section 194 MVA",
+        "severity": "MEDIUM",
+        "keywords": ["overloading", "excess load", "goods carriage overload"]
+      },
+      {
+        "id": "DISQ-005",
+        "act": "Carrying persons in goods carriage",
+        "rule_ref": "Rule 21(10) CMVR",
+        "severity": "MEDIUM",
+        "keywords": ["passengers in goods vehicle", "illegal passenger", "goods carriage persons"]
+      },
+      {
+        "id": "DISQ-006",
+        "act": "Abandoning vehicle in public place",
+        "rule_ref": "Rule 21(15) CMVR",
+        "severity": "LOW",
+        "keywords": ["abandoned vehicle", "public place obstruction"]
+      },
+      {
+        "id": "DISQ-007",
+        "act": "Abandoning transport vehicle in protest/strike",
+        "rule_ref": "Rule 21(24) CMVR",
+        "severity": "MEDIUM",
+        "keywords": ["strike", "agitation", "abandoned truck", "transport strike"]
+      },
+      {
+        "id": "DISQ-008",
+        "act": "Theft of motor vehicle",
+        "rule_ref": "Rule 21(1) CMVR",
+        "severity": "HIGH",
+        "keywords": ["vehicle theft", "car theft", "motor vehicle crime"]
+      }
+    ],
+
+    "court_endorseable_offences": [
+      {
+        "id": "ENDORSE-001",
+        "offence": "Driving without licence",
+        "legal_ref": "Section 3 MVA; Rule 22(a) CMVR",
+        "severity": "HIGH"
+      },
+      {
+        "id": "ENDORSE-002",
+        "offence": "Allowing licence to be used by another person",
+        "legal_ref": "Section 6(2) MVA; Rule 22(b) CMVR",
+        "severity": "MEDIUM"
+      },
+      {
+        "id": "ENDORSE-003",
+        "offence": "Driving while disqualified",
+        "legal_ref": "Section 23 MVA; Rule 22(c) CMVR",
+        "severity": "HIGH"
+      },
+      {
+        "id": "ENDORSE-004",
+        "offence": "Driving unregistered vehicle",
+        "legal_ref": "Section 39 MVA; Rule 22(d) CMVR",
+        "severity": "HIGH"
+      },
+      {
+        "id": "ENDORSE-005",
+        "offence": "Driving transport vehicle without fitness certificate",
+        "legal_ref": "Section 56 MVA; Rule 22(e) CMVR",
+        "severity": "HIGH"
+      },
+      {
+        "id": "ENDORSE-006",
+        "offence": "Driving transport vehicle in contravention of permit conditions",
+        "legal_ref": "Section 66 MVA; Rule 22(f) CMVR",
+        "severity": "MEDIUM"
+      },
+      {
+        "id": "ENDORSE-007",
+        "offence": "Driving in contravention of Rule 118 CMVR",
+        "legal_ref": "Rule 118 CMVR; Rule 22(g) CMVR",
+        "severity": "MEDIUM"
+      },
+      {
+        "id": "ENDORSE-008",
+        "offence": "Failure to comply with Section 114 (police/officer directions)",
+        "legal_ref": "Section 114 MVA; Rule 22(h) CMVR",
+        "severity": "MEDIUM"
+      },
+      {
+        "id": "ENDORSE-009",
+        "offence": "Failing to produce licence or registration certificate on demand",
+        "legal_ref": "Section 130 MVA; Rule 22(i) CMVR",
+        "severity": "LOW"
+      },
+      {
+        "id": "ENDORSE-010",
+        "offence": "Failing to stop vehicle when required",
+        "legal_ref": "Section 132 MVA; Rule 22(j) CMVR",
+        "severity": "MEDIUM"
+      },
+      {
+        "id": "ENDORSE-011",
+        "offence": "Obtaining licence without disclosing existing endorsements",
+        "legal_ref": "Section 182 MVA; Rule 22(k) CMVR",
+        "severity": "HIGH"
+      },
+      {
+        "id": "ENDORSE-012",
+        "offence": "Excessive speed",
+        "legal_ref": "Section 183 MVA; Rule 22(l) CMVR",
+        "severity": "HIGH"
+      },
+      {
+        "id": "ENDORSE-013",
+        "offence": "Dangerous driving",
+        "legal_ref": "Section 184 MVA; Rule 22(m) CMVR",
+        "severity": "HIGH"
+      },
+      {
+        "id": "ENDORSE-014",
+        "offence": "Driving under influence of drink or drugs",
+        "legal_ref": "Section 185 MVA; Rule 22(n) CMVR",
+        "severity": "HIGH"
+      },
+      {
+        "id": "ENDORSE-015",
+        "offence": "Driving when mentally or physically unfit",
+        "legal_ref": "Section 186 MVA; Rule 22(o) CMVR",
+        "severity": "HIGH"
+      },
+      {
+        "id": "ENDORSE-016",
+        "offence": "Abetment of speeding or unfit driving",
+        "legal_ref": "Sections 183, 186 MVA; Rule 22(p) CMVR",
+        "severity": "MEDIUM"
+      },
+      {
+        "id": "ENDORSE-017",
+        "offence": "Abetment of offence under Section 188",
+        "legal_ref": "Section 188 MVA; Rule 22(q) CMVR",
+        "severity": "MEDIUM"
+      },
+      {
+        "id": "ENDORSE-018",
+        "offence": "Unauthorised racing or trial of speed",
+        "legal_ref": "Section 189 MVA; Rule 22(r) CMVR",
+        "severity": "HIGH"
+      },
+      {
+        "id": "ENDORSE-019",
+        "offence": "Using vehicle in unsafe condition",
+        "legal_ref": "Section 190 MVA; Rule 22(s) CMVR",
+        "severity": "MEDIUM"
+      },
+      {
+        "id": "ENDORSE-020",
+        "offence": "Driving vehicle exceeding permissible weight",
+        "legal_ref": "Section 194 MVA; Rule 22(t) CMVR",
+        "severity": "MEDIUM"
+      },
+      {
+        "id": "ENDORSE-021",
+        "offence": "Altering or using an altered driving licence",
+        "legal_ref": "Rule 22(u) CMVR",
+        "severity": "HIGH"
+      },
+      {
+        "id": "ENDORSE-022",
+        "offence": "Offence punishable with imprisonment in which a motor vehicle was used",
+        "legal_ref": "Rule 22(v) CMVR",
+        "severity": "HIGH"
+      }
+    ],
+
+    "forms_index": [
+      { "form": "Form 1", "title": "Self-declaration of physical fitness (non-transport vehicle applicant)", "rule_ref": "Rule 5" },
+      { "form": "Form 1A", "title": "Medical certificate by registered practitioner (transport vehicle applicant)", "rule_ref": "Rule 5; Rule 7", "validity": "1 year from date of issue" },
+      { "form": "Form 2", "title": "Application for learner's licence", "rule_ref": "Rule 10" },
+      { "form": "Form 3", "title": "Learner's licence", "rule_ref": "Rule 13" },
+      { "form": "Form 4", "title": "Application for driving licence", "rule_ref": "Rule 14(1)" },
+      { "form": "Form 4A", "title": "Application for International Driving Permit", "rule_ref": "Rule 14(2)" },
+      { "form": "Form 5", "title": "Driving certificate from recognised driving school", "rule_ref": "Rule 14(1)(e); Rule 27(d)" },
+      { "form": "Form 6", "title": "Driving licence (standard)", "rule_ref": "Rule 16(1)" },
+      { "form": "Form 6A", "title": "International Driving Permit", "rule_ref": "Rule 16(4)", "validity": "Up to 1 year or DL validity, whichever earlier" },
+      { "form": "Form 7", "title": "Driving licence — Smart Card / Laminated Card type", "rule_ref": "Rule 16(2); Rule 16(3)" },
+      { "form": "Form 8", "title": "Application for addition of vehicle class to driving licence", "rule_ref": "Rule 17(1)" },
+      { "form": "Form 9", "title": "Application for renewal of driving licence", "rule_ref": "Rule 18(1)" },
+      { "form": "Form 10", "title": "State Register of Driving Licences", "rule_ref": "Rule 23(1)" },
+      { "form": "Form 11", "title": "Driving school/establishment licence", "rule_ref": "Rule 24(1); Rule 24(4)" },
+      { "form": "Form 12", "title": "Application for grant of driving school licence", "rule_ref": "Rule 24(2)" },
+      { "form": "Form 13", "title": "Application for renewal of driving school licence", "rule_ref": "Rule 24(2); Rule 25" },
+      { "form": "Form 14", "title": "Annual register of students (driving school)", "rule_ref": "Rule 27(a)" },
+      { "form": "Form 15", "title": "Individual trainee driving-hour record", "rule_ref": "Rule 27(i)" }
+    ],
+
+    "amendment_history": [
+      { "gsr": "G.S.R. 590(E)", "date": "1989-06-02", "description": "Original notification — Central Motor Vehicles Rules, 1989" },
+      { "gsr": "G.S.R. 933(E)", "date": "1989-10-28", "description": "Multiple amendments — Rule 9, Form references, Rule 24 apparatus, new disqualifying acts" },
+      { "gsr": "G.S.R. 338(E)", "date": "1993-03-26", "description": "Added definitions for Agricultural Tractor and Agricultural Trailer (Rules 2(b),(c)); re-lettered clauses" },
+      { "gsr": "G.S.R. 642(E)", "date": "2000-07-28", "description": "Added definition for Construction Equipment Vehicle (Rule 2(ca))" },
+      { "gsr": "G.S.R. 221(E)", "date": "2001-03-28", "description": "Omitted sub-rule (3) of Rule 103 reference from Rule 1(3)" },
+      { "gsr": "G.S.R. 400(E)", "date": "2002-05-31", "description": "Inserted vehicle category definitions L1, L2, M, M1-M3, N, N1-N3, Smart Card, IDP (Rules 2(i)-(t))" },
+      { "gsr": "G.S.R. 720(E)", "date": "2003-09-10", "description": "Inserted definition of International Driving Permit (Rule 2(t))" },
+      { "gsr": "G.S.R. 111(E)", "date": "2004-02-10", "description": "Substituted definition of 'Financier' (Rule 2(d))" },
+      { "gsr": "G.S.R. 513(E)", "date": "2004-08-10", "description": "Substituted definition of 'Smart Card' (Rule 2(s))" },
+      { "gsr": "GSR 589(E)", "date": "2005-09-16", "description": "Inserted definition of Battery Operated Vehicle (Rule 2(u))" },
+      { "amendment": "Central Motor Vehicles (Amendment) Rules, 2007", "date": "2007-04-10", "description": "IDP countries definition updated — 'excluding countries with no diplomatic relations' substituted by reference to Geneva Convention 1949 Parties; minimum education for transport vehicle DL inserted (Rule 8)" },
+      { "gsr": "GSR 37(E)", "date": "2009-01-20", "description": "Inserted definition of National Capital Region (Rule 2(w))" }
+    ],
+
+    "search_keywords": {
+      "legal_keywords": [
+        "Central Motor Vehicles Rules 1989", "CMVR 1989", "Motor Vehicles Act 1988", "MVA 1988",
+        "driving licence", "learner's licence", "Form 3", "Form 6", "Form 7", "Form 6A",
+        "International Driving Permit", "IDP", "Smart Card DL", "medical certificate Form 1A",
+        "driving school licence", "Form 11", "disqualification", "court endorsement",
+        "hazardous goods carriage", "HAZCHEM", "battery operated vehicle", "vehicle categories",
+        "L1", "L2", "M1", "M2", "M3", "N1", "N2", "N3", "transport vehicle", "non-transport vehicle",
+        "agricultural tractor", "construction equipment vehicle", "power tiller"
+      ],
+      "citizen_friendly_keywords": [
+        "how to get driving licence India", "learner licence documents", "driving test rules",
+        "L plate rules", "driving school licence India", "drunk driving India law",
+        "speeding fine India", "mobile phone driving India", "overloading rules India",
+        "renew driving licence", "duplicate driving licence", "driving licence for defence",
+        "international driving permit India", "vehicle categories India", "electric vehicle law India",
+        "driving school instructor qualification", "how to appeal driving licence rejection"
+      ],
+      "common_search_queries": [
+        "CMVR 1989 rules", "how many days to hold learner licence before driving test",
+        "documents for driving licence application India", "driving test skills India",
+        "driving school conditions India", "disqualification from driving licence India",
+        "court endorsement on driving licence", "medical certificate transport vehicle",
+        "minimum age driving licence India", "IDP India application"
+      ],
+      "misspellings": [
+        "CMVR rules 1998", "central motor vehicle rules", "motor vehicle act 1998",
+        "driving lisence", "driving liscence", "learners license", "leaner licence",
+        "form 1a medical", "international driving permit india"
+      ],
+      "regional_language_variants": {
+        "Tamil": {
+          "driving_licence": "வாகன ஓட்டுநர் உரிமம்",
+          "learner_licence": "கற்பவர் உரிமம்",
+          "traffic_rules": "போக்குவரத்து விதிகள்",
+          "vehicle_registration": "வாகன பதிவு",
+          "motor_vehicle_act": "மோட்டார் வாகன சட்டம்"
+        },
+        "Hindi": {
+          "driving_licence": "ड्राइविंग लाइसेंस",
+          "learner_licence": "शिक्षार्थी लाइसेंस",
+          "traffic_rules": "यातायात नियम",
+          "vehicle_registration": "वाहन पंजीकरण",
+          "motor_vehicle_act": "मोटर वाहन अधिनियम"
+        },
+        "Telugu": {
+          "driving_licence": "డ్రైవింగ్ లైసెన్స్",
+          "traffic_rules": "ట్రాఫిక్ నిబంధనలు",
+          "vehicle_registration": "వాహన నమోదు"
+        },
+        "Kannada": {
+          "driving_licence": "ಚಾಲನಾ ಪರವಾನಗಿ",
+          "traffic_rules": "ಸಂಚಾರ ನಿಯಮಗಳು",
+          "vehicle_registration": "ವಾಹನ ನೋಂದಣಿ"
+        },
+        "Malayalam": {
+          "driving_licence": "ഡ്രൈവിംഗ് ലൈസൻസ്",
+          "traffic_rules": "ഗതാഗത നിയമങ്ങൾ",
+          "vehicle_registration": "വാഹന രജിസ്ട്രേഷൻ"
+        },
+        "Bengali": {
+          "driving_licence": "ড্রাইভিং লাইসেন্স",
+          "traffic_rules": "যানবাহন বিধিমালা",
+          "vehicle_registration": "যানবাহন নিবন্ধন"
+        }
+      }
+    },
+
+    "pageindex_chunks": [
+      {
+        "chunk_id": "CMVR-1989-CH1-R1",
+        "act_name": "Central Motor Vehicles Rules, 1989",
+        "rule_number": "1",
+        "chapter": "I",
+        "title": "Short Title and Commencement",
+        "jurisdiction": "India — National",
+        "keywords": ["commencement", "effective date", "1989"],
+        "effective_date": "1989-07-01",
+        "gazette_ref": "G.S.R. 590(E), 02-06-1989",
+        "source_url": "https://cgtransport.gov.in/Notification/CMVR_1989.pdf"
+      },
+      {
+        "chunk_id": "CMVR-1989-CH1-R2-DEFS",
+        "act_name": "Central Motor Vehicles Rules, 1989",
+        "rule_number": "2",
+        "chapter": "I",
+        "title": "Definitions",
+        "jurisdiction": "India — National",
+        "keywords": ["definitions", "L1", "L2", "M1", "M2", "M3", "N1", "N2", "N3", "battery vehicle", "smart card", "IDP", "financier", "agricultural tractor"],
+        "effective_date": "1989-07-01",
+        "source_url": "https://cgtransport.gov.in/Notification/CMVR_1989.pdf"
+      },
+      {
+        "chunk_id": "CMVR-1989-CH2-R3",
+        "act_name": "Central Motor Vehicles Rules, 1989",
+        "rule_number": "3",
+        "chapter": "II",
+        "title": "L Plate Rule — Section 3 Exemption During Training",
+        "jurisdiction": "India — National",
+        "keywords": ["L plate", "learner", "instructor", "training exemption"],
+        "effective_date": "1989-07-01",
+        "source_url": "https://cgtransport.gov.in/Notification/CMVR_1989.pdf"
+      },
+      {
+        "chunk_id": "CMVR-1989-CH2-R5",
+        "act_name": "Central Motor Vehicles Rules, 1989",
+        "rule_number": "5",
+        "chapter": "II",
+        "title": "Medical Certificate Requirements",
+        "jurisdiction": "India — National",
+        "keywords": ["Form 1A", "medical certificate", "transport vehicle", "physical fitness"],
+        "effective_date": "1989-07-01",
+        "source_url": "https://cgtransport.gov.in/Notification/CMVR_1989.pdf"
+      },
+      {
+        "chunk_id": "CMVR-1989-CH2-R11",
+        "act_name": "Central Motor Vehicles Rules, 1989",
+        "rule_number": "11",
+        "chapter": "II",
+        "title": "Learner's Licence Preliminary Test — 60% Pass",
+        "jurisdiction": "India — National",
+        "keywords": ["learner licence test", "preliminary test", "60 percent", "traffic knowledge", "Annexure VI"],
+        "effective_date": "1989-07-01",
+        "source_url": "https://cgtransport.gov.in/Notification/CMVR_1989.pdf"
+      },
+      {
+        "chunk_id": "CMVR-1989-CH2-R15",
+        "act_name": "Central Motor Vehicles Rules, 1989",
+        "rule_number": "15",
+        "chapter": "II",
+        "title": "Driving Test — 30-Day Rule and Competence Skills",
+        "jurisdiction": "India — National",
+        "keywords": ["driving test", "30 days", "competence", "test skills", "DL test"],
+        "effective_date": "1989-07-01",
+        "source_url": "https://cgtransport.gov.in/Notification/CMVR_1989.pdf"
+      },
+      {
+        "chunk_id": "CMVR-1989-CH2-R21",
+        "act_name": "Central Motor Vehicles Rules, 1989",
+        "rule_number": "21",
+        "chapter": "II",
+        "title": "Disqualifying Acts for Licence Holders",
+        "jurisdiction": "India — National",
+        "keywords": ["disqualification", "drunk driving", "speeding", "mobile phone", "overloading", "nuisance"],
+        "effective_date": "1989-07-01",
+        "source_url": "https://cgtransport.gov.in/Notification/CMVR_1989.pdf"
+      },
+      {
+        "chunk_id": "CMVR-1989-CH2-R22",
+        "act_name": "Central Motor Vehicles Rules, 1989",
+        "rule_number": "22",
+        "chapter": "II",
+        "title": "Court Endorsements on Driving Licence",
+        "jurisdiction": "India — National",
+        "keywords": ["court endorsement", "conviction", "DL endorsement", "Section 183", "Section 184", "Section 185"],
+        "effective_date": "1989-07-01",
+        "source_url": "https://cgtransport.gov.in/Notification/CMVR_1989.pdf"
+      }
+    ],
+
+    "data_quality_report": {
+      "coverage_analysis": {
+        "total_chapters_in_cmvr": "DATA NOT AVAILABLE — Full chapter count requires complete gazette text",
+        "chapters_covered_in_this_dataset": 2,
+        "chapters_covered_list": ["Chapter I — Preliminary", "Chapter II — Licensing of Drivers"],
+        "rules_covered": 31,
+        "total_rules_in_cmvr": "DATA NOT AVAILABLE — estimated 130+ rules plus multiple sub-rules",
+        "definitions_captured": 22,
+        "forms_indexed": 15,
+        "vehicle_categories_captured": 9,
+        "disqualifying_acts_captured": 25,
+        "court_endorseable_offences_captured": 22,
+        "amendment_records_captured": 11,
+        "chapters_not_covered": [
+          "Chapter III — Registration of Motor Vehicles",
+          "Chapter IV — Control of Transport Vehicles",
+          "Chapter V — Traffic Regulations",
+          "Chapter VI — Accidents",
+          "Chapter VII — Insurance",
+          "Chapter VIII — Construction and Maintenance of Vehicles",
+          "Chapter IX — Pollution Control",
+          "Subsequent Chapters"
+        ],
+        "missing_data": [
+          "Fine amounts (CMVR 1989 does not prescribe fines directly — fines are in MVA 1988 Sections 177-210 and state schedules)",
+          "Speed limits (Rule 112 CMVR not yet ingested)",
+          "Registration rules (Chapter III not yet ingested)",
+          "Permit rules (Chapter IV not yet ingested)",
+          "Construction/roadworthiness rules (Chapter VIII not yet ingested)",
+          "Emission norms (Rule 115 and related not yet ingested)",
+          "State-specific overrides",
+          "City/municipal rules"
+        ]
+      },
+      "validation_report": {
+        "missing_gazette_references": [
+          "Rule 21(25) — Mobile phone while driving amendment GSR number not available in source"
+        ],
+        "missing_effective_dates": [],
+        "ambiguous_legal_text": [
+          "Rule 2(u) — Battery Operated Vehicle: exact AIS:049:2003 and AIS:041:2003 standards for 0.25 kW 30-min power threshold should be verified against BIS specifications if notified",
+          "Rule 9 — Hazardous goods training: State-specific recognised institute lists not available in this dataset"
+        ],
+        "conflicting_rules": "NONE detected in this dataset",
+        "data_not_available_flags": [
+          "Fine schedule — not part of CMVR 1989 (see MVA 1988 Sections 177–210)",
+          "State-level overrides not ingested",
+          "Post-2009 amendments not fully captured"
+        ]
+      },
+      "notes": [
+        "CMVR 1989 is a procedural/operational rules document. Penalty amounts and fine schedules are primarily governed by Sections 177–210 of the Motor Vehicles Act 1988, as amended by the Motor Vehicles (Amendment) Act 2019.",
+        "For fine calculator development, the MV (Amendment) Act 2019 schedule and State Motor Vehicles Acts must be ingested separately.",
+        "Source URL used: https://www.roadsafetynetwork.in/wp-content/uploads/2019/01/cmvr-1989.pdf",
+        "Dataset is suitable for RAG ingestion, BM25 indexing, and PageIndex retrieval for Chapters I and II of CMVR 1989."
+      ]
+    }
+  }
+}

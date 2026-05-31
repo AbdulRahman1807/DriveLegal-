@@ -1,0 +1,1047 @@
+{
+  "drivelegal_knowledge_base": {
+    "metadata": {
+      "title": "Road Safety Signage & Signs — India",
+      "source": "Book on Road Safety Signage & Signs",
+      "publisher": "Ministry of Road Transport & Highways, Government of India",
+      "language": ["English", "Hindi"],
+      "signage_standard": "IRC 67-2012",
+      "last_updated": "DATA NOT AVAILABLE",
+      "gazette_number": "DATA NOT AVAILABLE",
+      "source_url": "DATA NOT AVAILABLE"
+    },
+
+    "country_overview": {
+      "country": "India",
+      "legal_system": "Common Law (British-derived, codified statutes)",
+      "primary_authority": "Ministry of Road Transport & Highways (MoRTH), Government of India",
+      "national_legislation": [
+        {
+          "name": "Motor Vehicles Act",
+          "year": 1988,
+          "amendment_years": [2019],
+          "gazette_number": "DATA NOT AVAILABLE",
+          "source_url": "DATA NOT AVAILABLE"
+        },
+        {
+          "name": "Central Motor Vehicles Rules",
+          "year": 1989,
+          "amendment_years": [],
+          "gazette_number": "DATA NOT AVAILABLE",
+          "source_url": "DATA NOT AVAILABLE"
+        },
+        {
+          "name": "IRC 67-2012 (Indian Roads Congress — Road Signs Standard)",
+          "year": 2012,
+          "amendment_years": [],
+          "gazette_number": "DATA NOT AVAILABLE",
+          "source_url": "DATA NOT AVAILABLE"
+        }
+      ],
+      "software_systems": {
+        "VAHAN": "Vehicle Registration software",
+        "SARATHI": "Driving Licence management software"
+      }
+    },
+
+    "road_signs": {
+      "categories": [
+        {
+          "id": "RS-001",
+          "category": "Mandatory / Regulatory Signs",
+          "description": "Signs that impose a legal obligation on road users.",
+          "shape": "Circular (generally)",
+          "colour": "Red border/background with white or black symbols",
+          "legal_basis": "Motor Vehicles Act / Central Motor Vehicles Rules",
+          "examples": ["STOP", "GIVE WAY", "Speed Limit", "No Entry", "One Way", "No Overtaking"],
+          "keywords": ["mandatory", "regulatory", "compulsory", "obligation", "aadeshaat mak"]
+        },
+        {
+          "id": "RS-002",
+          "category": "Cautionary / Warning Signs",
+          "description": "Signs that warn road users of a hazard ahead.",
+          "shape": "Triangular (equilateral, apex upward)",
+          "colour": "White background with red border and black symbols",
+          "legal_basis": "IRC 67-2012",
+          "examples": [
+            "Sharp bend", "Steep descent", "Road narrows", "Slippery road",
+            "Pedestrian crossing", "School ahead", "Hump", "Rough road",
+            "Men at work", "Falling rocks"
+          ],
+          "keywords": ["warning", "cautionary", "hazard", "chetaawni", "savdhaani"]
+        },
+        {
+          "id": "RS-003",
+          "category": "Informatory Signs",
+          "description": "Signs that provide useful information to road users.",
+          "shape": "Rectangular or square",
+          "colour": "Blue or green background with white text/symbols",
+          "legal_basis": "IRC 67-2012",
+          "examples": [
+            "Direction signs", "Distance boards", "Route markers",
+            "Parking zones", "Hospital ahead", "Rest area", "Fuel station"
+          ],
+          "keywords": ["informatory", "information", "direction", "soochna", "jaankari"]
+        }
+      ],
+      "placement_rules": {
+        "general": "Signs installed alongside or above roadways/highways.",
+        "parking_signs": "Fixed at approximately 15 degrees to carriageway.",
+        "horizontal_curves": "Angle determined by approaching traffic direction.",
+        "sign_faces": "Normally vertical; tilted on gradients for line-of-sight.",
+        "max_signs_per_post": 2,
+        "restriction": "STOP or GIVE WAY signs must NOT share post with warning signs.",
+        "supplementary_plates": "Sign + plate = one sign.",
+        "source": "IRC 67-2012"
+      },
+      "size_rules": {
+        "sizes": ["Small", "Normal", "Large"],
+        "normal_size": "Main roads",
+        "small_size": "Less important/minor roads",
+        "urban_expressways": "Refer IRC 67-2012",
+        "max_languages_per_sign": 2,
+        "definition_plate": {
+          "background": "Retro-reflective white",
+          "text_colour": "Black",
+          "border_width_mm": 20,
+          "border_colour": "Black"
+        },
+        "source": "IRC 67-2012"
+      },
+      "visibility_rules": {
+        "night_requirement": "Cautionary/warning and regulatory signs must be lit or retro-reflective.",
+        "breakdown_requirement": "Retro-reflective triangle mandatory behind vehicle during breakdown.",
+        "source": "IRC 67-2012"
+      }
+    },
+
+    "road_markings": {
+      "chapter": "1.5",
+      "title": "Road Marking",
+      "definition": "Set of lines and designs painted or installed on road surface to facilitate smooth traffic movement, demarcate parking/no-parking areas, and convey vital information.",
+      "colours": [
+        {
+          "colour": "White",
+          "use": "Carriageway (road) markings — general use"
+        },
+        {
+          "colour": "Yellow",
+          "use": "Indicating restrictions (e.g. no-parking lines)"
+        },
+        {
+          "colour": "Black",
+          "use": "Kerb and object marking (combined with white or yellow)"
+        }
+      ],
+      "types": [
+        {
+          "id": "RM-001",
+          "name": "Centre Line — Single Broken",
+          "description": "Separates opposing traffic; vehicles may cross when safe to overtake.",
+          "road_type": "Two-lane, two-way road"
+        },
+        {
+          "id": "RM-002",
+          "name": "Centre Line — Single Continuous (Barrier Line)",
+          "description": "Prohibits crossing/overtaking. Vehicles must not cross this line.",
+          "road_type": "Two-lane, two-way road"
+        },
+        {
+          "id": "RM-003",
+          "name": "Centre Line — Double Broken",
+          "description": "Separates opposing traffic; overtaking permitted when safe.",
+          "road_type": "Two-lane, two-way road"
+        },
+        {
+          "id": "RM-004",
+          "name": "Centre Line — Double with One Continuous",
+          "description": "Mixed: one direction may overtake (broken side), other must not (solid side).",
+          "road_type": "Two-lane, two-way road"
+        },
+        {
+          "id": "RM-005",
+          "name": "Lane Lines",
+          "description": "Broken white lines separating same-direction lanes. May change lanes when safe.",
+          "road_type": "Multi-lane roads"
+        },
+        {
+          "id": "RM-006",
+          "name": "Edge / Border Lines",
+          "description": "Continuous lines at road edges marking safe drivable limit.",
+          "road_type": "All roads"
+        },
+        {
+          "id": "RM-007",
+          "name": "Stop Lines",
+          "description": "White transverse lines at intersections/pedestrian crossings. Vehicles must stop behind.",
+          "road_type": "Intersections"
+        },
+        {
+          "id": "RM-008",
+          "name": "Give Way Lines",
+          "description": "Double broken transverse lines indicating yield point.",
+          "road_type": "Junctions"
+        },
+        {
+          "id": "RM-009",
+          "name": "Pedestrian Crossing (Zebra Crossing)",
+          "description": "Alternating black and white stripes. Pedestrians must cross here; drivers must yield.",
+          "road_type": "All roads with pedestrian crossings"
+        },
+        {
+          "id": "RM-010",
+          "name": "Parking Prohibited Lines",
+          "description": "Solid continuous yellow line on kerb with No-Parking sign. Indicates no-parking extent.",
+          "road_type": "Urban roads"
+        }
+      ],
+      "materials": ["Traffic paints", "Road studs", "Cat's eyes", "Thermoplastic strips"]
+    },
+
+    "driving_licence": {
+      "chapter": "2",
+      "title": "Information to Get Driving Licence",
+      "issuing_authority": "Local Regional Transport Office (RTO) / Local Transport Authority",
+      "legal_basis": "Motor Vehicles Act 1988 / Central Motor Vehicles Rules 1989",
+      "types": [
+        {
+          "type": "Learner's Licence",
+          "minimum_age": {
+            "gearless_two_wheeler": 16,
+            "geared_motorcycle_and_LMV": 18,
+            "transport_commercial": 20
+          },
+          "validity_months": 6,
+          "process": [
+            "Apply at RTO with documents",
+            "Pass written/computer test on traffic rules",
+            "Learner's licence issued same day after all tests"
+          ]
+        },
+        {
+          "type": "Permanent Driving Licence",
+          "prerequisites": [
+            "Valid Learner's Licence",
+            "Apply after 30 days AND within 180 days of Learner's Licence issue",
+            "Well versed with driving, traffic rules, vehicle system"
+          ],
+          "documents_required": [
+            "Valid original Learner's Licence",
+            "Application in Form No. 4",
+            "Requisite fee",
+            "Proof of age and residence",
+            "One recent passport-size photograph",
+            "Form No. 5 (for commercial licence)",
+            "Vehicle of the category for which licence is sought"
+          ],
+          "process": [
+            "Document verification",
+            "Driving test — skills, vehicle familiarity, traffic rules",
+            "Pass → Permanent DL issued",
+            "Fail → Reappear after 7 days"
+          ]
+        }
+      ]
+    },
+
+    "speed_limits": {
+      "title": "Maximum Permissible Speed Limits (India)",
+      "unit": "km/h",
+      "legal_basis": "Motor Vehicles Act 1988 / Central Motor Vehicles Rules 1989",
+      "limits": [
+        {
+          "id": "SL-001",
+          "vehicle_type": "Motor vehicles carrying 9 or more passengers (beyond driver's seat)",
+          "max_speed_kmh": 80,
+          "category_code": "DATA NOT AVAILABLE"
+        },
+        {
+          "id": "SL-002",
+          "vehicle_type": "Motor vehicles carrying not more than 8 passengers (beyond driver's seat)",
+          "max_speed_kmh": 100,
+          "category_code": "DATA NOT AVAILABLE"
+        },
+        {
+          "id": "SL-003",
+          "vehicle_type": "Motor vehicles used for carriage of goods",
+          "max_speed_kmh": 80,
+          "category_code": "DATA NOT AVAILABLE"
+        },
+        {
+          "id": "SL-004",
+          "vehicle_type": "Quadricycle",
+          "max_speed_kmh": 70,
+          "category_code": "DATA NOT AVAILABLE"
+        },
+        {
+          "id": "SL-005",
+          "vehicle_type": "Three-wheeled vehicles",
+          "max_speed_kmh": 60,
+          "category_code": "DATA NOT AVAILABLE"
+        },
+        {
+          "id": "SL-006",
+          "vehicle_type": "Motor cycles",
+          "max_speed_kmh": 80,
+          "category_code": "DATA NOT AVAILABLE"
+        }
+      ]
+    },
+
+    "emission_norms": {
+      "title": "Emission Norms for Petrol/CNG/LPG Driven Vehicles",
+      "requirement": "PUC (Pollution Under Control) certificate mandatory for all vehicles.",
+      "norms": [
+        {
+          "id": "EN-001",
+          "vehicle_type": "Two Wheelers 2/4-Stroke",
+          "applicability": "Manufactured on and before 31st March 2000",
+          "CO_percent": 4.5,
+          "HC_ppm_n_hexane_equivalent": 9000
+        },
+        {
+          "id": "EN-002",
+          "vehicle_type": "Two Wheelers 2-Stroke",
+          "applicability": "Manufactured between 31 Mar 2000 and 31 Mar 2010",
+          "CO_percent": 3.5,
+          "HC_ppm_n_hexane_equivalent": 6000
+        },
+        {
+          "id": "EN-003",
+          "vehicle_type": "Two Wheelers 4-Stroke",
+          "applicability": "Manufactured between 31 Mar 2000 and 31 Mar 2010",
+          "CO_percent": 3.5,
+          "HC_ppm_n_hexane_equivalent": 4500
+        },
+        {
+          "id": "EN-004",
+          "vehicle_type": "Two Wheelers 2-Stroke",
+          "applicability": "Manufactured after 31st March 2010",
+          "CO_percent": 3.0,
+          "HC_ppm_n_hexane_equivalent": 4000
+        },
+        {
+          "id": "EN-005",
+          "vehicle_type": "Two Wheelers 4-Stroke",
+          "applicability": "Manufactured after 31st March 2010",
+          "CO_percent": 3.0,
+          "HC_ppm_n_hexane_equivalent": 3000
+        },
+        {
+          "id": "EN-006",
+          "vehicle_type": "Three-Wheelers 2/4-Stroke",
+          "applicability": "Manufactured on and before 31st March 2000",
+          "CO_percent": 4.5,
+          "HC_ppm_n_hexane_equivalent": 9000
+        },
+        {
+          "id": "EN-007",
+          "vehicle_type": "Three-Wheelers 2-Stroke",
+          "applicability": "Manufactured on and before 31st March 2000",
+          "CO_percent": 3.5,
+          "HC_ppm_n_hexane_equivalent": 6000
+        },
+        {
+          "id": "EN-008",
+          "vehicle_type": "Three-Wheelers 4-Stroke",
+          "applicability": "Manufactured on and before 31st March 2000",
+          "CO_percent": 3.5,
+          "HC_ppm_n_hexane_equivalent": 4500
+        },
+        {
+          "id": "EN-009",
+          "vehicle_type": "Three-Wheelers 4-Stroke",
+          "applicability": "Manufactured after 31st March 2010",
+          "CO_percent": 3.0,
+          "HC_ppm_n_hexane_equivalent": 3000
+        },
+        {
+          "id": "EN-010",
+          "vehicle_type": "Passenger Cars (Petrol)",
+          "applicability": "General",
+          "CO_percent": 0.5,
+          "HC_ppm_n_hexane_equivalent": 750
+        }
+      ]
+    },
+
+    "road_crash_statistics": {
+      "title": "Road Crash Scenario in India",
+      "source": "Ministry of Road Transport & Highways",
+      "data": [
+        {"year": 2005, "total_crashes": 439255, "persons_killed": 94968, "persons_injured": 465282},
+        {"year": 2006, "total_crashes": 460920, "persons_killed": 105749, "persons_injured": 496481},
+        {"year": 2007, "total_crashes": 479216, "persons_killed": 114444, "persons_injured": 513340},
+        {"year": 2008, "total_crashes": 484704, "persons_killed": 119860, "persons_injured": 523193},
+        {"year": 2009, "total_crashes": 486384, "persons_killed": 125660, "persons_injured": 515458},
+        {"year": 2010, "total_crashes": 499628, "persons_killed": 134513, "persons_injured": 527512},
+        {"year": 2011, "total_crashes": 497686, "persons_killed": 142485, "persons_injured": 511394},
+        {"year": 2012, "total_crashes": 490383, "persons_killed": 138258, "persons_injured": 509667},
+        {"year": 2013, "total_crashes": 486476, "persons_killed": 137572, "persons_injured": 494893}
+      ],
+      "key_stat_2011": {
+        "crashes": "~490,000 (4.9 lakh)",
+        "deaths": 142485,
+        "injured": "500,000+",
+        "rate": "1 crash per minute; 1 death every 4 minutes"
+      }
+    },
+
+    "traffic_violations": [
+      {
+        "id": "TV-001",
+        "violation": "Over Speeding",
+        "description": "Driving above prescribed speed limits.",
+        "severity": "High",
+        "legal_basis": "Motor Vehicles Act 1988",
+        "section": "DATA NOT AVAILABLE",
+        "first_offence_fine_inr": "DATA NOT AVAILABLE",
+        "repeat_offence_fine_inr": "DATA NOT AVAILABLE",
+        "imprisonment": "DATA NOT AVAILABLE",
+        "compoundable": "DATA NOT AVAILABLE",
+        "keywords": ["speeding", "tez gati", "over speed", "speed limit violation"]
+      },
+      {
+        "id": "TV-002",
+        "violation": "Drunken Driving",
+        "description": "Driving under influence of alcohol or drugs. BAC limit: 0.03% (30 mg per 100 ml blood).",
+        "bac_legal_limit_percent": 0.03,
+        "bac_legal_limit_mg_per_100ml": 30,
+        "severity": "High",
+        "legal_basis": "Motor Vehicles Act 1988",
+        "section": "DATA NOT AVAILABLE",
+        "first_offence_fine_inr": "DATA NOT AVAILABLE",
+        "repeat_offence_fine_inr": "DATA NOT AVAILABLE",
+        "imprisonment": "DATA NOT AVAILABLE",
+        "compoundable": "No",
+        "keywords": ["drunk driving", "drink and drive", "alcohol", "DUI", "nashe mein gaadi"]
+      },
+      {
+        "id": "TV-003",
+        "violation": "Not Wearing Helmet",
+        "description": "Two-wheeler rider or pillion not wearing ISI-marked helmet.",
+        "applies_to": ["Two-wheeler rider", "Pillion passenger"],
+        "severity": "Medium",
+        "legal_basis": "Motor Vehicles Act 1988",
+        "section": "DATA NOT AVAILABLE",
+        "first_offence_fine_inr": "DATA NOT AVAILABLE",
+        "repeat_offence_fine_inr": "DATA NOT AVAILABLE",
+        "imprisonment": "DATA NOT AVAILABLE",
+        "compoundable": "DATA NOT AVAILABLE",
+        "keywords": ["helmet", "ISI helmet", "no helmet", "two-wheeler safety", "topi"]
+      },
+      {
+        "id": "TV-004",
+        "violation": "Not Wearing Seat Belt",
+        "description": "Four-wheeler driver or front passenger not wearing seat belt.",
+        "applies_to": ["Four-wheeler driver", "Front passenger"],
+        "severity": "Medium",
+        "legal_basis": "Motor Vehicles Act 1988",
+        "section": "DATA NOT AVAILABLE",
+        "first_offence_fine_inr": "DATA NOT AVAILABLE",
+        "repeat_offence_fine_inr": "DATA NOT AVAILABLE",
+        "imprisonment": "DATA NOT AVAILABLE",
+        "compoundable": "DATA NOT AVAILABLE",
+        "keywords": ["seat belt", "seatbelt", "safety belt", "seat belt fine India"]
+      },
+      {
+        "id": "TV-005",
+        "violation": "Using Mobile Phone While Driving",
+        "description": "Talking on or using mobile phone while driving a vehicle.",
+        "severity": "High",
+        "legal_basis": "Motor Vehicles Act 1988",
+        "section": "DATA NOT AVAILABLE",
+        "first_offence_fine_inr": "DATA NOT AVAILABLE",
+        "repeat_offence_fine_inr": "DATA NOT AVAILABLE",
+        "imprisonment": "DATA NOT AVAILABLE",
+        "compoundable": "DATA NOT AVAILABLE",
+        "keywords": ["mobile phone", "cell phone", "texting while driving", "distraction"]
+      },
+      {
+        "id": "TV-006",
+        "violation": "Red Light Jumping",
+        "description": "Crossing intersection without stopping at red traffic signal.",
+        "severity": "High",
+        "legal_basis": "Motor Vehicles Act 1988",
+        "section": "DATA NOT AVAILABLE",
+        "first_offence_fine_inr": "DATA NOT AVAILABLE",
+        "repeat_offence_fine_inr": "DATA NOT AVAILABLE",
+        "imprisonment": "DATA NOT AVAILABLE",
+        "compoundable": "DATA NOT AVAILABLE",
+        "keywords": ["red light", "signal jumping", "lal batti", "traffic signal violation"]
+      },
+      {
+        "id": "TV-007",
+        "violation": "Lane Driving Violation / Improper Overtaking",
+        "description": "Not staying in lane; overtaking in wrong manner or at wrong location.",
+        "severity": "Medium",
+        "legal_basis": "Motor Vehicles Act 1988",
+        "section": "DATA NOT AVAILABLE",
+        "first_offence_fine_inr": "DATA NOT AVAILABLE",
+        "repeat_offence_fine_inr": "DATA NOT AVAILABLE",
+        "imprisonment": "DATA NOT AVAILABLE",
+        "compoundable": "DATA NOT AVAILABLE",
+        "keywords": ["lane driving", "overtaking", "wrong lane", "lane violation"]
+      },
+      {
+        "id": "TV-008",
+        "violation": "Overloading",
+        "description": "Carrying passengers or goods exceeding permitted capacity.",
+        "severity": "Medium",
+        "legal_basis": "Motor Vehicles Act 1988",
+        "section": "DATA NOT AVAILABLE",
+        "first_offence_fine_inr": "DATA NOT AVAILABLE",
+        "repeat_offence_fine_inr": "DATA NOT AVAILABLE",
+        "imprisonment": "DATA NOT AVAILABLE",
+        "compoundable": "DATA NOT AVAILABLE",
+        "keywords": ["overloading", "overcrowding", "excess load", "zyada sawari"]
+      },
+      {
+        "id": "TV-009",
+        "violation": "Driving Without Valid Licence",
+        "description": "Operating a motor vehicle without a valid driving licence.",
+        "severity": "High",
+        "legal_basis": "Motor Vehicles Act 1988",
+        "section": "DATA NOT AVAILABLE",
+        "first_offence_fine_inr": "DATA NOT AVAILABLE",
+        "repeat_offence_fine_inr": "DATA NOT AVAILABLE",
+        "imprisonment": "DATA NOT AVAILABLE",
+        "compoundable": "DATA NOT AVAILABLE",
+        "keywords": ["no licence", "driving without licence", "DL", "licence"]
+      },
+      {
+        "id": "TV-010",
+        "violation": "No PUC Certificate",
+        "description": "Driving a vehicle without valid Pollution Under Control certificate.",
+        "severity": "Low",
+        "legal_basis": "Motor Vehicles Act 1988",
+        "section": "DATA NOT AVAILABLE",
+        "first_offence_fine_inr": "DATA NOT AVAILABLE",
+        "repeat_offence_fine_inr": "DATA NOT AVAILABLE",
+        "imprisonment": "DATA NOT AVAILABLE",
+        "compoundable": "DATA NOT AVAILABLE",
+        "keywords": ["PUC", "pollution certificate", "emission check", "pradushan"]
+      }
+    ],
+
+    "vehicle_categories": [
+      {
+        "id": "VC-001",
+        "category": "MCWOG / LMV-NT",
+        "description": "Motor Cycle Without Gear — gearless scooters, mopeds",
+        "minimum_age_years": 16,
+        "licence_required": "MCWOG / LMV-NT endorsement",
+        "speed_limit_kmh": 80
+      },
+      {
+        "id": "VC-002",
+        "category": "MCW Gear",
+        "description": "Motor Cycle With Gear",
+        "minimum_age_years": 18,
+        "licence_required": "Motor Cycle With Gear endorsement",
+        "speed_limit_kmh": 80
+      },
+      {
+        "id": "VC-003",
+        "category": "LMV",
+        "description": "Light Motor Vehicle — cars, jeeps up to 7500 kg GVW",
+        "minimum_age_years": 18,
+        "licence_required": "LMV endorsement",
+        "speed_limit_kmh": 100
+      },
+      {
+        "id": "VC-004",
+        "category": "Transport / HMV",
+        "description": "Heavy Motor Vehicle — buses, trucks above 7500 kg GVW",
+        "minimum_age_years": 20,
+        "licence_required": "Transport vehicle endorsement",
+        "speed_limit_kmh": 80,
+        "additional_requirement": "Compulsory training before permanent DL"
+      },
+      {
+        "id": "VC-005",
+        "category": "Three-Wheeler",
+        "description": "Auto-rickshaws, tempos",
+        "minimum_age_years": 18,
+        "licence_required": "LMV or specific three-wheeler endorsement",
+        "speed_limit_kmh": 60
+      },
+      {
+        "id": "VC-006",
+        "category": "Quadricycle",
+        "description": "Four-wheeled vehicle up to 450 kg unladen weight",
+        "minimum_age_years": 18,
+        "licence_required": "LMV endorsement",
+        "speed_limit_kmh": 70
+      },
+      {
+        "id": "VC-007",
+        "category": "Electric Two-Wheeler (Non-Motor Vehicle)",
+        "description": "Battery-operated two-wheeler not classified as motor vehicle under CMVR 2014",
+        "criteria": {
+          "motor_power_kW_max": 0.25,
+          "max_speed_kmh": 25,
+          "unladen_weight_kg_max": 60,
+          "must_have": ["brakes", "white front reflector", "red rear reflector"]
+        },
+        "licence_required": "None (not a motor vehicle under CMVR 2014)",
+        "minimum_age_years": "DATA NOT AVAILABLE (minor children may ride)"
+      }
+    ],
+
+    "safety_rules": {
+      "pedestrians": {
+        "chapter": "6",
+        "title": "Safety Tips for Pedestrians",
+        "rules": [
+          "Walk on footpath; if unavailable, walk on RIGHT side facing traffic.",
+          "Cross only at designated points: zebra crossings, pelican crossings, subways, foot over bridges.",
+          "Never assume the driver has seen you before crossing.",
+          "Wait for suitable gap in traffic flow before crossing.",
+          "Never jump over divider railings.",
+          "Always hold children's hands while crossing the road.",
+          "Avoid crossing road between parked cars.",
+          "Take the shortest and most direct route across.",
+          "Use Green Cross Code: STOP → LOOK → LISTEN → THINK → Live.",
+          "Extra care required on crests and curves.",
+          "Children under 10 must be accompanied by an adult."
+        ]
+      },
+      "cyclists": {
+        "chapter": "7",
+        "title": "Safety Tips for Cyclist",
+        "statistics": {
+          "percent_injuries_fatalities_under_16": 40
+        },
+        "rules": [
+          "Keep cycle in working condition: check brakes, tyres, air, bell, light, chain before riding.",
+          "Obey traffic signals; give hand signals for turns.",
+          "Do not overload; maximum 2 persons on a bicycle.",
+          "Move on LEFT side of road.",
+          "Avoid overtaking; single file if road is narrow.",
+          "No acrobatics; keep both hands on handlebar.",
+          "Use only cycle tracks if available.",
+          "Remain constantly alert on roads.",
+          "Wear bright clothes; have bright front light at night.",
+          "Use retro-reflective tapes on cycle for night visibility."
+        ]
+      },
+      "school_bus": {
+        "chapter": "8",
+        "title": "Safety Tips for School Bus",
+        "boarding_rules": [
+          "Wait till bus stops completely before boarding.",
+          "Enter in single file line.",
+          "Hold hand rails and enter.",
+          "Ensure bag or clothes do not get stuck.",
+          "Go straight to your seat."
+        ],
+        "travelling_rules": [
+          "Be seated properly and face forward.",
+          "Do not put any body part outside the bus.",
+          "Do not travel on footboard.",
+          "Keep aisle clear.",
+          "Do not distract driver.",
+          "Follow driver and conductor instructions."
+        ],
+        "alighting_rules": [
+          "Wait till bus stops completely.",
+          "Use handrails to get off.",
+          "Exit from front door.",
+          "Be visible to driver while alighting.",
+          "Do not crawl under bus to pick up lost things.",
+          "Never move behind the bus (driver's blind spot)."
+        ]
+      },
+      "parking": {
+        "chapter": "9",
+        "title": "Know the Correct Way of Parking",
+        "rules": [
+          "Always look for authorised parking.",
+          "Opt for parallel parking.",
+          "Always use indicators while parking.",
+          "While opening car door, ensure it does not bang another car.",
+          "In slope/hilly areas: keep forward gear if slope is behind; reverse gear if slope is in front.",
+          "Always pull hand brake unless asked by attendant.",
+          "Take receipt from parking attendant.",
+          "Respect No Standing/No Waiting/No Parking zones.",
+          "Do not park haphazardly.",
+          "Avoid keeping valuables in parked car.",
+          "Never leave children in a parked and locked car.",
+          "Park with parking lights on at night.",
+          "Avoid parking brawls — it is a form of road rage."
+        ]
+      }
+    },
+
+    "first_aid": {
+      "chapter": "4",
+      "title": "How to Help Road Crash Victims",
+      "remember": [
+        "Make the site safe.",
+        "Look for the injured.",
+        "Assist them.",
+        "Call help and look for unconscious victims."
+      ],
+      "abc_rule": {
+        "A": {
+          "stands_for": "Airway",
+          "action": "Clear the airway — lay victim gently, turn to one side, loosen clothing at neck/chest/waist, tilt face down so tongue falls forward, remove dirt/blood/vomit from mouth."
+        },
+        "B": {
+          "stands_for": "Breathing",
+          "action": "Mouth-to-mouth resuscitation if victim not breathing. Blow every 4 seconds (adults), every 3 seconds (children)."
+        },
+        "C": {
+          "stands_for": "Circulation",
+          "action": "Stop any bleeding — direct pressure with thick pad of bandage/cloth, elevate bleeding limbs, do not remove foreign objects from wound, apply pads and bandage around wound."
+        }
+      },
+      "mouth_to_mouth_steps": [
+        "Step 1: Call ambulance.",
+        "Step 2: Tilt head back, lift chin, check breathing.",
+        "Step 3: Give two breaths.",
+        "Step 4: Check pulse.",
+        "Step 5: Position hands in centre of chest.",
+        "Step 6: Firmly push down ~2 inches on chest 15 times.",
+        "Continue: 2 breaths + 15 chest compressions until help arrives."
+      ],
+      "supreme_court_ruling": {
+        "case": "Pt. Parmanand Katara vs Union of India",
+        "citation": "Criminal Writ Petition No. 270 of 1988, D/-28.8.1989, AIR 1989 Supreme Court 2039",
+        "ruling_summary": "Every injured citizen brought for medical treatment must be given immediate medical aid. No legal impediment for a medical professional called to attend an injured person needing immediate assistance. IPC, CrPC, Motor Vehicles Act contain no provisions preventing doctors from promptly attending seriously injured persons before police arrival."
+      }
+    },
+
+    "common_crash_causes": {
+      "chapter": "3",
+      "title": "Common Causes of Road Crashes",
+      "causes": [
+        {
+          "rank": 1,
+          "cause": "Over Speeding",
+          "percentage": 73.06,
+          "description": "Higher speed exponentially multiplies crash risk and injury severity. Faster vehicles need greater braking distance and are more prone to skidding."
+        },
+        {
+          "rank": 2,
+          "cause": "Drunken Driving",
+          "percentage": 2.7,
+          "description": "Alcohol impairs concentration, slows reaction, dampens fear, incites risk-taking. For every 0.05% rise in BAC, crash risk doubles."
+        },
+        {
+          "rank": 3,
+          "cause": "Overtaking",
+          "percentage": 14.6,
+          "description": "Wrong manner or wrong location overtaking."
+        },
+        {
+          "rank": 4,
+          "cause": "Distraction to Driver",
+          "percentage": "DATA NOT AVAILABLE",
+          "description": "Mobile phone use, adjusting mirrors/radio, eating/drinking, animals on road, billboards."
+        },
+        {
+          "rank": 5,
+          "cause": "Red Light Jumping",
+          "percentage": 1.6,
+          "description": "Vehicles crossing intersection without caring for traffic signal."
+        },
+        {
+          "rank": 6,
+          "cause": "Avoiding Safety Gears (Seat Belt/Helmet)",
+          "percentage": 1.6,
+          "description": "Failure to use mandated protective equipment."
+        },
+        {
+          "rank": 7,
+          "cause": "Non-Adherence to Lane Driving",
+          "percentage": "DATA NOT AVAILABLE",
+          "description": "Not staying in lane; improper overtaking."
+        }
+      ]
+    },
+
+    "difficult_conditions_driving": {
+      "fog": {
+        "rules": [
+          "Reduce speed.",
+          "Turn headlights on LOW BEAM mode.",
+          "Turn on fog lamps and parking lights.",
+          "Use defroster and windscreen wipers.",
+          "Maintain safe distance between vehicles.",
+          "If impossible to drive, pull off completely and keep blinkers on."
+        ]
+      },
+      "hill_driving": {
+        "rules": [
+          "Experienced and skilled drivers only.",
+          "Follow speed limits; reduce speed at turns.",
+          "Always give priority to uphill traffic.",
+          "Never drive under influence of alcohol on hills.",
+          "Do not overtake on turns, curves, or bridges.",
+          "Do not overload vehicle.",
+          "Avoid clutch pedal on turns and hairpin bends.",
+          "Do not run on neutral while driving downhill.",
+          "Always blow horn on turns.",
+          "Check brakes and tyres before hill journey."
+        ]
+      },
+      "night_driving": {
+        "rules": [
+          "Ensure all headlights, taillights, directional signals operational.",
+          "Drive slowly at night.",
+          "Keep more space between vehicles.",
+          "Use HIGH beam only in dark/remote areas where road is not visible.",
+          "On well-lit corridors: drive with low beam (dipped headlights).",
+          "Never stop on any roadway at night.",
+          "Never drink and drive.",
+          "Retro-reflective triangle mandatory during breakdown."
+        ]
+      },
+      "rain_driving": {
+        "rules": [
+          "Drive slow.",
+          "Keep pedalling brakes to check performance.",
+          "Use windscreen wipers and demisters.",
+          "Increase distance between vehicles.",
+          "Do not take sharp turns.",
+          "If heavy rain: keep blinkers on.",
+          "Drive carefully through waterlogged roads (potholes).",
+          "If no power brakes: drive more cautiously and slowly.",
+          "Do not overtake unnecessarily.",
+          "Ensure tyres properly maintained — clean and visible treads.",
+          "Do not speed up through collected water (splash hazard).",
+          "Keep mud flaps in good condition.",
+          "Always keep umbrella in vehicle during monsoon."
+        ]
+      }
+    },
+
+    "national_road_safety_policy": {
+      "status": "Approved by Government of India",
+      "aims": [
+        "Establish a road safety information database.",
+        "Ensure safer road infrastructure via ITS and safer road design.",
+        "Ensure safety features in vehicles at design/manufacture/operation/maintenance stages.",
+        "Strengthen driver licensing and training system.",
+        "Ensure safety of vulnerable road users.",
+        "Ensure emergency medical attention for crash victims.",
+        "Encourage R&D for road safety.",
+        "Strengthen legal, institutional, and financial environment for road safety."
+      ],
+      "cashless_treatment_pilot": {
+        "initiative": "Cashless Treatment for Road Crash Victims on National Highways",
+        "launched": "July 2013",
+        "stretch": "NH-8, Gurgaon–Jaipur",
+        "features": [
+          "Single toll-free number 1033 for ambulances.",
+          "Network of empanelled hospitals.",
+          "Cashless treatment for first 48 hours.",
+          "Payment at CGHS/AIIMS rates.",
+          "Monetary ceiling: Rs. 30,000/- per case.",
+          "24x7 call centre for ambulance coordination.",
+          "Mobile police posts on selected stretches.",
+          "Standard operating protocols for crash victims.",
+          "Road Safety Volunteers via Nehru Yuva Kendra Sangathan."
+        ]
+      }
+    },
+
+    "myths_vs_facts": [
+      {
+        "myth": "The lane in front of your home is meant for you to play.",
+        "fact": "Definitely not. It can lead to crashes and injury. It is only meant for traffic."
+      },
+      {
+        "myth": "Children are allowed to ride a light scooter on roads inside a colony.",
+        "fact": "Not so. It is illegal on any road where traffic is plying."
+      },
+      {
+        "myth": "It is alright for 2 adults and 1 child to ride a two-wheeler.",
+        "fact": "Definitely not. Only 2 persons can ride a two-wheeler, both wearing helmets."
+      },
+      {
+        "myth": "One can answer an urgent mobile call while driving.",
+        "fact": "No. Use of mobile phone while driving can lead to accidents and is a punishable offence."
+      },
+      {
+        "myth": "Helmet not necessary while riding two-wheeler for short distances.",
+        "fact": "Helmet must always be worn, even for shorter distances. Many crashes occur during short rides."
+      }
+    ],
+
+    "multilingual_support": {
+      "key_terms": [
+        {
+          "english": "Road Safety",
+          "hindi": "सड़क सुरक्षा",
+          "tamil": "சாலை பாதுகாப்பு",
+          "telugu": "రోడ్డు భద్రత",
+          "kannada": "ರಸ್ತೆ ಸುರಕ್ಷತೆ",
+          "malayalam": "റോഡ് സുരക്ഷ",
+          "bengali": "সড়ক নিরাপত্তা"
+        },
+        {
+          "english": "Traffic Signs",
+          "hindi": "यातायात चिन्ह",
+          "tamil": "போக்குவரத்து அடையாளங்கள்",
+          "telugu": "ట్రాఫిక్ సంకేతాలు",
+          "kannada": "ಸಂಚಾರ ಚಿಹ್ನೆಗಳು",
+          "malayalam": "ട്രാഫിക് ചിഹ്നങ്ങൾ",
+          "bengali": "যানবাহন চিহ্ন"
+        },
+        {
+          "english": "Speed Limit",
+          "hindi": "गति सीमा",
+          "tamil": "வேக வரம்பு",
+          "telugu": "వేగ పరిమితి",
+          "kannada": "ವೇಗ ಮಿತಿ",
+          "malayalam": "വേഗ പരിധി",
+          "bengali": "গতি সীমা"
+        },
+        {
+          "english": "Helmet",
+          "hindi": "हेलमेट",
+          "tamil": "தலைக்கவசம்",
+          "telugu": "హెల్మెట్",
+          "kannada": "ಹೆಲ್ಮೆಟ್",
+          "malayalam": "ഹെൽമറ്റ്",
+          "bengali": "হেলমেট"
+        },
+        {
+          "english": "Seat Belt",
+          "hindi": "सीट बेल्ट",
+          "tamil": "இருக்கை பட்டி",
+          "telugu": "సీట్ బెల్ట్",
+          "kannada": "ಸೀಟ್ ಬೆಲ್ಟ್",
+          "malayalam": "സീറ്റ് ബെൽറ്റ്",
+          "bengali": "সিট বেল্ট"
+        },
+        {
+          "english": "Drunk Driving",
+          "hindi": "नशे में गाड़ी चलाना",
+          "tamil": "குடிபோதையில் வாகனம் ஓட்டுதல்",
+          "telugu": "మద్యం తాగి వాహనం నడపడం",
+          "kannada": "ಮದ್ಯಪಾನ ಮಾಡಿ ವಾಹನ ಚಲಾಯಿಸುವುದು",
+          "malayalam": "മദ്യപിച്ച് വാഹനം ഓടിക്കൽ",
+          "bengali": "মদ্যপ অবস্থায় গাড়ি চালানো"
+        },
+        {
+          "english": "Driving Licence",
+          "hindi": "ड्राइविंग लाइसेंस",
+          "tamil": "ஓட்டுநர் உரிமம்",
+          "telugu": "డ్రైవింగ్ లైసెన్స్",
+          "kannada": "ಚಾಲನಾ ಪರವಾನಗಿ",
+          "malayalam": "ഡ്രൈവിംഗ് ലൈസൻസ്",
+          "bengali": "ড্রাইভিং লাইসেন্স"
+        },
+        {
+          "english": "Pedestrian Crossing",
+          "hindi": "पैदल पारपथ / जेब्रा क्रॉसिंग",
+          "tamil": "பாதசாரி கடந்து செல்லும் இடம்",
+          "telugu": "పాదచారి దాటుదల",
+          "kannada": "ಪಾದಚಾರಿ ಕ್ರಾಸಿಂಗ್",
+          "malayalam": "കാൽനട ക്രോസ്സിംഗ്",
+          "bengali": "পথচারী ক্রসিং"
+        },
+        {
+          "english": "Pollution Check (PUC)",
+          "hindi": "प्रदूषण जाँच",
+          "tamil": "மாசு சோதனை",
+          "telugu": "కాలుష్య తనిఖీ",
+          "kannada": "ಮಾಲಿನ್ಯ ತಪಾಸಣೆ",
+          "malayalam": "മലിനീകരണ പരിശോധന",
+          "bengali": "দূষণ পরীক্ষা"
+        },
+        {
+          "english": "Road Marking",
+          "hindi": "सड़क मार्किंग",
+          "tamil": "சாலை குறியீடு",
+          "telugu": "రోడ్డు గుర్తు",
+          "kannada": "ರಸ್ತೆ ಗುರುತು",
+          "malayalam": "റോഡ് മാർക്കിംഗ്",
+          "bengali": "রাস্তার চিহ্নিতকরণ"
+        }
+      ]
+    },
+
+    "search_keywords": {
+      "legal_keywords": [
+        "Motor Vehicles Act 1988", "Central Motor Vehicles Rules 1989",
+        "IRC 67-2012", "MoRTH", "RTO", "SARATHI", "VAHAN", "PUC",
+        "BAC", "ISI helmet", "driving licence", "learner licence",
+        "permanent licence", "challan", "traffic violation", "compoundable offence",
+        "national highway", "traffic signal", "speed limit", "road marking",
+        "road sign", "mandatory sign", "cautionary sign", "informatory sign",
+        "zebra crossing", "pedestrian crossing", "lane driving", "overtaking",
+        "seat belt", "helmet", "emission norms", "overloading"
+      ],
+      "citizen_friendly_keywords": [
+        "road rules India", "traffic signs meaning", "speed limit India",
+        "helmet law India", "seatbelt fine India", "drunk driving limit India",
+        "driving licence process India", "how to get driving licence",
+        "PUC certificate", "road safety tips India", "accident first aid",
+        "parking rules India", "night driving tips", "fog driving safety",
+        "rain driving tips", "school bus rules India", "cyclist safety India",
+        "pedestrian safety India", "how to help accident victim India",
+        "road signs India meaning", "traffic fine India"
+      ],
+      "common_queries": [
+        "What is the speed limit for motorcycles in India?",
+        "What documents are needed for a permanent driving licence?",
+        "What is the BAC limit for drunk driving in India?",
+        "Is helmet mandatory for pillion riders in India?",
+        "How many people can ride a two-wheeler?",
+        "What are the types of road signs in India?",
+        "What is a zebra crossing?",
+        "What is a barrier line on the road?",
+        "How to get a learner's licence in India?",
+        "What is the PUC certificate?",
+        "What is the emission norm for two-wheelers in India?",
+        "What is the first offence fine for over speeding?",
+        "What is the ABC rule for first aid?",
+        "How to drive safely in fog?",
+        "What are the parking rules in India?"
+      ]
+    },
+
+    "data_quality_report": {
+      "coverage_analysis": {
+        "total_chapters_covered": 21,
+        "total_sign_categories": 3,
+        "total_road_marking_types": 10,
+        "total_violation_records": 10,
+        "total_speed_limit_records": 6,
+        "total_emission_norm_records": 10,
+        "crash_statistics_years_covered": "2005-2013",
+        "vehicle_categories_defined": 7
+      },
+      "missing_data": [
+        "Specific fine amounts (INR) for all violations — not enumerated in source PDF.",
+        "Gazette numbers for all referenced acts and rules.",
+        "Source URLs (print publication — no digital URLs provided).",
+        "Effective dates for all specific sections of the Motor Vehicles Act.",
+        "State-level overrides and amendments.",
+        "City/municipal-specific rules.",
+        "Repeat offence fine multipliers.",
+        "Section numbers for specific violations.",
+        "Whether violations are compoundable (for most entries).",
+        "Imprisonment duration for most violations.",
+        "Crash statistics beyond 2013 (source publication date)."
+      ],
+      "conflicting_rules": "None identified within this single source.",
+      "ambiguous_text": [
+        "Minimum age for electric two-wheelers for minors not explicitly stated.",
+        "Exact fine amounts referenced but not tabulated in this source."
+      ],
+      "validation_notes": [
+        "All speed limits verified against table in source (Chapter 2 / Do You Know section).",
+        "Emission norms verified against table in source (Chapter 21 / Do You Know section).",
+        "Road crash statistics verified against table in source (Chapter 3).",
+        "BAC limit of 0.03% verified in source text.",
+        "Supreme Court citation verified in source (Chapter 4)."
+      ]
+    }
+  }
+}

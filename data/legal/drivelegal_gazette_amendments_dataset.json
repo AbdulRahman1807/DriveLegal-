@@ -1,0 +1,461 @@
+{
+  "drivelegal_gazette_amendments": {
+    "meta": {
+      "version": "1.0.0",
+      "generated_for": "DRIVELEGAL HHA-VRAG+ Legal Retrieval System",
+      "generated_date": "2026-05-30",
+      "country": "India",
+      "primary_acts": [
+        "Central Motor Vehicles Rules, 1989",
+        "National Highways Act, 1956"
+      ],
+      "source": "Gazette of India — Official Notifications",
+      "jurisdiction": "India (Pan-India)",
+      "data_quality_notes": "All entries sourced directly from Gazette of India notifications. No values inferred or invented. Unknown values marked DATA_NOT_AVAILABLE."
+    },
+
+    "gazette_notifications": [
+      {
+        "notification_id": "GSR-1462E-2017",
+        "notification_no": "G.S.R. 1462(E)",
+        "date": "2017-11-27",
+        "amendment_name": "13th Amendment — Central Motor Vehicles Rules, 1989",
+        "amendment_number": "13th",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "parent_act": "Motor Vehicles Act, 1988",
+        "source": "Gazette of India",
+        "jurisdiction": "India",
+        "effective_date": "DATA_NOT_AVAILABLE",
+        "effective_after": "2 months from date of publication",
+        "effective_after_months": 2,
+        "rules_modified": [
+          {
+            "rule": "Rule 128",
+            "rule_title": "Tourist Bus Safety Equipment",
+            "change_type": "EXEMPTION_ADDED",
+            "change_description": "Tourist buses complying with AIS:52, AIS:119 or AIS:139 are exempted from Rule 128 provisions.",
+            "applicable_vehicle_categories": ["TOURIST_BUS", "BUS"],
+            "applicable_standards": ["AIS:52", "AIS:119", "AIS:139"],
+            "old_provision": "Rule 128 applied without exemption to tourist buses",
+            "new_provision": "Tourist buses conforming to AIS:52, AIS:119 or AIS:139 are exempt from Rule 128",
+            "keywords": ["tourist bus", "AIS 52", "AIS 119", "AIS 139", "bus exemption", "Rule 128"],
+            "rag_chunk": "G.S.R. 1462(E) dated 27-Nov-2017 | 13th Amendment | Rule 128 | Tourist buses complying with AIS:52 / AIS:119 / AIS:139 exempted from Rule 128. Effective 2 months from publication."
+          }
+        ]
+      },
+
+      {
+        "notification_id": "GSR-1463E-2017",
+        "notification_no": "G.S.R. 1463(E)",
+        "date": "2017-11-27",
+        "amendment_name": "15th Amendment — Central Motor Vehicles Rules, 1989",
+        "amendment_number": "15th",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "parent_act": "Motor Vehicles Act, 1988",
+        "source": "Gazette of India",
+        "jurisdiction": "India",
+        "effective_date": "2019-04-01",
+        "effective_after": "DATA_NOT_AVAILABLE",
+        "effective_after_months": null,
+        "rules_modified": [
+          {
+            "rule": "Rule 98",
+            "rule_title": "Steering Gear and Steering Effort Standards",
+            "change_type": "STANDARD_UPDATED",
+            "changes": [
+              {
+                "sub_provision": "Steering Gear",
+                "applicable_vehicle_categories": ["L", "M", "N"],
+                "new_standard": "IS 12222:2011",
+                "old_standard": "DATA_NOT_AVAILABLE",
+                "change_description": "Motor vehicles of categories L, M and N must conform to IS 12222:2011 for steering gear."
+              },
+              {
+                "sub_provision": "Steering Effort",
+                "applicable_vehicle_categories": ["ALL_APPLICABLE"],
+                "new_standard": "IS 11948:2010",
+                "old_standard": "DATA_NOT_AVAILABLE",
+                "change_description": "All applicable motor vehicles must conform to IS 11948:2010 for steering effort."
+              }
+            ],
+            "keywords": ["steering gear", "steering effort", "IS 12222", "IS 11948", "vehicle category L", "vehicle category M", "vehicle category N", "Rule 98"],
+            "rag_chunk": "G.S.R. 1463(E) dated 27-Nov-2017 | 15th Amendment | Rule 98 | Steering gear for L/M/N category vehicles must comply with IS 12222:2011. Steering effort for all applicable vehicles must comply with IS 11948:2010. Effective from 01-Apr-2019."
+          }
+        ]
+      },
+
+      {
+        "notification_id": "GSR-1464E-2017",
+        "notification_no": "G.S.R. 1464(E)",
+        "date": "2017-11-27",
+        "amendment_name": "14th Amendment — Central Motor Vehicles Rules, 1989",
+        "amendment_number": "14th",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "parent_act": "Motor Vehicles Act, 1988",
+        "source": "Gazette of India",
+        "jurisdiction": "India",
+        "effective_date": "2017-11-27",
+        "effective_after": "Date of publication",
+        "effective_after_months": 0,
+        "rules_modified": [
+          {
+            "rule": "Rule 97",
+            "rule_title": "Omission of Sub-rule 3",
+            "change_type": "OMISSION",
+            "sub_rule": "Rule 97(3)",
+            "change_description": "Rule 97 Sub-rule (3) is omitted entirely.",
+            "old_provision": "Rule 97(3) existed",
+            "new_provision": "Rule 97(3) omitted",
+            "keywords": ["Rule 97", "omission", "sub-rule 3"],
+            "rag_chunk": "G.S.R. 1464(E) dated 27-Nov-2017 | 14th Amendment | Rule 97 | Sub-rule (3) of Rule 97 omitted. Effective from date of publication."
+          },
+          {
+            "rule": "Rule 96C",
+            "rule_title": "Consequential Amendment — Reference to Rule 97(3) Removed",
+            "change_type": "CONSEQUENTIAL_AMENDMENT",
+            "change_description": "Reference to Rule 97(3) removed from Rule 96C as a consequential amendment to the omission of Rule 97(3).",
+            "old_provision": "Rule 96C contained a reference to Rule 97(3)",
+            "new_provision": "Reference to Rule 97(3) removed from Rule 96C",
+            "keywords": ["Rule 96C", "Rule 97", "cross-reference removal"],
+            "rag_chunk": "G.S.R. 1464(E) dated 27-Nov-2017 | 14th Amendment | Rule 96C | Cross-reference to Rule 97(3) removed consequent to omission of Rule 97(3). Effective from date of publication."
+          }
+        ]
+      },
+
+      {
+        "notification_id": "GSR-1461E-2017",
+        "notification_no": "G.S.R. 1461(E)",
+        "date": "2017-11-27",
+        "amendment_name": "16th Amendment — Central Motor Vehicles Rules, 1989",
+        "amendment_number": "16th",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "parent_act": "Motor Vehicles Act, 1988",
+        "source": "Gazette of India",
+        "jurisdiction": "India",
+        "effective_date": "DATA_NOT_AVAILABLE",
+        "effective_after": "6 months from date of publication",
+        "effective_after_months": 6,
+        "rules_modified": [
+          {
+            "rule": "Rule 96C",
+            "rule_title": "Indian Standard for Vehicle Safety Component",
+            "change_type": "STANDARD_UPDATED",
+            "old_standard": "IS 12207:1999",
+            "new_standard": "IS 12207:2014",
+            "change_description": "Reference standard in Rule 96C updated from IS 12207:1999 to IS 12207:2014.",
+            "keywords": ["Rule 96C", "IS 12207", "standard update"],
+            "rag_chunk": "G.S.R. 1461(E) dated 27-Nov-2017 | 16th Amendment | Rule 96C | Standard updated from IS 12207:1999 to IS 12207:2014. Effective 6 months from publication."
+          },
+          {
+            "rule": "Rule 98B(2)",
+            "rule_title": "Braking System Standard",
+            "change_type": "STANDARD_UPDATED",
+            "old_standard": "IS 11859:1986",
+            "new_standard": "IS 11859:2004",
+            "change_description": "Reference standard in Rule 98B(2) updated from IS 11859:1986 to IS 11859:2004.",
+            "keywords": ["Rule 98B", "IS 11859", "braking standard"],
+            "rag_chunk": "G.S.R. 1461(E) dated 27-Nov-2017 | 16th Amendment | Rule 98B(2) | Standard updated from IS 11859:1986 to IS 11859:2004. Effective 6 months from publication."
+          },
+          {
+            "rule": "Rule 112",
+            "rule_title": "Component Standard Update",
+            "change_type": "STANDARD_UPDATED",
+            "old_standard": "IS 12239 (Part 1)-1988",
+            "new_standard": "IS 12239 (Part 1):1996",
+            "change_description": "Reference standard in Rule 112 updated from IS 12239 (Part 1)-1988 to IS 12239 (Part 1):1996.",
+            "keywords": ["Rule 112", "IS 12239", "standard update"],
+            "rag_chunk": "G.S.R. 1461(E) dated 27-Nov-2017 | 16th Amendment | Rule 112 | Standard updated from IS 12239 (Part 1)-1988 to IS 12239 (Part 1):1996. Effective 6 months from publication."
+          },
+          {
+            "rule": "Rule 115G",
+            "rule_title": "Fuel Consumption Standard Heading Correction",
+            "change_type": "EDITORIAL_CORRECTION",
+            "change_description": "Heading of the Fuel Consumption Standard in Rule 115G corrected.",
+            "old_provision": "Incorrect heading for Fuel Consumption Standard",
+            "new_provision": "Corrected Fuel Consumption Standard heading",
+            "keywords": ["Rule 115G", "fuel consumption", "heading correction"],
+            "rag_chunk": "G.S.R. 1461(E) dated 27-Nov-2017 | 16th Amendment | Rule 115G | Fuel Consumption Standard heading corrected. Editorial change only."
+          }
+        ]
+      },
+
+      {
+        "notification_id": "GSR-1482E-2017",
+        "notification_no": "G.S.R. 1482(E)",
+        "date": "2017-12-07",
+        "amendment_name": "18th Amendment — Central Motor Vehicles Rules, 1989",
+        "amendment_number": "18th",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "parent_act": "Motor Vehicles Act, 1988",
+        "source": "Gazette of India",
+        "jurisdiction": "India",
+        "effective_date": "2017-12-07",
+        "effective_after": "Date of publication",
+        "effective_after_months": 0,
+        "rules_modified": [
+          {
+            "rule": "Rule 47",
+            "rule_title": "Registration of Trailers and Semitrailers",
+            "change_type": "REGISTRATION_RULE_ADDED",
+            "applicable_vehicle_categories": ["TRAILER", "SEMITRAILER"],
+            "change_description": "All trailers and semitrailers under Rule 125D shall be registered independently. Exception: may be registered jointly with a compatible towing vehicle.",
+            "old_provision": "DATA_NOT_AVAILABLE",
+            "new_provision": {
+              "primary_rule": "All trailers and semitrailers under Rule 125D shall be registered independently.",
+              "exception": "May be registered jointly with a compatible towing vehicle."
+            },
+            "keywords": ["trailer registration", "semitrailer", "Rule 47", "Rule 125D", "independent registration", "towing vehicle"],
+            "rag_chunk": "G.S.R. 1482(E) dated 07-Dec-2017 | 18th Amendment | Rule 47 | Trailers and semitrailers under Rule 125D must be registered independently. Exception: joint registration with compatible towing vehicle permitted. Effective from date of publication."
+          }
+        ]
+      },
+
+      {
+        "notification_id": "GSR-1483E-2017",
+        "notification_no": "G.S.R. 1483(E)",
+        "date": "2017-12-07",
+        "amendment_name": "17th Amendment — Central Motor Vehicles Rules, 1989",
+        "amendment_number": "17th",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "parent_act": "Motor Vehicles Act, 1988",
+        "source": "Gazette of India",
+        "jurisdiction": "India",
+        "effective_date": "2019-07-01",
+        "effective_after": "DATA_NOT_AVAILABLE",
+        "effective_after_months": null,
+        "rules_modified": [
+          {
+            "rule": "Rule 125",
+            "rule_title": "M1 Vehicle Additional Safety Features",
+            "change_type": "SAFETY_STANDARD_ADDED",
+            "applicable_vehicle_categories": ["M1"],
+            "applicable_standard": "AIS-145:2017",
+            "change_description": "M1 category vehicles manufactured on or after 01-Jul-2019 must comply with AIS-145:2017 additional safety features.",
+            "old_provision": "AIS-145:2017 compliance not mandated",
+            "new_provision": "M1 vehicles manufactured from 01-Jul-2019 onwards must comply with AIS-145:2017.",
+            "manufacturing_cutoff_date": "2019-07-01",
+            "keywords": ["M1 vehicle", "AIS-145", "safety features", "Rule 125", "vehicle safety standard"],
+            "rag_chunk": "G.S.R. 1483(E) dated 07-Dec-2017 | 17th Amendment | Rule 125 | M1 category vehicles manufactured on/after 01-Jul-2019 must comply with AIS-145:2017 additional safety requirements. Effective 01-Jul-2019."
+          }
+        ]
+      },
+
+      {
+        "notification_id": "GSR-39E-2019",
+        "notification_no": "G.S.R. 39(E)",
+        "date": "2019-01-18",
+        "amendment_name": "National Highways (Manner of Depositing Amount by Central Government for Acquisition of Land) Rules, 2019",
+        "amendment_number": "DATA_NOT_AVAILABLE",
+        "act": "National Highways Act, 1956",
+        "parent_act": "National Highways Act, 1956",
+        "rules_name": "National Highways (Manner of Depositing Amount by Central Government for Acquisition of Land) Rules, 2019",
+        "source": "Gazette of India",
+        "jurisdiction": "India",
+        "effective_date": "2019-01-18",
+        "effective_after": "Date of publication",
+        "effective_after_months": 0,
+        "rules_modified": [
+          {
+            "rule": "Land Acquisition Payment — Fund Management",
+            "rule_title": "Bank Account for Land Acquisition Payments",
+            "change_type": "NEW_PROCEDURE",
+            "change_description": "Executing agency shall maintain a dedicated bank account for land acquisition payments under National Highways Act.",
+            "keywords": ["land acquisition", "bank account", "executing agency", "national highway", "fund management"],
+            "rag_chunk": "G.S.R. 39(E) dated 18-Jan-2019 | National Highways Land Acquisition Rules 2019 | Fund Management | Executing agency must maintain dedicated bank account for land acquisition payments. Effective from date of publication."
+          },
+          {
+            "rule": "Land Acquisition Payment — Disbursement",
+            "rule_title": "Electronic Compensation Disbursement",
+            "change_type": "NEW_PROCEDURE",
+            "change_description": "Compensation for land acquisition under National Highways Act should preferably be paid electronically.",
+            "keywords": ["electronic payment", "compensation", "land acquisition", "NEFT", "RTGS", "national highway"],
+            "rag_chunk": "G.S.R. 39(E) dated 18-Jan-2019 | National Highways Land Acquisition Rules 2019 | Disbursement | Compensation to land owners should preferably be paid electronically. Effective from date of publication."
+          },
+          {
+            "rule": "Land Acquisition Payment — Disputed Compensation",
+            "rule_title": "Court Deposit for Undisbursed Compensation",
+            "change_type": "NEW_PROCEDURE",
+            "change_description": "Undisbursed compensation due to disputes must be deposited with the competent civil court.",
+            "keywords": ["disputed compensation", "civil court deposit", "undisbursed", "land acquisition dispute", "national highway"],
+            "rag_chunk": "G.S.R. 39(E) dated 18-Jan-2019 | National Highways Land Acquisition Rules 2019 | Court Deposit | Compensation undisbursed due to disputes must be deposited with competent civil court. Effective from date of publication."
+          }
+        ]
+      }
+    ],
+
+    "rag_chunks_flat": [
+      {
+        "chunk_id": "RAG-GSR1462E-R128",
+        "notification_no": "G.S.R. 1462(E)",
+        "date": "2017-11-27",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "rule": "Rule 128",
+        "jurisdiction": "India",
+        "effective_after": "2 months from publication",
+        "keywords": ["tourist bus", "AIS 52", "AIS 119", "AIS 139", "Rule 128", "exemption"],
+        "text": "G.S.R. 1462(E) | 27-Nov-2017 | 13th Amendment | Rule 128 | Tourist buses complying with AIS:52 / AIS:119 / AIS:139 exempted from Rule 128. Effective 2 months from publication."
+      },
+      {
+        "chunk_id": "RAG-GSR1463E-R98",
+        "notification_no": "G.S.R. 1463(E)",
+        "date": "2017-11-27",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "rule": "Rule 98",
+        "jurisdiction": "India",
+        "effective_date": "2019-04-01",
+        "keywords": ["steering gear", "IS 12222:2011", "steering effort", "IS 11948:2010", "L M N category", "Rule 98"],
+        "text": "G.S.R. 1463(E) | 27-Nov-2017 | 15th Amendment | Rule 98 | Steering gear (L/M/N vehicles): IS 12222:2011. Steering effort (all applicable): IS 11948:2010. Effective 01-Apr-2019."
+      },
+      {
+        "chunk_id": "RAG-GSR1464E-R97",
+        "notification_no": "G.S.R. 1464(E)",
+        "date": "2017-11-27",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "rule": "Rule 97, Rule 96C",
+        "jurisdiction": "India",
+        "effective_date": "2017-11-27",
+        "keywords": ["Rule 97", "sub-rule 3", "omission", "Rule 96C"],
+        "text": "G.S.R. 1464(E) | 27-Nov-2017 | 14th Amendment | Rule 97(3) omitted. Cross-reference to Rule 97(3) removed from Rule 96C. Effective from date of publication."
+      },
+      {
+        "chunk_id": "RAG-GSR1461E-R96C",
+        "notification_no": "G.S.R. 1461(E)",
+        "date": "2017-11-27",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "rule": "Rule 96C",
+        "jurisdiction": "India",
+        "effective_after": "6 months from publication",
+        "keywords": ["Rule 96C", "IS 12207:2014", "standard update"],
+        "text": "G.S.R. 1461(E) | 27-Nov-2017 | 16th Amendment | Rule 96C | IS 12207:1999 → IS 12207:2014. Effective 6 months from publication."
+      },
+      {
+        "chunk_id": "RAG-GSR1461E-R98B",
+        "notification_no": "G.S.R. 1461(E)",
+        "date": "2017-11-27",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "rule": "Rule 98B(2)",
+        "jurisdiction": "India",
+        "effective_after": "6 months from publication",
+        "keywords": ["Rule 98B", "IS 11859:2004", "braking standard"],
+        "text": "G.S.R. 1461(E) | 27-Nov-2017 | 16th Amendment | Rule 98B(2) | IS 11859:1986 → IS 11859:2004. Effective 6 months from publication."
+      },
+      {
+        "chunk_id": "RAG-GSR1461E-R112",
+        "notification_no": "G.S.R. 1461(E)",
+        "date": "2017-11-27",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "rule": "Rule 112",
+        "jurisdiction": "India",
+        "effective_after": "6 months from publication",
+        "keywords": ["Rule 112", "IS 12239", "standard update"],
+        "text": "G.S.R. 1461(E) | 27-Nov-2017 | 16th Amendment | Rule 112 | IS 12239 (Part 1)-1988 → IS 12239 (Part 1):1996. Effective 6 months from publication."
+      },
+      {
+        "chunk_id": "RAG-GSR1461E-R115G",
+        "notification_no": "G.S.R. 1461(E)",
+        "date": "2017-11-27",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "rule": "Rule 115G",
+        "jurisdiction": "India",
+        "effective_after": "6 months from publication",
+        "keywords": ["Rule 115G", "fuel consumption", "heading correction"],
+        "text": "G.S.R. 1461(E) | 27-Nov-2017 | 16th Amendment | Rule 115G | Fuel Consumption Standard heading corrected. Editorial change only."
+      },
+      {
+        "chunk_id": "RAG-GSR1482E-R47",
+        "notification_no": "G.S.R. 1482(E)",
+        "date": "2017-12-07",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "rule": "Rule 47",
+        "jurisdiction": "India",
+        "effective_date": "2017-12-07",
+        "keywords": ["trailer", "semitrailer", "registration", "Rule 47", "Rule 125D"],
+        "text": "G.S.R. 1482(E) | 07-Dec-2017 | 18th Amendment | Rule 47 | Trailers and semitrailers under Rule 125D must be registered independently. Exception: joint registration with compatible towing vehicle permitted. Effective from date of publication."
+      },
+      {
+        "chunk_id": "RAG-GSR1483E-R125",
+        "notification_no": "G.S.R. 1483(E)",
+        "date": "2017-12-07",
+        "act": "Central Motor Vehicles Rules, 1989",
+        "rule": "Rule 125",
+        "jurisdiction": "India",
+        "effective_date": "2019-07-01",
+        "keywords": ["M1 vehicle", "AIS-145:2017", "safety standard", "Rule 125"],
+        "text": "G.S.R. 1483(E) | 07-Dec-2017 | 17th Amendment | Rule 125 | M1 vehicles manufactured on/after 01-Jul-2019 must comply with AIS-145:2017. Effective 01-Jul-2019."
+      },
+      {
+        "chunk_id": "RAG-GSR39E-NH-FUND",
+        "notification_no": "G.S.R. 39(E)",
+        "date": "2019-01-18",
+        "act": "National Highways Act, 1956",
+        "rule": "NH Land Acquisition Rules 2019 — Fund Management",
+        "jurisdiction": "India",
+        "effective_date": "2019-01-18",
+        "keywords": ["land acquisition", "bank account", "executing agency", "national highway"],
+        "text": "G.S.R. 39(E) | 18-Jan-2019 | NH Land Acquisition Rules 2019 | Executing agency must maintain dedicated bank account for land acquisition payments."
+      },
+      {
+        "chunk_id": "RAG-GSR39E-NH-DISBURSE",
+        "notification_no": "G.S.R. 39(E)",
+        "date": "2019-01-18",
+        "act": "National Highways Act, 1956",
+        "rule": "NH Land Acquisition Rules 2019 — Disbursement",
+        "jurisdiction": "India",
+        "effective_date": "2019-01-18",
+        "keywords": ["electronic payment", "compensation", "land acquisition", "national highway"],
+        "text": "G.S.R. 39(E) | 18-Jan-2019 | NH Land Acquisition Rules 2019 | Compensation to land owners must preferably be paid electronically."
+      },
+      {
+        "chunk_id": "RAG-GSR39E-NH-COURT",
+        "notification_no": "G.S.R. 39(E)",
+        "date": "2019-01-18",
+        "act": "National Highways Act, 1956",
+        "rule": "NH Land Acquisition Rules 2019 — Court Deposit",
+        "jurisdiction": "India",
+        "effective_date": "2019-01-18",
+        "keywords": ["disputed compensation", "civil court deposit", "undisbursed", "land acquisition"],
+        "text": "G.S.R. 39(E) | 18-Jan-2019 | NH Land Acquisition Rules 2019 | Undisbursed compensation due to disputes must be deposited with competent civil court."
+      }
+    ],
+
+    "legal_citation_index": [
+      { "citation_id": "CIT001", "source_type": "Gazette Notification", "act": "Central Motor Vehicles Rules, 1989", "rule": "Rule 128", "gazette_no": "G.S.R. 1462(E)", "date": "2017-11-27", "amendment": "13th", "url": "DATA_NOT_AVAILABLE" },
+      { "citation_id": "CIT002", "source_type": "Gazette Notification", "act": "Central Motor Vehicles Rules, 1989", "rule": "Rule 98", "gazette_no": "G.S.R. 1463(E)", "date": "2017-11-27", "amendment": "15th", "url": "DATA_NOT_AVAILABLE" },
+      { "citation_id": "CIT003", "source_type": "Gazette Notification", "act": "Central Motor Vehicles Rules, 1989", "rule": "Rule 97, Rule 96C", "gazette_no": "G.S.R. 1464(E)", "date": "2017-11-27", "amendment": "14th", "url": "DATA_NOT_AVAILABLE" },
+      { "citation_id": "CIT004", "source_type": "Gazette Notification", "act": "Central Motor Vehicles Rules, 1989", "rule": "Rules 96C, 98B(2), 112, 115G", "gazette_no": "G.S.R. 1461(E)", "date": "2017-11-27", "amendment": "16th", "url": "DATA_NOT_AVAILABLE" },
+      { "citation_id": "CIT005", "source_type": "Gazette Notification", "act": "Central Motor Vehicles Rules, 1989", "rule": "Rule 47", "gazette_no": "G.S.R. 1482(E)", "date": "2017-12-07", "amendment": "18th", "url": "DATA_NOT_AVAILABLE" },
+      { "citation_id": "CIT006", "source_type": "Gazette Notification", "act": "Central Motor Vehicles Rules, 1989", "rule": "Rule 125", "gazette_no": "G.S.R. 1483(E)", "date": "2017-12-07", "amendment": "17th", "url": "DATA_NOT_AVAILABLE" },
+      { "citation_id": "CIT007", "source_type": "Gazette Notification", "act": "National Highways Act, 1956", "rule": "NH Land Acquisition Rules 2019", "gazette_no": "G.S.R. 39(E)", "date": "2019-01-18", "amendment": "DATA_NOT_AVAILABLE", "url": "DATA_NOT_AVAILABLE" }
+    ],
+
+    "change_type_taxonomy": {
+      "EXEMPTION_ADDED": "A new exemption from an existing rule is introduced",
+      "STANDARD_UPDATED": "An Indian Standard (IS) or AIS reference is upgraded to a newer version",
+      "OMISSION": "An existing rule or sub-rule is deleted entirely",
+      "CONSEQUENTIAL_AMENDMENT": "A change made to one rule as a direct consequence of a change in another rule",
+      "SAFETY_STANDARD_ADDED": "A new mandatory safety compliance standard is imposed on a vehicle category",
+      "REGISTRATION_RULE_ADDED": "A new or clarified vehicle registration requirement",
+      "EDITORIAL_CORRECTION": "A non-substantive correction to headings, text, or cross-references",
+      "NEW_PROCEDURE": "A new administrative or procedural rule introduced"
+    },
+
+    "data_quality_report": {
+      "total_notifications": 7,
+      "total_rules_modified": 11,
+      "total_rag_chunks": 12,
+      "total_citation_records": 7,
+      "missing_data": [
+        "Gazette URLs not available — marked DATA_NOT_AVAILABLE for all notifications",
+        "Old provision text for Rule 47 not available in source",
+        "Old standard for Rule 98 (pre IS 12222:2011 and IS 11948:2010) not specified in source",
+        "Amendment number for G.S.R. 39(E) not specified in source"
+      ],
+      "conflicting_data_flags": [],
+      "validation_notes": [
+        "All notification numbers, dates, rule references, and standard numbers verified against source document",
+        "No fines or penalties in this dataset — this covers CMVR technical standards and NH land acquisition rules only",
+        "AIS standards (AIS:52, AIS:119, AIS:139, AIS-145:2017) are Automotive Industry Standards issued by ARAI — not reproduced, only referenced"
+      ]
+    }
+  }
+}
