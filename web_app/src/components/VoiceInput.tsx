@@ -19,7 +19,7 @@ export default function VoiceInput({
 }: VoiceInputProps) {
   const [isRecording, setIsRecording] = useState(false);
   const [supported, setSupported] = useState(true);
-  const recognitionRef = useRef<SpeechRecognition | null>(null);
+  const recognitionRef = useRef<any>(null);
   const onTranscriptionRef = useRef(onTranscription);
   const onRecordingChangeRef = useRef(onRecordingChange);
 
