@@ -25,6 +25,7 @@ import ShieldMascot from '@/components/ShieldMascot';
 import ShieldAvatar from '@/components/ShieldAvatar';
 import CitationChip from '@/components/CitationChip';
 import DriveLegalSimulator from '@/components/DriveLegalSimulator';
+import ChallanCalculator from '@/components/ChallanCalculator';
 import styles from './main.module.css';
 
 const QUICK_TOPICS = [
@@ -57,6 +58,7 @@ export default function Home() {
   const router = useRouter();
   const { user, isAuthenticated, isLoading: authLoading, logout } = useAuth();
 
+  const [activeView, setActiveView] = useState<'chat' | 'calculator'>('chat');
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -223,6 +225,22 @@ export default function Home() {
           </span>
         </div>
         <div className={styles.locationActions}>
+          <div className="flex bg-white/5 rounded-lg p-0.5 mr-2">
+            <button
+              type="button"
+              onClick={() => setActiveView('chat')}
+              className={`px-3 py-1 text-xs rounded-md font-medium transition-colors ${activeView === 'chat' ? 'bg-[#7FFFD4]/20 text-[#7FFFD4]' : 'text-gray-400 hover:text-white'}`}
+            >
+              AI Chat
+            </button>
+            <button
+              type="button"
+              onClick={() => setActiveView('calculator')}
+              className={`px-3 py-1 text-xs rounded-md font-medium transition-colors ${activeView === 'calculator' ? 'bg-[#7FFFD4]/20 text-[#7FFFD4]' : 'text-gray-400 hover:text-white'}`}
+            >
+              Fine Calculator
+            </button>
+          </div>
           <button className={styles.locationBtn} type="button" onClick={() => router.push('/account')} aria-label="Account">
             <Settings size={16} />
           </button>
@@ -240,7 +258,13 @@ export default function Home() {
         </div>
       </header>
 
-      <div className={styles.main}>
+      {activeView === 'calculator' ? (
+        <div className={styles.main} style={{ padding: '1rem' }}>
+          <ChallanCalculator />
+        </div>
+      ) : null}
+
+      <div className={styles.main} style={{ display: activeView === 'calculator' ? 'none' : undefined }}>
         {!hasStartedChat ? (
           <div className={styles.emptyLayout}>
             <div className={styles.heroCard}>
