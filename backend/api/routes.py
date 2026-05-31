@@ -16,6 +16,27 @@ import time
 logger = logging.getLogger(__name__)
 router = APIRouter()
 
+# ── Global Intelligence Layer + RXL hook ─────────────────────────────────────
+try:
+    from backend.global_layer import (
+        build_global_context,
+        evaluate_and_fallback,
+        sanitize_reply,
+        build_offline_response,
+        rxl_prepare,
+        rxl_finalize,
+    )
+    _ENHANCEMENT_AVAILABLE = True
+except Exception:
+    _ENHANCEMENT_AVAILABLE = False
+# ─────────────────────────────────────────────────────────────────────────────
+
+_SAFE_GENERIC_REPLY = (
+    "I wasn't able to find specific information for your query right now. "
+    "For accurate and up-to-date traffic law guidance, please check with your "
+    "local transport authority or official government website."
+)
+
 class LegalSectionDetail(BaseModel):
     id: uuid.UUID
     act_name: str
@@ -35,46 +56,124 @@ async def chat_endpoint(
     chat_engine: ChatEngine = Depends(ChatEngine)
 ):
     retrieval_engine = RetrievalEngine(db)
-    
+
     t_start = time.perf_counter()
     metrics = {"failed": False}
-    
+
     try:
-        # Phase 2: Retrieve context and fines
+        # ── Global Intelligence Layer pre-flight ──────────────────────────────
+        _gl_context = None
+        if _ENHANCEMENT_AVAILABLE:
+            try:
+                _gl_context = await build_global_context(query=chat_request.query)
+            except Exception as _gl_err:
+                logger.warning("global_layer.preflight_failed — bypassing: %s", _gl_err)
+
+        # ── Offline mode early return ─────────────────────────────────────────
+        if (
+            _gl_context is not None
+            and not _gl_context.bypass
+            and _gl_context.connectivity.is_offline
+            and _gl_context.offline_safe_reply
+        ):
+            offline_reply = build_offline_response(_gl_context.offline_safe_reply)
+            if _ENHANCEMENT_AVAILABLE:
+                try:
+                    _rxl_off = rxl_prepare(chat_request.query, offline_reply)
+                    _rxl_off = rxl_finalize(_rxl_off, offline_reply, [], [])
+                    offline_reply = _rxl_off.reply
+                except Exception:
+                    pass
+            return ChatResponse(reply=offline_reply, citations=[], fines=[])
+
+        # ── RAG retrieval ─────────────────────────────────────────────────────
         t_retrieval_start = time.perf_counter()
         result = await retrieval_engine.retrieve(
-            query=chat_request.query, 
+            query=chat_request.query,
             violation_code=chat_request.violation_code,
             jurisdiction_id=chat_request.jurisdiction_id
         )
-        t_retrieval_end = time.perf_counter()
-        metrics["retrieval_latency"] = t_retrieval_end - t_retrieval_start
+        metrics["retrieval_latency"] = time.perf_counter() - t_retrieval_start
         metrics["retrieved_chunks_count"] = len(result.chunks)
         metrics["retrieved_citations_count"] = len(result.citations)
-        
-        # Phase 3: Inject context into LLM
+
+        # ── Confidence evaluation → Global Fallback Mode ──────────────────────
+        if _ENHANCEMENT_AVAILABLE and _gl_context is not None and not _gl_context.bypass:
+            try:
+                decision = await evaluate_and_fallback(
+                    query=chat_request.query,
+                    confidence_score=result.confidence_score,
+                    chunk_count=len(result.chunks),
+                    country=_gl_context.country,
+                )
+                if decision.needs_fallback:
+                    raw_reply = decision.fallback_reply or _SAFE_GENERIC_REPLY
+                    try:
+                        _rxl = rxl_prepare(chat_request.query, raw_reply)
+                        _rxl = rxl_finalize(_rxl, raw_reply, [], [])
+                        raw_reply = _rxl.reply
+                    except Exception:
+                        pass
+                    return ChatResponse(reply=raw_reply, citations=[], fines=[])
+            except Exception as _fe_err:
+                logger.warning("global_layer.fallback_evaluator_failed — continuing: %s", _fe_err)
+
+        # ── System instructions (jurisdiction context + RXL Phase 1) ──────────
+        system_instructions = ""
+        if _gl_context is not None and not _gl_context.bypass and _gl_context.hidden_context_block:
+            system_instructions = _gl_context.hidden_context_block
+
+        _rxl_result = None
+        if _ENHANCEMENT_AVAILABLE:
+            try:
+                _rxl_result = rxl_prepare(chat_request.query, system_instructions)
+                system_instructions = _rxl_result.formatted_query
+            except Exception as _rxl_err:
+                logger.warning("rxl.prepare_failed — skipping Phase 1: %s", _rxl_err)
+
+        # ── LLM ───────────────────────────────────────────────────────────────
         t_llm_start = time.perf_counter()
         chat_response = await chat_engine.generate_response(
-            query=chat_request.query, 
+            query=chat_request.query,
             retrieval_result=result,
-            session_id=chat_request.session_id
+            session_id=chat_request.session_id,
+            system_instructions=system_instructions,
         )
-        t_llm_end = time.perf_counter()
-        metrics["llm_latency"] = t_llm_end - t_llm_start
+        metrics["llm_latency"] = time.perf_counter() - t_llm_start
         metrics["final_citations_count"] = len(chat_response.citations)
-        
-        # IDK detection
+
+        # ── RXL Phase 2 — post-process reply ──────────────────────────────────
+        if _ENHANCEMENT_AVAILABLE:
+            try:
+                if _rxl_result is not None:
+                    _rxl_result = rxl_finalize(
+                        rxl_result=_rxl_result,
+                        raw_reply=chat_response.reply,
+                        citations=chat_response.citations,
+                        fines=chat_response.fines,
+                    )
+                    chat_response.reply     = _rxl_result.reply
+                    chat_response.citations = _rxl_result.citations
+                    chat_response.fines     = _rxl_result.fines
+                else:
+                    chat_response.reply = sanitize_reply(chat_response.reply)
+            except Exception as _rxl2_err:
+                logger.warning("rxl.finalize_failed — skipping Phase 2: %s", _rxl2_err)
+                try:
+                    chat_response.reply = sanitize_reply(chat_response.reply)
+                except Exception:
+                    pass
+
         metrics["is_idk"] = "I don't know based on the provided legal data" in chat_response.reply
-        
         metrics["total_latency"] = time.perf_counter() - t_start
         await telemetry.log_event("rag_trace", metrics)
-        
+
         return chat_response
+
     except Exception as e:
         metrics["failed"] = True
         metrics["total_latency"] = time.perf_counter() - t_start
         await telemetry.log_event("rag_trace", metrics)
-        
         error_id = str(uuid.uuid4())
         logger.error(f"[{error_id}] Unhandled exception: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=f"Internal server error. Ref: {error_id}")

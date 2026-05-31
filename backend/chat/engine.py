@@ -41,7 +41,7 @@ class ChatEngine:
         self.api_key = settings.GEMINI_API_KEY
         self.history_manager = ChatHistoryManager()
 
-    def _build_context_prompt(self, query: str, retrieval_result: RetrievalResult) -> str:
+    def _build_context_prompt(self, query: str, retrieval_result: RetrievalResult, system_instructions: str = "") -> str:
         chunks_text = "\n\n".join([
             f"[{c.act_name} - Section {c.section_number}]: {c.text}"
             for c in retrieval_result.chunks
@@ -52,8 +52,10 @@ class ChatEngine:
             for f in retrieval_result.fines
         ])
 
+        sys_block = f"\n{system_instructions}\n" if system_instructions else ""
+
         prompt = f"""
-You are DriveLegal, an expert Indian Traffic Law AI.
+You are DriveLegal, an expert Indian Traffic Law AI.{sys_block}
 Answer the user's question using ONLY the provided context. If the answer is not in the context, say "I don't know based on the provided legal data."
 Do not invent fines. Do not invent laws.
 
@@ -76,8 +78,9 @@ Formulate a polite, clear response. Cite ONLY the specific Section(s) whose text
         query: str,
         retrieval_result: RetrievalResult,
         session_id: str = None,
+        system_instructions: str = "",
     ) -> ChatResponse:
-        prompt = self._build_context_prompt(query, retrieval_result)
+        prompt = self._build_context_prompt(query, retrieval_result, system_instructions)
         session_id = session_id or str(uuid.uuid4())
 
         if not self.api_key or self.api_key == "dummy_key":
