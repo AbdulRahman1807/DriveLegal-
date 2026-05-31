@@ -8,6 +8,9 @@ from backend.retrieval.vector_retriever import VectorRetriever
 from backend.retrieval.fusion import FusionEngine
 from backend.retrieval.query_parser import QueryParser
 from backend.schemas.retrieval import RetrievalResult, Citation
+from backend.core.cache import cache_service
+from backend.config import settings
+import hashlib
 
 logger = structlog.get_logger(__name__)
 
@@ -45,6 +48,13 @@ class RetrievalEngine:
         violation_code: str = None,
         jurisdiction_id: str = None,
     ) -> RetrievalResult:
+        # Cache check for full retrieval
+        cache_key = f"drivelegal:retrieval:{hashlib.sha256(f'{query}:{violation_code}:{jurisdiction_id}'.encode()).hexdigest()}"
+        cached_result = await cache_service.get(cache_key)
+        if cached_result:
+            logger.info("retrieval_engine.cache_hit", cache_key=cache_key)
+            return RetrievalResult(**cached_result)
+
         await self.initialize()
 
         # ── Step 1: NLP inference ────────────────────────────────────────────
@@ -121,5 +131,8 @@ class RetrievalEngine:
             sql_results=sql_results,
             bm25_results=fused_chunks,
         )
+
+        # Store in cache
+        await cache_service.set(cache_key, result.model_dump(mode='json'), ttl=settings.CACHE_TTL_SHORT)
 
         return result

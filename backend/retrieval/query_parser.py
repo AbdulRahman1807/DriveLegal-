@@ -4,6 +4,8 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from backend.models.violation import Violation
 from backend.models.jurisdiction import Jurisdiction
+from backend.core.cache import cache_service
+from backend.config import settings
 
 logger = structlog.get_logger(__name__)
 
@@ -37,11 +39,28 @@ class QueryParser:
     def __init__(self, session: AsyncSession):
         self.session = session
 
-    async def infer_violation_code(self, query: str) -> str | None:
-        q = _normalize(query)
-
+    async def _get_all_violations(self):
+        cache_key = "drivelegal:violations:all"
+        cached = await cache_service.get(cache_key)
+        if cached:
+            return cached
+            
         result = await self.session.execute(select(Violation))
         violations = result.scalars().all()
+        
+        payload = [{
+            "violation_code": v.violation_code,
+            "name": v.name,
+            "aliases": v.aliases,
+            "keywords": v.keywords
+        } for v in violations]
+        
+        await cache_service.set(cache_key, payload, ttl=settings.CACHE_TTL_LONG)
+        return payload
+
+    async def infer_violation_code(self, query: str) -> str | None:
+        q = _normalize(query)
+        violations = await self._get_all_violations()
 
         best_code: str | None = None
         best_score = 0
@@ -50,24 +69,27 @@ class QueryParser:
             score = 0
 
             # Name: high weight (3pts) — "Driving without helmet"
-            if v.name and _normalize(v.name) in q:
+            name = v.get('name')
+            if name and _normalize(name) in q:
                 score += 3
 
             # Aliases: medium weight (2pts each) — ["no helmet", "without helmet"]
-            if v.aliases:
-                for alias in v.aliases:
+            aliases = v.get('aliases')
+            if aliases:
+                for alias in aliases:
                     if alias and _normalize(alias) in q:
                         score += 2
 
             # Keywords: low weight (1pt each) — "helmet, headgear, without helmet"
-            if v.keywords:
-                for kw in [k.strip() for k in v.keywords.split(',')]:
+            keywords = v.get('keywords')
+            if keywords:
+                for kw in [k.strip() for k in keywords.split(',')]:
                     if kw and _normalize(kw) in q:
                         score += 1
 
             if score > best_score:
                 best_score = score
-                best_code = v.violation_code
+                best_code = v.get('violation_code')
 
         if best_score > 0:
             logger.info("query_parser.violation_inferred",
@@ -77,11 +99,26 @@ class QueryParser:
         logger.debug("query_parser.no_violation_inferred", query=query)
         return None
 
-    async def infer_jurisdiction_id(self, query: str) -> str | None:
-        q = _normalize(query)
-
+    async def _get_all_jurisdictions_basic(self):
+        cache_key = "drivelegal:jurisdictions:basic:all"
+        cached = await cache_service.get(cache_key)
+        if cached:
+            return cached
+            
         result = await self.session.execute(select(Jurisdiction))
         jurisdictions = result.scalars().all()
+        
+        payload = [{
+            "id": str(j.id),
+            "name": j.name
+        } for j in jurisdictions]
+        
+        await cache_service.set(cache_key, payload, ttl=settings.CACHE_TTL_LONG)
+        return payload
+
+    async def infer_jurisdiction_id(self, query: str) -> str | None:
+        q = _normalize(query)
+        jurisdictions = await self._get_all_jurisdictions_basic()
 
         # Prefer the most specific (longest matching name) jurisdiction —
         # "Tamil Nadu" beats "India" if both appear in the query.
@@ -89,10 +126,10 @@ class QueryParser:
         best_len = 0
 
         for j in jurisdictions:
-            name_norm = _normalize(j.name)
+            name_norm = _normalize(j.get('name', ''))
             if name_norm in q and len(name_norm) > best_len:
                 best_len = len(name_norm)
-                best_id = str(j.id)
+                best_id = j.get('id')
 
         if best_id:
             logger.info("query_parser.jurisdiction_inferred",
