@@ -32,11 +32,11 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=postgresql+psycopg://drivelegal:drivelegal@postgres:5432/drivelegal
+      - DATABASE_URL=postgresql+asyncpg://drivelegal:drivelegal@postgres:5432/drivelegal
       - REDIS_URL=redis://redis:6379/0
       - GEMINI_API_KEY=${GEMINI_API_KEY:-dummy_key}
       - MASTER_API_KEY=${MASTER_API_KEY:-drivelegal-secret-dev-key}
-      - SECRET_KEY=${SECRET_KEY}
+      - SECRET_KEY=${SECRET_KEY:-drivelegal-dev-secret-key}
     depends_on:
       postgres:
         condition: service_healthy

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 interface VoiceInputProps {
   onTranscription: (text: string) => void;
@@ -7,46 +7,75 @@ interface VoiceInputProps {
 export default function VoiceInput({ onTranscription }: VoiceInputProps) {
   const [isRecording, setIsRecording] = useState(false);
   const [recognition, setRecognition] = useState<any>(null);
+  // Holds the latest callback without being a dep — prevents the recognition
+  // object from being torn down on every parent re-render.
+  const onTranscriptionRef = useRef(onTranscription);
 
   useEffect(() => {
-    // Check for browser support
-    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
-    if (SpeechRecognition) {
-      const rec = new SpeechRecognition();
-      rec.continuous = false;
-      rec.interimResults = false;
-      rec.lang = 'en-IN'; // Default to Indian English
+    onTranscriptionRef.current = onTranscription;
+  });
 
-      rec.onresult = (event: any) => {
-        const transcript = event.results[0][0].transcript;
-        onTranscription(transcript);
-        setIsRecording(false);
-      };
+  useEffect(() => {
+    const SpeechRecognition =
+      (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+    if (!SpeechRecognition) return;
 
-      rec.onerror = (event: any) => {
-        console.error("Speech recognition error", event.error);
-        setIsRecording(false);
-      };
+    const rec = new SpeechRecognition();
+    rec.continuous = true;       // keep session alive across natural pauses
+    rec.interimResults = false;  // only fire onresult on finalised utterances
+    rec.lang = 'en-IN';
 
-      rec.onend = () => {
-        setIsRecording(false);
-      };
+    rec.onresult = (event: any) => {
+      // With interimResults=false every entry in event.results is final.
+      // Concatenate all results so the field reflects the full session so far.
+      let transcript = '';
+      for (let i = 0; i < event.results.length; i++) {
+        transcript += event.results[i][0].transcript;
+      }
+      onTranscriptionRef.current(transcript.trim());
+    };
 
-      setRecognition(rec);
-    }
-  }, [onTranscription]);
+    rec.onerror = (event: any) => {
+      console.error('Speech recognition error', event.error);
+      setIsRecording(false);
+    };
+
+    rec.onend = () => {
+      setIsRecording(false);
+    };
+
+    setRecognition(rec);
+
+    // Null handlers before aborting so no callbacks fire on an unmounted component.
+    return () => {
+      rec.onresult = null;
+      rec.onerror = null;
+      rec.onend = null;
+      rec.abort();
+    };
+  }, []); // runs once — onTranscription is accessed via ref
 
   const toggleRecording = () => {
     if (!recognition) {
-      alert("Voice input is not supported in this browser.");
+      alert('Voice input is not supported in this browser.');
       return;
     }
 
     if (isRecording) {
-      recognition.stop();
+      try {
+        recognition.stop();
+        // setIsRecording(false) is called by onend once the browser confirms stop.
+      } catch (e) {
+        console.error('Failed to stop recognition', e);
+        setIsRecording(false);
+      }
     } else {
-      recognition.start();
-      setIsRecording(true);
+      try {
+        recognition.start();
+        setIsRecording(true);
+      } catch (e) {
+        console.error('Failed to start recognition', e);
+      }
     }
   };
 
@@ -72,8 +101,8 @@ export default function VoiceInput({ onTranscription }: VoiceInputProps) {
       type="button"
       onClick={toggleRecording}
       className={`p-2 rounded-full transition-all border ${
-        isRecording 
-          ? 'bg-red-500/20 text-red-400 border-red-500/50 animate-pulse' 
+        isRecording
+          ? 'bg-red-500/20 text-red-400 border-red-500/50 animate-pulse'
           : 'bg-white/5 text-gray-400 border-white/10 hover:bg-white/10 hover:text-white'
       }`}
       title={isRecording ? "Stop Recording" : "Start Voice Input"}

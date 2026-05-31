@@ -20,4 +20,4 @@ fakeredis[lua]
 pytest-mock
 psycopg[binary]==3.2.9
 tiktoken
-slowapi
+slowapi>=0.1.9
