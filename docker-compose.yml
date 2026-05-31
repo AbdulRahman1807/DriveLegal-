@@ -36,6 +36,7 @@ services:
       - REDIS_URL=redis://redis:6379/0
       - GEMINI_API_KEY=${GEMINI_API_KEY:-dummy_key}
       - MASTER_API_KEY=${MASTER_API_KEY:-drivelegal-secret-dev-key}
+      - SECRET_KEY=${SECRET_KEY}
     depends_on:
       postgres:
         condition: service_healthy
