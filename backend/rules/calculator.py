@@ -34,10 +34,14 @@ class ChallanCalculator:
         result = await self.session.execute(stmt)
         schedules = result.scalars().all()
         
-        # Filter for applicable vehicle categories
+        # Filter for applicable vehicle categories.
+        # A user pick of 'ALL'/None/'' is a wildcard — return every schedule for
+        # the violation. A specific pick matches that category plus any schedule
+        # the law marks as applying to 'ALL' vehicles.
+        user_wildcard = vehicle_category in ('ALL', None, '')
         applicable_schedules = []
         for s in schedules:
-            if s.vehicle_category == 'ALL' or s.vehicle_category == vehicle_category:
+            if user_wildcard or s.vehicle_category == 'ALL' or s.vehicle_category == vehicle_category:
                 applicable_schedules.append(s)
                 
         # Sort by jurisdiction specificity (most specific first, meaning lower index in chain)
@@ -56,8 +60,8 @@ class ChallanCalculator:
                 base_fine=base,
                 surcharges=surcharges,
                 total_fine=base + surcharges,
-                imprisonment_months=s.imprisonment_months,
-                license_suspension_months=s.license_suspension_months,
+                imprisonment_months=s.imprisonment_months or 0,
+                license_suspension_months=s.license_suspension_months or 0,
                 compoundable=s.compoundable,
                 jurisdiction_name=s.jurisdiction.name,
                 legal_section_id=s.legal_section_id
